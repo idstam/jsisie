@@ -13,10 +13,11 @@ There are some bool properties in SieDocument that changes how the parsing works
 + StreamValues: If true don't store values internally. The user has to use the Callback class to get the values. Usefull for large files.
 + ThrowErrors: If false then cache all Exceptions in SieDocument.ValidationExceptions
 
-** Not all features are implemented yet: **
+**Not all features are implemented yet:**
 
 + #KSUMMA doesn't calculate the correct checksum, but the parser will throw an error if it didn't find the terminating #KSUMMA line.
 + #UNDERDIM: There are no instances of this in the published example files.
++ #FLAGGA: Since parser is only reading data it will not set #FLAGGA to 1 when it is done.
 + Writing SIE files is not implemented at all.
 
 
