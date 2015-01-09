@@ -224,7 +224,7 @@ namespace jsiSIE
                     }
                 }
 
-                if (CRC.Started) CRC.AddData(di);
+                if (CRC.Started && di.ItemType != "#KSUMMA") CRC.AddData(di);
 
                 SiePeriodValue pv = null;
 
@@ -520,8 +520,9 @@ namespace jsiSIE
             long checksum = CRC.Checksum();
             if (KSUMMA != checksum)
             {
-                //TODO:Callbacks.CallbackException(new SieInvalidChecksumException(_fileName));
+                TODO:Callbacks.CallbackException(new SieInvalidChecksumException(_fileName));
             }
+
         }
         private void parseKTYP(SieDataItem di)
         {
