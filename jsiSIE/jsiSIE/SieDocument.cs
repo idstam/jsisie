@@ -119,7 +119,7 @@ namespace jsiSIE
         /// <summary>
         /// #RAR
         /// </summary>
-        public SieBookingYear RAR { get; set; }
+        public Dictionary<int, SieBookingYear> RAR { get; set; }
 
         /// <summary>
         /// #RES
@@ -196,6 +196,7 @@ namespace jsiSIE
             OUB = new List<SiePeriodValue>();
             PSALDO = new List<SiePeriodValue>();
             PBUDGET = new List<SiePeriodValue>();
+            RAR = new Dictionary<int, SieBookingYear>();
             IB = new List<SiePeriodValue>();
             UB = new List<SiePeriodValue>();
             RES = new List<SiePeriodValue>();
@@ -354,10 +355,7 @@ namespace jsiSIE
                         break;
 
                     case "#RAR":
-                        RAR = new SieBookingYear();
-                        RAR.ID = di.GetInt(0);
-                        RAR.Start = di.GetDate(1);
-                        RAR.End = di.GetDate(2);
+                        parseRAR(di);
                         break;
 
                     case "#RTRANS":
@@ -411,6 +409,17 @@ namespace jsiSIE
             }
 
             validateDocument();
+        }
+
+        private void parseRAR(SieDataItem di)
+        {
+            
+            rar = new SieBookingYear();
+            rar.ID = di.GetInt(0);
+            rar.Start = di.GetDate(1);
+            rar.End = di.GetDate(2);
+
+            RAR.Add(rar.ID, rar);
         }
 
         private void addValidationException(bool isException, Exception ex)
@@ -735,5 +744,7 @@ namespace jsiSIE
                 new SieInvalidChecksumException(_fileName));
 
         }
+
+        public SieBookingYear rar { get; set; }
     }
 }
