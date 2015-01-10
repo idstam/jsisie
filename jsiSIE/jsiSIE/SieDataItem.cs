@@ -78,7 +78,7 @@ namespace jsiSIE
                     continue;
                 }
 
-                if (c == '"')
+                if (c == '"' && !isInObject)
                 {
                     isInField += 1;
                     continue;
