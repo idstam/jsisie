@@ -20,11 +20,11 @@ namespace jsiSIE
         {
             var vr = new SieVoucherRow()
             {
-             Account = this.Account,
-             Amount = this.Amount,
-             Objects = this.Objects,
-             Quantity = this.Quantity
-            }
+                Account = this.Account,
+                Amount = this.Amount,
+                Objects = this.Objects,
+                Quantity = this.Quantity
+            };
             return vr;
         }
 
