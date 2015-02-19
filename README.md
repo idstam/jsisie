@@ -25,7 +25,9 @@ I have not made any extensive efforts to validate the resulting data against the
 
 
 To install this package via nuget write
+
 	Install-Package jsisie
+
 int the nuget console in Visual Studio 
 
 Follow [this link](http://www.sie.se/?page_id=20) for swedish versions and [this link](http://www.sie.se/?page_id=250) for english versions
