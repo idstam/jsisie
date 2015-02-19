@@ -529,7 +529,7 @@ namespace jsiSIE
             long checksum = CRC.Checksum();
             if (KSUMMA != checksum)
             {
-                TODO:Callbacks.CallbackException(new SieInvalidChecksumException(_fileName));
+                Callbacks.CallbackException(new SieInvalidChecksumException(_fileName));
             }
 
         }

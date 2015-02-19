@@ -24,4 +24,8 @@ Even if you use this parser you should get familiar with the file specification.
 I have not made any extensive efforts to validate the resulting data against the files so please do your validation and tell me if you find any errors.
 
 
+To install this package via nuget write
+	Install-Package jsisie
+int the nuget console in Visual Studio 
+
 Follow [this link](http://www.sie.se/?page_id=20) for swedish versions and [this link](http://www.sie.se/?page_id=250) for english versions

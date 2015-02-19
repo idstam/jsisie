@@ -16,7 +16,7 @@ namespace jsiSIE
     {
         public SieInvalidFileException(string description) : base(description) { }
     }
-
+    [Serializable]
     public class SieDateException : Exception 
     {
         public SieDateException(string description) : base(description) { }
