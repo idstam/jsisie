@@ -104,7 +104,7 @@ namespace jsiSIE
         /// <summary>
         /// #PROGRAM
         /// </summary>
-        public string PROGRAM { get; set; }
+        public List<string> PROGRAM { get; set; }
 
         /// <summary>
         /// #PROSA
@@ -196,6 +196,7 @@ namespace jsiSIE
             OUB = new List<SiePeriodValue>();
             PSALDO = new List<SiePeriodValue>();
             PBUDGET = new List<SiePeriodValue>();
+            PROGRAM = new List<string>();
             RAR = new Dictionary<int, SieBookingYear>();
             IB = new List<SiePeriodValue>();
             UB = new List<SiePeriodValue>();
@@ -338,7 +339,7 @@ namespace jsiSIE
                         break;
 
                     case "#PROGRAM":
-                        PROGRAM = di.GetString(0);
+                        PROGRAM = di.Data;
                         break;
 
                     case "#PROSA":
@@ -746,5 +747,6 @@ namespace jsiSIE
         }
 
         public SieBookingYear rar { get; set; }
+
     }
 }
