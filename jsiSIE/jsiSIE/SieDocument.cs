@@ -622,9 +622,9 @@ namespace jsiSIE
                 Account = KONTO[di.GetString(2)],
                 Amount = di.GetDecimal(4),
                 Quantity = di.GetDecimal(5),
-                Objects = di.GetObjects(),
                 Token = di.ItemType
             };
+            if (SIETYP != 2 && di.RawData.Contains("{")) v.Objects = di.GetObjects();
             return v;
         }
 

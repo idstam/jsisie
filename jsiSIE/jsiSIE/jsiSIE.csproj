@@ -42,6 +42,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SieAccount.cs" />
     <Compile Include="SieCRC32.cs" />
+    <Compile Include="SieDocumentComparer.cs" />
+    <Compile Include="SieDocumentWriter.cs" />
     <Compile Include="SieVoucher.cs" />
     <Compile Include="SieBookingYear.cs" />
     <Compile Include="SieCallbacks.cs" />

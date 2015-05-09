@@ -16,6 +16,58 @@ namespace jsiSIE_test
             string testSourceFolder = @"c:\temp\sie_test_files";
             if (!Directory.Exists(testSourceFolder)) Directory.CreateDirectory(testSourceFolder);
 
+            GetExampleFiles(testSourceFolder);
+
+            foreach (var f in Directory.GetFiles(testSourceFolder))
+            {
+                if (f != @"c:\temp\sie_test_files\9_sie-gruppen-e-conomic.se") continue;
+                if (f.EndsWith(".err")) continue;
+
+                //if (SieDocument.GetSieVersion(f) != 4) continue;
+                //if (!f.Contains("37_Norstedts Bokslut SIE 1")) continue;
+
+                var sie = new SieDocument(f);
+                sie.ThrowErrors = false;
+                //sie.IgnoreMissingOMFATTNING = true;
+
+                sie.ReadDocument();
+                if (sie.ValidationExceptions.Count > 0)
+                {
+                    foreach (var ex in sie.ValidationExceptions)
+                    {
+                        Console.WriteLine(f);
+                        Console.WriteLine(ex.ToString());
+                        Console.WriteLine();
+                    }
+                }
+                else
+                {
+
+                    var testWriteFile = Path.Combine(testSourceFolder, "testWrite.se");
+                    if (File.Exists(testWriteFile)) File.Delete(testWriteFile);
+
+                    var writer = new SieDocumentWriter(sie);
+                    writer.Write(testWriteFile);
+
+                    var sieB = new SieDocument(testWriteFile);
+                    sieB.ReadDocument();
+                    var compErrors = SieDocumentComparer.Compare(sie, sieB);
+                    foreach (var e in compErrors)
+                    {
+                        Console.WriteLine(e);
+                    }
+                    Console.WriteLine(f);
+                }
+                //break;
+            }
+            Console.WriteLine();
+            Console.WriteLine("Press ENTER to quit.");
+            Console.ReadLine();
+
+        }
+
+        private static void GetExampleFiles(string testSourceFolder)
+        {
             //Download all the existing SIE test files if you don't have them.
             if (Directory.GetFiles(testSourceFolder).Count() == 0)
             {
@@ -30,10 +82,10 @@ namespace jsiSIE_test
                     try
                     {
                         Console.Write("Getting: " + url);
-                        wc.DownloadFile(url,fileName);
+                        wc.DownloadFile(url, fileName);
                         Console.WriteLine(" OK");
                     }
-                    catch(Exception ex)
+                    catch (Exception ex)
                     {
                         Console.WriteLine(" FAIL");
                         File.WriteAllText(fileName + ".err", ex.ToString());
@@ -45,33 +97,6 @@ namespace jsiSIE_test
             {
                 Console.WriteLine("There are already test files. No need to download.");
             }
-
-            foreach(var f in Directory.GetFiles(testSourceFolder))
-            {
-                if (f.EndsWith(".err")) continue;
-
-                //if (SieDocument.GetSieVersion(f) != 4) continue;
-                //if (!f.Contains("37_Norstedts Bokslut SIE 1")) continue;
-
-                var sie = new SieDocument(f);
-                sie.ThrowErrors = false;
-                //sie.IgnoreMissingOMFATTNING = true;
-
-                sie.ReadDocument();
-                if(sie.ValidationExceptions.Count > 0)
-                {
-                    foreach(var ex in sie.ValidationExceptions)
-                    {
-                        Console.WriteLine(f);
-                        Console.WriteLine(ex.ToString());
-                        Console.WriteLine();
-                    }
-                }
-            }
-            Console.WriteLine();
-            Console.WriteLine("Press ENTER to quit.");
-            Console.ReadLine();
-
         }
         private static List<string> TestFilesOnline()
         {

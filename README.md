@@ -31,3 +31,6 @@ To install this package via nuget write
 int the nuget console in Visual Studio 
 
 Follow [this link](http://www.sie.se/?page_id=20) for swedish versions and [this link](http://www.sie.se/?page_id=250) for english versions
+
+**Change log**
+
