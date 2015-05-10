@@ -52,6 +52,10 @@ namespace jsiSIE
 
             compareRAR(_docA, _docB, "First", "Second");
             compareRAR(_docB, _docA, "Second", "First");
+
+            compareVER(_docA, _docB, "First", "Second");
+            compareVER(_docB, _docA, "Second", "First");
+            
         }
         private void compareNonListItems()
         {
@@ -78,6 +82,7 @@ namespace jsiSIE
             if (_docA.SIETYP != _docB.SIETYP) _errors.Add("SIETYP differs First, Second " + _docA.SIETYP + " , " + _docB.SIETYP);
             if (_docA.TAXAR != _docB.TAXAR) _errors.Add("TAXAR differs First, Second " + _docA.TAXAR + " , " + _docB.TAXAR);
             if (_docA.VALUTA != _docB.VALUTA) _errors.Add("VALUTA differs First, Second " + _docA.VALUTA + " , " + _docB.VALUTA);
+
         }
 
 
@@ -202,7 +207,7 @@ namespace jsiSIE
                 }
                 else
                 {
-                    _errors.Add(nameB + "DIM is missing " + dimKey);
+                    _errors.Add(nameB + " DIM is missing " + dimKey);
                 }
             }
         }
@@ -257,21 +262,21 @@ namespace jsiSIE
             {
                 foreach(var rA in vA.Rows)
                 {
-                    bool foundIt = false;
+                    bool foundIt = true;
                     foreach(var rB in vB.Rows)
                     {
-                        if(rA.Account.Name != rB.Account.Name) break;
-                        if(rA.Amount != rB.Amount) break;
-                        if(rA.CreatedBy != rB.CreatedBy) break;
-                        if(rA.RowDate != rB.RowDate) break;
-                        if(rA.Quantity != rB.Quantity) break;
-                        if(!compareObjects(rA.Objects, rB.Objects)) break;
+                        if(rA.Account.Number != rB.Account.Number) foundIt = false;
+                        if (rA.Amount != rB.Amount) foundIt = false;
+                        if (rA.CreatedBy != rB.CreatedBy) foundIt = false;
+                        if (rA.RowDate != rB.RowDate) foundIt = false;
+                        if (rA.Quantity != rB.Quantity) foundIt = false;
+                        if (!compareObjects(rA.Objects, rB.Objects)) foundIt = false;
 
-                        foundIt = true;
+                        if (foundIt) break;
                     }
-                    if(!foundIt)
+                    if(foundIt)
                     {
-                        return false;
+                        return true;
                     }
                 }
             }
