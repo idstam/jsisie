@@ -20,7 +20,7 @@ namespace jsiSIE_test
 
             foreach (var f in Directory.GetFiles(testSourceFolder))
             {
-                if (f != @"c:\temp\sie_test_files\9_sie-gruppen-e-conomic.se") continue;
+                //if (!f.Contains("30")) continue;
                 if (f.EndsWith(".err")) continue;
 
                 //if (SieDocument.GetSieVersion(f) != 4) continue;

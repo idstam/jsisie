@@ -12,6 +12,7 @@ namespace jsiSIE
     {
         public string Number { get; set; }
         public string Name { get; set; }
+        public bool IsDefault = false;
 
         private SieDimension _parent = null;
         public SieDimension SuperDim 

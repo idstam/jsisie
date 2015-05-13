@@ -30,12 +30,14 @@ namespace jsiSIE
             WriteLine(FORMAT);
             WriteLine(GEN);
             WriteLine(SIETYP);
+            if(!string.IsNullOrEmpty(_sie.PROSA)) WriteLine("#PROSA " + "\"" + _sie.PROSA + "\"");
             WriteFNR();
             WriteLine(ORGNR);
             WriteLine(FNAMN);
-            WriteLine(ADRESS);
+            WriteADRESS();
             WriteFTYP();
             WriteKPTYP();
+            WriteVALUTA();
             WriteTAXAR();
             WriteOMFATTN();
             WriteRAR();
@@ -52,13 +54,66 @@ namespace jsiSIE
             }
             if (_sie.SIETYP > 1)
             {
-                WritePeriodValue("#PBUDGET", _sie.PBUDGET);
-                WritePeriodValue("#PSALDO", _sie.PSALDO);
+                WritePeriodSaldo("#PBUDGET", _sie.PBUDGET);
+                WritePeriodSaldo("#PSALDO", _sie.PSALDO);
             }
             WritePeriodValue("#RES", _sie.RES);
+            WriteVER();
+            
             _stream.Close();
             _stream.Dispose();
 
+            
+
+        }
+
+
+        private void WriteVALUTA()
+        {
+            if(!string.IsNullOrEmpty(_sie.VALUTA))
+            {
+                WriteLine("#VALUTA " + _sie.VALUTA);
+            }
+        }
+
+        private void WriteVER()
+        {
+            foreach(var v in _sie.VER)
+            {
+                var createdBy = v.CreatedBy == "" ? "" : " \"" + v.CreatedBy + "\"";
+                var createdDate = v.CreatedDate == 0 ? "" : v.CreatedDate.ToString();
+                WriteLine("#VER \"" + v.Series + "\" \"" + v.Number + "\" " + makeSieDate(v.VoucherDate) + " \"" + v.Text + "\" " + createdDate + createdBy);
+
+                WriteLine("{");
+                
+                foreach(var r in v.Rows)
+                {
+                    var obj = getObjeklista(r.Objects);
+                    var quantity = r.Quantity.HasValue ? SieAmount(r.Quantity.Value) : "";
+                    createdBy = v.CreatedBy == "" ? "" : "\"" + v.CreatedBy + "\"";
+                    WriteLine("#TRANS " + r.Account.Number + " " + obj + " " + SieAmount(r.Amount) + " " + makeSieDate(r.RowDate) + " \"" + r.Text + "\" " + quantity + " " + createdBy);
+                }
+                
+                WriteLine("}");
+            }
+        }
+
+        private string getObjeklista(List<SieObject> objects)
+        {
+            if(_sie.SIETYP < 3) return "";
+
+            var ret = "{";
+            if (objects != null)
+            {
+                foreach (var o in objects)
+                {
+                    ret += o.Dimension.Number.ToString();
+                    ret += " \"" + o.Number + "\" ";
+                }
+            }
+            ret += "}";
+
+            return ret;
         }
 
         private void WriteDIM()
@@ -66,17 +121,33 @@ namespace jsiSIE
             foreach(var d in _sie.DIM.Values)
             {
                 WriteLine("#DIM " + d.Number + " \"" + d.Name + "\"");
+
+                foreach(var o in d.Objects.Values)
+                {
+                    WriteLine("#OBJEKT " + d.Number + " " + o.Number + " \"" + o.Name + "\"");
+                }
             }
         }
 
         private void WritePeriodValue(string name, List<SiePeriodValue> list)
         {
-            foreach(var v in list.Where(pv => pv.Amount != 0))
+            foreach(var v in list)
             {
-                WriteLine(name + " " + v.YearNr.ToString() + " " + v.Account.Number + " " + SieAmount(v.Amount));
+                var objekt = getObjeklista(v.Objects);
+                if ("#IB#UB".Contains(name)) objekt = "";
+
+                WriteLine(name + " " + v.YearNr.ToString() + " " + v.Account.Number + " " + objekt + " " + SieAmount(v.Amount));
             }
         }
 
+        private void WritePeriodSaldo(string name, List<SiePeriodValue> list)
+        {
+            foreach (var v in list)
+            {
+                var objekt = getObjeklista(v.Objects);
+                WriteLine(name + " " + v.YearNr.ToString() + " " + v.Period.ToString() + " " + v.Account.Number + " " + objekt + " " + SieAmount(v.Amount));
+            }
+        }
 
         private void WriteRAR()
         {
@@ -157,9 +228,12 @@ namespace jsiSIE
             }
         }
 
-        private string ADRESS
+        private void WriteADRESS()
         {
-            get { return "#ADRESS \"" + _sie.FNAMN.Contact + "\" \"" + _sie.FNAMN.Street + "\" \"" + _sie.FNAMN.ZipCity + "\" \"" + _sie.FNAMN.Phone + "\""; }
+            if (!(_sie.FNAMN.Contact == null && _sie.FNAMN.Street == null && _sie.FNAMN.ZipCity == null && _sie.FNAMN.Phone == null))
+            {
+                WriteLine("#ADRESS \"" + _sie.FNAMN.Contact + "\" \"" + _sie.FNAMN.Street + "\" \"" + _sie.FNAMN.ZipCity + "\" \"" + _sie.FNAMN.Phone + "\"");
+            }
         }
         private string FNAMN
         {
@@ -173,7 +247,7 @@ namespace jsiSIE
         private void WriteFNR()
         {
             if (!string.IsNullOrWhiteSpace(_sie.FNAMN.Code))
-            WriteLine( "#FNR " + _sie.FNAMN.Code);
+            WriteLine( "#FNR \"" + _sie.FNAMN.Code + "\"");
         }
         private string SIETYP
         {

@@ -234,9 +234,9 @@ namespace jsiSIE
                 {
                     case "#ADRESS":
                         FNAMN.Contact = di.GetString(0);
-                        FNAMN.Street = di.GetString(0);
-                        FNAMN.ZipCity = di.GetString(0);
-                        FNAMN.Phone = di.GetString(0);
+                        FNAMN.Street = di.GetString(1);
+                        FNAMN.ZipCity = di.GetString(2);
+                        FNAMN.Phone = di.GetString(3);
                         break;
 
                     case "#BKOD":
@@ -449,25 +449,25 @@ namespace jsiSIE
 
         private void InitializeDimensions()
         {
-            DIM.Add("1", new SieDimension() { Number = "1", Name = "Resultatenhet" });
-            DIM.Add("2", new SieDimension() { Number = "2", Name = "Kostnadsbärare", SuperDim = DIM["1"] });
-            DIM.Add("3", new SieDimension() { Number = "3", Name = "Reserverat" });
-            DIM.Add("4", new SieDimension() { Number = "4", Name = "Reserverat" });
-            DIM.Add("5", new SieDimension() { Number = "5", Name = "Reserverat" });
-            DIM.Add("6", new SieDimension() { Number = "6", Name = "Projekt" });
-            DIM.Add("7", new SieDimension() { Number = "7", Name = "Anställd" });
-            DIM.Add("8", new SieDimension() { Number = "8", Name = "Kund" });
-            DIM.Add("9", new SieDimension() { Number = "9", Name = "Leverantör" });
-            DIM.Add("10", new SieDimension() { Number = "10", Name = "Faktura" });
-            DIM.Add("11", new SieDimension() { Number = "11", Name = "Reserverat" });
-            DIM.Add("12", new SieDimension() { Number = "12", Name = "Reserverat" });
-            DIM.Add("13", new SieDimension() { Number = "13", Name = "Reserverat" });
-            DIM.Add("14", new SieDimension() { Number = "14", Name = "Reserverat" });
-            DIM.Add("15", new SieDimension() { Number = "15", Name = "Reserverat" });
-            DIM.Add("16", new SieDimension() { Number = "16", Name = "Reserverat" });
-            DIM.Add("17", new SieDimension() { Number = "17", Name = "Reserverat" });
-            DIM.Add("18", new SieDimension() { Number = "18", Name = "Reserverat" });
-            DIM.Add("19", new SieDimension() { Number = "19", Name = "Reserverat" });
+            DIM.Add("1", new SieDimension() { Number = "1", Name = "Resultatenhet", IsDefault = true });
+            DIM.Add("2", new SieDimension() { Number = "2", Name = "Kostnadsbärare", SuperDim = DIM["1"], IsDefault = true });
+            DIM.Add("3", new SieDimension() { Number = "3", Name = "Reserverat", IsDefault = true });
+            DIM.Add("4", new SieDimension() { Number = "4", Name = "Reserverat", IsDefault = true });
+            DIM.Add("5", new SieDimension() { Number = "5", Name = "Reserverat", IsDefault = true });
+            DIM.Add("6", new SieDimension() { Number = "6", Name = "Projekt", IsDefault = true });
+            DIM.Add("7", new SieDimension() { Number = "7", Name = "Anställd", IsDefault = true });
+            DIM.Add("8", new SieDimension() { Number = "8", Name = "Kund", IsDefault = true });
+            DIM.Add("9", new SieDimension() { Number = "9", Name = "Leverantör", IsDefault = true });
+            DIM.Add("10", new SieDimension() { Number = "10", Name = "Faktura", IsDefault = true });
+            DIM.Add("11", new SieDimension() { Number = "11", Name = "Reserverat", IsDefault = true });
+            DIM.Add("12", new SieDimension() { Number = "12", Name = "Reserverat", IsDefault = true });
+            DIM.Add("13", new SieDimension() { Number = "13", Name = "Reserverat", IsDefault = true });
+            DIM.Add("14", new SieDimension() { Number = "14", Name = "Reserverat", IsDefault = true });
+            DIM.Add("15", new SieDimension() { Number = "15", Name = "Reserverat", IsDefault = true });
+            DIM.Add("16", new SieDimension() { Number = "16", Name = "Reserverat", IsDefault = true });
+            DIM.Add("17", new SieDimension() { Number = "17", Name = "Reserverat", IsDefault = true });
+            DIM.Add("18", new SieDimension() { Number = "18", Name = "Reserverat", IsDefault = true });
+            DIM.Add("19", new SieDimension() { Number = "19", Name = "Reserverat", IsDefault = true });
         }
 
         private void parseDimension(SieDataItem di)
@@ -481,6 +481,7 @@ namespace jsiSIE
             else
             {
                 DIM[d].Name = n;
+                DIM[d].IsDefault = false;
             }
         }
 
@@ -572,9 +573,9 @@ namespace jsiSIE
         private SiePeriodValue parseOIB_OUB(SieDataItem di)
         {
             //Create the account if it hasn't been loaded yet.
-            if (!KONTO.ContainsKey(di.GetString(2)))
+            if (!KONTO.ContainsKey(di.GetString(1)))
             {
-                KONTO.Add(di.GetString(2), new SieAccount() { Number = di.GetString(2) });
+                KONTO.Add(di.GetString(1), new SieAccount() { Number = di.GetString(1) });
             }
 
             if (SIETYP < 3)
@@ -582,13 +583,16 @@ namespace jsiSIE
                 Callbacks.CallbackException(new SieInvalidFeatureException("Neither OIB or OUB is part of SIE < 3"));
             }
 
+            var objOffset = 0;
+            if (di.RawData.Contains("{")) objOffset = 1;
+
             var v = new SiePeriodValue()
             {
                 YearNr = di.GetInt(0),
                 Period = di.GetInt(1),
                 Account = KONTO[di.GetString(1)],
-                Amount = di.GetDecimal(4),
-                Quantity = di.GetDecimal(4),
+                Amount = di.GetDecimal(3 + objOffset),
+                Quantity = di.GetDecimal(4) + objOffset,
                 Objects = di.GetObjects(),
                 Token = di.ItemType
             };
@@ -615,13 +619,16 @@ namespace jsiSIE
                 return null;
             }
 
+            var objOffset = 0;
+            if (di.RawData.Contains("{")) objOffset = 1;
+
             var v = new SiePeriodValue()
             {
                 YearNr = di.GetInt(0),
                 Period = di.GetInt(1),
                 Account = KONTO[di.GetString(2)],
-                Amount = di.GetDecimal(4),
-                Quantity = di.GetDecimal(5),
+                Amount = di.GetDecimal(3 + objOffset),
+                Quantity = di.GetDecimal(4 + objOffset),
                 Token = di.ItemType
             };
             if (SIETYP != 2 && di.RawData.Contains("{")) v.Objects = di.GetObjects();
@@ -634,12 +641,14 @@ namespace jsiSIE
             {
                 KONTO.Add(di.GetString(1), new SieAccount() { Number = di.GetString(1) });
             }
+            var objOffset = 0;
+            if (di.RawData.Contains("{")) objOffset = 1;
             var v = new SiePeriodValue()
             {
                 YearNr = di.GetInt(0),
                 Account = KONTO[di.GetString(1)],
-                Amount = di.GetDecimal(2),
-                Quantity = di.GetDecimal(3),
+                Amount = di.GetDecimal(2 + objOffset),
+                Quantity = di.GetDecimal(3 + objOffset),
                 Token = di.ItemType
             };
             Callbacks.CallbackRES(v);
@@ -663,16 +672,18 @@ namespace jsiSIE
                 KONTO.Add(di.GetString(0), new SieAccount() { Number = di.GetString(0) });
             }
 
+            var objOffset = 0;
+            if (di.RawData.Contains("{")) objOffset = 1;
 
             var vr = new SieVoucherRow()
             {
                 Account = KONTO[di.GetString(0)],
                 Objects = di.GetObjects(),
-                Amount = di.GetDecimal(2),
-                RowDate = di.GetDate(3).HasValue ? di.GetDate(3).Value : v.VoucherDate,
-                Text = di.GetString(4),
-                Quantity = di.GetIntNull(5),
-                CreatedBy = di.GetString(6),
+                Amount = di.GetDecimal(1 + objOffset),
+                RowDate = di.GetDate(2 + objOffset).HasValue ? di.GetDate(2+objOffset).Value : v.VoucherDate,
+                Text = di.GetString(3 + objOffset),
+                Quantity = di.GetIntNull(4 + objOffset),
+                CreatedBy = di.GetString(5 + objOffset),
                 Token = di.ItemType
             };
 

@@ -36,16 +36,16 @@ namespace jsiSIE
             comparePeriodValueList(_docB.IB, _docA.IB, "IB", "Second", "First");
             comparePeriodValueList(_docA.UB, _docB.UB, "UB", "First", "Second");
             comparePeriodValueList(_docB.UB, _docA.UB, "UB", "Second", "First");
-            comparePeriodValueList(_docA.UB, _docB.UB, "OIB", "First", "Second");
-            comparePeriodValueList(_docB.UB, _docA.UB, "OIB", "Second", "First");
-            comparePeriodValueList(_docA.UB, _docB.UB, "OUB", "First", "Second");
-            comparePeriodValueList(_docB.UB, _docA.UB, "OUB", "Second", "First");
-            comparePeriodValueList(_docA.UB, _docB.UB, "PBUDGET", "First", "Second");
-            comparePeriodValueList(_docB.UB, _docA.UB, "PBUDGET", "Second", "First");
-            comparePeriodValueList(_docA.UB, _docB.UB, "PSALDO", "First", "Second");
-            comparePeriodValueList(_docB.UB, _docA.UB, "PSALDO", "Second", "First");
-            comparePeriodValueList(_docA.UB, _docB.UB, "RES", "First", "Second");
-            comparePeriodValueList(_docB.UB, _docA.UB, "RES", "Second", "First");
+            comparePeriodValueList(_docA.OIB, _docB.OIB, "OIB", "First", "Second");
+            comparePeriodValueList(_docB.OIB, _docA.OIB, "OIB", "Second", "First");
+            comparePeriodValueList(_docA.OUB, _docB.OUB, "OUB", "First", "Second");
+            comparePeriodValueList(_docB.OUB, _docA.OUB, "OUB", "Second", "First");
+            comparePeriodValueList(_docA.PBUDGET, _docB.PBUDGET, "PBUDGET", "First", "Second");
+            comparePeriodValueList(_docB.PBUDGET, _docA.PBUDGET, "PBUDGET", "Second", "First");
+            comparePeriodValueList(_docA.PSALDO, _docB.PSALDO, "PSALDO", "First", "Second");
+            comparePeriodValueList(_docB.PSALDO, _docA.PSALDO, "PSALDO", "Second", "First");
+            comparePeriodValueList(_docA.RES, _docB.RES, "RES", "First", "Second");
+            comparePeriodValueList(_docB.RES, _docA.RES, "RES", "Second", "First");
 
             compareKONTO(_docA, _docB, "First", "Second");
             compareKONTO(_docB, _docA, "Second", "First");
@@ -78,7 +78,9 @@ namespace jsiSIE
             if (_docA.GEN_NAMN != _docB.GEN_NAMN) _errors.Add("GEN_NAMN differs First, Second " + _docA.GEN_NAMN + " , " + _docB.GEN_NAMN);
             if (_docA.KPTYP != _docB.KPTYP) _errors.Add("KPTYP differs First, Second " + _docA.KPTYP + " , " + _docB.KPTYP);
             if (_docA.KSUMMA != _docB.KSUMMA) _errors.Add("KSUMMA differs First, Second " + _docA.KSUMMA + " , " + _docB.KSUMMA);
-            if (_docA.PROSA != _docB.PROSA) _errors.Add("PROSA differs First, Second " + _docA.PROSA + " , " + _docB.PROSA);
+            var a = _docA.PROSA ?? "";
+            var b = _docB.PROSA ?? "";
+            if (a != b) _errors.Add("PROSA differs First, Second " + a + " , " + b);
             if (_docA.SIETYP != _docB.SIETYP) _errors.Add("SIETYP differs First, Second " + _docA.SIETYP + " , " + _docB.SIETYP);
             if (_docA.TAXAR != _docB.TAXAR) _errors.Add("TAXAR differs First, Second " + _docA.TAXAR + " , " + _docB.TAXAR);
             if (_docA.VALUTA != _docB.VALUTA) _errors.Add("VALUTA differs First, Second " + _docA.VALUTA + " , " + _docB.VALUTA);
@@ -138,12 +140,16 @@ namespace jsiSIE
         }
         private void compareFNAMN()
         {
+            string a, b;
+
             if (_docA.FNAMN != null && _docB.FNAMN != null)
             {
                 if (_docA.FNAMN.Code != _docB.FNAMN.Code) _errors.Add("FNAMN.Code differs First, Second " + _docA.FNAMN.Code + " , " + _docB.FNAMN.Code);
                 if (_docA.FNAMN.Contact != _docB.FNAMN.Contact) _errors.Add("ADRESS.Contact differs First, Second " + _docA.FNAMN.Contact + " , " + _docB.FNAMN.Contact);
                 if (_docA.FNAMN.Name != _docB.FNAMN.Name) _errors.Add("FNAMN.Name differs First, Second " + _docA.FNAMN.Name + " , " + _docB.FNAMN.Name);
-                if (_docA.FNAMN.OrgIdentifier != _docB.FNAMN.OrgIdentifier) _errors.Add("ORGNR.OrgIdentifier differs First, Second " + _docA.FNAMN.OrgIdentifier + " , " + _docB.FNAMN.OrgIdentifier);
+                a = _docA.FNAMN.OrgIdentifier ?? "";
+                b = _docB.FNAMN.OrgIdentifier ?? "";
+                if (a != b) _errors.Add("ORGNR.OrgIdentifier differs First, Second " + _docA.FNAMN.OrgIdentifier + " , " + _docB.FNAMN.OrgIdentifier);
                 if (_docA.FNAMN.OrgType != _docB.FNAMN.OrgType) _errors.Add("FTYP differs First, Second " + _docA.FNAMN.OrgType + " , " + _docB.FNAMN.OrgType);
                 if (_docA.FNAMN.Phone != _docB.FNAMN.Phone) _errors.Add("ADRESS.Phone differs First, Second " + _docA.FNAMN.Phone + " , " + _docB.FNAMN.Phone);
                 if (_docA.FNAMN.SNI != _docB.FNAMN.SNI) _errors.Add("FNAMN.SNI differs First, Second " + _docA.FNAMN.SNI + " , " + _docB.FNAMN.SNI);
