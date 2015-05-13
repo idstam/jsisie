@@ -3,6 +3,8 @@ jsisie
 
 A .NET parser for SIE files that can read files of version 1 to 4 (including 4i)
 
+**Read a SIE file**
+
 To read a file create an instance of SieDocument and call ReadDocument.
 
 There are some bool properties in SieDocument that changes how the parsing works:
@@ -16,8 +18,14 @@ There are some bool properties in SieDocument that changes how the parsing works
 **Not all features are implemented yet:**
 
 + #UNDERDIM: There are no instances of this in the published example files.
-+ #FLAGGA: Since parser is only reading data it will not set #FLAGGA to 1 when it is done.
-+ Writing SIE files is not implemented at all.
+
+**Write a SIE file**
+
+To write a file create an instance of SieDocumentWriter and call WriteDocument
+
+**Compare SIE files**
+
+To compare SIE files call the static method Compare on SieDocumentComparer. It will return a List&lt;string&gt; with differences between the files.  
 
 
 Even if you use this parser you should get familiar with the file specification.
