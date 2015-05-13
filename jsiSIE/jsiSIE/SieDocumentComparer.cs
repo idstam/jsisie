@@ -77,7 +77,7 @@ namespace jsiSIE
             }
             if (_docA.GEN_NAMN != _docB.GEN_NAMN) _errors.Add("GEN_NAMN differs First, Second " + _docA.GEN_NAMN + " , " + _docB.GEN_NAMN);
             if (_docA.KPTYP != _docB.KPTYP) _errors.Add("KPTYP differs First, Second " + _docA.KPTYP + " , " + _docB.KPTYP);
-            if (_docA.KSUMMA != _docB.KSUMMA) _errors.Add("KSUMMA differs First, Second " + _docA.KSUMMA + " , " + _docB.KSUMMA);
+            //if (_docA.KSUMMA != _docB.KSUMMA) _errors.Add("KSUMMA differs First, Second " + _docA.KSUMMA + " , " + _docB.KSUMMA);
             var a = _docA.PROSA ?? "";
             var b = _docB.PROSA ?? "";
             if (a != b) _errors.Add("PROSA differs First, Second " + a + " , " + b);

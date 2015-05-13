@@ -134,7 +134,7 @@ namespace jsiSIE
             foreach(var v in list)
             {
                 var objekt = getObjeklista(v.Objects);
-                if ("#IB#UB".Contains(name)) objekt = "";
+                if ("#IB#UB#RES".Contains(name)) objekt = "";
 
                 WriteLine(name + " " + v.YearNr.ToString() + " " + v.Account.Number + " " + objekt + " " + SieAmount(v.Amount));
             }
@@ -276,7 +276,7 @@ namespace jsiSIE
                 string program = "#PROGRAM ";
                 foreach (var s in _sie.PROGRAM)
                 {
-                    program += makeField(s) + " ";
+                    program += "\"jsiSIE\" " +  makeField(s) + " ";
                 }
                 return program;
             }

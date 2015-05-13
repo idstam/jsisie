@@ -746,9 +746,9 @@ namespace jsiSIE
             //If there are period values #OMFATTN has to tell the value date.
             addValidationException(
                 (!IgnoreMissingOMFATTNING) &&
-                (SIETYP == 2 || SIETYP == 3) &&
+                ((SIETYP == 2 || SIETYP == 3) &&
                 !OMFATTN.HasValue &&
-                (RES.Count > 0 || UB.Count > 0 || OUB.Count > 0),
+                (RES.Count > 0 || UB.Count > 0 || OUB.Count > 0)),
                 new SieMissingMandatoryDateException("#OMFATTN is missing in " + _fileName));
 
             addValidationException(

@@ -13,7 +13,7 @@ namespace jsiSIE_test
     {
         static void Main(string[] args)
         {
-
+                      
             string testSourceFolder = @"c:\temp\sie_test_files";
             if (!Directory.Exists(testSourceFolder)) Directory.CreateDirectory(testSourceFolder);
 
@@ -26,7 +26,7 @@ namespace jsiSIE_test
 
                 var sie = new SieDocument();
                 sie.ThrowErrors = false;
-                //sie.IgnoreMissingOMFATTNING = true;
+                sie.IgnoreMissingOMFATTNING = true;
 
                 sie.ReadDocument(f);
                 if (sie.ValidationExceptions.Count > 0)
@@ -48,6 +48,7 @@ namespace jsiSIE_test
                     writer.Write(testWriteFile);
 
                     var sieB = new SieDocument();
+                    sieB.IgnoreMissingOMFATTNING = true;
                     sieB.ReadDocument(testWriteFile);
                     var compErrors = SieDocumentComparer.Compare(sie, sieB);
                     foreach (var e in compErrors)
