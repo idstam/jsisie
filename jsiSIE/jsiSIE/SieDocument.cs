@@ -33,9 +33,9 @@ namespace jsiSIE
         /// This is the file currently being read.
         /// </summary>
         private string _fileName;
-        public SieDocument(string fileName)
+        public SieDocument()
         {
-            _fileName = fileName;
+            
 
         }
 
@@ -181,8 +181,9 @@ namespace jsiSIE
             return ret;
         }
 
-        public void ReadDocument()
+        public void ReadDocument(string fileName)
         {
+            _fileName = fileName;
 
             if (ThrowErrors) Callbacks.SieException += throwCallbackException;
 

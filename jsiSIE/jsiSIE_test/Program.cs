@@ -13,6 +13,7 @@ namespace jsiSIE_test
     {
         static void Main(string[] args)
         {
+
             string testSourceFolder = @"c:\temp\sie_test_files";
             if (!Directory.Exists(testSourceFolder)) Directory.CreateDirectory(testSourceFolder);
 
@@ -23,14 +24,11 @@ namespace jsiSIE_test
                 //if (!f.Contains("30")) continue;
                 if (f.EndsWith(".err")) continue;
 
-                //if (SieDocument.GetSieVersion(f) != 4) continue;
-                //if (!f.Contains("37_Norstedts Bokslut SIE 1")) continue;
-
-                var sie = new SieDocument(f);
+                var sie = new SieDocument();
                 sie.ThrowErrors = false;
                 //sie.IgnoreMissingOMFATTNING = true;
 
-                sie.ReadDocument();
+                sie.ReadDocument(f);
                 if (sie.ValidationExceptions.Count > 0)
                 {
                     foreach (var ex in sie.ValidationExceptions)
@@ -49,8 +47,8 @@ namespace jsiSIE_test
                     var writer = new SieDocumentWriter(sie);
                     writer.Write(testWriteFile);
 
-                    var sieB = new SieDocument(testWriteFile);
-                    sieB.ReadDocument();
+                    var sieB = new SieDocument();
+                    sieB.ReadDocument(testWriteFile);
                     var compErrors = SieDocumentComparer.Compare(sie, sieB);
                     foreach (var e in compErrors)
                     {
