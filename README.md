@@ -3,6 +3,9 @@ jsisie
 
 A .NET parser for SIE files that can read files of version 1 to 4 (including 4i)
 
+Follow [this link](http://www.sie.se/?page_id=20) for swedish versions and [this link](http://www.sie.se/?page_id=250) for english versions of the SIE specifications.
+
+
 **Read a SIE file**
 
 To read a file create an instance of SieDocument and call ReadDocument.
@@ -38,7 +41,11 @@ To install this package via nuget write
 
 int the nuget console in Visual Studio 
 
-Follow [this link](http://www.sie.se/?page_id=20) for swedish versions and [this link](http://www.sie.se/?page_id=250) for english versions
+
+**Java**
+
+There's a Java version of this parser here: https://github.com/perNyfelt/SIEParse  
+
 
 **Change log**
 
