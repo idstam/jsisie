@@ -44,7 +44,7 @@ int the nuget console in Visual Studio
 
 **Java**
 
-There's a Java version of this parser here: https://github.com/perNyfelt/SIEParse  
+There's a Java version of this parser here: https://github.com/perNyfelt/SIEParser  
 
 
 **Change log**
