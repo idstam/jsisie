@@ -273,10 +273,10 @@ namespace jsiSIE
         {
             get
             {
-                string program = "#PROGRAM ";
+                string program = "#PROGRAM \"jsiSIE\" ";
                 foreach (var s in _sie.PROGRAM)
                 {
-                    program += "\"jsiSIE\" " +  makeField(s) + " ";
+                    program +=  makeField(s) + " ";
                 }
                 return program;
             }
