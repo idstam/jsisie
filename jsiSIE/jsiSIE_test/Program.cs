@@ -13,7 +13,44 @@ namespace jsiSIE_test
     {
         static void Main(string[] args)
         {
-                      
+            if (args.Length == 0)
+            {
+                BootstrapTest();
+            }
+
+            switch(args[0])
+            {
+                case "COMPARE":
+                    Compare(args);
+                    break;
+            }
+
+        }
+
+        private static void Compare(string[] args)
+        {
+            Console.WriteLine("Comparing: ");
+            Console.WriteLine(args[1]);
+            Console.WriteLine(args[2]);
+            var fileA = args[1];
+            var fileB = args[2];
+            var docA = new SieDocument() { ThrowErrors = false, IgnoreMissingOMFATTNING = true };
+            var docB = new SieDocument() { ThrowErrors = false, IgnoreMissingOMFATTNING = true };
+            docA.ReadDocument(fileA);
+            docB.ReadDocument(fileB);
+            var result = SieDocumentComparer.Compare(docA, docB);
+
+            foreach(var err in result)
+            {
+                Console.WriteLine(err);
+            }
+            Console.WriteLine("");
+            Console.WriteLine("Press ENTER to close.");
+            Console.ReadLine();
+        }
+
+        private static void BootstrapTest()
+        {
             string testSourceFolder = @"c:\temp\sie_test_files";
             if (!Directory.Exists(testSourceFolder)) Directory.CreateDirectory(testSourceFolder);
 
@@ -62,7 +99,6 @@ namespace jsiSIE_test
             Console.WriteLine();
             Console.WriteLine("Press ENTER to quit.");
             Console.ReadLine();
-
         }
 
         private static void GetExampleFiles(string testSourceFolder)

@@ -29,6 +29,7 @@ namespace jsiSIE
         private void doCompare()
         {
             compareNonListItems();
+            compareProgram(_docA.PROGRAM, _docB.PROGRAM);
             compareDIM(_docA, _docB, "First", "Second");
             compareDIM(_docB, _docA, "Second", "First");
 
@@ -120,6 +121,28 @@ namespace jsiSIE
 
 
             return true;
+        }
+        private void compareProgram(List<string> a, List<string> b)
+        {
+            bool equal = true;
+            if (a != null && b == null) equal = false;
+            if (b != null && a == null) equal = false;
+            if (a != null && b != null)
+            {
+                if (a.Count != b.Count)
+                {
+                    equal = false;
+                }
+                else
+                {
+                    for (int i = 0; i < a.Count; i++)
+                    {
+                        if (a[i] != b[i]) equal = false;
+                    }
+                }
+            }
+
+            if (!equal) _errors.Add($"PROGRAM differs First {string.Join(" ", a)} Second {string.Join(" ", b)}");
         }
 
         private bool compareObjects(List<SieObject> a, List<SieObject> b)
