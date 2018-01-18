@@ -16,6 +16,7 @@ namespace jsiSIE_test
             if (args.Length == 0)
             {
                 BootstrapTest();
+                return;
             }
 
             switch(args[0])
