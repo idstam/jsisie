@@ -23,8 +23,23 @@ namespace jsiSIE
         public void Write(string file)
         {
             if (File.Exists(file)) File.Delete(file);
-            _stream = File.OpenWrite(file);
+            using (_stream = File.OpenWrite(file))
+            {
+                WriteCore();
+            };
+        }
 
+
+        public void Write(Stream stream)
+        {
+            if (stream == null) throw new System.ArgumentNullException(nameof(stream));
+            _stream = stream;
+            WriteCore();
+        }
+
+
+        private void WriteCore()
+        {
             WriteLine(FLAGGA);
             WriteLine(PROGRAM);
             WriteLine(FORMAT);
@@ -59,12 +74,6 @@ namespace jsiSIE
             }
             WritePeriodValue("#RES", _sie.RES);
             WriteVER();
-            
-            _stream.Close();
-            _stream.Dispose();
-
-            
-
         }
 
 
