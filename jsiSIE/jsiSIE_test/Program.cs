@@ -16,6 +16,7 @@ namespace jsiSIE_test
             if (args.Length == 0)
             {
                 BootstrapTest();
+                return;
             }
 
             switch(args[0])
@@ -89,6 +90,25 @@ namespace jsiSIE_test
                     sieB.ReadDocument(testWriteFile);
                     var compErrors = SieDocumentComparer.Compare(sie, sieB);
                     foreach (var e in compErrors)
+                    {
+                        Console.WriteLine(e);
+                    }
+                    Console.WriteLine(f);
+
+                    var testWriteFile1 = Path.Combine(testSourceFolder, "testWrite1.se");
+                    if (File.Exists(testWriteFile1)) File.Delete(testWriteFile1);
+
+                    var writer1 = new SieDocumentWriter(sie);
+                    using (var s = File.OpenWrite(testWriteFile1))
+                    {
+                        writer1.Write(s);
+                    }
+
+                    var sieB1 = new SieDocument();
+                    sieB1.IgnoreMissingOMFATTNING = true;
+                    sieB1.ReadDocument(testWriteFile1);
+                    var compErrors1 = SieDocumentComparer.Compare(sie, sieB1);
+                    foreach (var e in compErrors1)
                     {
                         Console.WriteLine(e);
                     }
