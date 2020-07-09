@@ -12,35 +12,65 @@ namespace jsiSIE
         private SieDocument _sie;
         private Stream _stream;
         private Encoding _encoding;
+        private WriteOptions _options;
+        public class WriteOptions
+        {
+            public bool WriteKSUMMA { get; set; } = false;
+        }
 
-        public SieDocumentWriter(SieDocument sie)
+        public SieDocumentWriter(SieDocument sie, WriteOptions options = null)
         {
             _sie = sie;
+            _options = options ?? new WriteOptions();
             _encoding = Encoding.GetEncoding(437);
         }
 
 
         public void Write(string file)
         {
+            if (_options.WriteKSUMMA)
+            {
+                SetDocumentKSUMMA();
+            }
+            
             if (File.Exists(file)) File.Delete(file);
-            using (_stream = File.OpenWrite(file))
+            using (_stream =  File.OpenWrite(file))
             {
                 WriteCore();
             };
         }
-
-
+        
         public void Write(Stream stream)
         {
             if (stream == null) throw new System.ArgumentNullException(nameof(stream));
+            
+            if (_options.WriteKSUMMA)
+            {
+                SetDocumentKSUMMA();
+            }
             _stream = stream;
             WriteCore();
         }
 
+        private void SetDocumentKSUMMA()
+        {
+            using (_stream = new MemoryStream())
+            {
+                WriteCore();
+                _stream.Position = 0;
+                var tempDoc = new SieDocument();
+                tempDoc.ThrowErrors = false;
+                tempDoc.ReadDocument(_stream);
+                _sie.KSUMMA = tempDoc.CRC.Checksum();
+            }
+
+            _stream = null;
+        }
 
         private void WriteCore()
         {
             WriteLine(FLAGGA);
+            if(_options.WriteKSUMMA) WriteLine("#KSUMMA");
             WriteLine(PROGRAM);
             WriteLine(FORMAT);
             WriteLine(GEN);
@@ -74,6 +104,7 @@ namespace jsiSIE
             }
             WritePeriodValue("#RES", _sie.RES);
             WriteVER();
+            if(_options.WriteKSUMMA) WriteLine("#KSUMMA " + _sie.KSUMMA.ToString());
         }
 
 
