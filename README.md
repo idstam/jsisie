@@ -39,7 +39,7 @@ To install this package via nuget write
 
 	Install-Package jsisie
 
-int the nuget console in Visual Studio 
+in the nuget console in Visual Studio 
 
 
 **Java**
