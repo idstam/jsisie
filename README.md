@@ -3,8 +3,9 @@ jsisie
 
 A .NET parser for SIE files that can read files of version 1 to 4 (including 4i)
 
-Follow [this link](http://www.sie.se/?page_id=20) for swedish versions and [this link](http://www.sie.se/?page_id=250) for english versions of the SIE specifications.
+Follow [this link](https://sie.se/vadsie/) for swedish versions and [this link](https://sie.se/in-english/) for english versions of the SIE specifications.
 
+_Sadly the files used for testing the parser are not available from sie.se at the moment and I haven't got the permission to distribute the ones that were available when I wrote the tests._
 
 **Read a SIE file**
 
@@ -49,4 +50,5 @@ There's a Java version of this parser here: https://github.com/perNyfelt/SIEPars
 
 **Change log**
 2017-12-22	Add #PROGRAM to the document comparer. Enable the test program to compare two files via command line.
+2020-07-05	Now supports writing KSUMMA
 
