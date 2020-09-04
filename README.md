@@ -49,6 +49,7 @@ There's a Java version of this parser here: https://github.com/perNyfelt/SIEPars
 
 
 **Change log**
-2017-12-22	Add #PROGRAM to the document comparer. Enable the test program to compare two files via command line.
-2020-07-05	Now supports writing KSUMMA
+
++ 2017-12-22	Add #PROGRAM to the document comparer. Enable the test program to compare two files via command line.
++ 2020-07-05	Now supports writing KSUMMA
 
