@@ -35,7 +35,7 @@ namespace jsiSIE
         private string _fileName;
         public SieDocument()
         {
-
+            
 
         }
 
@@ -185,21 +185,6 @@ namespace jsiSIE
         {
             _fileName = fileName;
 
-            using (var stream = new FileStream(_fileName, FileMode.Open))
-            {
-                ReadStreamAux(stream);
-            }
-        }
-
-        public void ReadDocument(Stream stream)
-        {
-            _fileName = "(stream)";
-            ReadStreamAux(stream);
-        }
-        
-        private void ReadStreamAux(Stream stream)
-        {
-            
             if (ThrowErrors) Callbacks.SieException += throwCallbackException;
 
             #region Initialize lists
@@ -224,27 +209,11 @@ namespace jsiSIE
             InitializeDimensions();
             #endregion //Initialize listst
 
-            using (var sr = new StreamReader(stream, Encoding.GetEncoding(437)))
-            {
-                if (parseLines(sr)) return;
-            }
-
-            validateDocument();
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="sr"></param>
-        /// <returns>true if start of file is valid SIE-format</returns>
-        private bool parseLines(StreamReader sr)
-        {
-            bool firstLine = true;
             SieVoucher curVoucher = null;
-            do
-            {
-                var line = sr.ReadLine();
 
+            bool firstLine = true;
+            foreach (var line in File.ReadLines(_fileName, Encoding.GetEncoding(437)))
+            {
                 Callbacks.CallbackLine(line);
                 var di = new SieDataItem(line, this);
 
@@ -254,7 +223,7 @@ namespace jsiSIE
                     if (di.ItemType != "#FLAGGA")
                     {
                         Callbacks.CallbackException(new SieInvalidFileException(_fileName));
-                        return true;
+                        return;
                     }
                 }
 
@@ -276,7 +245,7 @@ namespace jsiSIE
                         break;
 
                     case "#BTRANS":
-                        if (!IgnoreBTRANS) parseTRANS(di, curVoucher);
+                        if(!IgnoreBTRANS) parseTRANS(di, curVoucher);
                         break;
 
                     case "#DIM":
@@ -328,7 +297,6 @@ namespace jsiSIE
                         {
                             CRC.Start();
                         }
-
                         break;
                     case "#KTYP":
                         parseKTYP(di);
@@ -369,7 +337,6 @@ namespace jsiSIE
                             Callbacks.CallbackPBUDGET(pv);
                             if (!StreamValues) PBUDGET.Add(pv);
                         }
-
                         break;
 
                     case "#PROGRAM":
@@ -387,7 +354,6 @@ namespace jsiSIE
                             Callbacks.CallbackPSALDO(pv);
                             if (!StreamValues) PSALDO.Add(pv);
                         }
-
                         break;
 
                     case "#RAR":
@@ -442,15 +408,14 @@ namespace jsiSIE
                         Callbacks.CallbackException(new NotImplementedException(di.ItemType));
                         break;
                 }
-            } while (!sr.EndOfStream);
+            }
 
-            return false;
+            validateDocument();
         }
-
 
         private void parseRAR(SieDataItem di)
         {
-
+            
             rar = new SieBookingYear();
             rar.ID = di.GetInt(0);
             rar.Start = di.GetDate(1);
@@ -716,7 +681,7 @@ namespace jsiSIE
                 Account = KONTO[di.GetString(0)],
                 Objects = di.GetObjects(),
                 Amount = di.GetDecimal(1 + objOffset),
-                RowDate = di.GetDate(2 + objOffset).HasValue ? di.GetDate(2 + objOffset).Value : v.VoucherDate,
+                RowDate = di.GetDate(2 + objOffset).HasValue ? di.GetDate(2+objOffset).Value : v.VoucherDate,
                 Text = di.GetString(3 + objOffset),
                 Quantity = di.GetIntNull(4 + objOffset),
                 CreatedBy = di.GetString(5 + objOffset),
