@@ -12,16 +12,27 @@ namespace jsiSIE
         private SieDocument _sie;
         private Stream _stream;
         private Encoding _encoding;
+        private WriteOptions _options;
+        public class WriteOptions
+        {
+            public bool WriteKSUMMA { get; set; } = false;
+        }
 
-        public SieDocumentWriter(SieDocument sie)
+        public SieDocumentWriter(SieDocument sie, WriteOptions options = null)
         {
             _sie = sie;
+            _options = options ?? new WriteOptions();
             _encoding = Encoding.GetEncoding(437);
         }
 
 
         public void Write(string file)
         {
+            if (_options.WriteKSUMMA)
+            {
+                SetDocumentKSUMMA();
+            }
+
             if (File.Exists(file)) File.Delete(file);
             using (_stream = File.OpenWrite(file))
             {
@@ -29,23 +40,42 @@ namespace jsiSIE
             };
         }
 
-
         public void Write(Stream stream)
         {
             if (stream == null) throw new System.ArgumentNullException(nameof(stream));
+
+            if (_options.WriteKSUMMA)
+            {
+                SetDocumentKSUMMA();
+            }
             _stream = stream;
             WriteCore();
         }
 
+        private void SetDocumentKSUMMA()
+        {
+            using (_stream = new MemoryStream())
+            {
+                WriteCore();
+                _stream.Position = 0;
+                var tempDoc = new SieDocument();
+                tempDoc.ThrowErrors = false;
+                tempDoc.ReadDocument(_stream);
+                _sie.KSUMMA = tempDoc.CRC.Checksum();
+            }
+
+            _stream = null;
+        }
 
         private void WriteCore()
         {
             WriteLine(FLAGGA);
+            if (_options.WriteKSUMMA) WriteLine("#KSUMMA");
             WriteLine(PROGRAM);
             WriteLine(FORMAT);
             WriteLine(GEN);
             WriteLine(SIETYP);
-            if(!string.IsNullOrEmpty(_sie.PROSA)) WriteLine("#PROSA " + "\"" + _sie.PROSA + "\"");
+            if (!string.IsNullOrEmpty(_sie.PROSA)) WriteLine("#PROSA " + "\"" + _sie.PROSA + "\"");
             WriteFNR();
             WriteLine(ORGNR);
             WriteLine(FNAMN);
@@ -74,12 +104,13 @@ namespace jsiSIE
             }
             WritePeriodValue("#RES", _sie.RES);
             WriteVER();
+            if (_options.WriteKSUMMA) WriteLine("#KSUMMA " + _sie.KSUMMA.ToString());
         }
 
 
         private void WriteVALUTA()
         {
-            if(!string.IsNullOrEmpty(_sie.VALUTA))
+            if (!string.IsNullOrEmpty(_sie.VALUTA))
             {
                 WriteLine("#VALUTA " + _sie.VALUTA);
             }
@@ -87,29 +118,29 @@ namespace jsiSIE
 
         private void WriteVER()
         {
-            foreach(var v in _sie.VER)
+            foreach (var v in _sie.VER)
             {
                 var createdBy = v.CreatedBy == "" ? "" : " \"" + v.CreatedBy + "\"";
                 var createdDate = v.CreatedDate == 0 ? "" : v.CreatedDate.ToString();
                 WriteLine("#VER \"" + v.Series + "\" \"" + v.Number + "\" " + makeSieDate(v.VoucherDate) + " \"" + v.Text + "\" " + createdDate + createdBy);
 
                 WriteLine("{");
-                
-                foreach(var r in v.Rows)
+
+                foreach (var r in v.Rows)
                 {
                     var obj = getObjeklista(r.Objects);
                     var quantity = r.Quantity.HasValue ? SieAmount(r.Quantity.Value) : "";
                     createdBy = v.CreatedBy == "" ? "" : "\"" + v.CreatedBy + "\"";
                     WriteLine("#TRANS " + r.Account.Number + " " + obj + " " + SieAmount(r.Amount) + " " + makeSieDate(r.RowDate) + " \"" + r.Text + "\" " + quantity + " " + createdBy);
                 }
-                
+
                 WriteLine("}");
             }
         }
 
         private string getObjeklista(List<SieObject> objects)
         {
-            if(_sie.SIETYP < 3) return "";
+            if (_sie.SIETYP < 3) return "";
 
             var ret = "{";
             if (objects != null)
@@ -127,11 +158,11 @@ namespace jsiSIE
 
         private void WriteDIM()
         {
-            foreach(var d in _sie.DIM.Values)
+            foreach (var d in _sie.DIM.Values)
             {
                 WriteLine("#DIM " + d.Number + " \"" + d.Name + "\"");
 
-                foreach(var o in d.Objects.Values)
+                foreach (var o in d.Objects.Values)
                 {
                     WriteLine("#OBJEKT " + d.Number + " " + o.Number + " \"" + o.Name + "\"");
                 }
@@ -140,7 +171,7 @@ namespace jsiSIE
 
         private void WritePeriodValue(string name, List<SiePeriodValue> list)
         {
-            foreach(var v in list)
+            foreach (var v in list)
             {
                 var objekt = getObjeklista(v.Objects);
                 if ("#IB#UB#RES".Contains(name)) objekt = "";
@@ -160,7 +191,7 @@ namespace jsiSIE
 
         private void WriteRAR()
         {
-            foreach(var r in _sie.RAR.Values)
+            foreach (var r in _sie.RAR.Values)
             {
                 WriteLine("#RAR " + r.ID.ToString() + " " + SieDate(r.Start) + " " + SieDate(r.End));
             }
@@ -183,21 +214,21 @@ namespace jsiSIE
 
         private void WriteKONTO()
         {
-            foreach(var k in _sie.KONTO.Values)
+            foreach (var k in _sie.KONTO.Values)
             {
                 WriteLine("#KONTO " + k.Number + " \"" + k.Name + "\"");
                 if (!string.IsNullOrWhiteSpace(k.Unit))
                 {
                     WriteLine("#ENHET " + k.Number + " \"" + k.Unit + "\"");
                 }
-                if(!string.IsNullOrWhiteSpace(k.Type))
+                if (!string.IsNullOrWhiteSpace(k.Type))
                 {
                     WriteLine("#KTYP " + k.Number + " " + k.Type);
                 }
             }
             foreach (var k in _sie.KONTO.Values)
             {
-                foreach(var s in k.SRU)
+                foreach (var s in k.SRU)
                 {
                     WriteLine("#SRU " + k.Number + " " + s);
                 }
@@ -206,7 +237,7 @@ namespace jsiSIE
 
         private void WriteOMFATTN()
         {
-            if(_sie.OMFATTN.HasValue)
+            if (_sie.OMFATTN.HasValue)
             {
                 WriteLine("#OMFATTN " + SieDate(_sie.OMFATTN));
             }
@@ -217,7 +248,7 @@ namespace jsiSIE
 
             if (_sie.TAXAR > 0)
             {
-                WriteLine("#TAXAR " + _sie.TAXAR.ToString()); 
+                WriteLine("#TAXAR " + _sie.TAXAR.ToString());
             }
         }
 
@@ -256,13 +287,13 @@ namespace jsiSIE
         private void WriteFNR()
         {
             if (!string.IsNullOrWhiteSpace(_sie.FNAMN.Code))
-            WriteLine( "#FNR \"" + _sie.FNAMN.Code + "\"");
+                WriteLine("#FNR \"" + _sie.FNAMN.Code + "\"");
         }
         private string SIETYP
         {
             get { return "#SIETYP " + _sie.SIETYP.ToString(); }
         }
-        
+
         private string GEN
         {
             get
@@ -273,7 +304,7 @@ namespace jsiSIE
                 return ret;
             }
         }
-        
+
         private string FORMAT
         {
             get { return "#FORMAT PC8"; }
@@ -285,7 +316,7 @@ namespace jsiSIE
                 string program = "#PROGRAM \"jsiSIE\" ";
                 foreach (var s in _sie.PROGRAM)
                 {
-                    program +=  makeField(s) + " ";
+                    program += makeField(s) + " ";
                 }
                 return program;
             }
