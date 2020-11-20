@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.3.1</Version>
+    <Version>2.3.2</Version>
     <Authors>Johan Idstam</Authors>
     <Company></Company>
     <Description>A .NET parser for SIE files that can read files of version 1 to 4 (including 4i)</Description>
