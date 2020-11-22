@@ -747,7 +747,7 @@ namespace jsiSIE
 
         private SieVoucher parseVER(SieDataItem di)
         {
-            if (!di.GetDate(2).HasValue) Callbacks.CallbackException(new MissingFieldException("Vaoucher date"));
+            if (!di.GetDate(2).HasValue) Callbacks.CallbackException(new MissingFieldException("Voucher date"));
 
             var v = new SieVoucher()
             {
@@ -755,7 +755,7 @@ namespace jsiSIE
                 Number = di.GetString(1),
                 VoucherDate = di.GetDate(2).HasValue ? di.GetDate(2).Value : new DateTime(),
                 Text = di.GetString(3),
-                CreatedDate = di.GetInt(4),
+                CreatedDate = di.GetDate(4).HasValue ? di.GetDate(4).Value : new DateTime(),
                 CreatedBy = di.GetString(5),
                 Token = di.ItemType
             };
