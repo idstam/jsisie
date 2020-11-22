@@ -122,11 +122,13 @@ namespace jsiSIE
 
         private void WriteVER()
         {
+            if (_sie.VER == null) return;
             foreach (var v in _sie.VER)
             {
-                var createdBy = v.CreatedBy == "" ? "" : " \"" + v.CreatedBy + "\"";
-                var createdDate = v.CreatedDate == 0 ? "" : v.CreatedDate.ToString();
-                WriteLine("#VER \"" + v.Series + "\" \"" + v.Number + "\" " + makeSieDate(v.VoucherDate) + " \"" + v.Text + "\" " + createdDate + createdBy);
+                var createdBy = string.IsNullOrWhiteSpace(v.CreatedBy) ? "" : "\"" + v.CreatedBy + "\"";
+                // Use an empty string rather than the default date of 000010101, when this optional field is not set
+                var createdDate = v.CreatedDate == DateTime.MinValue ? "" : makeSieDate(v.CreatedDate); 
+                WriteLine("#VER \"" + v.Series + "\" \"" + v.Number + "\" " + makeSieDate(v.VoucherDate) + " \"" + v.Text + "\" " + createdDate + " " + createdBy);
 
                 WriteLine("{");
 
@@ -134,7 +136,7 @@ namespace jsiSIE
                 {
                     var obj = getObjeklista(r.Objects);
                     var quantity = r.Quantity.HasValue ? SieAmount(r.Quantity.Value) : "";
-                    createdBy = v.CreatedBy == "" ? "" : "\"" + v.CreatedBy + "\"";
+                    createdBy = string.IsNullOrWhiteSpace(r.CreatedBy) ? "" : "\"" + r.CreatedBy + "\"";
                     WriteLine("#TRANS " + r.Account.Number + " " + obj + " " + SieAmount(r.Amount) + " " + makeSieDate(r.RowDate) + " \"" + r.Text + "\" " + quantity + " " + createdBy);
                 }
 
@@ -162,6 +164,7 @@ namespace jsiSIE
 
         private void WriteDIM()
         {
+            if (_sie.DIM == null) return;
             foreach (var d in _sie.DIM.Values)
             {
                 WriteLine("#DIM " + d.Number + " \"" + d.Name + "\"");
@@ -175,6 +178,7 @@ namespace jsiSIE
 
         private void WritePeriodValue(string name, List<SiePeriodValue> list)
         {
+            if (list == null) return;
             foreach (var v in list)
             {
                 var objekt = getObjeklista(v.Objects);
@@ -195,6 +199,7 @@ namespace jsiSIE
 
         private void WriteRAR()
         {
+            if (_sie.RAR == null) return;
             foreach (var r in _sie.RAR.Values)
             {
                 WriteLine("#RAR " + r.ID.ToString() + " " + SieDate(r.Start) + " " + SieDate(r.End));
@@ -218,6 +223,7 @@ namespace jsiSIE
 
         private void WriteKONTO()
         {
+            if (_sie.KONTO == null) return;
             foreach (var k in _sie.KONTO.Values)
             {
                 WriteLine("#KONTO " + k.Number + " \"" + k.Name + "\"");

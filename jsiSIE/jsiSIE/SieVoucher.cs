@@ -13,7 +13,7 @@ namespace jsiSIE
         public string Number { get; set; }
         public DateTime VoucherDate { get; set; }
         public string Text { get; set; }
-        public int CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; }
         public string CreatedBy { get; set; }
         public string Token { get; set; }
 
