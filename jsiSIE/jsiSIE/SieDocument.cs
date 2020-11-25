@@ -196,13 +196,15 @@ namespace jsiSIE
             _fileName = "(stream)";
             ReadStreamAux(stream);
         }
-        
-        private void ReadStreamAux(Stream stream)
-        {
-            
-            if (ThrowErrors) Callbacks.SieException += throwCallbackException;
 
-            #region Initialize lists
+        public void ReadDocument(StreamReader streamReader)
+        {
+            _fileName = "(streamReader)";
+            ReadStreamReader(streamReader);
+        }
+
+        private void InitializeListsAndDimesions()
+        {
             FNAMN = new SieCompany();
 
             KONTO = new Dictionary<string, SieAccount>();
@@ -221,8 +223,45 @@ namespace jsiSIE
             VER = new List<SieVoucher>();
             ValidationExceptions = new List<Exception>();
 
-            InitializeDimensions();
-            #endregion //Initialize listst
+            DIM.Add("1", new SieDimension() { Number = "1", Name = "Resultatenhet", IsDefault = true });
+            DIM.Add("2", new SieDimension() { Number = "2", Name = "Kostnadsbärare", SuperDim = DIM["1"], IsDefault = true });
+            DIM.Add("3", new SieDimension() { Number = "3", Name = "Reserverat", IsDefault = true });
+            DIM.Add("4", new SieDimension() { Number = "4", Name = "Reserverat", IsDefault = true });
+            DIM.Add("5", new SieDimension() { Number = "5", Name = "Reserverat", IsDefault = true });
+            DIM.Add("6", new SieDimension() { Number = "6", Name = "Projekt", IsDefault = true });
+            DIM.Add("7", new SieDimension() { Number = "7", Name = "Anställd", IsDefault = true });
+            DIM.Add("8", new SieDimension() { Number = "8", Name = "Kund", IsDefault = true });
+            DIM.Add("9", new SieDimension() { Number = "9", Name = "Leverantör", IsDefault = true });
+            DIM.Add("10", new SieDimension() { Number = "10", Name = "Faktura", IsDefault = true });
+            DIM.Add("11", new SieDimension() { Number = "11", Name = "Reserverat", IsDefault = true });
+            DIM.Add("12", new SieDimension() { Number = "12", Name = "Reserverat", IsDefault = true });
+            DIM.Add("13", new SieDimension() { Number = "13", Name = "Reserverat", IsDefault = true });
+            DIM.Add("14", new SieDimension() { Number = "14", Name = "Reserverat", IsDefault = true });
+            DIM.Add("15", new SieDimension() { Number = "15", Name = "Reserverat", IsDefault = true });
+            DIM.Add("16", new SieDimension() { Number = "16", Name = "Reserverat", IsDefault = true });
+            DIM.Add("17", new SieDimension() { Number = "17", Name = "Reserverat", IsDefault = true });
+            DIM.Add("18", new SieDimension() { Number = "18", Name = "Reserverat", IsDefault = true });
+            DIM.Add("19", new SieDimension() { Number = "19", Name = "Reserverat", IsDefault = true });
+        }
+
+        private void ReadStreamReader(StreamReader sr)
+        {
+
+            if (ThrowErrors) Callbacks.SieException += throwCallbackException;
+
+            InitializeListsAndDimesions();
+
+            if (parseLines(sr)) return;
+
+            validateDocument();
+        }
+
+        private void ReadStreamAux(Stream stream)
+        {
+            
+            if (ThrowErrors) Callbacks.SieException += throwCallbackException;
+
+            InitializeListsAndDimesions();
 
             using (var sr = new StreamReader(stream, Encoding.GetEncoding(437)))
             {
@@ -483,28 +522,6 @@ namespace jsiSIE
 
         }
 
-        private void InitializeDimensions()
-        {
-            DIM.Add("1", new SieDimension() { Number = "1", Name = "Resultatenhet", IsDefault = true });
-            DIM.Add("2", new SieDimension() { Number = "2", Name = "Kostnadsbärare", SuperDim = DIM["1"], IsDefault = true });
-            DIM.Add("3", new SieDimension() { Number = "3", Name = "Reserverat", IsDefault = true });
-            DIM.Add("4", new SieDimension() { Number = "4", Name = "Reserverat", IsDefault = true });
-            DIM.Add("5", new SieDimension() { Number = "5", Name = "Reserverat", IsDefault = true });
-            DIM.Add("6", new SieDimension() { Number = "6", Name = "Projekt", IsDefault = true });
-            DIM.Add("7", new SieDimension() { Number = "7", Name = "Anställd", IsDefault = true });
-            DIM.Add("8", new SieDimension() { Number = "8", Name = "Kund", IsDefault = true });
-            DIM.Add("9", new SieDimension() { Number = "9", Name = "Leverantör", IsDefault = true });
-            DIM.Add("10", new SieDimension() { Number = "10", Name = "Faktura", IsDefault = true });
-            DIM.Add("11", new SieDimension() { Number = "11", Name = "Reserverat", IsDefault = true });
-            DIM.Add("12", new SieDimension() { Number = "12", Name = "Reserverat", IsDefault = true });
-            DIM.Add("13", new SieDimension() { Number = "13", Name = "Reserverat", IsDefault = true });
-            DIM.Add("14", new SieDimension() { Number = "14", Name = "Reserverat", IsDefault = true });
-            DIM.Add("15", new SieDimension() { Number = "15", Name = "Reserverat", IsDefault = true });
-            DIM.Add("16", new SieDimension() { Number = "16", Name = "Reserverat", IsDefault = true });
-            DIM.Add("17", new SieDimension() { Number = "17", Name = "Reserverat", IsDefault = true });
-            DIM.Add("18", new SieDimension() { Number = "18", Name = "Reserverat", IsDefault = true });
-            DIM.Add("19", new SieDimension() { Number = "19", Name = "Reserverat", IsDefault = true });
-        }
 
         private void parseDimension(SieDataItem di)
         {
