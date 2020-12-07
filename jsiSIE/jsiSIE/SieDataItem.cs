@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 
 namespace jsiSIE
@@ -165,18 +166,41 @@ namespace jsiSIE
             if (Data.Count <= field) return null;
 
             var foo = Data[field].Trim();
-
+            //if date string empty
             if (string.IsNullOrEmpty(foo)) return null;
 
-            if (foo.Length != 8) Document.Callbacks.CallbackException(new SieDateException(foo + " is not a valid date"));
+            //if date string has strange lenght
+            if (foo.Length != 8 && foo.Length!= 10)
+            {
+                Document.Callbacks.CallbackException(new SieDateException($"{foo} is not a valid date (raw data: '{this.RawData}')"));
+                return null;
+            }
+
+            //Let's try to parse the date.
+            string[] styles = { "yyyy-MM-dd", "yyyyMMdd" };
+            DateTime parsedDateTime;
+            
+            if(!DateTime.TryParseExact(foo,styles, CultureInfo.InvariantCulture,DateTimeStyles.None, out parsedDateTime))
+            {
+                Document.Callbacks.CallbackException(new SieDateException($"{foo} is not a valid date (raw data: '{this.RawData}')"));
+                return null;
+            }
+            else
+            {
+                return parsedDateTime;
+            }
+
+            /*
             int y;
             int m;
             int d;
+
             if (!int.TryParse(foo.Substring(0, 4), out y)) Document.Callbacks.CallbackException(new SieDateException(foo + " doesn't contain a valid year."));
             if (!int.TryParse(foo.Substring(4, 2), out m)) Document.Callbacks.CallbackException(new SieDateException(foo + " doesn't contain a valid month."));
             if (!int.TryParse(foo.Substring(6, 2), out d)) Document.Callbacks.CallbackException(new SieDateException(foo + " doesn't contain a valid day."));
 
             return new DateTime(y, m, d);
+            */
         }
 
         internal List<SieObject> GetObjects()
