@@ -169,6 +169,8 @@ namespace jsiSIE
 
             if (string.IsNullOrEmpty(fieldDate)) return null;
 
+            if(fieldDate == "00000000") return null;
+
             var dateFormat = this.Document.DateFormat;
             DateTime parsedDateTime;
             

@@ -18,9 +18,10 @@ namespace jsiSIE
         public bool IgnoreBTRANS = false;
         public bool IgnoreMissingOMFATTNING = false;
         public bool IgnoreRTRANS = false;
+        public bool IgnoreMissingDate = true;
 
         public string DateFormat = "yyyyMMdd";
-        public Encoding Encoding = Encoding.GetEncoding(437);
+        public Encoding Encoding;
 
         /// <summary>
         /// If this is set to true in ReadFile no period values, balances or transactions will be saved in memory.
@@ -39,7 +40,7 @@ namespace jsiSIE
         private string _fileName;
         public SieDocument()
         {
-
+            this.Encoding = EncodingHelper.GetDefault();
         }
 
 
@@ -170,7 +171,7 @@ namespace jsiSIE
         /// <returns>-1 if no SIE version was found in the file else SIETYPE is returned.</returns>
         public static int GetSieVersion(string fileName)
         {
-            return GetSieVersion(fileName, Encoding.GetEncoding(437));
+            return GetSieVersion(fileName, EncodingHelper.GetDefault());
         }
         public static int GetSieVersion(string fileName, Encoding encoding)
         {
@@ -784,7 +785,9 @@ namespace jsiSIE
         private void validateDocument()
         {
 
-            addValidationException((!GEN_DATE.HasValue),
+            addValidationException((
+                !IgnoreMissingDate &&
+                !GEN_DATE.HasValue),
                 new SieMissingMandatoryDateException("#GEN Date is missing in " + _fileName));
 
             //If there are period values #OMFATTN has to tell the value date.

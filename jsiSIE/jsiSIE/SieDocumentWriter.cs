@@ -18,7 +18,7 @@ namespace jsiSIE
         public class WriteOptions
         {
             public WriteOptions(){
-                this.Encoding = Encoding.GetEncoding(437);
+                this.Encoding = EncodingHelper.GetDefault();;
             }
 
             public bool WriteKSUMMA { get; set; } = false;

@@ -52,10 +52,10 @@ namespace jsiSIE_test
 
         private static void BootstrapTest()
         {
-            string testSourceFolder = @"c:\temp\sie_test_files";
+            string testSourceFolder = @"/home/johan/src/idstam/jsisie/sie_test_files/";
             if (!Directory.Exists(testSourceFolder)) Directory.CreateDirectory(testSourceFolder);
 
-            GetExampleFiles(testSourceFolder);
+            //GetExampleFiles(testSourceFolder);
 
             foreach (var f in Directory.GetFiles(testSourceFolder))
             {
