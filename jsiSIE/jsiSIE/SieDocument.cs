@@ -18,6 +18,10 @@ namespace jsiSIE
         public bool IgnoreBTRANS = false;
         public bool IgnoreMissingOMFATTNING = false;
         public bool IgnoreRTRANS = false;
+
+        public string DateFormat = "yyyyMMdd";
+        public Encoding Encoding = Encoding.GetEncoding(437);
+
         /// <summary>
         /// If this is set to true in ReadFile no period values, balances or transactions will be saved in memory.
         /// Use this in combination with callbacks to stream through a file.
@@ -27,7 +31,7 @@ namespace jsiSIE
         /// <summary>
         /// Calculates KSUMMA
         /// </summary>
-        internal SieCRC32 CRC = new SieCRC32();
+        internal SieCRC32 CRC;
 
         /// <summary>
         /// This is the file currently being read.
@@ -35,7 +39,6 @@ namespace jsiSIE
         private string _fileName;
         public SieDocument()
         {
-
 
         }
 
@@ -167,8 +170,12 @@ namespace jsiSIE
         /// <returns>-1 if no SIE version was found in the file else SIETYPE is returned.</returns>
         public static int GetSieVersion(string fileName)
         {
+            return GetSieVersion(fileName, Encoding.GetEncoding(437));
+        }
+        public static int GetSieVersion(string fileName, Encoding encoding)
+        {
             int ret = -1;
-            foreach (var line in File.ReadLines(fileName, Encoding.GetEncoding(437)))
+            foreach (var line in File.ReadLines(fileName, encoding))
             {
                 if (line.StartsWith("#SIETYP"))
                 {
@@ -224,7 +231,9 @@ namespace jsiSIE
             InitializeDimensions();
             #endregion //Initialize listst
 
-            using (var sr = new StreamReader(stream, Encoding.GetEncoding(437)))
+            CRC = new SieCRC32(this.Encoding);
+            
+            using (var sr = new StreamReader(stream, this.Encoding))
             {
                 if (parseLines(sr)) return;
             }
@@ -786,10 +795,14 @@ namespace jsiSIE
                 (RES.Count > 0 || UB.Count > 0 || OUB.Count > 0)),
                 new SieMissingMandatoryDateException("#OMFATTN is missing in " + _fileName));
 
-            addValidationException(
-                (CRC.Started) &&
-                (KSUMMA == 0),
-                new SieInvalidChecksumException(_fileName));
+            //Ignore KSUMMA for multi byte code pages.
+            if(this.Encoding.IsSingleByte)
+            {
+                addValidationException(
+                    (CRC.Started) &&
+                    (KSUMMA == 0),
+                    new SieInvalidChecksumException(_fileName));
+            }
 
         }
 

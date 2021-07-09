@@ -16,13 +16,15 @@ namespace jsiSIE
 
         private UInt32[] CRCTable = new UInt32[256];
         private UInt32 crc; // Global variabel för att ackumulera CRC 
+        private readonly Encoding _encoding;
 
         // Denna rutin skall anropas för att initiera lookup-tabellen 
         // innan beräkningen påbörjas 
 
-        public SieCRC32()
+        public SieCRC32(Encoding encoding)
         {
             CRC_skapa_tabell();
+            _encoding = encoding;
         }
 
 
@@ -59,14 +61,17 @@ namespace jsiSIE
 
         public void AddData(SieDataItem item)
         {
+            //This CRC implementation can only handle single byte code pages.
+            if(!_encoding.IsSingleByte) return;
+
             var buffer = new List<byte>();
-            var encoder = Encoding.GetEncoding(437);
-            buffer.AddRange(encoder.GetBytes(item.ItemType));
+            
+            buffer.AddRange(_encoding.GetBytes(item.ItemType));
 
             foreach(var d in item.Data)
             {
                 var foo = d.Replace("{", "").Replace("}", "");
-                buffer.AddRange(encoder.GetBytes(foo));    
+                buffer.AddRange(_encoding.GetBytes(foo));    
             }
             CRC_ackumulera(buffer);
         }
