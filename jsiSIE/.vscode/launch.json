@@ -27,7 +27,7 @@
             "WARNING16": "button at the bottom of this file.",
             "WARNING17": "*********************************************************************************",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/<insert-target-framework-here>/<insert-project-name-here>.dll",
+            "program": "${workspaceFolder}/jsiSIE_test_netcore/bin/Debug/net5.0/jsiSIE_test_netcore.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
