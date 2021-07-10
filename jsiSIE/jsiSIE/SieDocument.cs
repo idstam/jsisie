@@ -484,6 +484,9 @@ namespace jsiSIE
             decimal check = 0;
             foreach (var r in v.Rows)
             {
+                if (r.Token == "#RTRANS" && this.IgnoreRTRANS) continue;
+                if (r.Token == "#BTRANS" && this.IgnoreBTRANS) continue;
+
                 check += r.Amount;
             }
             if (check != 0) Callbacks.CallbackException(new SieVoucherMissmatchException(v.Series + "." + v.Number + " Sum is not zero."));
