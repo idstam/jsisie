@@ -1,0 +1,551 @@
+#FLAGGA 0
+#FORMAT PC8
+#SIETYP 1
+#PROGRAM "Visma Eget Aktiebolag" 2011.0
+#GEN 20110114
+#FNAMN "ôvningsfîretaget AB"
+#ORGNR 556252-9155
+#ADRESS "" "Storgatan 19" "123 45 Storstad" ""
+#RAR 0 20100101 20101231
+#KPTYP EUBAS97
+#KONTO 1030 "Patent"
+#KTYP 1030 T
+#SRU 1030 7201
+#KONTO 1060 "HyresrÑtter m m"
+#KTYP 1060 T
+#SRU 1060 7201
+#KONTO 1070 "Goodwill"
+#KTYP 1070 T
+#SRU 1070 7201
+#KONTO 1110 "Byggnader"
+#KTYP 1110 T
+#SRU 1110 7214
+#KONTO 1119 "Ackumulerade avskrivningar byggnader"
+#KTYP 1119 T
+#SRU 1119 7214
+#KONTO 1120 "FîrbÑttring pÜ annans fastighet"
+#KTYP 1120 T
+#SRU 1120 7216
+#KONTO 1130 "Mark"
+#KTYP 1130 T
+#SRU 1130 7214
+#KONTO 1150 "MarkanlÑggningar"
+#KTYP 1150 T
+#SRU 1150 7214
+#KONTO 1159 "Ackumulerade avskrivningar markanlÑggningar"
+#KTYP 1159 T
+#SRU 1159 7214
+#KONTO 1220 "Inventarier"
+#KTYP 1220 T
+#SRU 1220 7215
+#KONTO 1350 "VÑrdepapper"
+#KTYP 1350 T
+#SRU 1350 7233
+#KONTO 1358 "Ack. nedskrivningar av vÑrdepapper"
+#KTYP 1358 T
+#SRU 1358 7233
+#KONTO 1380 "Kapital fîr direktpensionslîften"
+#KTYP 1380 T
+#SRU 1380 7235
+#KONTO 1381 "LÜn till andra aktiebolag"
+#KTYP 1381 T
+#SRU 1381 7235
+#KONTO 1389 "Ack. nedskrivningar av direktpension"
+#KTYP 1389 T
+#SRU 1389 7235
+#KONTO 1400 "Varulager"
+#KTYP 1400 T
+#SRU 1400 7244
+#KONTO 1410 "RÜvaror"
+#KTYP 1410 T
+#SRU 1410 7241
+#KONTO 1440 "Varor under tillverkning"
+#KTYP 1440 T
+#SRU 1440 7242
+#KONTO 1450 "Lager av fÑrdiga egentillverkade varor"
+#KTYP 1450 T
+#SRU 1450 7243
+#KONTO 1460 "Handelsvaror"
+#KTYP 1460 T
+#SRU 1460 7243
+#KONTO 1465 "Lager av VMB-varor"
+#KTYP 1465 T
+#SRU 1465 7243
+#KONTO 1480 "Fîrskott till leverantîrer"
+#KTYP 1480 T
+#SRU 1480 7246
+#KONTO 1490 "ôvriga lagertillgÜngar"
+#KTYP 1490 T
+#SRU 1490 7244
+#KONTO 1500 "Obetalda kundfakturor"
+#KTYP 1500 T
+#SRU 1500 7251
+#KONTO 1510 "Gamla kundfordringar (frÜn IngÜngsvÑrden)"
+#KTYP 1510 T
+#SRU 1510 7251
+#KONTO 1511 "ôvriga fordringar pÜ kunder"
+#KTYP 1511 T
+#SRU 1511 7251
+#KONTO 1600 "ôvriga fordringar"
+#KTYP 1600 T
+#SRU 1600 7261
+#KONTO 1680 "Utlovat aktieÑgartillskott"
+#KTYP 1680 T
+#SRU 1680 7261
+#KONTO 1687 "LÜn till andra aktiebolag (kortfristig del)"
+#KTYP 1687 T
+#SRU 1687 7261
+#KONTO 1700 "Fîrutbetalda kostnader m m"
+#KTYP 1700 T
+#SRU 1700 7263
+#KONTO 1910 "Kassa"
+#KTYP 1910 T
+#SRU 1910 7281
+#KONTO 1940 "Bankkonto"
+#KTYP 1940 T
+#SRU 1940 7281
+#KONTO 1941 "Girokonto"
+#KTYP 1941 T
+#SRU 1941 7281
+#KONTO 2081 "Aktiekapital"
+#KTYP 2081 S
+#SRU 2081 7301
+#KONTO 2086 "Reservfond"
+#KTYP 2086 S
+#SRU 2086 7301
+#KONTO 2091 "Balanserat resultat"
+#KTYP 2091 S
+#SRU 2091 7302
+#KONTO 2099 "Redovisat resultat"
+#KTYP 2099 S
+#SRU 2099 7302
+#KONTO 2110 "Periodiseringsfond tax 2010"
+#KTYP 2110 S
+#SRU 2110 7321
+#KONTO 2111 "Periodiseringsfond tax 2011"
+#KTYP 2111 S
+#SRU 2111 7321
+#KONTO 2125 "Periodiseringsfond tax 2005"
+#KTYP 2125 S
+#SRU 2125 7321
+#KONTO 2126 "Periodiseringsfond tax 2006"
+#KTYP 2126 S
+#SRU 2126 7321
+#KONTO 2127 "Periodiseringsfond tax 2007"
+#KTYP 2127 S
+#SRU 2127 7321
+#KONTO 2128 "Periodiseringsfond tax 2008"
+#KTYP 2128 S
+#SRU 2128 7321
+#KONTO 2129 "Periodiseringsfond tax 2009"
+#KTYP 2129 S
+#SRU 2129 7321
+#KONTO 2150 "Ackumulerade îveravskrivningar"
+#KTYP 2150 S
+#SRU 2150 7322
+#KONTO 2230 "Skuld fîr direktpensionslîften"
+#KTYP 2230 S
+#SRU 2230 7332
+#KONTO 2330 "CheckrÑkningskredit"
+#KTYP 2330 S
+#SRU 2330 7351
+#KONTO 2350 "LÜn som tagits till bolaget"
+#KTYP 2350 S
+#SRU 2350 7352
+#KONTO 2390 "AktieÑgares fordran pÜ bolaget (lÜngfrist)"
+#KTYP 2390 S
+#SRU 2390 7354
+#KONTO 2418 "CheckrÑkningskredit (kortfrist)"
+#KTYP 2418 S
+#SRU 2418 7361
+#KONTO 2419 "LÜn som tagits till bolaget (kortfristig del)"
+#KTYP 2419 S
+#SRU 2419 7361
+#KONTO 2420 "Fîrskott frÜn kunder"
+#KTYP 2420 S
+#SRU 2420 7362
+#KONTO 2421 "Inte inlîsta presentkort"
+#KTYP 2421 S
+#SRU 2421 7362
+#KONTO 2440 "Obetalda fakturor frÜn leverantîrer"
+#KTYP 2440 S
+#SRU 2440 7365
+#KONTO 2441 "Gamla leverantîrsskulder (frÜn IngÜngsvÑrden)"
+#KTYP 2441 S
+#SRU 2441 7365
+#KONTO 2490 "ôvriga skulder"
+#KTYP 2490 S
+#SRU 2490 7369
+#KONTO 2510 "Skatteskulder/fordringar"
+#KTYP 2510 S
+#SRU 2510 7368
+#KONTO 2611 "UtgÜende moms vid fîrsÑljning, 25 %"
+#KTYP 2611 S
+#SRU 2611 7369
+#KONTO 2612 "UtgÜende moms pÜ privata uttag, 25 %"
+#KTYP 2612 S
+#SRU 2612 7369
+#KONTO 2614 "UtgÜende moms pÜ inkîp, 25 %"
+#KTYP 2614 S
+#SRU 2614 7369
+#KONTO 2621 "UtgÜende moms vid fîrsÑljning, 12 %"
+#KTYP 2621 S
+#SRU 2621 7369
+#KONTO 2622 "UtgÜende moms pÜ privata uttag, 12 %"
+#KTYP 2622 S
+#SRU 2622 7369
+#KONTO 2624 "UtgÜende moms pÜ inkîp, 12 %"
+#KTYP 2624 S
+#SRU 2624 7369
+#KONTO 2631 "UtgÜende moms vid fîrsÑljning, 6 %"
+#KTYP 2631 S
+#SRU 2631 7369
+#KONTO 2632 "UtgÜende moms pÜ privata uttag, 6 %"
+#KTYP 2632 S
+#SRU 2632 7369
+#KONTO 2634 "UtgÜende moms pÜ inkîp, 6 %"
+#KTYP 2634 S
+#SRU 2634 7369
+#KONTO 2641 "IngÜende (avdragsgill) moms"
+#KTYP 2641 S
+#SRU 2641 7369
+#KONTO 2645 "IngÜende (avdragsgill) moms, utland"
+#KTYP 2645 S
+#SRU 2645 7369
+#KONTO 2850 "Skattekonto"
+#KTYP 2850 S
+#SRU 2850 7369
+#KONTO 2893 "AktieÑgares fordran pÜ bolaget"
+#KTYP 2893 S
+#SRU 2893 7369
+#KONTO 2900 "Upplupna kostnader m m"
+#KTYP 2900 S
+#SRU 2900 7370
+#KONTO 2920 "Semesterlîneskulder"
+#KTYP 2920 S
+#SRU 2920 7370
+#KONTO 3041 "Momspliktig fîrsÑljning, 25 %"
+#KTYP 3041 I
+#SRU 3041 7410
+#KONTO 3042 "Momspliktig fîrsÑljning, 12 %"
+#KTYP 3042 I
+#SRU 3042 7410
+#KONTO 3043 "Momspliktig fîrsÑljning, 6 %"
+#KTYP 3043 I
+#SRU 3043 7410
+#KONTO 3044 "Momsfri fîrsÑljning"
+#KTYP 3044 I
+#SRU 3044 7410
+#KONTO 3049 "FîrsÑljning med omvÑnd moms"
+#KTYP 3049 I
+#SRU 3049 7410
+#KONTO 3061 "FîrsÑljning av inventarier och maskiner m m, 25%"
+#KTYP 3061 I
+#SRU 3061 7410
+#KONTO 3062 "FîrsÑljning av inventarier och maskiner m m, 12%"
+#KTYP 3062 I
+#SRU 3062 7410
+#KONTO 3063 "FîrsÑljning av inventarier och maskiner m m, 6%"
+#KTYP 3063 I
+#SRU 3063 7410
+#KONTO 3064 "FîrsÑljning av inventarier och maskiner m m, momsfri"
+#KTYP 3064 I
+#SRU 3064 7410
+#KONTO 3071 "FîrsÑljning av hyresrÑtt m m, 25%"
+#KTYP 3071 I
+#SRU 3071 7410
+#KONTO 3074 "FîrsÑljning av hyresrÑtt m m, momsfri"
+#KTYP 3074 I
+#SRU 3074 7410
+#KONTO 3081 "FîrsÑljning av goodwill, 25%"
+#KTYP 3081 I
+#SRU 3081 7410
+#KONTO 3084 "FîrsÑljning av goodwill, momsfri"
+#KTYP 3084 I
+#SRU 3084 7410
+#KONTO 3091 "FîrsÑljning av patent, 25%"
+#KTYP 3091 I
+#SRU 3091 7410
+#KONTO 3094 "FîrsÑljning av patent, momsfri"
+#KTYP 3094 I
+#SRU 3094 7410
+#KONTO 3211 "FîrsÑljning VMB-varor momspliktig del, 25%"
+#KTYP 3211 I
+#SRU 3211 7410
+#KONTO 3213 "FîrsÑljning VMB-varor momspliktig del, 12%"
+#KTYP 3213 I
+#SRU 3213 7410
+#KONTO 3215 "FîrsÑljning VMB-varor momspliktig del, 6%"
+#KTYP 3215 I
+#SRU 3215 7410
+#KONTO 3219 "FîrsÑljning VMB-varor momsfri del"
+#KTYP 3219 I
+#SRU 3219 7410
+#KONTO 3690 "ôvrig momsfri sidointÑkt"
+#KTYP 3690 I
+#SRU 3690 7410
+#KONTO 3740 "ôresavrundning"
+#KTYP 3740 I
+#SRU 3740 7410
+#KONTO 3951 "ôvriga inkomster, momspl. 25 %"
+#KTYP 3951 I
+#SRU 3951 7413
+#KONTO 3952 "ôvriga inkomster, momspl. 12 %"
+#KTYP 3952 I
+#SRU 3952 7413
+#KONTO 3953 "ôvriga inkomster, momspl. 6 %"
+#KTYP 3953 I
+#SRU 3953 7413
+#KONTO 3954 "ôvriga inkomster, momsfria"
+#KTYP 3954 I
+#SRU 3954 7413
+#KONTO 3971 "Vinst pÜ hyresrÑtt, goodwill, patent m m"
+#KTYP 3971 I
+#SRU 3971 7413
+#KONTO 3972 "Vinst pÜ fastighet"
+#KTYP 3972 I
+#SRU 3972 7413
+#KONTO 3973 "Vinst vid fîrsÑljning av inventarier, maskiner m m"
+#KTYP 3973 I
+#SRU 3973 7413
+#KONTO 4010 "Varor och material m m"
+#KTYP 4010 K
+#SRU 4010 7512
+#KONTO 4056 "Inkîp av varor frÜn annat EG-land"
+#KTYP 4056 K
+#SRU 4056 7512
+#KONTO 4211 "Kîp av VMB-varor"
+#KTYP 4211 K
+#SRU 4211 7512
+#KONTO 4910 "Kîp av rÜvaror och fîrnîdenheter"
+#KTYP 4910 K
+#SRU 4910 7511
+#KONTO 4940 "FîrÑndring av lager av egentillverkade varor"
+#KTYP 4940 I
+#SRU 4940 7510
+#KONTO 5000 "Lokalutgifter"
+#KTYP 5000 K
+#SRU 5000 7513
+#KONTO 5100 "Reparation/underhÜll byggnader"
+#KTYP 5100 K
+#SRU 5100 7513
+#KONTO 5191 "Fastighetsskatt"
+#KTYP 5191 K
+#SRU 5191 7513
+#KONTO 5410 "Kîp av inventarier, maskiner m m"
+#KTYP 5410 K
+#SRU 5410 7513
+#KONTO 5610 "Bilutgifter"
+#KTYP 5610 K
+#SRU 5610 7513
+#KONTO 5800 "ôvriga transporter och resor"
+#KTYP 5800 K
+#SRU 5800 7513
+#KONTO 5900 "Reklam- och fîrsÑljningsutgifter"
+#KTYP 5900 K
+#SRU 5900 7513
+#KONTO 6071 "Representation"
+#KTYP 6071 K
+#SRU 6071 7513
+#KONTO 6072 "Inte avdragsgill representation"
+#KTYP 6072 K
+#SRU 6072 7513
+#KONTO 6421 "ErsÑttning fîr revision"
+#KTYP 6421 K
+#SRU 6421 7513
+#KONTO 6422 "ErsÑttning fîr andra uppdrag Ñn revision"
+#KTYP 6422 K
+#SRU 6422 7513
+#KONTO 6551 "Inkîp av tjÑnster frÜn annat EG-land"
+#KTYP 6551 K
+#SRU 6551 7513
+#KONTO 6554 "Inkîp av tjÑnster frÜn land utanfîr EG"
+#KTYP 6554 K
+#SRU 6554 7513
+#KONTO 6990 "Inkîp av tjÑnster med omvÑnd moms"
+#KTYP 6990 K
+#SRU 6990 7513
+#KONTO 6991 "ôvriga externa kostnader"
+#KTYP 6991 K
+#SRU 6991 7513
+#KONTO 6992 "Inte avdragsgilla utgifter"
+#KTYP 6992 K
+#SRU 6992 7513
+#KONTO 7210 "Lîn till îvriga anstÑllda"
+#KTYP 7210 K
+#SRU 7210 7514
+#KONTO 7220 "Lîn till styrelse, VD"
+#KTYP 7220 K
+#SRU 7220 7514
+#KONTO 7321 "Skattefria traktamenten"
+#KTYP 7321 K
+#SRU 7321 7514
+#KONTO 7331 "Skattefri milersÑttning"
+#KTYP 7331 K
+#SRU 7331 7514
+#KONTO 7388 "Betalning frÜn anstÑllda fîr fîrmÜner m m"
+#KTYP 7388 K
+#SRU 7388 7514
+#KONTO 7400 "Pensionskostnader, avdragsgilla"
+#KTYP 7400 K
+#SRU 7400 7514
+#KONTO 7401 "Pensionskostnader, inte avdragsgilla"
+#KTYP 7401 K
+#SRU 7401 7514
+#KONTO 7510 "Arbetsgivaravgifter m m"
+#KTYP 7510 K
+#SRU 7510 7514
+#KONTO 7533 "Lîneskatt pÜ pensionskostnader"
+#KTYP 7533 K
+#SRU 7533 7514
+#KONTO 7600 "ôvriga personalkostnader"
+#KTYP 7600 K
+#SRU 7600 7514
+#KONTO 7813 "Avskrivning pÜ patent"
+#KTYP 7813 K
+#SRU 7813 7515
+#KONTO 7816 "Avskrivning pÜ hyresrÑtter m m"
+#KTYP 7816 K
+#SRU 7816 7515
+#KONTO 7817 "Avskrivning pÜ goodwill"
+#KTYP 7817 K
+#SRU 7817 7515
+#KONTO 7821 "Avskrivning pÜ byggnader"
+#KTYP 7821 K
+#SRU 7821 7515
+#KONTO 7824 "Avskrivning pÜ markanlÑggningar"
+#KTYP 7824 K
+#SRU 7824 7515
+#KONTO 7829 "Avskrivning pÜ annans fastighet"
+#KTYP 7829 K
+#SRU 7829 7515
+#KONTO 7832 "Avskrivningar pÜ inventarier"
+#KTYP 7832 K
+#SRU 7832 7515
+#KONTO 7971 "Fîrlust pÜ hyresrÑtt, goodwill, patent m m"
+#KTYP 7971 K
+#SRU 7971 7517
+#KONTO 7972 "Fîrlust pÜ fastighet"
+#KTYP 7972 K
+#SRU 7972 7517
+#KONTO 7973 "Fîrlust vid fîrsÑljning av inventarier, maskiner m m"
+#KTYP 7973 K
+#SRU 7973 7517
+#KONTO 7990 "ôvriga rîrelsekostnader"
+#KTYP 7990 K
+#SRU 7990 7517
+#KONTO 8210 "Mottagna utdelningar"
+#KTYP 8210 I
+#SRU 8210 7520
+#KONTO 8220 "Vinst/fîrlust pÜ vÑrdepapper"
+#KTYP 8220 I
+#SRU 8220 7520
+#KONTO 8229 "ôvriga, inte skattepliktiga inkomster"
+#KTYP 8229 I
+#SRU 8229 7520
+#KONTO 8250 "èterfîring av nedskrivning av vÑrdepapper m m"
+#KTYP 8250 I
+#SRU 8250 7520
+#KONTO 8252 "èterfîring av nedskrivning av kapital fîr direktpensionslîften"
+#KTYP 8252 I
+#SRU 8252 7520
+#KONTO 8258 "Minskning av skuld fîr direktpensionslîften"
+#KTYP 8258 I
+#SRU 8258 7520
+#KONTO 8259 "ôkning av skuld fîr direktpensionslîften"
+#KTYP 8259 K
+#SRU 8259 7520
+#KONTO 8270 "Nedskrivning av vÑrdepapper m m"
+#KTYP 8270 K
+#SRU 8270 7521
+#KONTO 8272 "Nedskrivning av kapital fîr direktpensionslîften"
+#KTYP 8272 K
+#SRU 8272 7521
+#KONTO 8300 "RÑnteinkomster"
+#KTYP 8300 I
+#SRU 8300 7522
+#KONTO 8314 "IntÑktsrÑnta, skattefri"
+#KTYP 8314 I
+#SRU 8314 7522
+#KONTO 8400 "RÑnteutgifter"
+#KTYP 8400 K
+#SRU 8400 7522
+#KONTO 8423 "KostnadsrÑnta, ej avdragsgill"
+#KTYP 8423 K
+#SRU 8423 7522
+#KONTO 8811 "AvsÑttning till periodiseringsfond"
+#KTYP 8811 K
+#SRU 8811 7525
+#KONTO 8819 "èterfîring av periodiseringsfond"
+#KTYP 8819 I
+#SRU 8819 7420
+#KONTO 8850 "Minskning av îveravskrivningar"
+#KTYP 8850 I
+#SRU 8850 7526
+#KONTO 8910 "èrets bolagsskatt"
+#KTYP 8910 K
+#SRU 8910 7528
+#KONTO 8980 "ôvriga skatter"
+#KTYP 8980 K
+#SRU 8980 7529
+#KONTO 8999 "Redovisat resultat"
+#KTYP 8999 K
+#SRU 8999 7450
+#IB 0 1110 3909.00
+#UB 0 1110 3909.00
+#UB 0 1119 -11.00
+#UB 0 1130 26091.00
+#IB 0 1220 15000.00
+#UB 0 1220 28333.00
+#UB 0 1350 4500.00
+#UB 0 1380 15000.00
+#IB 0 1460 23540.00
+#UB 0 1460 23540.00
+#UB 0 1480 33333.00
+#IB 0 1490 3950.00
+#UB 0 1490 3950.00
+#UB 0 1500 37500.00
+#IB 0 1510 3225.00
+#UB 0 1510 3225.00
+#IB 0 1910 15000.00
+#UB 0 1910 1500.00
+#IB 0 1940 214040.00
+#UB 0 1940 544312.00
+#IB 0 1941 272826.75
+#UB 0 1941 315326.75
+#IB 0 2081 -100000.00
+#UB 0 2081 -100000.00
+#IB 0 2091 -75000.00
+#UB 0 2091 -160298.75
+#IB 0 2099 -85298.75
+#UB 0 2099 -193826.00
+#UB 0 2230 -15000.00
+#IB 0 2350 -200000.00
+#UB 0 2350 -200000.00
+#UB 0 2440 -18125.00
+#IB 0 2441 -2175.00
+#UB 0 2441 -2175.00
+#IB 0 2510 -27053.00
+#UB 0 2510 -241884.00
+#IB 0 2850 -8055.00
+#UB 0 2850 -16667.00
+#IB 0 2893 -50000.00
+#UB 0 2893 -50000.00
+#UB 0 2900 -33333.00
+#UB 0 2920 -9200.00
+#RES 0 3041 -425000.00
+#RES 0 3973 -19000.00
+#RES 0 4010 -33333.00
+#RES 0 6421 34567.00
+#RES 0 6422 16800.00
+#RES 0 6991 14500.00
+#RES 0 7210 27300.00
+#RES 0 7220 56700.00
+#RES 0 7400 11944.00
+#RES 0 7401 15000.00
+#RES 0 7510 23600.00
+#RES 0 7533 2897.00
+#RES 0 7821 11.00
+#RES 0 7832 5667.00
+#RES 0 8910 74521.00
+#RES 0 8999 193826.00

@@ -1,0 +1,353 @@
+#FLAGGA 0
+#FORMAT PC8
+#SIETYP 1
+#PROGRAM "Visma Enskild Firma" 2011.0
+#GEN 20110114
+#FNAMN "™vningsf”retaget"
+#ORGNR 222222-2222
+#ADRESS "" "Storgatan 1" "352 00 V„xj”" ""
+#RAR 0 20100101 20101231
+#KPTYP EUBAS97
+#KONTO 1060 "Hyresr„tter m m"
+#KTYP 1060 T
+#SRU 1060 7200
+#KONTO 1070 "Goodwill"
+#KTYP 1070 T
+#SRU 1070 7200
+#KONTO 1110 "Byggnader"
+#KTYP 1110 T
+#SRU 1110 7210
+#KONTO 1119 "Ackumulerade avskrivningar byggnader"
+#KTYP 1119 T
+#SRU 1119 7210
+#KONTO 1120 "F”rb„ttring p† annans fastighet"
+#KTYP 1120 T
+#SRU 1120 7210
+#KONTO 1130 "Mark"
+#KTYP 1130 T
+#SRU 1130 7211
+#KONTO 1150 "Markanl„ggningar"
+#KTYP 1150 T
+#SRU 1150 7210
+#KONTO 1159 "Ackumulerade avskrivningar markanl„ggningar"
+#KTYP 1159 T
+#SRU 1159 7210
+#KONTO 1220 "Inventarier"
+#KTYP 1220 T
+#SRU 1220 7212
+#KONTO 1360 "Insatskonto"
+#KTYP 1360 T
+#SRU 1360 7213
+#KONTO 1400 "Varulager"
+#KTYP 1400 T
+#SRU 1400 7240
+#KONTO 1465 "Lager av VMB-varor"
+#KTYP 1465 T
+#SRU 1465 7240
+#KONTO 1500 "Obetalda kundfakturor"
+#KTYP 1500 T
+#SRU 1500 7250
+#KONTO 1510 "Gamla kundfordringar (fr†n Ing†ngsv„rden)"
+#KTYP 1510 T
+#SRU 1510 7250
+#KONTO 1511 "™vriga fordringar p† kunder"
+#KTYP 1511 T
+#SRU 1511 7250
+#KONTO 1600 "™vriga fordringar"
+#KTYP 1600 T
+#SRU 1600 7260
+#KONTO 1910 "Kassa"
+#KTYP 1910 T
+#SRU 1910 7280
+#KONTO 1940 "Bankkonto"
+#KTYP 1940 T
+#SRU 1940 7280
+#KONTO 1941 "Girokonto"
+#KTYP 1941 T
+#SRU 1941 7280
+#KONTO 1942 "F”reningskonto"
+#KTYP 1942 T
+#SRU 1942 7280
+#KONTO 1973 "Skogskonto"
+#KTYP 1973 T
+#SRU 1973 7280
+#KONTO 2010 "Eget kapital"
+#KTYP 2010 S
+#SRU 2010
+#KONTO 2013 "F”retagarens eget uttag av pengar"
+#KTYP 2013 S
+#SRU 2013
+#KONTO 2014 "Uttag av f”rm†ner"
+#KTYP 2014 S
+#SRU 2014
+#KONTO 2017 "F”retagarens egen ins„ttning av pengar"
+#KTYP 2017 S
+#SRU 2017
+#KONTO 2300 "L†n som tagits till firman"
+#KTYP 2300 S
+#SRU 2300 7380
+#KONTO 2421 "Inte inl”sta presentkort"
+#KTYP 2421 S
+#SRU 2421 7383
+#KONTO 2440 "Obetalda fakturor fr†n leverant”rer"
+#KTYP 2440 S
+#SRU 2440 7382
+#KONTO 2441 "Gamla leverant”rsskulder (fr†n Ing†ngsv„rden)"
+#KTYP 2441 S
+#SRU 2441 7382
+#KONTO 2490 "™vriga skulder"
+#KTYP 2490 S
+#SRU 2490 7383
+#KONTO 2510 "Skuld skatter, avgifter f”r anst„llda"
+#KTYP 2510 S
+#SRU 2510 7381
+#KONTO 2611 "Utg†ende moms vid f”rs„ljning, 25 %"
+#KTYP 2611 S
+#SRU 2611 7381
+#KONTO 2612 "Utg†ende moms p† privata uttag, 25 %"
+#KTYP 2612 S
+#SRU 2612 7381
+#KONTO 2614 "Utg†ende moms p† ink”p, 25 %"
+#KTYP 2614 S
+#SRU 2614 7381
+#KONTO 2621 "Utg†ende moms vid f”rs„ljning, 12 %"
+#KTYP 2621 S
+#SRU 2621 7381
+#KONTO 2622 "Utg†ende moms p† privata uttag, 12 %"
+#KTYP 2622 S
+#SRU 2622 7381
+#KONTO 2624 "Utg†ende moms p† ink”p, 12 %"
+#KTYP 2624 S
+#SRU 2624 7381
+#KONTO 2631 "Utg†ende moms vid f”rs„ljning, 6 %"
+#KTYP 2631 S
+#SRU 2631 7381
+#KONTO 2632 "Utg†ende moms p† privata uttag, 6 %"
+#KTYP 2632 S
+#SRU 2632 7381
+#KONTO 2634 "Utg†ende moms p† ink”p, 6 %"
+#KTYP 2634 S
+#SRU 2634 7381
+#KONTO 2641 "Ing†ende (avdragsgill) moms"
+#KTYP 2641 S
+#SRU 2641 7381
+#KONTO 2645 "Ing†ende (avdragsgill) moms, utland"
+#KTYP 2645 S
+#SRU 2645 7381
+#KONTO 2650 "Momsskuld/fordran"
+#KTYP 2650 S
+#SRU 2650 7381
+#KONTO 3021 "Privata uttag av varor m m, 25 %"
+#KTYP 3021 I
+#SRU 3021 7400
+#KONTO 3022 "Privata uttag av varor m m, 12 %"
+#KTYP 3022 I
+#SRU 3022 7400
+#KONTO 3023 "Privata uttag av varor m m, 6 %"
+#KTYP 3023 I
+#SRU 3023 7400
+#KONTO 3041 "Momspliktig f”rs„ljning, 25 %"
+#KTYP 3041 I
+#SRU 3041 7400
+#KONTO 3042 "Momspliktig f”rs„ljning, 12 %"
+#KTYP 3042 I
+#SRU 3042 7400
+#KONTO 3043 "Momspliktig f”rs„ljning, 6 %"
+#KTYP 3043 I
+#SRU 3043 7400
+#KONTO 3044 "Momsfri f”rs„ljning"
+#KTYP 3044 I
+#SRU 3044 7401
+#KONTO 3049 "F”rs„ljning med omv„nd moms"
+#KTYP 3049 I
+#SRU 3049 7400
+#KONTO 3054 "Privata uttag av varor m m, 0 %"
+#KTYP 3054 I
+#SRU 3054 7401
+#KONTO 3061 "F”rs„ljning av inventarier och maskiner m m, 25%"
+#KTYP 3061 I
+#SRU 3061 7400
+#KONTO 3062 "F”rs„ljning av inventarier och maskiner m m, 12%"
+#KTYP 3062 I
+#SRU 3062 7400
+#KONTO 3063 "F”rs„ljning av inventarier och maskiner m m, 6%"
+#KTYP 3063 I
+#SRU 3063 7400
+#KONTO 3064 "F”rs„ljning av inventarier och maskiner m m, momsfri"
+#KTYP 3064 I
+#SRU 3064 7401
+#KONTO 3071 "F”rs„ljning av hyresr„tt m m, 25%"
+#KTYP 3071 I
+#SRU 3071 7400
+#KONTO 3074 "F”rs„ljning av hyresr„tt m m, momsfri"
+#KTYP 3074 I
+#SRU 3074 7401
+#KONTO 3081 "F”rs„ljning av goodwill, 25%"
+#KTYP 3081 I
+#SRU 3081 7400
+#KONTO 3084 "F”rs„ljning av goodwill, momsfri"
+#KTYP 3084 I
+#SRU 3084 7401
+#KONTO 3200 "F”rm†ner"
+#KTYP 3200 I
+#SRU 3200 7402
+#KONTO 3211 "F”rs„ljning VMB-varor momspliktig del, 25%"
+#KTYP 3211 I
+#SRU 3211 7400
+#KONTO 3213 "F”rs„ljning VMB-varor momspliktig del, 12%"
+#KTYP 3213 I
+#SRU 3213 7400
+#KONTO 3215 "F”rs„ljning VMB-varor momspliktig del, 6%"
+#KTYP 3215 I
+#SRU 3215 7400
+#KONTO 3219 "F”rs„ljning VMB-varor momsfri del"
+#KTYP 3219 I
+#SRU 3219 7400
+#KONTO 3690 "™vrig momsfri sidoint„kt"
+#KTYP 3690 I
+#SRU 3690 7401
+#KONTO 3740 "™resavrundning"
+#KTYP 3740 I
+#SRU 3740 7400
+#KONTO 3951 "™vriga inkomster, momspl. 25 %"
+#KTYP 3951 I
+#SRU 3951 7400
+#KONTO 3952 "™vriga inkomster, momspl. 12 %"
+#KTYP 3952 I
+#SRU 3952 7400
+#KONTO 3953 "™vriga inkomster, momspl. 6 %"
+#KTYP 3953 I
+#SRU 3953 7400
+#KONTO 3954 "™vriga inkomster, momsfria"
+#KTYP 3954 I
+#SRU 3954 7401
+#KONTO 3971 "Vinst p† hyresr„tt, goodwill m m"
+#KTYP 3971 I
+#SRU 3971 7401
+#KONTO 3972 "Vinst p† fastighet"
+#KTYP 3972 I
+#SRU 3972 7401
+#KONTO 4010 "Varor och material m m"
+#KTYP 4010 K
+#SRU 4010 7500
+#KONTO 4056 "Ink”p av varor fr†n annat EG-land"
+#KTYP 4056 K
+#SRU 4056 7500
+#KONTO 4211 "K”p av VMB-varor"
+#KTYP 4211 K
+#SRU 4211 7500
+#KONTO 5000 "Lokalutgifter"
+#KTYP 5000 K
+#SRU 5000 7501
+#KONTO 5100 "Reparation/underh†ll byggnader"
+#KTYP 5100 K
+#SRU 5100 7501
+#KONTO 5410 "K”p av inventarier, maskiner m m"
+#KTYP 5410 K
+#SRU 5410 7501
+#KONTO 5609 "Skattefri milers„ttning"
+#KTYP 5609 K
+#SRU 5609 7501
+#KONTO 5610 "Bilutgifter"
+#KTYP 5610 K
+#SRU 5610 7501
+#KONTO 5800 "™vriga transporter och resor"
+#KTYP 5800 K
+#SRU 5800 7501
+#KONTO 5900 "Reklam- och f”rs„ljningsutgifter"
+#KTYP 5900 K
+#SRU 5900 7501
+#KONTO 6071 "Representation"
+#KTYP 6071 K
+#SRU 6071 7501
+#KONTO 6072 "Inte avdragsgill representation"
+#KTYP 6072 K
+#SRU 6072 7501
+#KONTO 6551 "Ink”p av tj„nster fr†n annat EG-land"
+#KTYP 6551 K
+#SRU 6551 7501
+#KONTO 6554 "Ink”p av tj„nster fr†n land utanf”r EG"
+#KTYP 6554 K
+#SRU 6554 7501
+#KONTO 6990 "Ink”p av tj„nster med omv„nd moms"
+#KTYP 6990 K
+#SRU 6990 7501
+#KONTO 6991 "™vriga utgifter"
+#KTYP 6991 K
+#SRU 6991 7501
+#KONTO 6992 "Inte avdragsgilla utgifter"
+#KTYP 6992 K
+#SRU 6992 7501
+#KONTO 7210 "L”n m m"
+#KTYP 7210 K
+#SRU 7210 7502
+#KONTO 7510 "Arbetsgivaravgifter m m"
+#KTYP 7510 K
+#SRU 7510 7502
+#KONTO 7600 "™vriga personalkostnader"
+#KTYP 7600 K
+#SRU 7600 7502
+#KONTO 7816 "Avskrivning p† hyresr„tter m m"
+#KTYP 7816 K
+#SRU 7816 7505
+#KONTO 7817 "Avskrivning p† goodwill"
+#KTYP 7817 K
+#SRU 7817 7505
+#KONTO 7821 "Avskrivning p† byggnader"
+#KTYP 7821 K
+#SRU 7821 7504
+#KONTO 7824 "Avskrivning p† markanl„ggningar"
+#KTYP 7824 K
+#SRU 7824 7504
+#KONTO 7829 "Avskrivning p† annans fastighet"
+#KTYP 7829 K
+#SRU 7829 7504
+#KONTO 7832 "Avskrivningar p† inventarier"
+#KTYP 7832 K
+#SRU 7832 7505
+#KONTO 7971 "F”rlust p† hyresr„tt, goodwill m m"
+#KTYP 7971 K
+#SRU 7971 7503
+#KONTO 7972 "F”rlust p† fastighet"
+#KTYP 7972 K
+#SRU 7972 7503
+#KONTO 8300 "R„nteinkomster"
+#KTYP 8300 I
+#SRU 8300 7403
+#KONTO 8400 "R„nteutgifter"
+#KTYP 8400 K
+#SRU 8400 7503
+#IB 0 1220 16000.00
+#UB 0 1220 8000.00
+#UB 0 1400 48500.00
+#IB 0 1465 88888.00
+#UB 0 1465 58888.00
+#IB 0 1510 2500.00
+#UB 0 1510 2500.00
+#IB 0 1910 50000.00
+#UB 0 1910 49849.50
+#IB 0 1940 35000.00
+#UB 0 1940 35278.00
+#IB 0 1941 135000.00
+#UB 0 1941 208664.68
+#IB 0 2010 -162388.00
+#UB 0 2010 -236130.93
+#IB 0 2300 -160000.00
+#UB 0 2300 -160000.00
+#UB 0 2421 998.75
+#UB 0 2440 -3000.00
+#IB 0 2441 -5000.00
+#UB 0 2441 -5000.00
+#UB 0 2650 -8548.00
+#RES 0 3041 -30823.00
+#RES 0 3211 -8000.00
+#RES 0 3219 -30000.00
+#RES 0 3740 0.32
+#RES 0 3951 -3223.75
+#RES 0 4010 -43860.00
+#RES 0 4211 30000.00
+#RES 0 5410 3536.00
+#RES 0 5609 425.50
+#RES 0 6991 480.00
+#RES 0 7832 8000.00
+#RES 0 8300 -396.00

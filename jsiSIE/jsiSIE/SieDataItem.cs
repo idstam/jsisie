@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 
 namespace jsiSIE
@@ -164,19 +165,24 @@ namespace jsiSIE
         {
             if (Data.Count <= field) return null;
 
-            var foo = Data[field].Trim();
+            var fieldDate = Data[field].Trim();
 
-            if (string.IsNullOrEmpty(foo)) return null;
+            if (string.IsNullOrEmpty(fieldDate)) return null;
 
-            if (foo.Length != 8) Document.Callbacks.CallbackException(new SieDateException(foo + " is not a valid date"));
-            int y;
-            int m;
-            int d;
-            if (!int.TryParse(foo.Substring(0, 4), out y)) Document.Callbacks.CallbackException(new SieDateException(foo + " doesn't contain a valid year."));
-            if (!int.TryParse(foo.Substring(4, 2), out m)) Document.Callbacks.CallbackException(new SieDateException(foo + " doesn't contain a valid month."));
-            if (!int.TryParse(foo.Substring(6, 2), out d)) Document.Callbacks.CallbackException(new SieDateException(foo + " doesn't contain a valid day."));
+            if(fieldDate == "00000000") return null;
 
-            return new DateTime(y, m, d);
+            var dateFormat = this.Document.DateFormat;
+            DateTime parsedDateTime;
+            
+            if(!DateTime.TryParseExact(fieldDate,dateFormat, CultureInfo.InvariantCulture,DateTimeStyles.None, out parsedDateTime))
+            {
+                Document.Callbacks.CallbackException(new SieDateException($"{fieldDate} is not a valid date (raw data: '{this.RawData}', date format: {dateFormat})"));
+                return null;
+            }
+            else
+            {
+                return parsedDateTime;
+            }
         }
 
         internal List<SieObject> GetObjects()

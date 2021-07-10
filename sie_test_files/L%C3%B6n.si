@@ -1,0 +1,27 @@
+#FLAGGA 0
+#FORMAT PC8
+#SIETYP 4
+#PROGRAM "Visma L”n 100" "2012.1 "
+#GEN 20120926
+#FNAMN "™vningsbolaget L”n 100"
+#ORGNR 555555-5555
+#KPTYP EUBAS97
+#KONTO 1930 "F”retagskonto/checkkonto/aff„rskonto"
+#KONTO 2710 "Personalens k„llskatt"
+#KONTO 2940 "Upplupna sociala avgifter och andra avgifter"
+#KONTO 7010 "L”n till kollektivanst„llda"
+#KONTO 7210 "L”n tj„nstem„n"
+#KONTO 7385 "Kostnader f”r fri bil/fri bensin"
+#KONTO 7399 "Motkontering av f”rm†n"
+#KONTO 7510 "Arbetsgivaravgifter"
+#VER "" "" 20120425 "L”nek”rning: 2012-04-25 - Ordinarie l”n" 20120926
+{
+    #TRANS 1930 {} -32934
+    #TRANS 2710 {} -11716
+    #TRANS 2940 {} -15099.82
+    #TRANS 7010 {} 12750
+    #TRANS 7210 {} 31900
+    #TRANS 7385 {} 3408
+    #TRANS 7399 {} -3408
+    #TRANS 7510 {} 15099.82
+}

@@ -18,6 +18,11 @@ namespace jsiSIE
         public bool IgnoreBTRANS = false;
         public bool IgnoreMissingOMFATTNING = false;
         public bool IgnoreRTRANS = false;
+        public bool IgnoreMissingDate = true;
+
+        public string DateFormat = "yyyyMMdd";
+        public Encoding Encoding;
+
         /// <summary>
         /// If this is set to true in ReadFile no period values, balances or transactions will be saved in memory.
         /// Use this in combination with callbacks to stream through a file.
@@ -27,7 +32,7 @@ namespace jsiSIE
         /// <summary>
         /// Calculates KSUMMA
         /// </summary>
-        internal SieCRC32 CRC = new SieCRC32();
+        internal SieCRC32 CRC;
 
         /// <summary>
         /// This is the file currently being read.
@@ -35,8 +40,7 @@ namespace jsiSIE
         private string _fileName;
         public SieDocument()
         {
-
-
+            this.Encoding = EncodingHelper.GetDefault();
         }
 
 
@@ -167,8 +171,12 @@ namespace jsiSIE
         /// <returns>-1 if no SIE version was found in the file else SIETYPE is returned.</returns>
         public static int GetSieVersion(string fileName)
         {
+            return GetSieVersion(fileName, EncodingHelper.GetDefault());
+        }
+        public static int GetSieVersion(string fileName, Encoding encoding)
+        {
             int ret = -1;
-            foreach (var line in File.ReadLines(fileName, Encoding.GetEncoding(437)))
+            foreach (var line in File.ReadLines(fileName, encoding))
             {
                 if (line.StartsWith("#SIETYP"))
                 {
@@ -224,7 +232,9 @@ namespace jsiSIE
             InitializeDimensions();
             #endregion //Initialize listst
 
-            using (var sr = new StreamReader(stream, Encoding.GetEncoding(437)))
+            CRC = new SieCRC32(this.Encoding);
+            
+            using (var sr = new StreamReader(stream, this.Encoding))
             {
                 if (parseLines(sr)) return;
             }
@@ -474,6 +484,9 @@ namespace jsiSIE
             decimal check = 0;
             foreach (var r in v.Rows)
             {
+                if (r.Token == "#RTRANS" && this.IgnoreRTRANS) continue;
+                if (r.Token == "#BTRANS" && this.IgnoreBTRANS) continue;
+
                 check += r.Amount;
             }
             if (check != 0) Callbacks.CallbackException(new SieVoucherMissmatchException(v.Series + "." + v.Number + " Sum is not zero."));
@@ -775,7 +788,9 @@ namespace jsiSIE
         private void validateDocument()
         {
 
-            addValidationException((!GEN_DATE.HasValue),
+            addValidationException((
+                !IgnoreMissingDate &&
+                !GEN_DATE.HasValue),
                 new SieMissingMandatoryDateException("#GEN Date is missing in " + _fileName));
 
             //If there are period values #OMFATTN has to tell the value date.
@@ -786,10 +801,14 @@ namespace jsiSIE
                 (RES.Count > 0 || UB.Count > 0 || OUB.Count > 0)),
                 new SieMissingMandatoryDateException("#OMFATTN is missing in " + _fileName));
 
-            addValidationException(
-                (CRC.Started) &&
-                (KSUMMA == 0),
-                new SieInvalidChecksumException(_fileName));
+            //Ignore KSUMMA for multi byte code pages.
+            if(this.Encoding.IsSingleByte)
+            {
+                addValidationException(
+                    (CRC.Started) &&
+                    (KSUMMA == 0),
+                    new SieInvalidChecksumException(_fileName));
+            }
 
         }
 

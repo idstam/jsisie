@@ -1,0 +1,415 @@
+#FLAGGA 0
+#PROGRAM "Magenta Bokfîring" "2011:1"
+#FORMAT PC8
+#GEN 20110224
+#SIETYP 4
+#FNR "FTG0"
+#ORGNR "112233-4567"
+#FNAMN "TESTFôRETAGET AB"
+#ADRESS "" "" "" ""
+#PROSA Kontoplanstyp Ñr BAS2011
+#KPTYP EUBAS97
+#FTYP AB
+#RAR 0  20110101 20111231
+#RAR -1 20100101 20101231
+#OMFATTN 20110131
+#TAXAR 2011
+#PROSA "@POSTGIRO "
+#PROSA "@BANKGIRO "
+#KONTO 0351 "Fîrs varor inom Sverige, oredu"
+#KONTO 0353 "Fîrs varor inom Sverige, red 2"
+#KONTO 0355 "ExportfîrsÑljning utanfîr EU"
+#KONTO 0356 "Fîrs varor till annat EU-land,"
+#KONTO 0399 "Fîrdelad fîrsÑljning"
+#KONTO 0466 "Inkîp varor frÜn EU-land, ored"
+#KONTO 0469 "Fîrdelade inkîp frÜn utlander"
+#KONTO 1210 "Maskiner och andra tekn anl"
+#SRU 1210 7215
+#KONTO 1219 "Ack avskr mask/andra tekn anl"
+#SRU 1219 7215
+#KONTO 1220 "Inventarier och verktyg"
+#SRU 1220 7215
+#KONTO 1229 "Ack avskrivning inventarier"
+#SRU 1229 7215
+#KONTO 1240 "Bilar och andra transportmedel"
+#SRU 1240 7215
+#KONTO 1249 "Ack avskr bilar/transportmedel"
+#SRU 1249 7215
+#KONTO 1251 "Datorer, fîretaget"
+#SRU 1251 7215
+#KONTO 1257 "Datorer, personal"
+#SRU 1257 7215
+#KONTO 1259 "Ack avskr datorer"
+#SRU 1259 7215
+#KONTO 1290 "ôvr maskiner och inventarier"
+#SRU 1290 7215
+#KONTO 1380 "Andra lÜngfristiga fordringar"
+#SRU 1380 7235
+#KONTO 1400 "Lager"
+#SRU 1400 7241
+#KONTO 1510 "Kundfordringar"
+#SRU 1510 7251
+#KONTO 1610 "Kortfr fordr hos anstÑllda"
+#SRU 1610 7261
+#KONTO 1630 "Skattekonto"
+#SRU 1630 7261
+#KONTO 1640 "Skattefordringar"
+#SRU 1640 7261
+#KONTO 1650 "Momsfordran"
+#SRU 1650 7261
+#KONTO 1680 "Andra kortfristiga fordringar"
+#SRU 1680 7261
+#KONTO 1710 "Fîrutbetalda hyresutgifter"
+#SRU 1710 7263
+#KONTO 1730 "Fîrutbet fîrsÑkringspremier"
+#SRU 1730 7263
+#KONTO 1910 "Kassa"
+#SRU 1910 7281
+#KONTO 1920 "PlusGiro"
+#SRU 1920 7281
+#KONTO 1930 "Bank"
+#SRU 1930 7281
+#KONTO 2081 "Aktiekapital"
+#SRU 2081 7301
+#KONTO 2086 "Reservfond"
+#SRU 2086 7301
+#KONTO 2091 "Balanserad vinst/fîrlust"
+#SRU 2091 7302
+#KONTO 2098 "Vinst/fîrlust fîregÜende Ür"
+#SRU 2098 7302
+#KONTO 2099 "èrets resultat"
+#SRU 2099 7302
+#KONTO 2110 "Periodiseringsfond tax 2010"
+#SRU 2110 7321
+#KONTO 2111 "Periodiseringsfond tax 2011"
+#SRU 2111 7321
+#KONTO 2210 "AvsÑttningar fîr pensioner"
+#SRU 2210 7331
+#KONTO 2250 "AvsÑttningar fîr skatter"
+#SRU 2250 7333
+#KONTO 2290 "ôvriga avsÑttningar"
+#SRU 2290 7333
+#KONTO 2330 "CheckrÑkningskredit"
+#SRU 2330 7351
+#KONTO 2410 "Kortfr lÜneskulder kreditinst"
+#SRU 2410 7361
+#KONTO 2420 "Fîrskott frÜn kunder"
+#SRU 2420 7362
+#KONTO 2430 "PÜgÜende arbeten"
+#SRU 2430 7363
+#KONTO 2440 "Leverantîrsskulder"
+#SRU 2440 7365
+#KONTO 2510 "Skatteskulder"
+#SRU 2510 7368
+#KONTO 2610 "UtgÜende moms, oreducerad"
+#SRU 2610 7369
+#KONTO 2615 "Ber utg m varufîrv EU, ored"
+#SRU 2615 7369
+#KONTO 2630 "UtgÜende moms, reducerad 2"
+#SRU 2630 7369
+#KONTO 2640 "IngÜende moms"
+#SRU 2640 7369
+#KONTO 2645 "Ber ing moms utlandsfîrvÑrv"
+#SRU 2645 7369
+#KONTO 2650 "Redovisningskonto fîr moms"
+#SRU 2650 7369
+#KONTO 2710 "PersonalkÑllskatt"
+#SRU 2710 7369
+#KONTO 2730 "Lagstad soc avg/sÑrsk lînesk"
+#SRU 2730 7369
+#KONTO 2760 "Semestermedel"
+#SRU 2760 7369
+#KONTO 2840 "Kortfristiga lÜneskulder"
+#SRU 2840 7369
+#KONTO 2910 "Upplupna lîner"
+#SRU 2910 7370
+#KONTO 2921 "Upplupna semesterlîner"
+#SRU 2921 7370
+#KONTO 2940 "Uppl lagstadgade sociala avg"
+#SRU 2940 7370
+#KONTO 2945 "BerÑknad uppl sÑrskild sjukfîr"
+#SRU 2945 7370
+#KONTO 2990 "ôvr uppl kostn/fîrutbet int"
+#SRU 2990 7370
+#KONTO 3010 "FîrsÑljning produkt A-1"
+#SRU 3010 7410
+#KONTO 3020 "FîrsÑljning produkt A-2"
+#SRU 3020 7410
+#KONTO 3110 "FîrsÑljning produkt B-1"
+#SRU 3110 7410
+#KONTO 3120 "FîrsÑljning produkt B-2"
+#SRU 3120 7410
+#KONTO 3500 "Fakturerade kostnader"
+#SRU 3500 7410
+#KONTO 3600 "Rîrelsens sidointÑkter"
+#SRU 3600 7410
+#KONTO 3740 "ôresavrundning"
+#SRU 3740 7410
+#KONTO 3970 "Vinst avyttr imm/mat anl.tillg"
+#SRU 3970 7413
+#KONTO 3999 "ôvriga rîrelseintÑkter"
+#SRU 3999 7413
+#KONTO 4010 "Inkîp produkt A-1"
+#SRU 4010 7511
+#KONTO 4020 "Inkîp produkt A-2"
+#SRU 4020 7511
+#KONTO 4110 "Inkîp produkt B-1"
+#SRU 4110 7511
+#KONTO 4120 "Inkîp produkt B-2"
+#SRU 4120 7511
+#KONTO 4900 "FîrÑndring av lager"
+#SRU 4900 7411
+#KONTO 5010 "Lokalhyra"
+#SRU 5010 7513
+#KONTO 5020 "El fîr belysning"
+#SRU 5020 7513
+#KONTO 5030 "VÑrme"
+#SRU 5030 7513
+#KONTO 5040 "Vatten och avlopp"
+#SRU 5040 7513
+#KONTO 5050 "Lokaltillbehîr"
+#SRU 5050 7513
+#KONTO 5070 "Reparation/underhÜll av lokale"
+#SRU 5070 7513
+#KONTO 5120 "El fîr belysning"
+#SRU 5120 7513
+#KONTO 5130 "VÑrme"
+#SRU 5130 7513
+#KONTO 5140 "Vatten och avlopp"
+#SRU 5140 7513
+#KONTO 5160 "StÑdning och renhÜllning"
+#SRU 5160 7513
+#KONTO 5170 "Rep/underhÜll av fastighet"
+#SRU 5170 7513
+#KONTO 5190 "ôvriga fastighetskostnader"
+#SRU 5190 7513
+#KONTO 5200 "Hyra av anlÑggningstillgÜngar"
+#SRU 5200 7513
+#KONTO 5300 "Energikostnader"
+#SRU 5300 7513
+#KONTO 5400 "Fîrbrukn.inv/fîrbrukn.mtrl"
+#SRU 5400 7513
+#KONTO 5500 "Reparation och underhÜll"
+#SRU 5500 7513
+#KONTO 5600 "Kostnader fîr transportmedel"
+#SRU 5600 7513
+#KONTO 5710 "Frakt/transp/fîrsÑkr varudistr"
+#SRU 5710 7513
+#KONTO 5800 "Resekostnader"
+#SRU 5800 7513
+#KONTO 5900 "Reklam och PR"
+#SRU 5900 7513
+#KONTO 6000 "ôvriga fîrsÑljningskostnader"
+#SRU 6000 7513
+#KONTO 6071 "Representation, avdragsgill"
+#SRU 6071 7513
+#KONTO 6072 "Representation, ej avdragsgill"
+#SRU 6072 7513
+#KONTO 6090 "ôvriga fîrsÑljningskostnader"
+#SRU 6090 7513
+#KONTO 6100 "Kontorsmateriel och trycksaker"
+#SRU 6100 7513
+#KONTO 6200 "Tele och post"
+#SRU 6200 7513
+#KONTO 6310 "FîretagsfîrsÑkringar"
+#SRU 6310 7513
+#KONTO 6350 "Fîrluster pÜ kundfordringar"
+#SRU 6350 7513
+#KONTO 6420 "Revisionsarvoden"
+#SRU 6420 7513
+#KONTO 6500 "ôvriga externa tjÑnster"
+#SRU 6500 7513
+#KONTO 6570 "Bankkostnader"
+#SRU 6570 7513
+#KONTO 6900 "ôvriga externa kostnader"
+#SRU 6900 7513
+#KONTO 7010 "Lîn Stina"
+#SRU 7010 7514
+#KONTO 7020 "Lîn Bengt"
+#SRU 7020 7514
+#KONTO 7090 "FîrÑndring av semesterlîneskul"
+#SRU 7090 7514
+#KONTO 7210 "Lîner till tjÑnstemÑn"
+#SRU 7210 7514
+#KONTO 7331 "Skattefria bilersÑttningar"
+#SRU 7331 7514
+#KONTO 7410 "PensionsfîrsÑkringspremier"
+#SRU 7410 7514
+#KONTO 7510 "Lagstadgade sociala avgifter"
+#SRU 7510 7514
+#KONTO 7520 "Lagstadgade soc avg (nya pensi"
+#SRU 7520 7514
+#KONTO 7530 "SÑrskild lîneskatt"
+#SRU 7530 7514
+#KONTO 7600 "ôvriga personalkostnader"
+#SRU 7600 7514
+#KONTO 7621 "Sjuk- o hÑlsovÜrd, avdragsgill"
+#SRU 7621 7514
+#KONTO 7830 "Avskrivn maskiner/inventarier"
+#SRU 7830 7515
+#KONTO 7990 "ôvriga rîrelsekostnader"
+#SRU 7990 7517
+#KONTO 8200 "RÑnteint frÜn anlÑggningstillg"
+#SRU 8200 7416
+#KONTO 8300 "RÑnteintÑkter"
+#SRU 8300 7417
+#KONTO 8400 "RÑntekostnader"
+#SRU 8400 7522
+#KONTO 8890 "ôvriga bokslutsdispositioner"
+#SRU 8890 7422
+#KONTO 8910 "Skatt Ürets besk.bara resultat"
+#SRU 8910 7528
+#KONTO 8980 "ôvriga skatter"
+#SRU 8980 7529
+#KONTO 8999 "èrets resultat"
+#SRU 8999 7550
+#KONTO 9301 "Inarbetad semester Stina"
+#KONTO 9302 "Inarbetad semester Bengt"
+#KONTO 9399 "Fîrdelad inarbetad semester"
+#KONTO 9501 "Semesterlîneuttag Stina"
+#KONTO 9502 "Semesterlîneuttag Bengt"
+#KONTO 9599 "Fîrdelat semesterlîneuttag"
+#KONTO 9701 "Prel skatt Stina"
+#KONTO 9702 "Prel skatt Bengt"
+#KONTO 9799 "Fîrdelad prel skatt"
+#VER A     1 20110104 "FîrsÑljning" 20110224 SNI
+{
+   #TRANS  3010 {} -10914.50
+   #TRANS  3020 {} -1841.00
+   #TRANS  3110 {} -5707.10
+   #TRANS  3120 {} -2577.40
+   #TRANS  2610 {} -5260.00
+   #TRANS  1510 {} 26300.00
+   #TRANS  0351 {} -21040.00
+   #TRANS  0399 {} 21040.00
+}
+#VER A     2 20110105 "Inkîp varor" 20110224 SNI
+{
+   #TRANS  4010 {} 7837.50
+   #TRANS  4020 {} 742.50
+   #TRANS  4110 {} 6880.50
+   #TRANS  4120 {} 1039.50
+   #TRANS  2640 {} 4125.00
+   #TRANS  2440 {} -20625.00
+}
+#VER A     3 20110107 "PlusGiro Ürsavgift" 20110224 SNI
+{
+   #TRANS  6570 {} 900.00
+   #TRANS  1920 {} -900.00
+}
+#VER A     4 20110109 "Inkîp dator" 20110224 SNI
+{
+   #TRANS  1251 {} 15120.00
+   #TRANS  2640 {} 3780.00
+   #TRANS  2440 {} -18900.00
+}
+#VER A     5 20110109 "BankrÑnta" 20110224 SNI
+{
+   #TRANS  1930 {} 113.00
+   #TRANS  8300 {} -113.00
+}
+#VER A     6 20110114 "Betalningar" 20110224 SNI
+{
+   #TRANS  1920 {} 7530.00
+   #TRANS  1930 {} 2450.00
+   #TRANS  1510 {} -9980.00
+}
+#VER A     7 20110114 "Leverantîrsbetalningar" 20110224 SNI
+{
+   #TRANS  1920 {} -8910.00
+   #TRANS  2440 {} 8910.00
+}
+#VER A     8 20110120 "FîrsÑljning" 20110224 SNI
+{
+   #TRANS  3010 {} -23074.00
+   #TRANS  3020 {} -3892.00
+   #TRANS  3110 {} -12065.20
+   #TRANS  3120 {} -5448.80
+   #TRANS  2610 {} -11120.00
+   #TRANS  1510 {} 55600.00
+   #TRANS  0351 {} -44480.00
+   #TRANS  0399 {} 44480.00
+}
+#VER A     9 20110121 "Inkîp varor" 20110224 SNI
+{
+   #TRANS  4010 {} 11162.50
+   #TRANS  4020 {} 1057.50
+   #TRANS  4110 {} 9799.50
+   #TRANS  4120 {} 1480.50
+   #TRANS  2640 {} 5875.00
+   #TRANS  2440 {} -29375.00
+}
+#VER A    10 20110122 "Betalningar" 20110224 SNI
+{
+   #TRANS  1920 {} 12500.00
+   #TRANS  1930 {} 22453.00
+   #TRANS  1510 {} -34953.00
+}
+#VER A    11 20110122 "Leverantîrsbetalningar" 20110224 SNI
+{
+   #TRANS  1920 {} -22536.00
+   #TRANS  2440 {} 22536.00
+}
+#VER A    12 20110127 "FîrsÑljning" 20110224 SNI
+{
+   #TRANS  3010 {} -20127.50
+   #TRANS  3020 {} -3395.00
+   #TRANS  3110 {} -10524.50
+   #TRANS  3120 {} -4753.00
+   #TRANS  2610 {} -9700.00
+   #TRANS  1510 {} 48500.00
+   #TRANS  0351 {} -38800.00
+   #TRANS  0399 {} 38800.00
+}
+#VER A    13 20110127 "Lîn Stina" 20110224 SNI
+{
+   #TRANS  7010 {} 22400.00
+   #TRANS  1930 {} -15365.00
+   #TRANS  2710 {} -7035.00
+   #TRANS  9701 {} 7035.00
+   #TRANS  9799 {} -7035.00
+   #TRANS  9301 {} 2912.00
+   #TRANS  9399 {} -2912.00
+}
+#VER A    14 20110127 "Lîn Bengt" 20110224 SNI
+{
+   #TRANS  7020 {} 18500.00
+   #TRANS  1930 {} -12950.00
+   #TRANS  2710 {} -5550.00
+   #TRANS  9702 {} 5550.00
+   #TRANS  9799 {} -5550.00
+   #TRANS  9302 {} 2405.00
+   #TRANS  9399 {} -2405.00
+}
+#VER A    15 20110127 "Uppbîrd fîr januari" 20110224 SNI
+{
+   #TRANS  7510 {} 12850.00
+   #TRANS  2940 {} -12850.00
+}
+#VER A    16 20110127 "Inkîp varor" 20110224 SNI
+{
+   #TRANS  4010 {} 4520.00
+   #TRANS  4020 {} 1200.00
+   #TRANS  4110 {} 1000.00
+   #TRANS  4120 {} 5467.00
+   #TRANS  2640 {} 3046.75
+   #TRANS  3740 {} 0.25
+   #TRANS  2440 {} -15234.00
+}
+#VER A    17 20110128 "Inkîp kontorsmaterial" 20110224 SNI
+{
+   #TRANS  6100 {} 6016.00
+   #TRANS  2640 {} 1504.00
+   #TRANS  2440 {} -7520.00
+}
+#VER A    18 20110128 "Hyra fîr februari" 20110224 SNI
+{
+   #TRANS  5010 {} 7536.00
+   #TRANS  2440 {} -7536.00
+}
+#VER A    19 20110131 "SchablonmÑssig avskrivning" 20110224 SNI
+{
+   #TRANS  1229 {} -800.00
+   #TRANS  1259 {} -400.00
+   #TRANS  7830 {} 1200.00
+}

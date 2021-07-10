@@ -69,7 +69,7 @@ namespace jsiSIE_test
                     sie.IgnoreRTRANS = true;
                     sie.IgnoreBTRANS = true;
                 }
-
+                
                 sie.ReadDocument(f);
                 if (sie.ValidationExceptions.Count > 0)
                 {
@@ -151,7 +151,7 @@ namespace jsiSIE_test
                 }
 
                 var di = new DirectoryInfo(p);
-                if (di.Parent == null)
+                if(di.Parent == null)
                 {
                     throw new DirectoryNotFoundException("Couldn't find test file folder");
                 }

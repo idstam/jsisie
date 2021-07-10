@@ -1,0 +1,1912 @@
+#FLAGGA 0
+#FORMAT PC8
+#SIETYP 4
+#PROGRAM "Fortnox Bokfîring" 2.0.0
+#GEN 20110323 1
+
+#FNR 54256
+#FNAMN "Testfîretaget AB"
+#ORGNR 
+#ADRESS "" "" " " ""
+#RAR 0 20100101 20101231
+#OMFATTN 19700101
+#KPTYP EUBAS97
+
+#KONTO 1111 "Byggnader pÜ egen mark"
+#SRU 1111 7214
+#KONTO 1119 "Ackumulerade avskrivningar pÜ byggnader"
+#SRU 1119 7214
+#KONTO 1140 "Tomter och obebyggda mark omrÜden"
+#SRU 1140 7214
+#KONTO 1150 "MarkanlÑggningar"
+#SRU 1150 7214
+#KONTO 1159 "Ackumulerade avskrivningar pÜ markanlÑggningar"
+#SRU 1159 7214
+#KONTO 1220 "Inventarier och verktyg"
+#SRU 1220 7215
+#KONTO 1229 "Ackumulerade avskrivningar pÜ inventarier och verktyg"
+#SRU 1229 7215
+#KONTO 1240 "Bilar och andra transportmedel"
+#SRU 1240 7215
+#KONTO 1249 "Ackumulerade avskrivningar pÜ bilar och andra transportmedel"
+#SRU 1249 7215
+#KONTO 1250 "Datorer"
+#SRU 1250 7215
+#KONTO 1259 "Ackumulerade avskrivningar pÜ datorer"
+#SRU 1259 7215
+#KONTO 1400 "Lager (gruppkonto)"
+#SRU 1400 7240
+#KONTO 1410 "Lager av rÜvaror"
+#SRU 1410 7241
+#KONTO 1420 "Lager av tillsatsmaterial och fîrnîdenheter"
+#SRU 1420 7241
+#KONTO 1430 "Lager av halvfabrikat"
+#SRU 1430 7241
+#KONTO 1440 "Produkter i arbete"
+#SRU 1440 7242
+#KONTO 1450 "Lager av fÑrdiga varor"
+#SRU 1450 7243
+#KONTO 1510 "Kundfordringar"
+#SRU 1510 7251
+#KONTO 1511 "Kundfordringar"
+#SRU 1511 7251
+#KONTO 1580 "Fordringar fîr kontokort och kuponger"
+#SRU 1580 7251
+#KONTO 1630 "AvrÑkning fîr skatter och avgifter (skattekonto)"
+#SRU 1630 7261
+#KONTO 1720 "Fîrutbetalda leasingavgifter, kortfristig del"
+#SRU 1720 7263
+#KONTO 1790 "ôvriga fîrutbetalda kostnader och upplupna intÑkter"
+#SRU 1790 7263
+#KONTO 1910 "Kassa"
+#SRU 1910 7281
+#KONTO 1920 "Plusgiro"
+#SRU 1920 7281
+#KONTO 1930 "CheckrÑkningskonto"
+#SRU 1930 7281
+#KONTO 2081 "Aktiekapital"
+#SRU 2081 7301
+#KONTO 2086 "Reservfond"
+#SRU 2086 7301
+#KONTO 2091 "Balanserad vinst eller fîrlust"
+#SRU 2091 7302
+#KONTO 2099 "èrets resultat"
+#SRU 2099 7302
+#KONTO 2110 "Periodiseringsfond vid 2010 Ürs taxering"
+#SRU 2110 7321
+#KONTO 2124 "Periodiseringsfond vid 2004 Ürs taxering"
+#SRU 2124 7321
+#KONTO 2125 "Periodiseringsfond vid 2005 Ürs taxering"
+#SRU 2125 7321
+#KONTO 2126 "Periodiseringsfond vid 2006 Ürs taxering"
+#SRU 2126 7321
+#KONTO 2127 "Periodiseringsfond vid 2007 Ürs taxering"
+#SRU 2127 7321
+#KONTO 2128 "Periodiseringsfond vid 2008 Ürs taxering"
+#SRU 2128 7321
+#KONTO 2129 "Periodiseringsfond vid 2009 Ürs taxering"
+#SRU 2129 7321
+#KONTO 2150 "Ackumulerade îveravskrivningar"
+#SRU 2150 7322
+#KONTO 2350 "Andra lÜngfristiga skulder till kreditinstitut"
+#SRU 2350 7352
+#KONTO 2440 "Leverantîrsskulder"
+#SRU 2440 7365
+#KONTO 2510 "Skatteskulder"
+#SRU 2510 7368
+#KONTO 2513 "BerÑknad fastighetsskatt"
+#SRU 2513 7368
+#KONTO 2610 "UtgÜende moms, oreducerad"
+#SRU 2610 7369
+#KONTO 2611 "UtgÜende moms pÜ fîrsÑljning inom Sverige, oreducerad"
+#SRU 2611 7369
+#KONTO 2621 "UtgÜende moms pÜ fîrsÑljning inom Sverige, reducerad 1"
+#SRU 2621 7369
+#KONTO 2640 "IngÜende moms"
+#SRU 2640 7369
+#KONTO 2641 "Debiterad ingÜende moms"
+#SRU 2641 7369
+#KONTO 2650 "Redovisningskonto fîr moms"
+#SRU 2650 7369
+#KONTO 2710 "Personalskatt"
+#SRU 2710 7369
+#KONTO 2730 "Lagstadgade sociala avgifter och  sÑrskild lîneskatt"
+#SRU 2730 7369
+#KONTO 2732 "AvrÑkning sÑrskild lîneskatt"
+#SRU 2732 7369
+#KONTO 2920 "Upplupna semesterlîner"
+#SRU 2920 7370
+#KONTO 2940 "Upplupna lagstadgade sociala och andra avgifter"
+#SRU 2940 7370
+#KONTO 2990 "ôvriga upplupna kostnader och fîrutbetalda intÑkter"
+#SRU 2990 7370
+#KONTO 3010 "FîrsÑljning tillverkade produkter B (ofîrdelad)"
+#SRU 3010 7410
+#KONTO 3011 "FîrsÑljning tillverkade produkter B inom Sverige, ored moms"
+#SRU 3011 7410
+#KONTO 3012 "FîrsÑljning tillverkade produkter B inom Sverige, red moms1"
+#SRU 3012 7410
+#KONTO 3020 "FîrsÑljning tillverkade produkter C (ofîrdelad)"
+#SRU 3020 7410
+#KONTO 3021 "FîrsÑljning tillverkade produkter C inom Sverige, ored moms"
+#SRU 3021 7410
+#KONTO 3030 "FîrsÑljning tillverkade produkter D (ofîrdelad)"
+#SRU 3030 7410
+#KONTO 3031 "FîrsÑljning tillverkade produkter D inom Sverige, ored moms"
+#SRU 3031 7410
+#KONTO 4010 "Inkîp av material fîr tillverkade produkter B (ofîrdelade)"
+#SRU 4010 7511
+#KONTO 4011 "Inkîp av material I fîr tillverkade produkter B"
+#SRU 4011 7511
+#KONTO 4020 "Inkîp av material fîr tillverkade produkter C (ofîrdelade)"
+#SRU 4020 7511
+#KONTO 4021 "Inkîp av material I fîr tillverkade produkter C"
+#SRU 4021 7511
+#KONTO 4031 "Inkîp av material I fîr tillverkade produkter D"
+#SRU 4031 7511
+#KONTO 4077 "Varuinkîp eg"
+#SRU 4077 7511
+#KONTO 4960 "FîrÑndring av lager av handelsvaror"
+#SRU 4960 7512
+#KONTO 5020 "El fîr belysning"
+#SRU 5020 7513
+#KONTO 5030 "VÑrme"
+#SRU 5030 7513
+#KONTO 5040 "Vatten och avlopp"
+#SRU 5040 7513
+#KONTO 5050 "Lokaltillbehîr"
+#SRU 5050 7513
+#KONTO 5060 "StÑdning och renhÜllning"
+#SRU 5060 7513
+#KONTO 5070 "Reparation och underhÜll av lokaler"
+#SRU 5070 7513
+#KONTO 5090 "ôvriga lokalkostnader"
+#SRU 5090 7513
+#KONTO 5191 "Fastighetsskatt/fastighetsavgift"
+#SRU 5191 7513
+#KONTO 5220 "Hyra av inventarier och verktyg"
+#SRU 5220 7513
+#KONTO 5410 "Fîrbrukningsinventarier"
+#SRU 5410 7513
+#KONTO 5460 "Fîrbrukningsmaterial"
+#SRU 5460 7513
+#KONTO 5520 "Reparation och underhÜll av inventarier, verktyg och datorer m.m."
+#SRU 5520 7513
+#KONTO 5800 "Resekostnader (gruppkonto)"
+#SRU 5800 7513
+#KONTO 5810 "Biljetter"
+#SRU 5810 7513
+#KONTO 5831 "Kost och logi i Sverige"
+#SRU 5831 7513
+#KONTO 5832 "Kost och logi i utlandet"
+#SRU 5832 7513
+#KONTO 5890 "ôvriga resekostnader"
+#SRU 5890 7513
+#KONTO 5900 "Reklam och PR (gruppkonto)"
+#SRU 5900 7513
+#KONTO 5910 "Annonsering"
+#SRU 5910 7513
+#KONTO 5930 "Reklamtrycksaker och direktreklam"
+#SRU 5930 7513
+#KONTO 6071 "Representation, avdragsgill"
+#SRU 6071 7513
+#KONTO 6072 "Representation, ej avdragsgill"
+#SRU 6072 7513
+#KONTO 6090 "ôvriga fîrsÑljningskostnader"
+#SRU 6090 7513
+#KONTO 6110 "Kontorsmateriel"
+#SRU 6110 7513
+#KONTO 6210 "Telekommunikation"
+#SRU 6210 7513
+#KONTO 6250 "Postbefordran"
+#SRU 6250 7513
+#KONTO 6310 "FîretagsfîrsÑkringar"
+#SRU 6310 7513
+#KONTO 6420 "ErsÑttningar till revisor"
+#SRU 6420 7513
+#KONTO 6530 "RedovisningstjÑnster"
+#SRU 6530 7513
+#KONTO 6540 "IT-tjÑnster"
+#SRU 6540 7513
+#KONTO 6560 "Serviceavgifter till branschorganisationer"
+#SRU 6560 7513
+#KONTO 6570 "Bankkostnader"
+#SRU 6570 7513
+#KONTO 6590 "ôvriga externa tjÑnster"
+#SRU 6590 7513
+#KONTO 6970 "Tidningar, tidskrifter och facklitteratur"
+#SRU 6970 7513
+#KONTO 6981 "Fîreningsavgifter, avdragsgilla"
+#SRU 6981 7513
+#KONTO 6982 "Fîreningsavgifter, ej avdragsgilla"
+#SRU 6982 7513
+#KONTO 7010 "Lîner till kollektivanstÑllda"
+#SRU 7010 7514
+#KONTO 7210 "Lîner till tjÑnstemÑn"
+#SRU 7210 7514
+#KONTO 7220 "Lîner till fîretagsledare"
+#SRU 7220 7514
+#KONTO 7230 "Lîner till tjÑnstemÑn och ftgsledare (utlandsanstÑllda)"
+#SRU 7230 7514
+#KONTO 7290 "FîrÑndring av semesterlîneskuld"
+#SRU 7290 7514
+#KONTO 7410 "PensionsfîrsÑkringspremier"
+#SRU 7410 7514
+#KONTO 7510 "Lagstadgade sociala avgifter"
+#SRU 7510 7514
+#KONTO 7519 "Sociala avgifter fîr semester- och lîneskuld"
+#SRU 7519 7514
+#KONTO 7531 "SÑrskild lîneskatt fîr lîner och ersÑttningar"
+#SRU 7531 7514
+#KONTO 7533 "SÑrskild lîneskatt fîr pensionskostnader"
+#SRU 7533 7514
+#KONTO 7570 "Premier fîr arbetsmarknadsfîrsÑkringar"
+#SRU 7570 7514
+#KONTO 7580 "GruppfîrsÑkringspremier"
+#SRU 7580 7514
+#KONTO 7610 "Utbildning"
+#SRU 7610 7514
+#KONTO 7620 "Sjuk- och hÑlsovÜrd"
+#SRU 7620 7514
+#KONTO 7631 "Personalrepresentation, avdragsgill"
+#SRU 7631 7514
+#KONTO 7632 "Personalrepresentation, ej avdragsgill"
+#SRU 7632 7514
+#KONTO 7690 "ôvriga personalkostnader"
+#SRU 7690 7514
+#KONTO 7821 "Avskrivningar pÜ byggnader"
+#SRU 7821 7515
+#KONTO 7824 "Avskrivningar pÜ markanlÑggningar"
+#SRU 7824 7515
+#KONTO 7832 "Avskrivningar pÜ inventarier och verktyg"
+#SRU 7832 7515
+#KONTO 8300 "RÑnteintÑkter frÜn omsÑttningstillgÜngar (gruppkonto)"
+#SRU 8300 7417
+#KONTO 8314 "Skattefria rÑnteintÑkter"
+#SRU 8314 7417
+#KONTO 8400 "RÑntekostnader (gruppkonto)"
+#SRU 8400 7522
+#KONTO 8423 "RÑntekostnader fîr skatter och avgifter"
+#SRU 8423 7522
+#KONTO 8811 "AvsÑttning till periodiseringsfond"
+#SRU 8811 7525
+#KONTO 8819 "èterfîring frÜn periodiseringsfond"
+#SRU 8819 7420
+#KONTO 8850 "FîrÑndring av îveravskrivningar"
+#SRU 8850 7421
+#KONTO 8910 "Skatt pÜ Ürets beskattningsbara resultat"
+#SRU 8910 7528
+#KONTO 8999 "èrets resultat"
+#SRU 8999 7450
+
+#DIM 1 "KostnadsstÑlle"
+#DIM 6 "Projekt"
+#OBJEKT 1 "1" "Kontor 1"
+#OBJEKT 1 "2" "Kontor 2"
+#OBJEKT 6 "1" "Fîretagspresentation"
+
+#IB 0 1111 3390000.00
+#UB 0 1111 3390000
+#IB 0 1119 -474600.00
+#UB 0 1119 -474600
+#IB 0 1140 2000000.00
+#UB 0 1140 2000000
+#IB 0 1150 610000.00
+#UB 0 1150 610000
+#IB 0 1159 -213500.00
+#UB 0 1159 -213500
+#IB 0 1220 1426275.00
+#UB 0 1220 1426275
+#IB 0 1229 -1012516.00
+#UB 0 1229 -1012516
+#IB 0 1240 30000
+#UB 0 1240 30000
+#IB 0 1249 -12000
+#UB 0 1249 -12000
+#IB 0 1250 21000
+#UB 0 1250 21000
+#IB 0 1259 -14000
+#UB 0 1259 -14000
+#IB 0 1400 25000
+#UB 0 1400 25000
+#IB 0 1410 765389.00
+#UB 0 1410 765389
+#IB 0 1420 112764.00
+#UB 0 1420 112764
+#IB 0 1430 67395.00
+#UB 0 1430 67395
+#IB 0 1440 254368.00
+#UB 0 1440 254368
+#IB 0 1450 120914.00
+#UB 0 1450 120914
+#IB 0 1510 710350.00
+#UB 0 1510 710350
+#IB 0 1511 15063
+#UB 0 1511 15063
+#IB 0 1580 600
+#UB 0 1580 600
+#IB 0 1630 134.00
+#UB 0 1630 134
+#IB 0 1720 8234.00
+#UB 0 1720 8234
+#IB 0 1790 33132.00
+#UB 0 1790 33132
+#IB 0 1910 9115.00
+#UB 0 1910 9115
+#IB 0 1920 11000
+#UB 0 1920 11000
+#IB 0 1930 3438419.50
+#UB 0 1930 3438419.5
+#IB 0 2081 -100000.00
+#UB 0 2081 -100000
+#IB 0 2086 -20000.00
+#UB 0 2086 -20000
+#IB 0 2091 -3909387.50
+#UB 0 2091 -3909387.5
+#IB 0 2099 -712205.00
+#UB 0 2099 -712205
+#IB 0 2124 -254400.00
+#UB 0 2124 -254400
+#IB 0 2125 -174900.00
+#UB 0 2125 -174900
+#IB 0 2126 -256000.00
+#UB 0 2126 -256000
+#IB 0 2127 -394000.00
+#UB 0 2127 -394000
+#IB 0 2128 -240000.00
+#UB 0 2128 -240000
+#IB 0 2129 -358000.00
+#UB 0 2129 -358000
+#IB 0 2150 -212046.00
+#UB 0 2150 -212046
+#IB 0 2350 -3250000.00
+#UB 0 2350 -3250000
+#IB 0 2440 -619773.00
+#UB 0 2440 -619773
+#IB 0 2510 -6522.00
+#UB 0 2510 -6522
+#IB 0 2513 -53260.00
+#UB 0 2513 -53260
+#IB 0 2650 -167309.00
+#UB 0 2650 -167309
+#IB 0 2710 -69056.00
+#UB 0 2710 -69056
+#IB 0 2730 -69962.00
+#UB 0 2730 -69962
+#IB 0 2732 -63076.00
+#UB 0 2732 -63076
+#IB 0 2920 -194778.00
+#UB 0 2920 -194778
+#IB 0 2940 -61199.00
+#UB 0 2940 -61199
+#IB 0 2990 -60000.00
+#UB 0 2990 -60000
+
+#VER "A" "1" 20100105 "ReseutlÑgg"
+{
+#TRANS 1910 {} -137.00 
+#TRANS 5800 {} 129.25 
+#TRANS 2641 {} 7.75 
+}
+
+#VER "A" "2" 20100110 "Inkîp av kontorsmaterial"
+{
+#TRANS 1910 {} -530.00 
+#TRANS 2641 {} 106.00 
+#TRANS 6110 {} 424.00 
+}
+
+#VER "A" "3" 20100120 "ôverfîring frÜn plusgiro till bank"
+{
+#TRANS 1920 {} -5000.00 
+#TRANS 1930 {} 5000.00 
+}
+
+#VER "A" "4" 20100105 "Dagskassa - Restaurang"
+{
+#TRANS 3011 {} -800.00 
+#TRANS 3012 {} -714.29 
+#TRANS 2611 {} -200.00 
+#TRANS 2621 {} -85.71 
+#TRANS 1910 {} 500.00 
+#TRANS 1580 {} 1300.00 
+}
+
+#VER "A" "5" 20101231 ""
+{
+#TRANS 2099 {} 712205.00 
+#TRANS 2091 {} -712205.00 
+#TRANS 1119 {} -67800.00 
+#TRANS 7821 {} 67800.00 
+#TRANS 1159 {} -30500.00 
+#TRANS 7824 {} 30500.00 
+#TRANS 1229 {} -115852.00 
+#TRANS 7832 {} 115852.00 
+#TRANS 2150 {} 28875.00 
+#TRANS 8850 {} -28875.00 
+#TRANS 1410 {} -119620.00 
+#TRANS 1420 {} -8509.00 
+#TRANS 1430 {} -13251.00 
+#TRANS 1440 {} -58885.00 
+#TRANS 1450 {} -33570.00 
+#TRANS 4960 {} 233835.00 
+#TRANS 1630 {} -44.00 
+#TRANS 8423 {} 44.00 
+#TRANS 2124 {} 254400.00 
+#TRANS 8819 {} -254400.00 
+}
+
+#VER "A" "6" 20101231 "Uppbokning av 1720 fîrutbetalda leasingavgifter, kortfristig del"
+{
+#TRANS 1720 {} 9744.00 
+#TRANS 5220 {} -9744.00 
+}
+
+#VER "A" "7" 20101231 "Uppbokning av 1790 îvr.interimsfordringar"
+{
+#TRANS 1790 {} 20059.00 
+#TRANS 6310 {} -20059.00 
+#TRANS 1790 {} 14240.00 
+#TRANS 6210 {} -14240.00 
+}
+
+#VER "A" "8" 20101231 "Uppbokning av 2513 berÑknad fastighetsskatt (rest)"
+{
+#TRANS 2513 {} -53260.00 
+#TRANS 5191 {} 53260.00 
+}
+
+#VER "A" "9" 20101231 "FîrÑndring av 2732 berÑknad sÑrskild lîneskatt"
+{
+#TRANS 2732 {} -72780.00 
+#TRANS 7533 {} 72780.00 
+}
+
+#VER "A" "10" 20101231 ""
+{
+#TRANS 2920 {} 30564.00 
+#TRANS 7290 {} -30564.00 
+#TRANS 8999 {} 594674.00 
+#TRANS 2099 {} -594674.00 
+}
+
+#VER "A" "11" 20101231 "FîrÑndring av 2940 upplupna sociala avgifter semesterlîner"
+{
+#TRANS 2940 {} 9603.00 
+#TRANS 7519 {} -9603.00 
+}
+
+#VER "A" "12" 20101231 "Uppbokning av 2990 îvriga upplupna kostnader"
+{
+#TRANS 2990 {} -20000.00 
+#TRANS 6530 {} 20000.00 
+#TRANS 2990 {} -40000.00 
+#TRANS 6420 {} 40000.00 
+}
+
+#VER "A" "13" 20101231 "FîrÑndring av 2110 periodiseringsfond vid 2010 Ürs taxering"
+{
+#TRANS 2110 {} -300000.00 
+#TRANS 8811 {} 300000.00 
+}
+
+#VER "A" "14" 20101231 "FîrÑndring av 2510 skatteskulder"
+{
+#TRANS 2510 {} -236847.00 
+#TRANS 8910 {} 236847.00 
+}
+
+#VER "A" "15" 20100105 "Utbetalning"
+{
+#TRANS 2440 {} 171435.00 
+#TRANS 2440 {} 169375.00 
+#TRANS 2440 {} 15700.00 
+#TRANS 1930 {} -356510.00 
+}
+
+#VER "A" "16" 20100105 "Inbetalning"
+{
+#TRANS 1510 {} -127500.00 
+#TRANS 1510 {} -293750.00 
+#TRANS 1510 {} -65000.00 
+#TRANS 1930 {} 486250.00 
+}
+
+#VER "A" "17" 20100109 "Utbetalning"
+{
+#TRANS 2440 {} 7951.00 
+#TRANS 2440 {} 4000.00 
+#TRANS 2440 {} 5650.00 
+#TRANS 2440 {} 87390.00 
+#TRANS 2440 {} 138950.00 
+#TRANS 2440 {} 6597.00 
+#TRANS 2440 {} 12725.00 
+#TRANS 1930 {} -263263.00 
+}
+
+#VER "A" "18" 20100109 "Inbetalning"
+{
+#TRANS 1510 {} -75000.00 
+#TRANS 1510 {} -37600.00 
+#TRANS 1510 {} -111500.00 
+#TRANS 1930 {} 224100.00 
+}
+
+#VER "A" "19" 20100112 "Skattedekl"
+{
+#TRANS 2710 {} 69056.00 
+#TRANS 1630 {} -69056.00 
+#TRANS 2730 {} 69962.00 
+#TRANS 1630 {} -69962.00 
+#TRANS 2650 {} 99448.00 
+#TRANS 1630 {} -99448.00 
+#TRANS 2510 {} 26800.00 
+#TRANS 1630 {} -26800.00 
+}
+
+#VER "A" "20" 20100112 "Bet skatt"
+{
+#TRANS 1930 {} -265266.00 
+#TRANS 1630 {} 265266.00 
+}
+
+#VER "A" "21" 20100125 "Lîner"
+{
+#TRANS 7010 {} 108800.00 
+#TRANS 7210 {} 34500.00 
+#TRANS 7220 {} 34500.00 
+#TRANS 7230 {} 38000.00 
+#TRANS 7510 {} 67804.00 
+#TRANS 2730 {} -67804.00 
+#TRANS 2710 {} -69056.00 
+#TRANS 1930 {} -146744.00 
+}
+
+#VER "A" "22" 20100125 "Lev fakt"
+{
+#TRANS 4010 {} 321805.00 
+#TRANS 4020 {} 162554.00 
+#TRANS 4021 {} 80275.00 
+#TRANS 4011 {} 7886.00 
+#TRANS 5020 {} 7950.00 
+#TRANS 5030 {} 13600.00 
+#TRANS 5040 {} 2905.00 
+#TRANS 5060 {} 2750.00 
+#TRANS 5220 {} 1500.00 
+#TRANS 6110 {} 3380.00 
+#TRANS 6210 {} 6880.00 
+#TRANS 6250 {} 1130.00 
+#TRANS 6310 {} 3650.00 
+#TRANS 6540 {} 4155.00 
+#TRANS 6560 {} 2730.00 
+#TRANS 6970 {} 1500.00 
+#TRANS 2640 {} 156163.00 
+#TRANS 2440 {} -780813.00 
+}
+
+#VER "A" "23" 20100126 "Kundfakt"
+{
+#TRANS 3010 {} -405730.00 
+#TRANS 3011 {} -25425.00 
+#TRANS 3020 {} -230683.00 
+#TRANS 3021 {} -40460.00 
+#TRANS 3030 {} -120670.00 
+#TRANS 2610 {} -205742.00 
+#TRANS 1510 {} 1028710.00 
+}
+
+#VER "A" "24" 20100129 "Skandia pensionsfîrsÑkr"
+{
+#TRANS 7410 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "25" 20100129 "Amort banklÜn"
+{
+#TRANS 2350 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "26" 20100129 "Kassa"
+{
+#TRANS 1910 {} 244323.00 
+#TRANS 3021 {} -59130.00 
+#TRANS 3011 {} -15981.00 
+#TRANS 3020 {} -35218.00 
+#TRANS 3010 {} -85129.00 
+#TRANS 2610 {} -48865.00 
+}
+
+#VER "A" "27" 20100131 "InsÑttn kassa"
+{
+#TRANS 1910 {} -240000.00 
+#TRANS 1930 {} 240000.00 
+}
+
+#VER "A" "28" 20100205 "Bet lev fakt"
+{
+#TRANS 2440 {} 245369.00 
+#TRANS 1930 {} -245369.00 
+}
+
+#VER "A" "29" 20100209 "Inbet fakt"
+{
+#TRANS 1510 {} -498763.00 
+#TRANS 1930 {} 498763.00 
+}
+
+#VER "A" "30" 20100212 "Skattedekl"
+{
+#TRANS 2710 {} 69056.00 
+#TRANS 1630 {} -69056.00 
+#TRANS 2730 {} 67804.00 
+#TRANS 1630 {} -67804.00 
+#TRANS 2650 {} 67861.00 
+#TRANS 1630 {} -67861.00 
+#TRANS 2510 {} 26800.00 
+#TRANS 1630 {} -26800.00 
+}
+
+#VER "A" "31" 20100212 "Bet skatt"
+{
+#TRANS 1930 {} -231521.00 
+#TRANS 1630 {} 231521.00 
+}
+
+#VER "A" "32" 20100225 "Lîner"
+{
+#TRANS 7010 {} 108800.00 
+#TRANS 7210 {} 34500.00 
+#TRANS 7220 {} 34500.00 
+#TRANS 7230 {} 38000.00 
+#TRANS 7510 {} 67804.00 
+#TRANS 2730 {} -67804.00 
+#TRANS 2710 {} -69056.00 
+#TRANS 1930 {} -146744.00 
+}
+
+#VER "A" "33" 20100228 "Skandia pensionsfîrsÑkr"
+{
+#TRANS 7410 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "34" 20100228 "Amort banklÜn"
+{
+#TRANS 2350 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "35" 20100228 "Kassa"
+{
+#TRANS 1910 {} 219960.00 
+#TRANS 3021 {} -40645.00 
+#TRANS 3011 {} -16271.00 
+#TRANS 3020 {} -29487.00 
+#TRANS 3010 {} -89565.00 
+#TRANS 2610 {} -43992.00 
+}
+
+#VER "A" "36" 20100228 "InsÑttn kassa"
+{
+#TRANS 1910 {} -230000.00 
+#TRANS 1930 {} 230000.00 
+}
+
+#VER "A" "37" 20100228 "Lev fakt"
+{
+#TRANS 4010 {} 321805.00 
+#TRANS 4020 {} 150275.00 
+#TRANS 4021 {} 93000.00 
+#TRANS 4011 {} 7440.00 
+#TRANS 5020 {} 7950.00 
+#TRANS 5030 {} 13600.00 
+#TRANS 5040 {} 2905.00 
+#TRANS 5060 {} 2750.00 
+#TRANS 5220 {} 1500.00 
+#TRANS 6110 {} 3380.00 
+#TRANS 6210 {} 6880.00 
+#TRANS 6250 {} 1130.00 
+#TRANS 6310 {} 3650.00 
+#TRANS 6540 {} 4155.00 
+#TRANS 6560 {} 2730.00 
+#TRANS 6970 {} 1500.00 
+#TRANS 2640 {} 156163.00 
+#TRANS 2440 {} -780813.00 
+}
+
+#VER "A" "38" 20100228 "Kundfakt"
+{
+#TRANS 3010 {} -405726.00 
+#TRANS 3011 {} -25412.00 
+#TRANS 3020 {} -230678.00 
+#TRANS 3021 {} -40452.00 
+#TRANS 3030 {} -120656.00 
+#TRANS 2610 {} -205731.00 
+#TRANS 1510 {} 1028655.00 
+}
+
+#VER "A" "39" 20100302 "Bet lev fakt"
+{
+#TRANS 2440 {} 800466.00 
+#TRANS 1930 {} -800466.00 
+}
+
+#VER "A" "40" 20100307 "Inbet fakt"
+{
+#TRANS 1510 {} -964846.00 
+#TRANS 1930 {} 964846.00 
+}
+
+#VER "A" "41" 20100312 "Skattedekl"
+{
+#TRANS 2710 {} 69056.00 
+#TRANS 1630 {} -69056.00 
+#TRANS 2730 {} 67804.00 
+#TRANS 1630 {} -67804.00 
+#TRANS 2650 {} 98444.00 
+#TRANS 1630 {} -98444.00 
+#TRANS 2510 {} 26800.00 
+#TRANS 1630 {} -26800.00 
+}
+
+#VER "A" "42" 20100312 "Bet skatt"
+{
+#TRANS 1930 {} -262104.00 
+#TRANS 1630 {} 262104.00 
+}
+
+#VER "A" "43" 20100315 "Lev fakt"
+{
+#TRANS 4010 {} 319805.00 
+#TRANS 4021 {} 81100.00 
+#TRANS 4020 {} 150175.00 
+#TRANS 4011 {} 6954.00 
+#TRANS 5020 {} 7950.00 
+#TRANS 5030 {} 13600.00 
+#TRANS 5040 {} 2905.00 
+#TRANS 5060 {} 2750.00 
+#TRANS 5220 {} 1500.00 
+#TRANS 6110 {} 3380.00 
+#TRANS 6210 {} 6890.00 
+#TRANS 6250 {} 1200.00 
+#TRANS 6310 {} 3700.00 
+#TRANS 6540 {} 4160.00 
+#TRANS 6560 {} 2730.00 
+#TRANS 6970 {} 1500.00 
+#TRANS 2640 {} 152575.00 
+#TRANS 2440 {} -762874.00 
+}
+
+#VER "A" "44" 20100317 "Kundfakt"
+{
+#TRANS 3010 {} -405726.00 
+#TRANS 3011 {} -25412.00 
+#TRANS 3020 {} -230678.00 
+#TRANS 3021 {} -40452.00 
+#TRANS 3030 {} -120656.00 
+#TRANS 2610 {} -205731.00 
+#TRANS 1510 {} 1028655.00 
+}
+
+#VER "A" "45" 20100325 "Lîner"
+{
+#TRANS 7010 {} 108800.00 
+#TRANS 7210 {} 34500.00 
+#TRANS 7220 {} 34500.00 
+#TRANS 7230 {} 38000.00 
+#TRANS 7510 {} 67804.00 
+#TRANS 2730 {} -67804.00 
+#TRANS 2710 {} -69056.00 
+#TRANS 1930 {} -146744.00 
+}
+
+#VER "A" "46" 20100328 "Skandia pensionsfîrsÑkr"
+{
+#TRANS 7410 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "47" 20100328 "Amort banklÜn"
+{
+#TRANS 2350 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "48" 20100331 "Kassa"
+{
+#TRANS 1910 {} 246049.00 
+#TRANS 3021 {} -59363.00 
+#TRANS 3011 {} -10271.00 
+#TRANS 3020 {} -31218.00 
+#TRANS 3010 {} -95987.00 
+#TRANS 2610 {} -49210.00 
+}
+
+#VER "A" "49" 20100331 "InsÑttn kassa"
+{
+#TRANS 1910 {} -240000.00 
+#TRANS 1930 {} 240000.00 
+}
+
+#VER "A" "50" 20100403 "Bet lev fakt"
+{
+#TRANS 2440 {} 986499.00 
+#TRANS 1930 {} -986499.00 
+}
+
+#VER "A" "51" 20100407 "Inbet fakt"
+{
+#TRANS 1510 {} -798611.00 
+#TRANS 1930 {} 798611.00 
+}
+
+#VER "A" "52" 20100407 "Lev fakt"
+{
+#TRANS 4010 {} 321805.00 
+#TRANS 4020 {} 209973.00 
+#TRANS 4021 {} 35275.00 
+#TRANS 4011 {} 5467.00 
+#TRANS 5020 {} 7950.00 
+#TRANS 5030 {} 13600.00 
+#TRANS 5040 {} 2905.00 
+#TRANS 5060 {} 2750.00 
+#TRANS 5220 {} 1500.00 
+#TRANS 6110 {} 3380.00 
+#TRANS 6210 {} 6880.00 
+#TRANS 6250 {} 1130.00 
+#TRANS 6310 {} 3650.00 
+#TRANS 6540 {} 4155.00 
+#TRANS 6560 {} 2730.00 
+#TRANS 6970 {} 1500.00 
+#TRANS 2640 {} 156163.00 
+#TRANS 2440 {} -780813.00 
+}
+
+#VER "A" "53" 20100411 "Kundfakt"
+{
+#TRANS 3010 {} -405726.00 
+#TRANS 3011 {} -25412.00 
+#TRANS 3020 {} -230678.00 
+#TRANS 3021 {} -40452.00 
+#TRANS 3030 {} -120656.00 
+#TRANS 2610 {} -205731.00 
+#TRANS 1510 {} 1028655.00 
+}
+
+#VER "A" "54" 20100412 "Skattedekl"
+{
+#TRANS 2710 {} 69056.00 
+#TRANS 1630 {} -69056.00 
+#TRANS 2730 {} 67804.00 
+#TRANS 1630 {} -67804.00 
+#TRANS 2650 {} 93560.00 
+#TRANS 1630 {} -93560.00 
+#TRANS 2510 {} 26800.00 
+#TRANS 1630 {} -26800.00 
+}
+
+#VER "A" "55" 20100412 "Bet skatt"
+{
+#TRANS 1930 {} -257220.00 
+#TRANS 1630 {} 257220.00 
+}
+
+#VER "A" "56" 20100425 "Lîner"
+{
+#TRANS 7010 {} 108800.00 
+#TRANS 7210 {} 34500.00 
+#TRANS 7220 {} 34500.00 
+#TRANS 7230 {} 38000.00 
+#TRANS 7510 {} 67804.00 
+#TRANS 2730 {} -67804.00 
+#TRANS 2710 {} -69056.00 
+#TRANS 1930 {} -146744.00 
+}
+
+#VER "A" "57" 20100429 "Skandia pensionsfîrsÑkr"
+{
+#TRANS 7410 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "58" 20100429 "Amort banklÜn"
+{
+#TRANS 2350 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "59" 20100429 "Kassa"
+{
+#TRANS 1910 {} 248726.00 
+#TRANS 3021 {} -59363.00 
+#TRANS 3011 {} -16271.00 
+#TRANS 3020 {} -36218.00 
+#TRANS 3010 {} -87129.00 
+#TRANS 2610 {} -49745.00 
+}
+
+#VER "A" "60" 20100429 "InsÑttn kassa"
+{
+#TRANS 1910 {} -250000.00 
+#TRANS 1930 {} 250000.00 
+}
+
+#VER "A" "61" 20100504 "Bet levfakt"
+{
+#TRANS 2440 {} 508376.00 
+#TRANS 1930 {} -508376.00 
+}
+
+#VER "A" "62" 20100507 "Inbet kundfakt"
+{
+#TRANS 1510 {} -654308.00 
+#TRANS 1930 {} 654308.00 
+}
+
+#VER "A" "63" 20100510 "Lev fakt"
+{
+#TRANS 4010 {} 321805.00 
+#TRANS 4020 {} 111275.00 
+#TRANS 4021 {} 85215.00 
+#TRANS 4011 {} 54225.00 
+#TRANS 5020 {} 7950.00 
+#TRANS 5030 {} 13600.00 
+#TRANS 5040 {} 2905.00 
+#TRANS 5060 {} 2750.00 
+#TRANS 5220 {} 1500.00 
+#TRANS 6110 {} 3380.00 
+#TRANS 6210 {} 6880.00 
+#TRANS 6250 {} 1130.00 
+#TRANS 6310 {} 3650.00 
+#TRANS 6420 {} 40000.00 
+#TRANS 6530 {} 20000.00 
+#TRANS 6540 {} 4155.00 
+#TRANS 6560 {} 2730.00 
+#TRANS 6970 {} 1500.00 
+#TRANS 2640 {} 171163.00 
+#TRANS 2440 {} -855813.00 
+#TRANS 2990 {} 60000.00 
+#TRANS 6420 {} -40000.00 
+#TRANS 6530 {} -20000.00 
+}
+
+#VER "A" "64" 20100511 "Kundfakt"
+{
+#TRANS 3010 {} -405726.00 
+#TRANS 3011 {} -25412.00 
+#TRANS 3020 {} -230678.00 
+#TRANS 3021 {} -40452.00 
+#TRANS 3030 {} -120656.00 
+#TRANS 2610 {} -205731.00 
+#TRANS 1510 {} 1028655.00 
+}
+
+#VER "A" "65" 20100512 "Skattedekl"
+{
+#TRANS 2710 {} 69056.00 
+#TRANS 1630 {} -69056.00 
+#TRANS 2730 {} 67804.00 
+#TRANS 1630 {} -67804.00 
+#TRANS 2650 {} 102366.00 
+#TRANS 1630 {} -102366.00 
+#TRANS 2510 {} 26800.00 
+#TRANS 1630 {} -26800.00 
+}
+
+#VER "A" "66" 20100512 "Bet skatt"
+{
+#TRANS 1930 {} -266026.00 
+#TRANS 1630 {} 266026.00 
+}
+
+#VER "A" "67" 20100525 "Lîner"
+{
+#TRANS 7010 {} 108800.00 
+#TRANS 7210 {} 34500.00 
+#TRANS 7220 {} 34500.00 
+#TRANS 7230 {} 38000.00 
+#TRANS 7510 {} 67804.00 
+#TRANS 2730 {} -67804.00 
+#TRANS 2710 {} -69056.00 
+#TRANS 1930 {} -146744.00 
+}
+
+#VER "A" "68" 20100526 "Skandia pensionsfîrsÑkr"
+{
+#TRANS 7410 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "69" 20100527 "Amort banklÜn"
+{
+#TRANS 2350 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "70" 20100529 "Kassa"
+{
+#TRANS 1910 {} 248726.00 
+#TRANS 3021 {} -59363.00 
+#TRANS 3011 {} -16271.00 
+#TRANS 3020 {} -36218.00 
+#TRANS 3010 {} -87129.00 
+#TRANS 2610 {} -49745.00 
+}
+
+#VER "A" "71" 20100531 "InsÑttn kassa"
+{
+#TRANS 1910 {} -240000.00 
+#TRANS 1930 {} 240000.00 
+}
+
+#VER "A" "72" 20100602 "Inbet kundfakt"
+{
+#TRANS 1510 {} -836563.00 
+#TRANS 1930 {} 836563.00 
+}
+
+#VER "A" "73" 20100605 "Bet lev fakt"
+{
+#TRANS 2440 {} 983753.00 
+#TRANS 1930 {} -983753.00 
+}
+
+#VER "A" "74" 20100605 "Lev fakt"
+{
+#TRANS 4010 {} 321805.00 
+#TRANS 4020 {} 116503.00 
+#TRANS 4021 {} 127172.00 
+#TRANS 4011 {} 7040.00 
+#TRANS 5020 {} 7950.00 
+#TRANS 5030 {} 13600.00 
+#TRANS 5040 {} 2905.00 
+#TRANS 5060 {} 2750.00 
+#TRANS 5220 {} 1500.00 
+#TRANS 6110 {} 3380.00 
+#TRANS 6210 {} 6880.00 
+#TRANS 6250 {} 1130.00 
+#TRANS 6310 {} 3650.00 
+#TRANS 6540 {} 4155.00 
+#TRANS 6560 {} 2730.00 
+#TRANS 6970 {} 1500.00 
+#TRANS 2640 {} 156163.00 
+#TRANS 2440 {} -780813.00 
+}
+
+#VER "A" "75" 20100607 "Kundfakt"
+{
+#TRANS 3010 {} -405726.00 
+#TRANS 3011 {} -25412.00 
+#TRANS 3020 {} -230678.00 
+#TRANS 3021 {} -40452.00 
+#TRANS 3030 {} -120656.00 
+#TRANS 2610 {} -205731.00 
+#TRANS 1510 {} 1028655.00 
+}
+
+#VER "A" "76" 20100612 "Skattedekl"
+{
+#TRANS 2710 {} 69056.00 
+#TRANS 1630 {} -69056.00 
+#TRANS 2730 {} 67804.00 
+#TRANS 1630 {} -67804.00 
+#TRANS 2650 {} 99313.00 
+#TRANS 1630 {} -99313.00 
+#TRANS 2510 {} 26800.00 
+#TRANS 1630 {} -26800.00 
+}
+
+#VER "A" "77" 20100612 "Bet skatt"
+{
+#TRANS 1930 {} -262965.00 
+#TRANS 1630 {} 262965.00 
+}
+
+#VER "A" "78" 20100625 "Lîner"
+{
+#TRANS 7010 {} 108800.00 
+#TRANS 7210 {} 34500.00 
+#TRANS 7220 {} 34500.00 
+#TRANS 7230 {} 38000.00 
+#TRANS 7510 {} 67804.00 
+#TRANS 2730 {} -67804.00 
+#TRANS 2710 {} -69056.00 
+#TRANS 1930 {} -146744.00 
+}
+
+#VER "A" "79" 20100627 "Skandia pensionsfîrsÑkr"
+{
+#TRANS 7410 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "80" 20100629 "Amort banklÜn"
+{
+#TRANS 2350 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "81" 20100629 "Kassa"
+{
+#TRANS 1910 {} 248726.00 
+#TRANS 3021 {} -59363.00 
+#TRANS 3011 {} -16271.00 
+#TRANS 3020 {} -36218.00 
+#TRANS 3010 {} -87129.00 
+#TRANS 2610 {} -49745.00 
+}
+
+#VER "A" "82" 20100630 "InsÑttn kassa"
+{
+#TRANS 1910 {} -245000.00 
+#TRANS 1930 {} 245000.00 
+}
+
+#VER "A" "83" 20100702 "Bet lev fakt"
+{
+#TRANS 2440 {} 893634.00 
+#TRANS 1930 {} -893634.00 
+}
+
+#VER "A" "84" 20100705 "Lev fakt"
+{
+#TRANS 4010 {} 123446.00 
+#TRANS 4020 {} 232876.00 
+#TRANS 4021 {} 154768.00 
+#TRANS 5020 {} 7950.00 
+#TRANS 5030 {} 13600.00 
+#TRANS 5040 {} 13736.00 
+#TRANS 5050 {} 15423.00 
+#TRANS 5060 {} 6473.00 
+#TRANS 5070 {} 19027.00 
+#TRANS 5090 {} 7625.00 
+#TRANS 5220 {} 10624.00 
+#TRANS 5910 {} 123311.00 
+#TRANS 5930 {} 64141.00 
+#TRANS 6071 {} 5268.00 
+#TRANS 6072 {} 9873.00 
+#TRANS 6090 {} 13763.00 
+#TRANS 6110 {} 28272.00 
+#TRANS 6210 {} 13379.00 
+#TRANS 6250 {} 17255.00 
+#TRANS 6310 {} 16278.00 
+#TRANS 6540 {} 4155.00 
+#TRANS 6560 {} 18266.00 
+#TRANS 6570 {} 5621.00 
+#TRANS 6590 {} 19277.00 
+#TRANS 6970 {} 15828.00 
+#TRANS 6981 {} 9025.00 
+#TRANS 6982 {} 5985.00 
+#TRANS 7631 {} 28716.00 
+#TRANS 7632 {} 18271.00 
+#TRANS 7690 {} 17265.00 
+#TRANS 7570 {} 250.00 
+#TRANS 2640 {} 251342.00 
+#TRANS 2440 {} -1291089.00 
+}
+
+#VER "A" "85" 20100705 "Inbet kundfakt"
+{
+#TRANS 1510 {} -1325272.00 
+#TRANS 1930 {} 1325272.00 
+}
+
+#VER "A" "86" 20100709 "Kundfakt"
+{
+#TRANS 3010 {} -405726.00 
+#TRANS 3011 {} -25412.00 
+#TRANS 3020 {} -230678.00 
+#TRANS 3021 {} -40452.00 
+#TRANS 3030 {} -120656.00 
+#TRANS 2610 {} -205731.00 
+#TRANS 1510 {} 1028655.00 
+}
+
+#VER "A" "87" 20100712 "Skattedekl"
+{
+#TRANS 2710 {} 69056.00 
+#TRANS 1630 {} -69056.00 
+#TRANS 2730 {} 67804.00 
+#TRANS 1630 {} -67804.00 
+#TRANS 2650 {} 84313.00 
+#TRANS 1630 {} -84313.00 
+#TRANS 2510 {} 26800.00 
+#TRANS 1630 {} -26800.00 
+}
+
+#VER "A" "88" 20100712 "Bet skatt"
+{
+#TRANS 1930 {} -247890.00 
+#TRANS 1630 {} 247890.00 
+}
+
+#VER "A" "89" 20100725 "Lîner"
+{
+#TRANS 7010 {} 108800.00 
+#TRANS 7210 {} 34500.00 
+#TRANS 7220 {} 34500.00 
+#TRANS 7230 {} 38000.00 
+#TRANS 7510 {} 67804.00 
+#TRANS 2730 {} -67804.00 
+#TRANS 2710 {} -69056.00 
+#TRANS 1930 {} -146744.00 
+}
+
+#VER "A" "90" 20100728 "Skandia pensionsfîrsÑkr"
+{
+#TRANS 7410 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "91" 20100729 "Amort banklÜn"
+{
+#TRANS 2350 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "92" 20100730 "Kassa"
+{
+#TRANS 1910 {} 248726.00 
+#TRANS 3021 {} -59363.00 
+#TRANS 3011 {} -16271.00 
+#TRANS 3020 {} -36218.00 
+#TRANS 3010 {} -87129.00 
+#TRANS 2610 {} -49745.00 
+}
+
+#VER "A" "93" 20100803 "Bet lev fakt"
+{
+#TRANS 2440 {} 764202.00 
+#TRANS 1930 {} -764202.00 
+}
+
+#VER "A" "94" 20100804 "Inbet kundfakt"
+{
+#TRANS 1510 {} -1291661.00 
+#TRANS 1930 {} 1291661.00 
+}
+
+#VER "A" "95" 20100805 "Lev fakt"
+{
+#TRANS 4010 {} 321805.00 
+#TRANS 4020 {} 121883.00 
+#TRANS 4021 {} 121792.00 
+#TRANS 4011 {} 7040.00 
+#TRANS 5020 {} 17950.00 
+#TRANS 5030 {} 25654.00 
+#TRANS 5040 {} 1209.00 
+#TRANS 5060 {} 12750.00 
+#TRANS 5090 {} 59647.00 
+#TRANS 5220 {} 1500.00 
+#TRANS 5910 {} 25486.00 
+#TRANS 6110 {} 13820.00 
+#TRANS 6210 {} 16889.00 
+#TRANS 6250 {} 11380.00 
+#TRANS 6310 {} 13654.00 
+#TRANS 6540 {} 16542.00 
+#TRANS 6560 {} 2730.00 
+#TRANS 6970 {} 1500.00 
+#TRANS 2640 {} 198308.00 
+#TRANS 2440 {} -991539.00 
+}
+
+#VER "A" "96" 20100809 "Kundfakt"
+{
+#TRANS 3010 {} -405726.00 
+#TRANS 3011 {} -25412.00 
+#TRANS 3020 {} -230678.00 
+#TRANS 3021 {} -40452.00 
+#TRANS 3030 {} -120656.00 
+#TRANS 2610 {} -205731.00 
+#TRANS 1510 {} 1028655.00 
+}
+
+#VER "A" "97" 20100812 "Skattedekl"
+{
+#TRANS 2710 {} 69056.00 
+#TRANS 1630 {} -69056.00 
+#TRANS 2730 {} 67804.00 
+#TRANS 1630 {} -67804.00 
+#TRANS 2650 {} 99313.00 
+#TRANS 1630 {} -99313.00 
+#TRANS 2510 {} 26800.00 
+#TRANS 1630 {} -26800.00 
+}
+
+#VER "A" "98" 20100812 "Bet skatt"
+{
+#TRANS 1930 {} -263000.00 
+#TRANS 1630 {} 263000.00 
+}
+
+#VER "A" "99" 20100825 "Lîner"
+{
+#TRANS 7010 {} 108800.00 
+#TRANS 7210 {} 34500.00 
+#TRANS 7220 {} 34500.00 
+#TRANS 7230 {} 38000.00 
+#TRANS 7510 {} 67804.00 
+#TRANS 2730 {} -67804.00 
+#TRANS 2710 {} -69056.00 
+#TRANS 1930 {} -146744.00 
+}
+
+#VER "A" "100" 20100828 "Skandia pensionsfîrsÑkr"
+{
+#TRANS 7410 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "101" 20100828 "Amort banklÜn"
+{
+#TRANS 2350 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "102" 20100829 "Kassa"
+{
+#TRANS 1910 {} 248726.00 
+#TRANS 3021 {} -59363.00 
+#TRANS 3011 {} -16271.00 
+#TRANS 3020 {} -36218.00 
+#TRANS 3010 {} -87129.00 
+#TRANS 2610 {} -49745.00 
+}
+
+#VER "A" "103" 20100830 "InsÑttn kassa"
+{
+#TRANS 1910 {} -500000.00 
+#TRANS 1930 {} 500000.00 
+}
+
+#VER "A" "104" 20100903 "Bet lev fakt"
+{
+#TRANS 2440 {} 987336.00 
+#TRANS 1930 {} -987336.00 
+}
+
+#VER "A" "105" 20100908 "Lev fakt"
+{
+#TRANS 4010 {} 132235.00 
+#TRANS 4020 {} 133903.00 
+#TRANS 4021 {} 153378.00 
+#TRANS 5020 {} 7950.00 
+#TRANS 5030 {} 13600.00 
+#TRANS 5040 {} 2905.00 
+#TRANS 5060 {} 2750.00 
+#TRANS 5220 {} 1500.00 
+#TRANS 6110 {} 3380.00 
+#TRANS 6210 {} 6880.00 
+#TRANS 6250 {} 1130.00 
+#TRANS 6310 {} 3650.00 
+#TRANS 6540 {} 4155.00 
+#TRANS 6560 {} 2730.00 
+#TRANS 6970 {} 1500.00 
+#TRANS 2640 {} 117912.00 
+#TRANS 2440 {} -589558.00 
+}
+
+#VER "A" "106" 20100910 "Kundfakt"
+{
+#TRANS 3010 {} -607645.00 
+#TRANS 3020 {} -230678.00 
+#TRANS 3021 {} -284661.00 
+#TRANS 3030 {} -291721.00 
+#TRANS 3031 {} -102411.00 
+#TRANS 2610 {} -379279.00 
+#TRANS 1510 {} 1896395.00 
+}
+
+#VER "A" "107" 20100911 "Inbet kundfakt"
+{
+#TRANS 1510 {} -1726578.00 
+#TRANS 1930 {} 1726578.00 
+}
+
+#VER "A" "108" 20100912 "Skattedekl"
+{
+#TRANS 2710 {} 69056.00 
+#TRANS 1630 {} -69056.00 
+#TRANS 2730 {} 67804.00 
+#TRANS 1630 {} -67804.00 
+#TRANS 2650 {} 4134.00 
+#TRANS 1630 {} -4134.00 
+#TRANS 2510 {} 26800.00 
+#TRANS 1630 {} -26800.00 
+}
+
+#VER "A" "109" 20100912 "Bet skatt"
+{
+#TRANS 1930 {} -167600.00 
+#TRANS 1630 {} 167600.00 
+}
+
+#VER "A" "110" 20100925 "Lîner"
+{
+#TRANS 7010 {} 108800.00 
+#TRANS 7210 {} 34500.00 
+#TRANS 7220 {} 34500.00 
+#TRANS 7230 {} 38000.00 
+#TRANS 7510 {} 67804.00 
+#TRANS 2730 {} -67804.00 
+#TRANS 2710 {} -69056.00 
+#TRANS 1930 {} -146744.00 
+}
+
+#VER "A" "111" 20100927 "Skandia pensionsfîrsÑkr"
+{
+#TRANS 7410 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "112" 20100928 "Amort banklÜn"
+{
+#TRANS 2350 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "113" 20100929 "Kassa"
+{
+#TRANS 1910 {} 248726.00 
+#TRANS 3021 {} -59363.00 
+#TRANS 3011 {} -16271.00 
+#TRANS 3020 {} -36218.00 
+#TRANS 3010 {} -87129.00 
+#TRANS 2610 {} -49745.00 
+}
+
+#VER "A" "114" 20100929 "InsÑttn kassa"
+{
+#TRANS 1910 {} -255000.00 
+#TRANS 1930 {} 255000.00 
+}
+
+#VER "A" "115" 20101002 "Bet lev fakt"
+{
+#TRANS 2440 {} 514422.00 
+#TRANS 1930 {} -514422.00 
+}
+
+#VER "A" "116" 20101004 "Inbet kundfakt"
+{
+#TRANS 1510 {} -1327179.00 
+#TRANS 1930 {} 1327179.00 
+}
+
+#VER "A" "117" 20101005 "Kundfakt"
+{
+#TRANS 3010 {} -405726.00 
+#TRANS 3011 {} -25412.00 
+#TRANS 3020 {} -230678.00 
+#TRANS 3021 {} -40452.00 
+#TRANS 3030 {} -120656.00 
+#TRANS 2610 {} -205731.00 
+#TRANS 1510 {} 1028655.00 
+}
+
+#VER "A" "118" 20101008 "Lev fakt"
+{
+#TRANS 1220 {} 25673.00 
+#TRANS 4010 {} 153349.00 
+#TRANS 4031 {} 134232.00 
+#TRANS 4020 {} 237906.00 
+#TRANS 4021 {} 87964.00 
+#TRANS 5020 {} 7950.00 
+#TRANS 5030 {} 13600.00 
+#TRANS 5040 {} 2905.00 
+#TRANS 5060 {} 2750.00 
+#TRANS 5220 {} 14918.00 
+#TRANS 5410 {} 23171.00 
+#TRANS 5460 {} 16524.00 
+#TRANS 5520 {} 23155.00 
+#TRANS 5810 {} 26514.00 
+#TRANS 5831 {} 24987.00 
+#TRANS 5832 {} 19762.00 
+#TRANS 5890 {} 29377.00 
+#TRANS 5900 {} 19272.00 
+#TRANS 5910 {} 151728.00 
+#TRANS 6110 {} 3380.00 
+#TRANS 6210 {} 6880.00 
+#TRANS 6250 {} 1130.00 
+#TRANS 6310 {} 3650.00 
+#TRANS 6540 {} 4155.00 
+#TRANS 6560 {} 2730.00 
+#TRANS 6970 {} 1500.00 
+#TRANS 7580 {} 21786.00 
+#TRANS 7610 {} 67810.00 
+#TRANS 7620 {} 20875.00 
+#TRANS 2640 {} 259790.00 
+#TRANS 2440 {} -1409423.00 
+}
+
+#VER "A" "119" 20101012 "Skattedekl"
+{
+#TRANS 2710 {} 69056.00 
+#TRANS 1630 {} -69056.00 
+#TRANS 2730 {} 67804.00 
+#TRANS 1630 {} -67804.00 
+#TRANS 2650 {} 57168.00 
+#TRANS 1630 {} -57168.00 
+#TRANS 2510 {} 26800.00 
+#TRANS 1630 {} -26800.00 
+}
+
+#VER "A" "120" 20101012 "Bet skatt"
+{
+#TRANS 1930 {} -221000.00 
+#TRANS 1630 {} 221000.00 
+#TRANS 8314 {} -17.00 
+#TRANS 1630 {} 17.00 
+}
+
+#VER "A" "121" 20101025 "Lîner"
+{
+#TRANS 7010 {} 108800.00 
+#TRANS 7210 {} 34500.00 
+#TRANS 7220 {} 34500.00 
+#TRANS 7230 {} 38000.00 
+#TRANS 7510 {} 67804.00 
+#TRANS 2730 {} -67804.00 
+#TRANS 2710 {} -69056.00 
+#TRANS 1930 {} -146744.00 
+}
+
+#VER "A" "122" 20101027 "Skandia pensionsfîrsÑkr"
+{
+#TRANS 7410 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "123" 20101028 "Amort banklÜn"
+{
+#TRANS 2350 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "124" 20101029 "Kassa"
+{
+#TRANS 1910 {} 248726.00 
+#TRANS 3021 {} -59363.00 
+#TRANS 3011 {} -16271.00 
+#TRANS 3020 {} -36218.00 
+#TRANS 3010 {} -87129.00 
+#TRANS 2610 {} -49745.00 
+}
+
+#VER "A" "125" 20101029 "InsÑttn kassa"
+{
+#TRANS 1910 {} -250000.00 
+#TRANS 1930 {} 250000.00 
+}
+
+#VER "A" "126" 20101104 "Bet lev fakt"
+{
+#TRANS 2440 {} 1186450.00 
+#TRANS 1930 {} -1186450.00 
+}
+
+#VER "A" "127" 20101105 "Inbet kundfakt"
+{
+#TRANS 1510 {} -1220876.00 
+#TRANS 1930 {} 1220876.00 
+}
+
+#VER "A" "128" 20101107 "Lev fakt"
+{
+#TRANS 4010 {} 321805.00 
+#TRANS 4020 {} 164003.00 
+#TRANS 4021 {} 79272.00 
+#TRANS 4011 {} 7440.00 
+#TRANS 5020 {} 7950.00 
+#TRANS 5030 {} 13600.00 
+#TRANS 5040 {} 2905.00 
+#TRANS 5060 {} 2750.00 
+#TRANS 5220 {} 1500.00 
+#TRANS 6110 {} 3380.00 
+#TRANS 6210 {} 6880.00 
+#TRANS 6250 {} 1130.00 
+#TRANS 6310 {} 3650.00 
+#TRANS 6540 {} 4155.00 
+#TRANS 6560 {} 2730.00 
+#TRANS 6970 {} 1500.00 
+#TRANS 2640 {} 156163.00 
+#TRANS 2440 {} -780813.00 
+}
+
+#VER "A" "129" 20101109 "Kundfakt"
+{
+#TRANS 3010 {} -605534.00 
+#TRANS 3020 {} -230678.00 
+#TRANS 3021 {} -304874.00 
+#TRANS 3030 {} -261441.00 
+#TRANS 2610 {} -350632.00 
+#TRANS 1510 {} 1753159.00 
+}
+
+#VER "A" "130" 20101112 "Skattedekl"
+{
+#TRANS 2710 {} 69056.00 
+#TRANS 1630 {} -69056.00 
+#TRANS 2730 {} 67804.00 
+#TRANS 1630 {} -67804.00 
+#TRANS 2650 {} 311112.00 
+#TRANS 1630 {} -311112.00 
+#TRANS 2510 {} 26800.00 
+#TRANS 1630 {} -26800.00 
+}
+
+#VER "A" "131" 20101112 "Bet skatt"
+{
+#TRANS 1930 {} -474848.00 
+#TRANS 1630 {} 474848.00 
+}
+
+#VER "A" "132" 20101125 "Lîner"
+{
+#TRANS 7010 {} 108800.00 
+#TRANS 7210 {} 34500.00 
+#TRANS 7220 {} 34500.00 
+#TRANS 7230 {} 38000.00 
+#TRANS 7510 {} 67804.00 
+#TRANS 2730 {} -67804.00 
+#TRANS 2710 {} -69056.00 
+#TRANS 1930 {} -146744.00 
+}
+
+#VER "A" "133" 20101128 "Skandia pensionsfîrsÑkr"
+{
+#TRANS 7410 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "134" 20101128 "Amort banklÜn"
+{
+#TRANS 2350 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "135" 20101129 "Kassa"
+{
+#TRANS 1910 {} 248726.00 
+#TRANS 3021 {} -59363.00 
+#TRANS 3011 {} -16271.00 
+#TRANS 3020 {} -36218.00 
+#TRANS 3010 {} -87129.00 
+#TRANS 2610 {} -49745.00 
+}
+
+#VER "A" "136" 20101129 "InsÑttn kassa"
+{
+#TRANS 1910 {} -200000.00 
+#TRANS 1930 {} 200000.00 
+}
+
+#VER "A" "137" 20101201 "Bet lev fakt"
+{
+#TRANS 2440 {} 1933854.00 
+#TRANS 1930 {} -1933854.00 
+}
+
+#VER "A" "138" 20101204 "Inbet kundfakt"
+{
+#TRANS 1510 {} -2262847.00 
+#TRANS 1930 {} 2262847.00 
+}
+
+#VER "A" "139" 20101207 "Lev fakt"
+{
+#TRANS 5020 {} 7950.00 
+#TRANS 5030 {} 13600.00 
+#TRANS 5040 {} 2905.00 
+#TRANS 5060 {} 2750.00 
+#TRANS 5220 {} 1500.00 
+#TRANS 6110 {} 3380.00 
+#TRANS 6210 {} 6880.00 
+#TRANS 6250 {} 1130.00 
+#TRANS 6310 {} 3650.00 
+#TRANS 6540 {} 4155.00 
+#TRANS 6560 {} 2730.00 
+#TRANS 6970 {} 1500.00 
+#TRANS 2640 {} 13033.00 
+#TRANS 2440 {} -65163.00 
+}
+
+#VER "A" "140" 20101212 "Skattedekl"
+{
+#TRANS 2710 {} 69056.00 
+#TRANS 1630 {} -69056.00 
+#TRANS 2730 {} 67804.00 
+#TRANS 1630 {} -67804.00 
+#TRANS 2650 {} -4314.00 
+#TRANS 1630 {} 4314.00 
+#TRANS 2510 {} 26800.00 
+#TRANS 1630 {} -26800.00 
+}
+
+#VER "A" "141" 20101212 "Bet skatt"
+{
+#TRANS 1930 {} -159347.00 
+#TRANS 1630 {} 159347.00 
+}
+
+#VER "A" "142" 20101223 "Lîner"
+{
+#TRANS 7010 {} 108800.00 
+#TRANS 7210 {} 34500.00 
+#TRANS 7220 {} 34500.00 
+#TRANS 7230 {} 38000.00 
+#TRANS 7510 {} 67804.00 
+#TRANS 2730 {} -67804.00 
+#TRANS 2710 {} -69056.00 
+#TRANS 1930 {} -146744.00 
+#TRANS 7531 {} 32541.00 
+#TRANS 1910 {} -32541.00 
+}
+
+#VER "A" "143" 20101227 "Amort banklÜn"
+{
+#TRANS 2350 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "144" 20101227 "Skandia pensionsfîrsÑkr"
+{
+#TRANS 7410 {} 25000.00 
+#TRANS 1930 {} -25000.00 
+}
+
+#VER "A" "145" 20101229 "Kassa"
+{
+#TRANS 1910 {} 400929.00 
+#TRANS 3021 {} -163746.00 
+#TRANS 3020 {} -36218.00 
+#TRANS 3010 {} -120779.00 
+#TRANS 2610 {} -80186.00 
+}
+
+#VER "A" "146" 20101230 "InsÑttn kassa"
+{
+#TRANS 1910 {} -418000.00 
+#TRANS 1930 {} 418000.00 
+}
+
+#VER "A" "147" 20101230 "RÑnta bank"
+{
+#TRANS 8300 {} -41378.00 
+#TRANS 8400 {} 45182.00 
+#TRANS 1930 {} -3804.00 
+}
+
+#VER "A" "148" 20101230 "Utrangering inv"
+{
+#TRANS 1220 {} -332998.00 
+#TRANS 1229 {} 332998.00 
+}
+
+#VER "A" "149" 20101230 "Utdelning"
+{
+#TRANS 1930 {} -530000.00 
+#TRANS 2091 {} 530000.00 
+}
+
+#VER "A" "150" 20101209 "Slutskattsedel S09"
+{
+#TRANS 2510 {} -321600.00 
+#TRANS 1630 {} 321600.00 
+#TRANS 2510 {} 301322.00 
+#TRANS 2513 {} 53260.00 
+#TRANS 2732 {} 63076.00 
+#TRANS 1630 {} -417658.00 
+}
+
+#VER "A" "151" 20101209 "Bet S09"
+{
+#TRANS 1630 {} 96047.00 
+#TRANS 1930 {} -96047.00 
+}
+
+#VER "A" "152" 20101230 "èterf period. bokslut"
+{
+#TRANS 1720 {} -8234.00 
+#TRANS 5220 {} 8234.00 
+#TRANS 1790 {} -33132.00 
+#TRANS 6310 {} 19540.00 
+#TRANS 6210 {} 13592.00 
+}
+
+#VER "A" "153" 20101203 "Anderson & Nilsson AB"
+{
+#TRANS 1510 {} 348659.00 
+#TRANS 2610 {} -69732.00 
+#TRANS 3010 {} -209800.00 
+#TRANS 3011 {} -69127.00 
+}
+
+#VER "A" "154" 20101208 "Hallgren & Co"
+{
+#TRANS 1510 {} 254894.00 
+#TRANS 2610 {} -50979.00 
+#TRANS 3020 {} -154332.00 
+#TRANS 3021 {} -49583.00 
+}
+
+#VER "A" "155" 20101217 "Ze bra AB"
+{
+#TRANS 1510 {} 158947.00 
+#TRANS 2610 {} -31789.00 
+#TRANS 3010 {} -100098.00 
+#TRANS 3011 {} -27060.00 
+}
+
+#VER "A" "156" 20101222 "Hallgren & Co"
+{
+#TRANS 1510 {} 69874.00 
+#TRANS 2610 {} -13975.00 
+#TRANS 3020 {} -32145.00 
+#TRANS 3021 {} -23754.00 
+}
+
+#VER "A" "157" 20101227 "Anderson & Nilsson AB"
+{
+#TRANS 1510 {} 168974.00 
+#TRANS 2610 {} -33795.00 
+#TRANS 3010 {} -135179.00 
+}
+
+#VER "A" "158" 20101202 "BÜgar & Glas AB"
+{
+#TRANS 2440 {} -198627.00 
+#TRANS 2640 {} 39725.00 
+#TRANS 4010 {} 158902.00 
+}
+
+#VER "A" "159" 20101204 "Linsexperten"
+{
+#TRANS 2440 {} -98465.00 
+#TRANS 2640 {} 19693.00 
+#TRANS 4020 {} 78772.00 
+}
+
+#VER "A" "160" 20101204 "Nisses StÑd KB"
+{
+#TRANS 2440 {} -12500.00 
+#TRANS 2640 {} 2500.00 
+#TRANS 5060 {} 10000.00 
+}
+
+#VER "A" "161" 20101213 "Plusenergi"
+{
+#TRANS 2440 {} -9867.00 
+#TRANS 2640 {} 1973.00 
+#TRANS 5020 {} 7894.00 
+}
+
+#VER "A" "162" 20101217 "Telenor"
+{
+#TRANS 2440 {} -1973.00 
+#TRANS 2640 {} 395.00 
+#TRANS 6210 {} 1578.00 
+}
+
+#VER "A" "163" 20101217 "BÜgar & Glas AB"
+{
+#TRANS 2440 {} -294768.00 
+#TRANS 2640 {} 58954.00 
+#TRANS 4011 {} 71291.00 
+#TRANS 4010 {} 164523.00 
+}
+
+#VER "A" "164" 20101221 "Linsexperten"
+{
+#TRANS 2440 {} -102690.00 
+#TRANS 2640 {} 20538.00 
+#TRANS 4077 {} 82152.00 
+}
+
+#VER "A" "165" 20101202 "Canon"
+{
+#TRANS 2640 {} 3716.00 
+#TRANS 5220 {} 14863.00 
+#TRANS 2440 {"1" "1"} -18579.00 
+}

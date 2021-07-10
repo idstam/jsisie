@@ -11,18 +11,26 @@ namespace jsiSIE
     {
         private SieDocument _sie;
         private Stream _stream;
-        private Encoding _encoding;
+        
         private WriteOptions _options;
+        
+
         public class WriteOptions
         {
+            public WriteOptions(){
+                this.Encoding = EncodingHelper.GetDefault();;
+            }
+
             public bool WriteKSUMMA { get; set; } = false;
+            public Encoding Encoding{ get; set; }
+            public string DateFormat = "yyyyMMdd";
         }
 
         public SieDocumentWriter(SieDocument sie, WriteOptions options = null)
         {
             _sie = sie;
             _options = options ?? new WriteOptions();
-            _encoding = Encoding.GetEncoding(437);
+
         }
 
 
@@ -62,6 +70,7 @@ namespace jsiSIE
                 _stream.Position = 0;
                 var tempDoc = new SieDocument();
                 tempDoc.ThrowErrors = false;
+                tempDoc.Encoding = _options.Encoding;
                 tempDoc.ReadDocument(_stream);
                 _sie.KSUMMA = tempDoc.CRC.Checksum();
             }
@@ -137,7 +146,7 @@ namespace jsiSIE
                     var obj = getObjeklista(r.Objects);
                     var quantity = r.Quantity.HasValue ? SieAmount(r.Quantity.Value) : "";
                     createdBy = string.IsNullOrWhiteSpace(r.CreatedBy) ? "" : "\"" + r.CreatedBy + "\"";
-                    WriteLine("#TRANS " + r.Account.Number + " " + obj + " " + SieAmount(r.Amount) + " " + makeSieDate(r.RowDate) + " \"" + r.Text + "\" " + quantity + " " + createdBy);
+                    WriteLine(r.Token +  " " + r.Account.Number + " " + obj + " " + SieAmount(r.Amount) + " " + makeSieDate(r.RowDate) + " \"" + r.Text + "\" " + quantity + " " + createdBy);
                 }
 
                 WriteLine("}");
@@ -202,18 +211,7 @@ namespace jsiSIE
             if (_sie.RAR == null) return;
             foreach (var r in _sie.RAR.Values)
             {
-                WriteLine("#RAR " + r.ID.ToString() + " " + SieDate(r.Start) + " " + SieDate(r.End));
-            }
-        }
-        private string SieDate(DateTime? date)
-        {
-            if (date.HasValue)
-            {
-                return date.Value.Year.ToString() + date.Value.Month.ToString().PadLeft(2, '0') + date.Value.Day.ToString().PadLeft(2, '0');
-            }
-            else
-            {
-                return "";
+                WriteLine("#RAR " + r.ID.ToString() + " " + makeSieDate(r.Start) + " " + makeSieDate(r.End));
             }
         }
         private string SieAmount(decimal amount)
@@ -249,7 +247,7 @@ namespace jsiSIE
         {
             if (_sie.OMFATTN.HasValue)
             {
-                WriteLine("#OMFATTN " + SieDate(_sie.OMFATTN));
+                WriteLine("#OMFATTN " + makeSieDate(_sie.OMFATTN));
             }
         }
 
@@ -317,7 +315,14 @@ namespace jsiSIE
 
         private string FORMAT
         {
-            get { return "#FORMAT PC8"; }
+            get { 
+                if(_options.Encoding.CodePage == 437){
+                    return "#FORMAT PC8"; 
+                } else{
+                    return $"#FORMAT {_options.Encoding.EncodingName}";
+                }
+                
+                }
         }
         private string PROGRAM
         {
@@ -340,7 +345,7 @@ namespace jsiSIE
         }
         private void WriteLine(string line)
         {
-            var bytes = _encoding.GetBytes(line.Trim() + Environment.NewLine);
+            var bytes = _options.Encoding.GetBytes(line.Trim() + Environment.NewLine);
             _stream.Write(bytes, 0, bytes.Length);
         }
         private string makeField(string data)
@@ -359,11 +364,15 @@ namespace jsiSIE
         {
             if (date.HasValue)
             {
-                return date.Value.ToString("yyyyMMdd");
+                return date.Value.ToString(_options.DateFormat);
             }
             else
             {
-                return "00000000";
+                if(_options.DateFormat == "yyyyMMdd"){
+                    return "00000000";
+                } else{
+                    return DateTime.MinValue.ToString(_options.DateFormat);
+                }
             }
         }
     }
