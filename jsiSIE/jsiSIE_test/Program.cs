@@ -144,10 +144,10 @@ namespace jsiSIE_test
             var p = Assembly.GetExecutingAssembly().Location;
             while (true)
             {
-                var r = Path.Join(p, "README.md");
+                var r = Path.Combine(p, "README.md");
                 if (File.Exists(r))
                 {
-                    return Path.Join(p, "sie_test_files");
+                    return Path.Combine(p, "sie_test_files");
                 }
 
                 var di = new DirectoryInfo(p);
