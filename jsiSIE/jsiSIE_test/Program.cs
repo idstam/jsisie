@@ -52,7 +52,7 @@ namespace jsiSIE_test
 
         private static void BootstrapTest()
         {
-            string testSourceFolder = @"c:\temp\sie_test_files";
+            string testSourceFolder = "d:\\src\\idstam\\jsisie\\sie_test_files";
             if (!Directory.Exists(testSourceFolder)) Directory.CreateDirectory(testSourceFolder);
 
             GetExampleFiles(testSourceFolder);
@@ -66,6 +66,11 @@ namespace jsiSIE_test
                 sie.ThrowErrors = false;
                 sie.IgnoreMissingOMFATTNING = true;
 
+                if(f.Contains("sie%204.SE"))
+                {
+                    sie.IgnoreRTRANS = true;
+                    sie.IgnoreBTRANS = true;
+                }
                 sie.ReadDocument(f);
                 if (sie.ValidationExceptions.Count > 0)
                 {
@@ -87,6 +92,13 @@ namespace jsiSIE_test
 
                     var sieB = new SieDocument();
                     sieB.IgnoreMissingOMFATTNING = true;
+
+                    if (f.Contains( "sie%204.SE"))
+                    {
+                        sieB.IgnoreRTRANS = true;
+                        sieB.IgnoreBTRANS = true;
+                    }
+
                     sieB.ReadDocument(testWriteFile);
                     var compErrors = SieDocumentComparer.Compare(sie, sieB);
                     foreach (var e in compErrors)
@@ -106,6 +118,11 @@ namespace jsiSIE_test
 
                     var sieB1 = new SieDocument();
                     sieB1.IgnoreMissingOMFATTNING = true;
+                    if (f.Contains("sie%204.SE"))
+                    {
+                        sieB1.IgnoreRTRANS = true;
+                        sieB1.IgnoreBTRANS = true;
+                    }
                     sieB1.ReadDocument(testWriteFile1);
                     var compErrors1 = SieDocumentComparer.Compare(sie, sieB1);
                     foreach (var e in compErrors1)
