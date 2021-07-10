@@ -1,0 +1,1819 @@
+#FLAGGA		0
+#KSUMMA
+#PROGRAM	"Norstedts Bokslut" 2011.2.1
+#FORMAT		PC8
+#GEN		20110317 QQ
+#SIETYP		4
+#PROSA		"Exporterat av Norstedts Bokslut"
+#FNR		0123
+#ORGNR		556639-1537
+#ADRESS		"" "Storgatan 1" "410 10  Gîteborg" ""
+#FNAMN		"Datakonsulterna AB"
+#RAR	0	20090701	20100630
+#RAR	-1	20080701	20090630
+#TAXAR	2011
+#KPTYP		EUBAS97
+#DIM		1	KostnadsstÑlle
+#DIM		6	Projekt
+#KONTO	1010	"Balanserade utgifter"
+#KONTO	1011	"Bal utgifter forskning/utveckling"
+#KONTO	1012	"Balanserade utgifter programvaror"
+#KONTO	1018	"Ack nedskrivningar balanserade utgifter"
+#KONTO	1060	HyresrÑtter
+#KONTO	1068	"Ack nedskrivningar hyresrÑtter"
+#KONTO	1069	"Ack avskrivningar hyresrÑtter"
+#KONTO	1070	Goodwill
+#KONTO	1078	"Ack nedskrivningar goodwill"
+#KONTO	1079	"Ack avskrivningar goodwill"
+#KONTO	1090	"ôvr immateriella anlÑggningstillgÜngar"
+#KONTO	1098	"Ack nedskr îvr immateriella anl tillg"
+#KONTO	1099	"Ack avskr îvr immateriella anl tillg"
+#KONTO	1110	Byggnader
+#KONTO	1119	"Ack avskrivningar byggnader"
+#KONTO	1130	Mark
+#KONTO	1150	MarkanlÑggningar
+#KONTO	1159	"Ack avskrivningar pÜ markanlÑggningar"
+#KONTO	1210	"Maskiner och andra tekniska anlÑggningar"
+#KONTO	1219	"Ack avskrivningar maskiner"
+#KONTO	1220	"Inventarier och verktyg"
+#KONTO	1229	"Ack avskrivningar inventarier/verktyg"
+#KONTO	1240	"Bilar och andra transportmedel"
+#KONTO	1249	"Ack avskr bilar/andra transportmedel"
+#KONTO	1250	Datorer
+#KONTO	1259	"Ack avskrivningar pÜ datorer"
+#KONTO	1291	"Konst och liknande tillgÜngar"
+#KONTO	1350	"Andelar och vÑrdepapper i andra fîretag"
+#KONTO	1380	"Andra lÜngfristiga fordringar"
+#KONTO	1390	"Ack nedskr vÑrdepapper/lÜngfr fordringar"
+#KONTO	1400	Lager
+#KONTO	1440	"Produkter i arbete"
+#KONTO	1450	Lager
+#KONTO	1470	"PÜgÜende arbeten"
+#KONTO	1490	"FîrÑndr lager/prod i arbete/pÜg arbeten"
+#KONTO	1510	Kundfordringar
+#KONTO	1515	"OsÑkra kundfordringar"
+#KONTO	1518	"Ej reskontrafîrda kundfordringar"
+#KONTO	1580	"Fordringar fîr kontokort och kuponger"
+#KONTO	1610	"Kortfristiga fordringar hos anstÑllda"
+#KONTO	1630	Skattekonto
+#KONTO	1640	Skattefordringar
+#KONTO	1650	Momsfordran
+#KONTO	1660	"Kortfristiga fordringar koncernfîretag"
+#KONTO	1661	"Kortfristiga fordringar hos moderfîretag"
+#KONTO	1662	"Kortfristiga fordringar dotterfîretag"
+#KONTO	1663	"Kortfr fordringar andra koncernfîretag"
+#KONTO	1670	"Kortfristiga fordringar intressefîretag"
+#KONTO	1680	"Andra kortfristiga fordringar"
+#KONTO	1690	"Nedskr kortfr fordringar (ofîrdelade)"
+#KONTO	1700	"Fîrutbet kostnader/upplupna intÑkter"
+#KONTO	1710	"Fîrutbetalda hyreskostnader"
+#KONTO	1720	"Fîrutbetalda leasingavgifter"
+#KONTO	1730	"Fîrutbetalda fîrsÑkringspremier"
+#KONTO	1760	"Upplupna inkomstrÑntor"
+#KONTO	1790	"ôvriga fîrutbet kostn o upplupna int"
+#KONTO	1910	Kassa
+#KONTO	1920	Plusgiro
+#KONTO	1930	CheckrÑkningskonto
+#KONTO	1940	Bank
+#KONTO	2010	"Eget kapital, delÑgare 1"
+#KONTO	2011	"Egna varuuttag"
+#KONTO	2012	Skattekonto
+#KONTO	2013	"ôvriga egna uttag"
+#KONTO	2016	"FîrÑndring i fond fîr verkligt vÑrde"
+#KONTO	2017	"èrets kapitaltillskott"
+#KONTO	2018	"ôvriga egna insÑttningar"
+#KONTO	2019	"èrets resultat, delÑgare 1"
+#KONTO	2020	"Eget kapital, delÑgare 2-4"
+#KONTO	2050	"AvsÑttning till expansionsfond"
+#KONTO	2081	Aktiekapital
+#KONTO	2086	Reservfond
+#KONTO	2091	"Balanserad vinst eller fîrlust"
+#KONTO	2098	"Vinst eller fîrlust frÜn fîregÜende Ür"
+#KONTO	2099	"èrets resultat"
+#KONTO	2110	"Periodiseringsfond vid 2010 Ürs taxering"
+#KONTO	2123	"Periodiseringsfond tax 2003"
+#KONTO	2124	"Periodiseringsfond tax 2004"
+#KONTO	2125	"Periodiseringsfond tax 2005"
+#KONTO	2126	"Periodiseringsfond tax 2006"
+#KONTO	2127	"Periodiseringsfond tax 2007"
+#KONTO	2128	"Periodiseringsfond tax 2008"
+#KONTO	2129	"Periodiseringsfond tax 2009"
+#KONTO	2150	"Ackumulerade îveravskrivningar"
+#KONTO	2153	"Ack îveravskr pÜ mask och inventarier"
+#KONTO	2199	"ôvriga obeskattade reserver"
+#KONTO	2330	CheckrÑkningskredit
+#KONTO	2350	"Andra lÜngfr skulder kreditinstitut"
+#KONTO	2391	"Avbetalningskontrakt, lÜngfristig del"
+#KONTO	2393	"LÜn nÑrstÜende personer, lÜngfr del"
+#KONTO	2399	"ôvriga lÜngfristiga skulder"
+#KONTO	2410	"Kortfr lÜneskulder till kreditinstitut"
+#KONTO	2421	"Ej inlîsta presentkort"
+#KONTO	2429	"ôvriga fîrskott frÜn kunder"
+#KONTO	2431	"PÜgÜende arbeten, fakturering"
+#KONTO	2438	"PÜgÜende arbeten, nedlagda kostnader"
+#KONTO	2439	"BerÑknad fîrÑndring av pÜgÜende arbeten"
+#KONTO	2440	Leverantîrsskulder
+#KONTO	2448	"Ej reskontrafîrda leverantîrsskulder"
+#KONTO	2490	"ôvr kortfristiga skulder"
+#KONTO	2510	Skatteskulder
+#KONTO	2610	"UtgÜende moms 25%"
+#KONTO	2611	"UtgÜende moms 25%"
+#KONTO	2612	"UtgÜende moms pÜ egna uttag 25%"
+#KONTO	2613	"UtgÜende moms fîr uthyrning 25%"
+#KONTO	2614	"Ber utg moms tjÑnstefîrvÑrv utlandet 25%"
+#KONTO	2615	"Ber utg moms varufîrvÑrv EU-land 25%"
+#KONTO	2616	"Utg moms VMB 25%"
+#KONTO	2617	"Utg moms omv skattskyldighet i Sv 25%"
+#KONTO	2618	"Vilande utgÜende moms 25%"
+#KONTO	2619	"Utg moms EU-land"
+#KONTO	2620	"UtgÜende moms 12%"
+#KONTO	2621	"UtgÜende moms 12%"
+#KONTO	2622	"UtgÜende moms pÜ egna uttag 12%"
+#KONTO	2623	"UtgÜende moms fîr uthyrning 12%"
+#KONTO	2624	"Ber utg moms tjÑnstefîrvÑrv utlandet 12%"
+#KONTO	2625	"Ber utg moms varufîrvÑrv EU-land 12%"
+#KONTO	2626	"UtgÜende moms VMB 12%"
+#KONTO	2627	"Utg moms omv skattskyldighet i Sv 12%"
+#KONTO	2628	"Vilande utgÜende moms 12%"
+#KONTO	2630	"UtgÜende moms 6%"
+#KONTO	2631	"UtgÜende moms 6%"
+#KONTO	2632	"UtgÜende moms pÜ egna uttag 6%"
+#KONTO	2633	"UtgÜende moms fîr uthyrning 6%"
+#KONTO	2634	"Ber utg moms tjÑnstefîrvÑrv utlandet 6%"
+#KONTO	2635	"Ber utg moms varufîrvÑrv EU-land 6%"
+#KONTO	2636	"UtgÜende moms VMB 6%"
+#KONTO	2637	"Utg moms omv skattskyldighet i Sv 6%"
+#KONTO	2638	"Vilande utgÜende moms 6%"
+#KONTO	2640	"IngÜende moms"
+#KONTO	2641	"Debiterad ingÜende moms"
+#KONTO	2642	"Deb ing moms frivillig skattskyldighet"
+#KONTO	2645	"Ber ing moms pÜ fîrvÑrv frÜn utlandet"
+#KONTO	2646	"IngÜende moms pÜ uthyrning"
+#KONTO	2647	"Ing moms omv skattskyldighet i Sv"
+#KONTO	2648	"Vilande ingÜende moms"
+#KONTO	2649	"IngÜende moms, blandad verksamhet"
+#KONTO	2650	"Redovisningskonto fîr moms"
+#KONTO	2661	Reklamskatt
+#KONTO	2710	Personalskatt
+#KONTO	2730	"Lagstadgade sociala avgifter/lîneskatt"
+#KONTO	2731	"AvrÑkning lagstadgade sociala avgifter"
+#KONTO	2750	"UtmÑtning i lîn m m"
+#KONTO	2760	Semestermedel
+#KONTO	2790	"ôvriga lîneavdrag"
+#KONTO	2840	"Kortfristiga lÜneskulder"
+#KONTO	2890	"ôvriga kortfristiga skulder"
+#KONTO	2893	"Skulder till nÑrstÜende"
+#KONTO	2920	"Upplupna semesterlîner"
+#KONTO	2940	"Upplupna lagstadgade sociala avgifter"
+#KONTO	2941	"Ber uppl lagstadgade sociala avgifter"
+#KONTO	2943	"Ber uppl sÑrskild lîÑneskatt pÜ pensionskostnader"
+#KONTO	2990	"ôvr upplupna kostn/fîrutbetalda intÑkter"
+#KONTO	3001	"FîrsÑljning varor, 25% moms"
+#KONTO	3002	"FîrsÑljning varor, 12% moms"
+#KONTO	3003	"FîrsÑljning varor, 6% moms"
+#KONTO	3004	"FîrsÑljning varor, momsfri"
+#KONTO	3005	"FîrsÑljning varor, utanfîr EU"
+#KONTO	3006	"FîrsÑljning varor EU-land momspliktig"
+#KONTO	3007	"FîrsÑljning varor, EU-land, mellanman"
+#KONTO	3008	"FîrsÑljning varor, EU-land"
+#KONTO	3010	"Fakturerade konsultarvoden"
+#KONTO	3220	"FîrsÑljning VMB fîrenklad 25%"
+#KONTO	3231	"FîrsÑljning inom byggsektorn, omv skattsk"
+#KONTO	3232	"FîrsÑljning investeringsguld, omv skattsk"
+#KONTO	3233	"Utl fîretagares fîrsÑljning, omv skattsk"
+#KONTO	3259	"Momspliktiga uttag, 25%"
+#KONTO	3301	"FîrsÑljning tjÑnster, oreducerad"
+#KONTO	3302	"FîrsÑljning tjÑnster, reducerad 1"
+#KONTO	3303	"FîrsÑljning tjÑnster, reducerad 2"
+#KONTO	3304	"FîrsÑljning tjÑnster, momsfri"
+#KONTO	3305	"ôvr fîrsÑljning tjÑnster utom landet"
+#KONTO	3306	"FîrsÑljning tjÑnster, EU-land momspliktig"
+#KONTO	3308	"FîrsÑljning tjÑnster, kîpare skattsk EG-land"
+#KONTO	3500	"Fakturerade kostnader"
+#KONTO	3520	"Fakturerade frakter"
+#KONTO	3521	"Fakturerade frakter, EU-land"
+#KONTO	3522	"Fakturerade frakter, export"
+#KONTO	3540	Faktureringsavgifter
+#KONTO	3541	"Faktureringsavgifter, EU-land"
+#KONTO	3542	"Faktureringsavgifter, export"
+#KONTO	3731	"LÑmnade kassarabatter"
+#KONTO	3740	"ôres- och kronutjÑmning"
+#KONTO	3751	"IntÑktsfîrda punktskatter (kreditkonto)"
+#KONTO	3752	"Skuldfîrda punktskatter (debetkonto)"
+#KONTO	3800	"Aktiverat arbete egen rÑkning"
+#KONTO	3910	"Hyres- och arrendeintÑkter"
+#KONTO	3950	"ètervunna, tidigare avskr kundfordringar"
+#KONTO	3960	"Valutakursvinster pÜ fordringar/skulder"
+#KONTO	3970	"Vinst avyttr im-/materiella anlÑggn"
+#KONTO	3980	"ErhÜllna bidrag"
+#KONTO	3990	"ôvriga ersÑttningar och intÑkter"
+#KONTO	4010	"Inkîp varor och material"
+#KONTO	4090	Lagerdifferens
+#KONTO	4415	"Inkîp varor, omvÑnd skattsk, 25%"
+#KONTO	4416	"Inkîp varor, omvÑnd skattsk, 12%"
+#KONTO	4417	"Inkîp varor, omvÑnd skattsk, 6%"
+#KONTO	4420	"Inkîp tjÑnster, omvÑnd skattsk"
+#KONTO	4425	"Inkîp tjÑnster, omvÑnd skattsk, 25%"
+#KONTO	4426	"Inkîp tjÑnster, omvÑnd skattsk, 12%"
+#KONTO	4427	"Inkîp tjÑnster, omvÑnd skattsk, 6%"
+#KONTO	4511	"Import varor frÜn land utanfîr EU"
+#KONTO	4512	"Import varor, trepartsfîrvÑrv, mellanman"
+#KONTO	4515	"Import varor EU, 25%"
+#KONTO	4516	"Import varor EU, 12%"
+#KONTO	4517	"Import varor EU, 6%"
+#KONTO	4518	"Import varor EU, momsfri"
+#KONTO	4531	"Import tjÑnster utanfîr EU, 25%"
+#KONTO	4532	"Import tjÑnster utanfîr EU, 12%"
+#KONTO	4533	"Import tjÑnster utanfîr EU, 6%"
+#KONTO	4535	"FîrvÑrv tjÑnster EU, 25%"
+#KONTO	4536	"FîrvÑrv tjÑnster EU, 12%"
+#KONTO	4537	"FîrvÑrv tjÑnster EU, 6%"
+#KONTO	4538	"FîrvÑrv tjÑnster EU, momsfri"
+#KONTO	4600	"Legoarbeten och underentreprenader"
+#KONTO	4610	Underkonsulter
+#KONTO	4700	"Reduktion av inkîpspriser"
+#KONTO	4731	"ErhÜllna kassarabatter"
+#KONTO	4900	"FîrÑndring av lager"
+#KONTO	4940	"FîrÑndring av produkter i arbete"
+#KONTO	4970	"FîrÑndr pÜg arbeten, nedlagda kostnader"
+#KONTO	4990	"FîrÑndring lager/pÜg arbeten (ofîrdelad)"
+#KONTO	5000	Lokalkostnader
+#KONTO	5010	Lokalhyra
+#KONTO	5012	"Hyra fîr garage"
+#KONTO	5020	"El fîr belysning"
+#KONTO	5030	VÑrme
+#KONTO	5040	"Vatten och avlopp"
+#KONTO	5050	Lokaltillbehîr
+#KONTO	5060	"StÑdning och renhÜllning"
+#KONTO	5070	"Reparation och underhÜll av lokaler"
+#KONTO	5090	"ôvriga lokalkostnader"
+#KONTO	5200	"Hyra anlÑggningstillgÜngar"
+#KONTO	5221	"Korttidshyra av inventarier"
+#KONTO	5400	Fîrbrukningsinventarier/-material
+#KONTO	5410	Fîrbrukningsinventarier
+#KONTO	5460	Fîrbrukningsmaterial
+#KONTO	5500	"Reparation och underhÜll"
+#KONTO	5520	"Rep och underhÜll av inventarier"
+#KONTO	5611	"Drivmedel fîr personbilar"
+#KONTO	5612	"FîrsÑkring och skatt fîr personbilar"
+#KONTO	5613	"Reparation och underhÜll av personbilar"
+#KONTO	5615	"Leasing av personbilar"
+#KONTO	5616	"TrÑngselskatt, avdragsgill"
+#KONTO	5619	"ôvriga personbilskostnader"
+#KONTO	5700	"Frakter och transporter"
+#KONTO	5710	"Frakter, transp. och fîrsÑkring vid varutransport"
+#KONTO	5800	Resekostnader
+#KONTO	5810	Biljetter
+#KONTO	5900	"Reklam och PR"
+#KONTO	5910	Annonsering
+#KONTO	5930	"Reklamtryck och direktreklam"
+#KONTO	5940	"UtstÑllningar och mÑssor"
+#KONTO	6040	Kontokortsavgifter
+#KONTO	6071	"Representation, avdragsgill"
+#KONTO	6072	"Representation, ej avdragsgill"
+#KONTO	6090	"ôvriga fîrsÑljningskostnader"
+#KONTO	6100	Kontorsmateriel/trycksaker
+#KONTO	6110	Kontorsmateriel
+#KONTO	6150	Trycksaker
+#KONTO	6200	"Tele och post"
+#KONTO	6210	Telekommunikation
+#KONTO	6211	Telefon
+#KONTO	6230	Datakommunikation
+#KONTO	6250	Postbefordran
+#KONTO	6310	FîretagsfîrsÑkringar
+#KONTO	6351	"Konstaterade fîrluster pÜ kundfordringar"
+#KONTO	6352	"Befarade fîrluster pÜ kundfordringar"
+#KONTO	6380	"Fîrluster îvriga kortfristiga fordringar"
+#KONTO	6420	"ErsÑttningar till revisor"
+#KONTO	6490	"ôvriga fîrvaltningskostnader"
+#KONTO	6530	RedovisningstjÑnster
+#KONTO	6560	"Serviceavgifter till branschorganisation"
+#KONTO	6570	Bankkostnader
+#KONTO	6580	"Advokat- och rÑttegÜngskostnader"
+#KONTO	6590	"ôvriga externa tjÑnster"
+#KONTO	6970	"Tidningar, tidskrifter/facklitteratur"
+#KONTO	6981	"Fîreningsavgifter, avdragsgilla"
+#KONTO	6982	"Fîreningsavgifter, ej avdragsgilla"
+#KONTO	6990	"ôvriga externa kostnader"
+#KONTO	6991	"ôvr externa kostnader, avdragsgilla"
+#KONTO	6992	"ôvr externa kostnader, ej avdragsgilla"
+#KONTO	7010	"Lîner kollektivanstÑllda"
+#KONTO	7013	"Lîner kollektivanstÑllda 18-25 Ür"
+#KONTO	7082	"Semesterlîner till kolletivanstÑllda"
+#KONTO	7090	"FîrÑndring av semesterlîneskuld"
+#KONTO	7200	"Lîner tjÑnstemÑn/fîretagsledare"
+#KONTO	7210	"Lîner till tjÑnstemÑn"
+#KONTO	7220	"Lîner till fîretagsledare"
+#KONTO	7285	"Semsterlîner till tjÑnstemÑn"
+#KONTO	7286	"Semesterlîner till fîretagsledning"
+#KONTO	7290	"FîrÑndring av semesterlîneskuld"
+#KONTO	7291	"FîrÑndr av semesterlîneskuld till tj.mÑn"
+#KONTO	7292	"FîrÑndr semesterlîneskuld t ftgsledare"
+#KONTO	7320	"Skattefria traktamenten sverige"
+#KONTO	7321	"Skattefria traktamenten, Sverige"
+#KONTO	7322	"Skattepliktiga traktamenten, Sverige"
+#KONTO	7323	"Skattefria traktamenten, utlandet"
+#KONTO	7324	"Skattepliktiga traktamenten, utlandet"
+#KONTO	7331	"Skattefria bilersÑttningar"
+#KONTO	7332	"Skattepliktiga bilersÑttningar"
+#KONTO	7333	"ErsÑttning fîr trÑngselskatt, skattefri"
+#KONTO	7380	"Kostnader fîr fîrmÜner till anstÑllda"
+#KONTO	7390	"Kostnad fîr trÑngselskattefîrmÜn"
+#KONTO	7410	PensionsfîrsÑkringspremier
+#KONTO	7412	"Premier fîr individuella pensionsfîrsÑkringar"
+#KONTO	7490	"ôvriga pensionskostnader"
+#KONTO	7510	"Lagstadgade sociala avgifter"
+#KONTO	7519	"Arbetsgivaravgifter fîr semester- och lînskuld"
+#KONTO	7530	"SÑrskild lîneskatt"
+#KONTO	7533	"SÑrskild lîneskatt fîr pensionskostnader"
+#KONTO	7560	"Arbetsgivaravgifter 18-25 Ür"
+#KONTO	7570	"Premier fîr arbetsmarknadsfîrsÑkringar"
+#KONTO	7580	GruppfîrsÑkringspremier
+#KONTO	7590	"ôvriga sociala och andra avgifter"
+#KONTO	7600	"ôvriga personalkostnader"
+#KONTO	7610	Utbildning
+#KONTO	7631	"Personalrepresentation, avdragsgill"
+#KONTO	7810	"Avskr immateriella anlÑggningstillgÜngar"
+#KONTO	7820	"Avskrivningar byggnader/markanlÑggningar"
+#KONTO	7830	"Avskrivningar pÜ maskiner/inventarier"
+#KONTO	7832	"Avskrivning pÜ inventarier"
+#KONTO	7835	"Avskrivning pÜ datorer"
+#KONTO	7940	"Orealiserad positiv vÑrdefîrÑndr sÑkringsinstrumen"
+#KONTO	7960	"Valutakursfîrluster fordringar/skulder"
+#KONTO	7970	"Fîrlust avyttring anlÑggningstillgÜngar"
+#KONTO	7973	"Fîrlust vid avyttring av mask och inv"
+#KONTO	7990	"ôvriga rîrelsekostnader"
+#KONTO	8200	"RÑnteintÑkter frÜn anlÑggningstillgÜngar"
+#KONTO	8290	"Orealiserad vÑrdefîr anlÑggningstillgÜngar"
+#KONTO	8300	"RÑnteintÑkter omsÑttningstillgÜngar"
+#KONTO	8310	"RÑnteintÑkter pÜ omsÑttningstillgÜngar"
+#KONTO	8313	"RÑnteintÑkter kortfristiga fordringar"
+#KONTO	8314	"Skattefria rÑnteintÑkter"
+#KONTO	8320	"Orealiserad vÑrdefîr omsÑttningstillgÜngar"
+#KONTO	8340	"Utdelningar pÜ kortfristiga placeringar"
+#KONTO	8350	"Resultat fîrsÑljning kortfr placeringar"
+#KONTO	8370	"Nedskr kortfristiga placeringar"
+#KONTO	8380	"èterfîr nedskr kortfr placeringar"
+#KONTO	8400	RÑntekostnader
+#KONTO	8420	"RÑntekostnader fîr kortfristiga skulder"
+#KONTO	8422	"DrîjsmÜlsrÑntor fîr leverantîrsskulder"
+#KONTO	8423	"DrîjsmÜlsavgifter fîr skatter och sociala avgifter"
+#KONTO	8450	"Orealiserad vÑrdefîr skulder"
+#KONTO	8490	"ôvriga skuldrelaterade poster"
+#KONTO	8811	"AvsÑttning till periodiseringsfond"
+#KONTO	8819	"èterfîring frÜn periodiseringsfond"
+#KONTO	8853	"FîrÑndring av îveravskr, mask och inv"
+#KONTO	8899	"ôvriga bokslutsdispositioner"
+#KONTO	8910	"Skatt pÜ Ürets beskattningsbara resultat"
+#KONTO	8999	"èrets resultat"
+#IB	0	1220	    219292
+#IB	0	1229	   -144996
+#IB	0	1250	     34590
+#IB	0	1259	     -5926
+#IB	0	1510	    525288
+#IB	0	1630	        12
+#IB	0	1790	     32406
+#IB	0	1910	      5816
+#IB	0	1920	    352024.52
+#IB	0	1930	   1254288.77
+#IB	0	2081	   -300000
+#IB	0	2086	    -10000
+#IB	0	2091	   -254218.07
+#IB	0	2099	   -398624.26
+#IB	0	2110	   -186500
+#IB	0	2128	    -48000
+#IB	0	2129	    -55000
+#IB	0	2153	     -3713
+#IB	0	2440	   -489000
+#IB	0	2510	   -116918
+#IB	0	2650	   -200492.96
+#IB	0	2710	    -23835
+#IB	0	2731	    -21397
+#IB	0	2893	    -74068
+#IB	0	2920	    -54872
+#IB	0	2941	    -17240
+#IB	0	2943	    -10917
+#IB	0	2990	     -8000
+#UB	0	1220	    234892
+#UB	0	1229	   -144996
+#UB	0	1250	     86306
+#UB	0	1259	     -5926
+#UB	0	1450	     64383
+#UB	0	1510	    398144
+#UB	0	1630	        12
+#UB	0	1790	     32406
+#UB	0	1910	      2666
+#UB	0	1920	    352024.52
+#UB	0	1930	   2312331.81
+#UB	0	2081	   -300000
+#UB	0	2086	    -10000
+#UB	0	2091	   -254218.07
+#UB	0	2099	   -398624.26
+#UB	0	2110	   -186500
+#UB	0	2128	    -48000
+#UB	0	2129	    -55000
+#UB	0	2153	     -3713
+#UB	0	2440	   -529722
+#UB	0	2510	     -1118
+#UB	0	2650	   -259361
+#UB	0	2710	    -33161.89
+#UB	0	2731	    -21397
+#UB	0	2893	    -74068
+#UB	0	2920	    -54872
+#UB	0	2990	     -8000
+#RES	0	3001	  -2344300
+#RES	0	3010	  -2382484.80
+#RES	0	3540	      -150
+#RES	0	3740	        -2.80
+#RES	0	4010	    576800
+#RES	0	4090	    -64383
+#RES	0	4610	    848200
+#RES	0	5010	    143318.40
+#RES	0	5020	       240
+#RES	0	5050	      2880
+#RES	0	5060	      6800
+#RES	0	5070	      9840
+#RES	0	5090	      8544
+#RES	0	5221	      2816
+#RES	0	5410	      4960
+#RES	0	5460	      6232
+#RES	0	5520	      2000
+#RES	0	5611	     26016
+#RES	0	5612	     12507
+#RES	0	5613	     31600
+#RES	0	5615	     21336
+#RES	0	5619	      3384
+#RES	0	5710	      9920
+#RES	0	5810	      9249.60
+#RES	0	5910	      2869.60
+#RES	0	5930	     20800
+#RES	0	5940	     25160
+#RES	0	6071	     12048
+#RES	0	6072	      2560
+#RES	0	6110	      6772
+#RES	0	6150	     13216.80
+#RES	0	6210	     42896
+#RES	0	6211	     18600
+#RES	0	6230	     58800
+#RES	0	6310	     37838
+#RES	0	6420	     11400
+#RES	0	6530	     50720
+#RES	0	6560	      1480
+#RES	0	6570	      1950
+#RES	0	6590	      8960
+#RES	0	6970	      5200
+#RES	0	6982	       300
+#RES	0	6990	      1008
+#RES	0	7010	    319000
+#RES	0	7082	      2795
+#RES	0	7090	     28304
+#RES	0	7210	    373000
+#RES	0	7220	    461999.89
+#RES	0	7285	      3252
+#RES	0	7286	      4139
+#RES	0	7291	     17771
+#RES	0	7292	     34541
+#RES	0	7412	     55000
+#RES	0	7510	    354208
+#RES	0	7519	    -17240
+#RES	0	7533	    -10917
+#RES	0	7570	      6551.20
+#RES	0	7610	     12230
+#RES	0	7631	      2650
+#RES	0	8310	     -1420
+#RES	0	8314	      -423
+#RES	0	8420	      1120
+#RES	0	8423	      1050
+#IB	-1	1220	    219292
+#IB	-1	1229	   -101138
+#IB	-1	1250	     16084
+#IB	-1	1259	     -8043
+#IB	-1	1510	    493741
+#IB	-1	1630	        12
+#IB	-1	1710	     12050
+#IB	-1	1730	     18823
+#IB	-1	1760	      4276.77
+#IB	-1	1910	      1816
+#IB	-1	1920	    352024.52
+#IB	-1	1930	    562345.52
+#IB	-1	2081	   -300000
+#IB	-1	2086	    -10000
+#IB	-1	2091	      -308.07
+#IB	-1	2099	   -253910
+#IB	-1	2128	    -48000
+#IB	-1	2129	    -55000
+#IB	-1	2440	   -688193.78
+#IB	-1	2510	    -55190
+#IB	-1	2650	     12654.04
+#IB	-1	2710	    -11624
+#IB	-1	2731	    -19098
+#IB	-1	2893	    -69452
+#IB	-1	2920	    -43686
+#IB	-1	2941	    -13985
+#IB	-1	2943	     -8491
+#IB	-1	2990	     -7000
+#UB	-1	1220	    219292
+#UB	-1	1229	   -144996
+#UB	-1	1250	     34590
+#UB	-1	1259	     -5926
+#UB	-1	1510	    525288
+#UB	-1	1630	        12
+#UB	-1	1790	     32406
+#UB	-1	1910	      5816
+#UB	-1	1920	    352024.52
+#UB	-1	1930	   1254288.77
+#UB	-1	2081	   -300000
+#UB	-1	2086	    -10000
+#UB	-1	2091	   -254218.07
+#UB	-1	2099	   -398624.26
+#UB	-1	2110	   -186500
+#UB	-1	2128	    -48000
+#UB	-1	2129	    -55000
+#UB	-1	2153	     -3713
+#UB	-1	2440	   -489000
+#UB	-1	2510	   -116918
+#UB	-1	2650	   -200492.96
+#UB	-1	2710	    -23835
+#UB	-1	2731	    -21397
+#UB	-1	2893	    -74068
+#UB	-1	2920	    -54872
+#UB	-1	2941	    -17240
+#UB	-1	2943	    -10917
+#UB	-1	2990	     -8000
+#RES	-1	3010	  -4094870
+#RES	-1	3540	      -150
+#RES	-1	3740	        -1.94
+#RES	-1	4010	    526745.60
+#RES	-1	4610	   1040000
+#RES	-1	5010	     47683.80
+#RES	-1	5020	       208
+#RES	-1	5050	      2351.20
+#RES	-1	5060	      7369.60
+#RES	-1	5070	     11584
+#RES	-1	5090	      8296.22
+#RES	-1	5221	      2825.60
+#RES	-1	5410	      4540
+#RES	-1	5460	      6264.80
+#RES	-1	5520	      1056
+#RES	-1	5611	     25032.26
+#RES	-1	5612	     12507
+#RES	-1	5613	     34841.24
+#RES	-1	5615	     10580
+#RES	-1	5619	      3703.68
+#RES	-1	5710	      9599.54
+#RES	-1	5810	      8956
+#RES	-1	5910	      2708.48
+#RES	-1	5930	     19401.60
+#RES	-1	5940	     24450.40
+#RES	-1	6071	     11283.20
+#RES	-1	6072	      1325
+#RES	-1	6110	      6995.84
+#RES	-1	6150	     12850.40
+#RES	-1	6210	     42030.96
+#RES	-1	6211	     15401.44
+#RES	-1	6230	     57243.20
+#RES	-1	6250	      3918.27
+#RES	-1	6310	     47150
+#RES	-1	6420	      8000
+#RES	-1	6530	     49588.20
+#RES	-1	6560	      1432
+#RES	-1	6570	      1686.30
+#RES	-1	6590	     13711.40
+#RES	-1	6970	      4942.10
+#RES	-1	6982	       300
+#RES	-1	6990	      1723.20
+#RES	-1	7210	    359400
+#RES	-1	7220	    457800.01
+#RES	-1	7285	      5990
+#RES	-1	7286	      7630
+#RES	-1	7291	     17790
+#RES	-1	7292	     37082
+#RES	-1	7321	     11567
+#RES	-1	7331	      3334
+#RES	-1	7412	     45000
+#RES	-1	7510	    240049
+#RES	-1	7519	      3255
+#RES	-1	7533	      2426
+#RES	-1	7610	      8432.26
+#RES	-1	7631	      1516.30
+#RES	-1	7832	     43858
+#RES	-1	7835	      5926
+#RES	-1	7973	      3041
+#RES	-1	8310	      3326.13
+#RES	-1	8314	      -321
+#RES	-1	8420	      1258.45
+#RES	-1	8423	       850
+#RES	-1	8811	    186500
+#RES	-1	8853	      3713
+#RES	-1	8910	    156688
+#RES	-1	8999	    398624.26
+#VER	A 1 20090701 èterfîring
+{
+	#TRANS	2941 {}      17240    20090701 èterfîring
+	#TRANS	7519 {}     -17240    20090701 èterfîring
+	#TRANS	2943 {}      10917    20090701 èterfîring
+	#TRANS	7533 {}     -10917    20090701 èterfîring
+}
+#VER	A 2 20090714 "Lîn juni 2009"
+{
+	#TRANS	7510 {}      21397    20090714 "Lîn juni 2009"
+	#TRANS	2710 {}      23835    20090714 "Lîn juni 2009"
+	#TRANS	2510 {}       8350    20090714 "F-skatt juni"
+	#TRANS	1930 {}     -53582    20090714
+}
+#VER	A 3 20090725 "Lîn juli -09"
+{
+	#TRANS	7210 {}      30250    20090725 "Lîn juli -09"
+	#TRANS	2710 {}     -10587    20090725 "Lîn juli -09"
+	#TRANS	7220 {}      38500    20090725 "Lîn juli -09"
+	#TRANS	2710 {}     -13475    20090725 "Lîn juli -09"
+	#TRANS	7010 {}      26000    20090725 "Lîn juli -09"
+	#TRANS	2710 {}      -9100    20090725 "Lîn juli -09"
+	#TRANS	1930 {}     -61588    20090725 "Lîn juli -09"
+}
+#VER	A 4 20090730 "LagerÑndring 090730"
+{
+	#TRANS	4090 {}     -29050    20090730 "LagerÑndring 090730"
+	#TRANS	1450 {}      29050    20090730 "LagerÑndring 090730"
+}
+#VER	A 5 20090817 "Lînbet juli 2009, F-skatt"
+{
+	#TRANS	2510 {}       8350    20090817 "Lînbet juli 2009, F-skatt"
+	#TRANS	7510 {}      29770    20090817 "Lînbet juli 2009, F-skatt"
+	#TRANS	2710 {}      33162    20090817 "Lînbet juli 2009, F-skatt"
+	#TRANS	1930 {}     -71282    20090817
+	#TRANS	2650 {}     200492.96 20090817 "Bet moms april-juni 2009"
+	#TRANS	1930 {}    -200492.96 20090817 "Bet moms april-juni 2009"
+}
+#VER	A 6 20090818 "Dator Dell"
+{
+	#TRANS	1250 {}      25800    20090818 "Dator Dell"
+	#TRANS	2640 {}       6450    20090818 "Dator Dell"
+	#TRANS	1930 {}     -32250    20090818 "Dator Dell"
+}
+#VER	A 7 20090825 "Lîneutbet augusti 2009"
+{
+	#TRANS	7210 {}      30250    20090825 "Lîneutbet augusti 2009"
+	#TRANS	2710 {}     -10586.99 20090825 "Lîneutbet augusti 2009"
+	#TRANS	7220 {}      38499.99 20090825 "Lîneutbet augusti 2009"
+	#TRANS	2710 {}     -13475.01 20090825 "Lîneutbet augusti 2009"
+	#TRANS	7010 {}      26000    20090825 "Lîneutbet augusti 2009"
+	#TRANS	2710 {}      -9099.99 20090825 "Lîneutbet augusti 2009"
+	#TRANS	1930 {}     -61588    20090825 "Lîneutbet augusti 2009"
+	#TRANS	7210 {}      10000    20090825 "ôvertid augusti 2009"
+	#TRANS	2710 {}      -3500    20090825 "ôvertid augusti 2009"
+	#TRANS	7010 {}       7000    20090825 "ôvertid augusti 2009"
+	#TRANS	2710 {}      -2450    20090825 "ôvertid augusti 2009"
+	#TRANS	1930 {}     -11050    20090825 "ôvertid augusti 2009"
+}
+#VER	A 8 20090831 "LagerÑndring 090831"
+{
+	#TRANS	1450 {}      -3100    20090831 "LagerÑndring 090831"
+	#TRANS	4090 {}       3100    20090831 "LagerÑndring 090831"
+}
+#VER	A 9 20090913 "F-skatt, lînebet augusti 2009"
+{
+	#TRANS	2510 {}       8350    20090913 "F-skatt, lînebet augusti 2009"
+	#TRANS	7510 {}      35111    20090913 "F-skatt, lînebet augusti 2009"
+	#TRANS	2710 {}      39112    20090913 "F-skatt, lînebet augusti 2009"
+	#TRANS	1930 {}     -82573    20090913
+}
+#VER	A 10 20090925 "Lîneutb sep 2009"
+{
+	#TRANS	7210 {}      30250    20090925 "Lîneutb sep 2009"
+	#TRANS	2710 {}     -10586.99 20090925 "Lîneutb sep 2009"
+	#TRANS	7220 {}      38499.99 20090925 "Lîneutb sep 2009"
+	#TRANS	2710 {}     -13475.01 20090925 "Lîneutb sep 2009"
+	#TRANS	7010 {}      26000    20090925 "Lîneutb sep 2009"
+	#TRANS	2710 {}      -9099.99 20090925 "Lîneutb sep 2009"
+	#TRANS	1930 {}     -61588    20090925
+}
+#VER	A 11 20090925 "DelfîrsÑljning kontorsinventarier"
+{
+	#TRANS	1220 {}     -10000    20090925 "DelfîrsÑljning kontorsinventarier"
+	#TRANS	1930 {}      10000    20090925 "DelfîrsÑljning kontorsinventarier"
+}
+#VER	A 12 20090930 "Momsomfîring juli-sep 2009"
+{
+	#TRANS	2640 {}     -45793.20 20090930 "Momsomfîring juli-sep 2009"
+	#TRANS	2610 {}     152695    20090930 "Momsomfîring juli-sep 2009"
+	#TRANS	3740 {}          0.20 20090930 "Momsomfîring juli-sep 2009"
+	#TRANS	2650 {}    -106902    20090930 "Momsomfîring juli-sep 2009"
+	#TRANS	4090 {}       6350    20090930 LagerfîrÑndring
+	#TRANS	1450 {}      -6350    20090930 LagerfîrÑndring
+}
+#VER	A 13 20091012 "Lîner,F-skatt sept 2009"
+{
+	#TRANS	2510 {}       8350    20091012 "Lîner,F-skatt sept 2009"
+	#TRANS	7510 {}      29770    20091012 "Lîner, F-skatt sept 2009"
+	#TRANS	2710 {}      33162    20091012 "Lîner,F-skatt sept 2009"
+	#TRANS	1930 {}     -71282    20091012
+}
+#VER	A 14 20091025 "Lîner oktober 2009"
+{
+	#TRANS	7210 {}      30250    20091025 "Lîner oktober 2009"
+	#TRANS	2710 {}     -10586.99 20091025 "Lîner oktober 2009"
+	#TRANS	7220 {}      38499.99 20091025 "Lîner oktober 2009"
+	#TRANS	2710 {}     -13475.01 20091025 "Lîner oktober 2009"
+	#TRANS	7010 {}      26000    20091025 "Lîner oktober 2009"
+	#TRANS	2710 {}      -9099.99 20091025 "Lîner oktober 2009"
+	#TRANS	1930 {}     -61588    20091025
+}
+#VER	A 15 20091030 "LagerfîrÑndring oktober 2009"
+{
+	#TRANS	4090 {}      -4130    20091030 "LagerfîrÑndring oktober 2009"
+	#TRANS	1450 {}       4130    20091030 "LagerfîrÑndring oktober 2009"
+}
+#VER	A 16 20091112 "F-skatt oktober 2009"
+{
+	#TRANS	2510 {}       8350    20091112 "F-skatt oktober 2009"
+	#TRANS	7510 {}      29770    20091112 "Lîner oktober 2009"
+	#TRANS	2710 {}      33162    20091112 "Lîner oktober 2009"
+	#TRANS	2650 {}     106902    20091112 "Momsomfîring juli-sep -09"
+	#TRANS	1930 {}    -178184    20091112 "Momsomfîring juli-sep -09"
+}
+#VER	A 17 20091125 "Lîner nov -09"
+{
+	#TRANS	7210 {}      30250    20091125 "Lîner nov -09"
+	#TRANS	2710 {}     -10586.99 20091125 "Lîner nov -09"
+	#TRANS	7220 {}      38499.99 20091125 "Lîner nov -09"
+	#TRANS	2710 {}     -13475.01 20091125 "Lîner nov -09"
+	#TRANS	7010 {}      26000    20091125 "Lîner nov -09"
+	#TRANS	2710 {}      -9099.99 20091125 "Lîner nov -09"
+	#TRANS	1930 {}     -61588    20091125
+}
+#VER	A 18 20091130 ""
+{
+	#TRANS	4090 {}       2100    20091130
+	#TRANS	1450 {}      -2100    20091130
+}
+#VER	A 19 20091214 "F-skatt november 2009"
+{
+	#TRANS	2510 {}       8350    20091214 "F-skatt november 2009"
+	#TRANS	7510 {}      29770    20091214 "F-skatt november 2009"
+	#TRANS	2710 {}      33162    20091214 "F-skatt november 2009"
+	#TRANS	1930 {}     -71282    20091214
+}
+#VER	A 20 20091225 ""
+{
+	#TRANS	7210 {}      30250    20091225
+	#TRANS	2710 {}     -10586.99 20091225
+	#TRANS	7220 {}      38499.99 20091225
+	#TRANS	2710 {}     -13475.01 20091225
+	#TRANS	7010 {}      26000    20091225
+	#TRANS	2710 {}      -9099.99 20091225
+	#TRANS	1930 {}     -61588    20091225
+}
+#VER	A 21 20091230 ""
+{
+	#TRANS	4090 {}      -2850    20091230
+	#TRANS	1450 {}       2850    20091230
+}
+#VER	A 22 20091230 "Omfîring moms okt-dec"
+{
+	#TRANS	2610 {}     291611.25 20091230 "Omfîring moms okt-dec"
+	#TRANS	2640 {}    -222680.60 20091230 "Omfîring moms okt-dec"
+	#TRANS	3740 {}          0.35 20091230 "Omfîring moms okt-dec"
+	#TRANS	2650 {}     -68931    20091230 "Omfîring moms okt-dec"
+}
+#VER	A 23 20100107 "Omfîring kassan"
+{
+	#TRANS	1930 {}       3000    20100107 "Omfîring kassan"
+	#TRANS	1910 {}      -3000    20100107 "Omfîring kassan"
+}
+#VER	A 24 20100118 "F-skatt december"
+{
+	#TRANS	2510 {}       8350    20100118 "F-skatt december"
+	#TRANS	7510 {}      29770    20100118 "Lîn december"
+	#TRANS	2710 {}      33162    20100118 "Lîn december"
+	#TRANS	1930 {}     -71282    20100118
+}
+#VER	A 25 20100125 "Lîn januari 2010"
+{
+	#TRANS	7210 {}      30250    20100125 "Lîn januari 2010"
+	#TRANS	2710 {}     -10586.99 20100125 "Lîn januari 2010"
+	#TRANS	7220 {}      38499.99 20100125 "Lîn januari 2010"
+	#TRANS	2710 {}     -13475.01 20100125 "Lîn januari 2010"
+	#TRANS	7010 {}      26000    20100125 "Lîn januari 2010"
+	#TRANS	2710 {}      -9099.99 20100125 "Lîn januari 2010"
+	#TRANS	1930 {}     -61588    20100125
+}
+#VER	A 26 20100112 ""
+{
+	#TRANS	4090 {}       1560    20100112
+	#TRANS	1450 {}      -1560    20100112
+}
+#VER	A 27 20100111 Dell
+{
+	#TRANS	1250 {}      25916    20100111 Dell
+	#TRANS	2640 {}       6479    20100111 Dell
+	#TRANS	1930 {}     -32395    20100111 Dell
+}
+#VER	A 28 20100212 "F-skatt januari 2010"
+{
+	#TRANS	2510 {}       8350    20100212 "F-skatt januari 2010"
+	#TRANS	7510 {}      29770    20100212 "lîn januari 2010"
+	#TRANS	2710 {}      33162    20100212 "lîn januari 2010"
+	#TRANS	1930 {}     -71282    20100212
+	#TRANS	2650 {}      68931    20100212 "Moms oktober-december 2009"
+	#TRANS	1930 {}     -68931    20100212 Moms
+}
+#VER	A 29 20100225 "Lîn februari 2010"
+{
+	#TRANS	7210 {}      30250    20100225 "Lîn februari 2010"
+	#TRANS	2710 {}     -10586.99 20100225 "Lîn februari 2010"
+	#TRANS	7220 {}      38499.99 20100225 "Lîn februari 2010"
+	#TRANS	2710 {}     -13475.01 20100225 "Lîn februari 2010"
+	#TRANS	7010 {}      26000    20100225 "Lîn februari 2010"
+	#TRANS	2710 {}      -9099.99 20100225 "Lîn februari 2010"
+	#TRANS	1930 {}     -61588    20100225
+}
+#VER	A 30 20100228 ""
+{
+	#TRANS	6560 {}       1480    20100228
+	#TRANS	2640 {}        370    20100228
+	#TRANS	6570 {}       1950    20100228
+	#TRANS	6590 {}       8960    20100228
+	#TRANS	2640 {}       2240    20100228
+	#TRANS	6970 {}       5200    20100228
+	#TRANS	2640 {}       1300    20100228
+	#TRANS	6990 {}       1008    20100228
+	#TRANS	2640 {}        252    20100228
+	#TRANS	1930 {}     -22760    20100228
+}
+#VER	A 31 20100228 ""
+{
+	#TRANS	4090 {}       2310    20100228
+	#TRANS	1450 {}      -2310    20100228
+}
+#VER	A 32 20100312 "F-skatt feb 2010"
+{
+	#TRANS	2510 {}      12250    20100312 "F-skatt feb 2010"
+	#TRANS	7510 {}      29770    20100312 "Lîner feb 2010"
+	#TRANS	2710 {}      33162    20100312 "Lîner feb 2010"
+	#TRANS	1930 {}     -75182    20100312
+}
+#VER	A 33 20100325 "Lîner mars 2010"
+{
+	#TRANS	7210 {}      30250    20100325 "Lîner mars 2010"
+	#TRANS	2710 {}     -10586.99 20100325 "Lîner mars 2010"
+	#TRANS	7220 {}      38499.99 20100325 "Lîner mars 2010"
+	#TRANS	2710 {}     -13475.01 20100325 "Lîner mars 2010"
+	#TRANS	7010 {}      26000    20100325 "Lîner mars 2010"
+	#TRANS	2710 {}      -9099.99 20100325 "Lîner mars 2010"
+	#TRANS	1930 {}     -61588    20100325
+}
+#VER	A 34 20100325 ""
+{
+	#TRANS	7610 {}      12230    20100325
+	#TRANS	7631 {}       2650    20100325
+	#TRANS	1930 {}     -12230    20100325
+	#TRANS	1910 {}      -2650    20100325
+	#TRANS	1930 {}       2500    20100325
+	#TRANS	1910 {}      -2500    20100325
+}
+#VER	A 35 20100331 "Omfîring moms januari-mars 2010"
+{
+	#TRANS	2610 {}     346823.75 20100331 "Omfîring moms januari-mars 2010"
+	#TRANS	2640 {}    -119766.60 20100331 "Omfîring moms januari-mars 2010"
+	#TRANS	3740 {}         -0.15 20100331 "Omfîring moms januari-mars 2010"
+	#TRANS	2650 {}    -227057    20100331 "Omfîring moms januari-mars 2010"
+}
+#VER	A 36 20100331 ""
+{
+	#TRANS	4090 {}      -3130    20100331
+	#TRANS	1450 {}       3130    20100331
+}
+#VER	A 37 20100412 "F-skatt mars"
+{
+	#TRANS	2510 {}      12250    20100412 "F-skatt mars"
+	#TRANS	7510 {}      29770    20100412 "Lîn mars 2010"
+	#TRANS	2710 {}      33162    20100412 "Lîn mars 2010"
+	#TRANS	1930 {}     -75182    20100412
+}
+#VER	A 38 20100425 "Lîn april 2010"
+{
+	#TRANS	7210 {}      30250    20100425 "Lîn april 2010"
+	#TRANS	2710 {}     -10586.99 20100425 "Lîn april 2010"
+	#TRANS	7220 {}      38499.99 20100425 "Lîn april 2010"
+	#TRANS	2710 {}     -13475.01 20100425 "Lîn april 2010"
+	#TRANS	7010 {}      26000    20100425 "Lîn april 2010"
+	#TRANS	2710 {}      -9099.99 20100425 "Lîn april 2010"
+	#TRANS	1930 {}     -61588    20100425
+}
+#VER	A 39 20100430 ""
+{
+	#TRANS	4090 {}      -2221    20100430
+	#TRANS	1450 {}       2221    20100430
+}
+#VER	A 40 20100512 "F-skatt april 2010"
+{
+	#TRANS	2510 {}      12250    20100512 "F-skatt april 2010"
+	#TRANS	7510 {}      29770    20100512 "Lîner april 2010"
+	#TRANS	2710 {}      33162    20100512 "Lîner april 2010"
+	#TRANS	2650 {}     227057    20100512 "Moms jan-mars"
+	#TRANS	1930 {}    -302239    20100512 "Moms jan-mars"
+}
+#VER	A 41 20100525 "Lîner maj 2010"
+{
+	#TRANS	7210 {}      30250    20100525 "Lîner maj 2010"
+	#TRANS	2710 {}     -10586.99 20100525 "Lîner maj 2010"
+	#TRANS	7220 {}      38499.99 20100525 "Lîner maj 2010"
+	#TRANS	2710 {}     -13475.01 20100525 "Lîner maj 2010"
+	#TRANS	7010 {}      26000    20100525 "Lîner maj 2010"
+	#TRANS	2710 {}      -9099.99 20100525 "Lîner maj 2010"
+	#TRANS	1930 {}     -61588    20100525
+}
+#VER	A 42 20100531 ""
+{
+	#TRANS	8310 {}      -1420    20100531
+	#TRANS	8314 {}       -423    20100531
+	#TRANS	8420 {}       1120    20100531
+	#TRANS	1930 {}        723    20100531
+	#TRANS	1930 {}      -5000    20100531
+	#TRANS	1910 {}       5000    20100531
+}
+#VER	A 43 20100531 ""
+{
+	#TRANS	4090 {}     -35222    20100531
+	#TRANS	1450 {}      35222    20100531
+}
+#VER	A 44 20100601 "Skrivare Canon"
+{
+	#TRANS	1220 {}      25600    20100601 "Skrivare Canon"
+	#TRANS	2640 {}       6400    20100601
+	#TRANS	1930 {}     -32000    20100601
+}
+#VER	A 45 20100614 "F-skatt maj 2010"
+{
+	#TRANS	2510 {}      12250    20100614 "F-skatt maj 2010"
+	#TRANS	7510 {}      29770    20100614 "Lîn maj 2010"
+	#TRANS	2710 {}      33162    20100614 "Lîn maj 2010"
+	#TRANS	1930 {}     -75182    20100614
+}
+#VER	A 46 20100625 "Lîner juni 2010"
+{
+	#TRANS	7210 {}      30250    20100625 "Lîner juni 2010"
+	#TRANS	2710 {}     -10586.99 20100625 "Lîner juni 2010"
+	#TRANS	7220 {}      38499.99 20100625 "Lîner juni 2010"
+	#TRANS	2710 {}     -13475.01 20100625 "Lîner juni 2010"
+	#TRANS	7010 {}      26000    20100625 "Lîner juni 2010"
+	#TRANS	2710 {}      -9099.99 20100625 "Lîner juni 2010"
+	#TRANS	1930 {}     -61588    20100625
+	#TRANS	7412 {}      55000    20100625 "Styrelse 35000 îvriga 20000"
+	#TRANS	1930 {}     -55000    20100625 "Styrelse 35000 îvriga 20000"
+}
+#VER	A 47 20100630 090101-091231
+{
+	#TRANS	6420 {}      11400    20100630 090101-091231
+	#TRANS	2640 {}       2850    20100630 090101-091231
+	#TRANS	1930 {}     -14250    20100630 090101-091231
+}
+#VER	A 48 20100630 ""
+{
+	#TRANS	6072 {}       2560    20100630
+	#TRANS	6982 {}        300    20100630
+	#TRANS	8423 {}       1050    20100630
+	#TRANS	6071 {}      12048    20100630
+	#TRANS	2640 {}       3012    20100630
+	#TRANS	1930 {}     -18970    20100630
+}
+#VER	A 49 20100630 "Omfîring moms april-juni"
+{
+	#TRANS	2610 {}     390603.70 20100630 "Omfîring moms april-juni"
+	#TRANS	2640 {}    -125868.60 20100630 "Omfîring moms april-juni"
+	#TRANS	3740 {}         -0.10 20100630 "Omfîring moms april-juni"
+	#TRANS	2650 {}    -264735    20100630 "Omfîring moms april-juni"
+	#TRANS	2640 {}       -544.40 20100630 "Omfîring moms april-juni"
+	#TRANS	3740 {}          0.40 20100630 "Omfîring moms april-juni"
+	#TRANS	2650 {}        544    20100630 "Omfîring moms april-juni"
+	#TRANS	2640 {}      -4830    20100630 "Omfîring moms april-juni"
+	#TRANS	2650 {}       4830    20100630 "Omfîring moms april-juni"
+}
+#VER	A 50 20100630 "Inventerad lagerfîrÑndring"
+{
+	#TRANS	4090 {}      -3200    20100630 "Inventerad lagerfîrÑndring"
+	#TRANS	1450 {}       3200    20100630 "Inventerad lagerfîrÑndring"
+}
+#VER	A 51 20100630 30250*0,043*25
+{
+	#TRANS	7285 {}       3252    20100630 30250*0,043*25
+	#TRANS	7286 {}       4139    20100630 38500*0,043*25
+	#TRANS	7082 {}       2795    20100630 26000*0,043*25
+	#TRANS	7292 {}      34541    20100630
+	#TRANS	7291 {}      17771    20100630
+	#TRANS	7090 {}      28304    20100630
+	#TRANS	1930 {}     -90802    20100630
+}
+#VER	B 1 20090715 "FA30036/BP Bunkeflo"
+{
+	#TRANS	1510 {}     131894    20090715 "FA30036/BP Bunkeflo"
+	#TRANS	3010 {}     -37500    20090715 "FA30036/BP Bunkeflo"
+	#TRANS	3010 {}      -8000    20090715 "FA30036/BP Bunkeflo"
+	#TRANS	3010 {}     -12500    20090715 "FA30036/BP Bunkeflo"
+	#TRANS	3001 {}     -37500    20090715 "FA30036/BP Bunkeflo"
+	#TRANS	3010 {}     -10000    20090715 "FA30036/BP Bunkeflo"
+	#TRANS	3540 {}        -15    20090715 "FA30036/BP Bunkeflo"
+	#TRANS	2610 {}     -26378.75 20090715 "FA30036/BP Bunkeflo"
+	#TRANS	3740 {}         -0.25 20090715 "FA30036/BP Bunkeflo"
+}
+#VER	B 2 20090716 "FA30037/Jannes Bil o PlÜt"
+{
+	#TRANS	1510 {}     156269    20090716 "FA30037/Jannes Bil o PlÜt"
+	#TRANS	3001 {}    -125000    20090716 "FA30037/Jannes Bil o PlÜt"
+	#TRANS	3540 {}        -15    20090716 "FA30037/Jannes Bil o PlÜt"
+	#TRANS	2610 {}     -31253.75 20090716 "FA30037/Jannes Bil o PlÜt"
+	#TRANS	3740 {}         -0.25 20090716 "FA30037/Jannes Bil o PlÜt"
+}
+#VER	B 3 20090820 "FA30038/ôns Bilverkstad AB"
+{
+	#TRANS	1510 {}     152188    20090820 "FA30038/ôns Bilverkstad AB"
+	#TRANS	3010 {}     -26250    20090820 "FA30038/ôns Bilverkstad AB"
+	#TRANS	3010 {}     -12500    20090820 "FA30038/ôns Bilverkstad AB"
+	#TRANS	3010 {}      -8000    20090820 "FA30038/ôns Bilverkstad AB"
+	#TRANS	3010 {}     -75000    20090820 "FA30038/ôns Bilverkstad AB"
+	#TRANS	2610 {}     -30437.50 20090820 "FA30038/ôns Bilverkstad AB"
+	#TRANS	3740 {}         -0.50 20090820 "FA30038/ôns Bilverkstad AB"
+}
+#VER	B 4 20090925 FA30039/Larminstallation
+{
+	#TRANS	1510 {}     173125    20090925 FA30039/Larminstallation
+	#TRANS	3001 {}     -62500    20090925 FA30039/Larminstallation
+	#TRANS	3010 {}     -16000    20090925 FA30039/Larminstallation
+	#TRANS	3010 {}     -15000    20090925 FA30039/Larminstallation
+	#TRANS	3010 {}     -45000    20090925 FA30039/Larminstallation
+	#TRANS	2610 {}     -34625    20090925 FA30039/Larminstallation
+}
+#VER	B 5 20090925 "FA30040/Bildelsgrossen AB"
+{
+	#TRANS	1510 {}     150000    20090925 "FA30040/Bildelsgrossen AB"
+	#TRANS	3010 {}    -120000    20090925 "FA30040/Bildelsgrossen AB"
+	#TRANS	2610 {}     -30000    20090925 "FA30040/Bildelsgrossen AB"
+}
+#VER	B 6 20091015 FA30041/Larminstallation
+{
+	#TRANS	1510 {}     252500    20091015 FA30041/Larminstallation
+	#TRANS	3010 {}     -60000    20091015 FA30041/Larminstallation
+	#TRANS	3010 {}     -10000    20091015 FA30041/Larminstallation
+	#TRANS	3010 {}     -32000    20091015 FA30041/Larminstallation
+	#TRANS	3001 {}    -100000    20091015 FA30041/Larminstallation
+	#TRANS	2610 {}     -50500    20091015 FA30041/Larminstallation
+}
+#VER	B 7 20091015 "FA30042/BP Bunkeflo"
+{
+	#TRANS	1510 {}      45019    20091015 "FA30042/BP Bunkeflo"
+	#TRANS	3010 {}     -20000    20091015 "FA30042/BP Bunkeflo"
+	#TRANS	3010 {}     -16000    20091015 "FA30042/BP Bunkeflo"
+	#TRANS	3540 {}        -15    20091015 "FA30042/BP Bunkeflo"
+	#TRANS	2610 {}      -9003.75 20091015 "FA30042/BP Bunkeflo"
+	#TRANS	3740 {}         -0.25 20091015 "FA30042/BP Bunkeflo"
+}
+#VER	B 8 20091016 "FA30043/Jannes Bil o PlÜt"
+{
+	#TRANS	1510 {}      60019    20091016 "FA30043/Jannes Bil o PlÜt"
+	#TRANS	3010 {}     -48000    20091016 "FA30043/Jannes Bil o PlÜt"
+	#TRANS	3540 {}        -15    20091016 "FA30043/Jannes Bil o PlÜt"
+	#TRANS	2610 {}     -12003.75 20091016 "FA30043/Jannes Bil o PlÜt"
+	#TRANS	3740 {}         -0.25 20091016 "FA30043/Jannes Bil o PlÜt"
+}
+#VER	B 9 20091118 "FA30044/ôns Bilverkstad AB"
+{
+	#TRANS	1510 {}      62500    20091118 "FA30044/ôns Bilverkstad AB"
+	#TRANS	3010 {}     -20000    20091118 "FA30044/ôns Bilverkstad AB"
+	#TRANS	3010 {}     -30000    20091118 "FA30044/ôns Bilverkstad AB"
+	#TRANS	2610 {}     -12500    20091118 "FA30044/ôns Bilverkstad AB"
+}
+#VER	B 10 20091218 "FA30045/BP Bunkeflo"
+{
+	#TRANS	1510 {}     395019    20091218 "FA30045/BP Bunkeflo"
+	#TRANS	3001 {}    -200000    20091218 "FA30045/BP Bunkeflo"
+	#TRANS	3010 {}     -10000    20091218 "FA30045/BP Bunkeflo"
+	#TRANS	3010 {}     -30000    20091218 "FA30045/BP Bunkeflo"
+	#TRANS	3010 {}     -60000    20091218 "FA30045/BP Bunkeflo"
+	#TRANS	3010 {}     -16000    20091218 "FA30045/BP Bunkeflo"
+	#TRANS	3540 {}        -15    20091218 "FA30045/BP Bunkeflo"
+	#TRANS	2610 {}     -79003.75 20091218 "FA30045/BP Bunkeflo"
+	#TRANS	3740 {}         -0.25 20091218 "FA30045/BP Bunkeflo"
+}
+#VER	B 11 20091212 FA30046/
+{
+	#TRANS	1510 {}     385000    20091212 FA30046/
+	#TRANS	3001 {}    -200000    20091212 FA30046/
+	#TRANS	3001 {}    -108000    20091212 FA30046/
+	#TRANS	2610 {}     -77000    20091212 FA30046/
+}
+#VER	B 12 20100630 "FA30047/Jannes Bil o PlÜt"
+{
+	#TRANS	1510 {}     162019    20100630 "FA30047/Jannes Bil o PlÜt"
+	#TRANS	3010 {}     -24000    20100630 "FA30047/Jannes Bil o PlÜt"
+	#TRANS	3010 {}     -48000    20100630 "FA30047/Jannes Bil o PlÜt"
+	#TRANS	3010 {}     -33000    20100630 "FA30047/Jannes Bil o PlÜt"
+	#TRANS	3010 {}     -12000    20100630 "FA30047/Jannes Bil o PlÜt"
+	#TRANS	3010 {}     -12600    20100630 "FA30047/Jannes Bil o PlÜt"
+	#TRANS	3540 {}        -15    20100630 "FA30047/Jannes Bil o PlÜt"
+	#TRANS	2610 {}     -32403.75 20100630 "FA30047/Jannes Bil o PlÜt"
+	#TRANS	3740 {}         -0.25 20100630 "FA30047/Jannes Bil o PlÜt"
+}
+#VER	B 13 20091222 "FA30048/Bildelsgrossen AB"
+{
+	#TRANS	1510 {}     258000    20091222 "FA30048/Bildelsgrossen AB"
+	#TRANS	3001 {}    -154800    20091222 "FA30048/Bildelsgrossen AB"
+	#TRANS	3010 {}     -23100    20091222 "FA30048/Bildelsgrossen AB"
+	#TRANS	3010 {}     -28500    20091222 "FA30048/Bildelsgrossen AB"
+	#TRANS	2610 {}     -51600    20091222 "FA30048/Bildelsgrossen AB"
+}
+#VER	B 14 20100110 "FA30049/Utbildningscentralen AB"
+{
+	#TRANS	1510 {}     269375    20100110 "FA30049/Utbildningscentralen AB"
+	#TRANS	3001 {}    -120000    20100110 "FA30049/Utbildningscentralen AB"
+	#TRANS	3001 {}     -84000    20100110 "FA30049/Utbildningscentralen AB"
+	#TRANS	3010 {}     -11500    20100110 "FA30049/Utbildningscentralen AB"
+	#TRANS	2610 {}     -53875    20100110 "FA30049/Utbildningscentralen AB"
+}
+#VER	B 15 20100110 "FA30050/ôns Bilverkstad AB"
+{
+	#TRANS	1510 {}     262500    20100110 "FA30050/ôns Bilverkstad AB"
+	#TRANS	3001 {}    -112500    20100110 "FA30050/ôns Bilverkstad AB"
+	#TRANS	3010 {}     -97500    20100110 "FA30050/ôns Bilverkstad AB"
+	#TRANS	2610 {}     -52500    20100110 "FA30050/ôns Bilverkstad AB"
+}
+#VER	B 16 20100110 "FA30051/Bildelsgrossen AB"
+{
+	#TRANS	1510 {}     116125    20100110 "FA30051/Bildelsgrossen AB"
+	#TRANS	3010 {}     -12800    20100110 "FA30051/Bildelsgrossen AB"
+	#TRANS	3010 {}      -4500    20100110 "FA30051/Bildelsgrossen AB"
+	#TRANS	3010 {}     -33600    20100110 "FA30051/Bildelsgrossen AB"
+	#TRANS	3010 {}     -42000    20100110 "FA30051/Bildelsgrossen AB"
+	#TRANS	2610 {}     -23225    20100110 "FA30051/Bildelsgrossen AB"
+}
+#VER	B 17 20100630 "100823//KN30052/Jannes Bil o PlÜt"
+{
+}
+#VER	B 18 20100630 "KN30054/Jannes Bil o PlÜt"
+{
+	#TRANS	1510 {}    -162019    20100630 "KN30054/Jannes Bil o PlÜt"
+	#TRANS	2610 {}      32403.80 20100630 "KN30054/Jannes Bil o PlÜt"
+	#TRANS	3010 {}     129615.20 20100630 "KN30054/Jannes Bil o PlÜt"
+}
+#VER	B 19 20100124 "FA30055/Jannes Bil o PlÜt"
+{
+	#TRANS	1510 {}     162019    20100124 "FA30055/Jannes Bil o PlÜt"
+	#TRANS	3010 {}     -24000    20100124 "FA30055/Jannes Bil o PlÜt"
+	#TRANS	3010 {}     -48000    20100124 "FA30055/Jannes Bil o PlÜt"
+	#TRANS	3010 {}     -33000    20100124 "FA30055/Jannes Bil o PlÜt"
+	#TRANS	3010 {}     -12000    20100124 "FA30055/Jannes Bil o PlÜt"
+	#TRANS	3010 {}     -12600    20100124 "FA30055/Jannes Bil o PlÜt"
+	#TRANS	3540 {}        -15    20100124 "FA30055/Jannes Bil o PlÜt"
+	#TRANS	2610 {}     -32403.75 20100124 "FA30055/Jannes Bil o PlÜt"
+	#TRANS	3740 {}         -0.25 20100124 "FA30055/Jannes Bil o PlÜt"
+}
+#VER	B 20 20100212 "FA30056/BP Bunkeflo"
+{
+	#TRANS	1510 {}     357831    20100212 "FA30056/BP Bunkeflo"
+	#TRANS	3010 {}     -71250    20100212 "FA30056/BP Bunkeflo"
+	#TRANS	3001 {}    -215000    20100212 "FA30056/BP Bunkeflo"
+	#TRANS	3540 {}        -15    20100212 "FA30056/BP Bunkeflo"
+	#TRANS	2610 {}     -71566.25 20100212 "FA30056/BP Bunkeflo"
+	#TRANS	3740 {}          0.25 20100212 "FA30056/BP Bunkeflo"
+}
+#VER	B 21 20100212 "FA30057/Jannes Bil o PlÜt"
+{
+	#TRANS	1510 {}     213956    20100212 "FA30057/Jannes Bil o PlÜt"
+	#TRANS	3010 {}     -13650    20100212 "FA30057/Jannes Bil o PlÜt"
+	#TRANS	3001 {}     -60000    20100212 "FA30057/Jannes Bil o PlÜt"
+	#TRANS	3010 {}     -97500    20100212 "FA30057/Jannes Bil o PlÜt"
+	#TRANS	3540 {}        -15    20100212 "FA30057/Jannes Bil o PlÜt"
+	#TRANS	2610 {}     -42791.25 20100212 "FA30057/Jannes Bil o PlÜt"
+	#TRANS	3740 {}          0.25 20100212 "FA30057/Jannes Bil o PlÜt"
+}
+#VER	B 22 20100315 "FA30058/Bildelsgrossen AB"
+{
+	#TRANS	1510 {}     225000    20100315 "FA30058/Bildelsgrossen AB"
+	#TRANS	3010 {}    -180000    20100315 "FA30058/Bildelsgrossen AB"
+	#TRANS	2610 {}     -45000    20100315 "FA30058/Bildelsgrossen AB"
+}
+#VER	B 23 20100315 "FA30059/ReklambyrÜn AB"
+{
+	#TRANS	1510 {}     127313    20100315 "FA30059/ReklambyrÜn AB"
+	#TRANS	3010 {}     -11250    20100315 "FA30059/ReklambyrÜn AB"
+	#TRANS	3010 {}      -7500    20100315 "FA30059/ReklambyrÜn AB"
+	#TRANS	3010 {}     -67500    20100315 "FA30059/ReklambyrÜn AB"
+	#TRANS	3010 {}     -15600    20100315 "FA30059/ReklambyrÜn AB"
+	#TRANS	2610 {}     -25462.50 20100315 "FA30059/ReklambyrÜn AB"
+	#TRANS	3740 {}         -0.50 20100315 "FA30059/ReklambyrÜn AB"
+}
+#VER	B 24 20100415 "FA30060/ôns Bilverkstad AB"
+{
+	#TRANS	1510 {}      83938    20100415 "FA30060/ôns Bilverkstad AB"
+	#TRANS	3010 {}     -49600    20100415 "FA30060/ôns Bilverkstad AB"
+	#TRANS	3010 {}     -11550    20100415 "FA30060/ôns Bilverkstad AB"
+	#TRANS	3010 {}      -6000    20100415 "FA30060/ôns Bilverkstad AB"
+	#TRANS	2610 {}     -16787.50 20100415 "FA30060/ôns Bilverkstad AB"
+	#TRANS	3740 {}         -0.50 20100415 "FA30060/ôns Bilverkstad AB"
+}
+#VER	B 25 20100415 FA30061/Butiken
+{
+	#TRANS	1510 {}     607000    20100415 FA30061/Butiken
+	#TRANS	3010 {}     -23100    20100415 FA30061/Butiken
+	#TRANS	3010 {}    -112500    20100415 FA30061/Butiken
+	#TRANS	3001 {}    -350000    20100415 FA30061/Butiken
+	#TRANS	2610 {}    -121400    20100415 FA30061/Butiken
+}
+#VER	B 26 20100515 FA30062/Butiken
+{
+	#TRANS	1510 {}     115000    20100515 FA30062/Butiken
+	#TRANS	3001 {}     -92000    20100515 FA30062/Butiken
+	#TRANS	2610 {}     -23000    20100515 FA30062/Butiken
+}
+#VER	B 27 20100630 "FA30063/ReklambyrÜn AB"
+{
+	#TRANS	1510 {}     227063    20100630 "FA30063/ReklambyrÜn AB"
+	#TRANS	3001 {}     -63000    20100630 "FA30063/ReklambyrÜn AB"
+	#TRANS	3010 {}     -24150    20100630 "FA30063/ReklambyrÜn AB"
+	#TRANS	3010 {}     -94500    20100630 "FA30063/ReklambyrÜn AB"
+	#TRANS	2610 {}     -45412.50 20100630 "FA30063/ReklambyrÜn AB"
+	#TRANS	3740 {}         -0.50 20100630 "FA30063/ReklambyrÜn AB"
+}
+#VER	B 28 20100630 "FA30064/Jannes Bil o PlÜt"
+{
+	#TRANS	1510 {}     100019    20100630 "FA30064/Jannes Bil o PlÜt"
+	#TRANS	3010 {}     -20000    20100630 "FA30064/Jannes Bil o PlÜt"
+	#TRANS	3001 {}     -60000    20100630 "FA30064/Jannes Bil o PlÜt"
+	#TRANS	3540 {}        -15    20100630 "FA30064/Jannes Bil o PlÜt"
+	#TRANS	2610 {}     -20003.75 20100630 "FA30064/Jannes Bil o PlÜt"
+	#TRANS	3740 {}         -0.25 20100630 "FA30064/Jannes Bil o PlÜt"
+}
+#VER	B 29 20100630 FA30065/Butiken
+{
+	#TRANS	1510 {}       9375    20100630 FA30065/Butiken
+	#TRANS	3010 {}      -7500    20100630 FA30065/Butiken
+	#TRANS	2610 {}      -1875    20100630 FA30065/Butiken
+}
+#VER	B 30 20100630 "FA30066/Bildelsgrossen AB"
+{
+	#TRANS	1510 {}      97500    20100630 "FA30066/Bildelsgrossen AB"
+	#TRANS	3010 {}     -69000    20100630 "FA30066/Bildelsgrossen AB"
+	#TRANS	3010 {}      -5000    20100630 "FA30066/Bildelsgrossen AB"
+	#TRANS	3010 {}      -4000    20100630 "FA30066/Bildelsgrossen AB"
+	#TRANS	2610 {}     -19500    20100630 "FA30066/Bildelsgrossen AB"
+}
+#VER	B 31 20100630 "FA30067/ôns Bilverkstad AB"
+{
+	#TRANS	1510 {}      97500    20100630 "FA30067/ôns Bilverkstad AB"
+	#TRANS	3010 {}     -78000    20100630 "FA30067/ôns Bilverkstad AB"
+	#TRANS	2610 {}     -19500    20100630 "FA30067/ôns Bilverkstad AB"
+}
+#VER	B 32 20100630 "FA30068/ôns Bilverkstad AB"
+{
+	#TRANS	1510 {}      93750    20100630 "FA30068/ôns Bilverkstad AB"
+	#TRANS	3001 {}     -75000    20100630 "FA30068/ôns Bilverkstad AB"
+	#TRANS	2610 {}     -18750    20100630 "FA30068/ôns Bilverkstad AB"
+}
+#VER	B 33 20100630 "FA30069/ReklambyrÜn AB"
+{
+	#TRANS	1510 {}     521875    20100630 "FA30069/ReklambyrÜn AB"
+	#TRANS	3010 {}    -112500    20100630 "FA30069/ReklambyrÜn AB"
+	#TRANS	3010 {}    -150000    20100630 "FA30069/ReklambyrÜn AB"
+	#TRANS	3010 {}     -30000    20100630 "FA30069/ReklambyrÜn AB"
+	#TRANS	3001 {}    -125000    20100630 "FA30069/ReklambyrÜn AB"
+	#TRANS	2610 {}    -104375    20100630 "FA30069/ReklambyrÜn AB"
+}
+#VER	C 1 20090710 BE
+{
+	#TRANS	1930 {}       9375    20090710 BE
+	#TRANS	1510 {}      -9375    20090710 BE/FA30031/Butiken
+}
+#VER	C 2 20090730 BE
+{
+	#TRANS	1930 {}     515913    20090730 BE
+	#TRANS	1510 {}    -160019    20090730 "BE/FA30029/Jannes Bil o PlÜt"
+	#TRANS	1510 {}     -68144    20090730 "BE/FA30030/Jannes Bil o PlÜt"
+	#TRANS	1510 {}    -105000    20090730 "BE/FA30033/ôns Bilverkstad AB"
+	#TRANS	1510 {}     -86500    20090730 "BE/FA30034/ôns Bilverkstad AB"
+	#TRANS	1510 {}     -96250    20090730 "BE/FA30032/Bildelsgrossen AB"
+}
+#VER	C 3 20090814 BE
+{
+	#TRANS	1930 {}     131894    20090814 BE
+	#TRANS	1510 {}    -131894    20090814 "BE/FA30036/BP Bunkeflo"
+}
+#VER	C 4 20090815 BE
+{
+	#TRANS	1930 {}     156269    20090815 BE
+	#TRANS	1510 {}    -156269    20090815 "BE/FA30037/Jannes Bil o PlÜt"
+}
+#VER	C 5 20090919 BE
+{
+	#TRANS	1930 {}     152188    20090919 BE
+	#TRANS	1510 {}    -152188    20090919 "BE/FA30038/ôns Bilverkstad AB"
+}
+#VER	C 6 20091005 BE
+{
+	#TRANS	1930 {}     173125    20091005 BE
+	#TRANS	1510 {}    -173125    20091005 BE/FA30039/Larminstallation
+}
+#VER	C 7 20091025 BE
+{
+	#TRANS	1930 {}     402500    20091025 BE
+	#TRANS	1510 {}    -150000    20091025 "BE/FA30040/Bildelsgrossen AB"
+	#TRANS	1510 {}    -252500    20091025 BE/FA30041/Larminstallation
+}
+#VER	C 8 20091114 BE
+{
+	#TRANS	1930 {}      45019    20091114 BE
+	#TRANS	1510 {}     -45019    20091114 "BE/FA30042/BP Bunkeflo"
+}
+#VER	C 9 20091115 BE
+{
+	#TRANS	1930 {}      60019    20091115 BE
+	#TRANS	1510 {}     -60019    20091115 "BE/FA30043/Jannes Bil o PlÜt"
+}
+#VER	C 10 20091218 BE
+{
+	#TRANS	1930 {}      62500    20091218 BE
+	#TRANS	1510 {}     -62500    20091218 "BE/FA30044/ôns Bilverkstad AB"
+}
+#VER	C 11 20091222 BE
+{
+	#TRANS	1930 {}     385000    20091222 BE
+	#TRANS	1510 {}    -385000    20091222 "BE/FA30046/Utbildningscentralen AB"
+}
+#VER	C 12 20100117 BE
+{
+	#TRANS	1930 {}     395019    20100117 BE
+	#TRANS	1510 {}    -395019    20100117 "BE/FA30045/BP Bunkeflo"
+}
+#VER	C 13 20100120 BE
+{
+	#TRANS	1930 {}     269375    20100120 BE
+	#TRANS	1510 {}    -269375    20100120 "BE/FA30049/Utbildningscentralen AB"
+}
+#VER	C 14 20100121 BE
+{
+	#TRANS	1930 {}     258000    20100121 BE
+	#TRANS	1510 {}    -258000    20100121 "BE/FA30048/Bildelsgrossen AB"
+}
+#VER	C 15 20100630 "BE/FA30047/Jannes Bil o PlÜt"
+{
+	#TRANS	1510 {}    -162019    20100630 "BE/FA30047/Jannes Bil o PlÜt"
+	#TRANS	1510 {}    -202505    20100630 "BE/FA30053/Jannes Bil o PlÜt"
+	#TRANS	1510 {}     202505    20100630 "BE/KN30052/Jannes Bil o PlÜt"
+	#TRANS	1510 {}     162019    20100630 "BE/KN30054/Jannes Bil o PlÜt"
+}
+#VER	C 16 20100209 BE
+{
+	#TRANS	1930 {}     378625    20100209 BE
+	#TRANS	1510 {}    -262500    20100209 "BE/FA30050/ôns Bilverkstad AB"
+	#TRANS	1510 {}    -116125    20100209 "BE/FA30051/Bildelsgrossen AB"
+}
+#VER	C 17 20100223 BE
+{
+	#TRANS	1930 {}     162019    20100223 BE
+	#TRANS	1510 {}    -162019    20100223 "BE/FA30055/Jannes Bil o PlÜt"
+}
+#VER	C 18 20100314 BE
+{
+	#TRANS	1930 {}     571787    20100314 BE
+	#TRANS	1510 {}    -357831    20100314 "BE/FA30056/BP Bunkeflo"
+	#TRANS	1510 {}    -213956    20100314 "BE/FA30057/Jannes Bil o PlÜt"
+}
+#VER	C 19 20100325 BE
+{
+	#TRANS	1930 {}     127313    20100325 BE
+	#TRANS	1510 {}    -127313    20100325 "BE/FA30059/ReklambyrÜn AB"
+}
+#VER	C 20 20100414 BE
+{
+	#TRANS	1930 {}     225000    20100414 BE
+	#TRANS	1510 {}    -225000    20100414 "BE/FA30058/Bildelsgrossen AB"
+}
+#VER	C 21 20100425 BE
+{
+	#TRANS	1930 {}     607000    20100425 BE
+	#TRANS	1510 {}    -607000    20100425 BE/FA30061/Butiken
+}
+#VER	C 22 20100515 BE
+{
+	#TRANS	1930 {}      83938    20100515 BE
+	#TRANS	1510 {}     -83938    20100515 "BE/FA30060/ôns Bilverkstad AB"
+}
+#VER	C 23 20100525 BE
+{
+	#TRANS	1930 {}     115000    20100525 BE
+	#TRANS	1510 {}    -115000    20100525 BE/FA30062/Butiken
+}
+#VER	C 24 20100630 BE
+{
+	#TRANS	1930 {}     748938    20100630 BE
+	#TRANS	1510 {}    -227063    20100630 "BE/FA30063/ReklambyrÜn AB"
+	#TRANS	1510 {}    -521875    20100630 "BE/FA30069/ReklambyrÜn AB"
+}
+#VER	D 1 20090715 "FA20026/Poseidon hyra"
+{
+	#TRANS	2440 {}     -29858    20090715 "FA20026/Poseidon hyra"
+	#TRANS	2640 {}       5971.60 20090715 "FA20026/Poseidon hyra"
+	#TRANS	5010 {}      23886.40 20090715 "FA20026/Poseidon hyra"
+}
+#VER	D 2 20090725 "FA20027/Kalles Elektronik"
+{
+	#TRANS	2440 {}     -45000    20090725 "FA20027/Kalles Elektronik"
+	#TRANS	2640 {}       9000    20090725 "FA20027/Kalles Elektronik"
+	#TRANS	4010 {}      36000    20090725 "FA20027/Kalles Elektronik"
+}
+#VER	D 3 20090825 "FA20028/VOLVO AB"
+{
+	#TRANS	2440 {}     -92000    20090825 "FA20028/VOLVO AB"
+	#TRANS	2640 {}      18400    20090825 "FA20028/VOLVO AB"
+	#TRANS	4010 {}      73600    20090825 "FA20028/VOLVO AB"
+}
+#VER	D 4 20090915 "FA20029/Poseidon hyra"
+{
+	#TRANS	2440 {}     -29858    20090915 "FA20029/Poseidon hyra"
+	#TRANS	5010 {}      23886.40 20090915 "FA20029/Poseidon hyra"
+	#TRANS	2640 {}       5971.60 20090915 "FA20029/Poseidon hyra"
+}
+#VER	D 5 20090930 FA20030/FîretagsfîrsÑkring
+{
+	#TRANS	2440 {}     -18919    20090930 FA20030/FîretagsfîrsÑkring
+	#TRANS	6310 {}      18919    20090930 FA20030/FîretagsfîrsÑkring
+}
+#VER	D 6 20091001 FA20031/Elverket
+{
+	#TRANS	2440 {}       -300    20091001 FA20031/Elverket
+	#TRANS	2640 {}         60    20091001 FA20031/Elverket
+	#TRANS	5020 {}        240    20091001 FA20031/Elverket
+}
+#VER	D 7 20091001 FA20032/StÑdbolaget
+{
+	#TRANS	2440 {}      -8500    20091001 FA20032/StÑdbolaget
+	#TRANS	2640 {}       1700    20091001 FA20032/StÑdbolaget
+	#TRANS	5060 {}       6800    20091001 FA20032/StÑdbolaget
+}
+#VER	D 8 20091001 "FA20033/Hel & Repaaration"
+{
+	#TRANS	2440 {}     -12300    20091001 "FA20033/Hel & Repaaration"
+	#TRANS	2640 {}       2460    20091001 "FA20033/Hel & Repaaration"
+	#TRANS	5070 {}       9840    20091001 "FA20033/Hel & Repaaration"
+}
+#VER	D 9 20091001 "FA20034/LokalvÜrdaren AB"
+{
+	#TRANS	2440 {}     -10680    20091001 "FA20034/LokalvÜrdaren AB"
+	#TRANS	2640 {}       2136    20091001 "FA20034/LokalvÜrdaren AB"
+	#TRANS	5090 {}       8544    20091001 "FA20034/LokalvÜrdaren AB"
+}
+#VER	D 10 20091001 "FA20035/Lokalfixarna HB"
+{
+	#TRANS	2440 {}      -3600    20091001 "FA20035/Lokalfixarna HB"
+	#TRANS	2640 {}        720    20091001 "FA20035/Lokalfixarna HB"
+	#TRANS	5050 {}       2880    20091001 "FA20035/Lokalfixarna HB"
+}
+#VER	D 11 20091001 "FA20036/Uthyres & Inventarier AB"
+{
+	#TRANS	2440 {}      -3520    20091001 "FA20036/Uthyres & Inventarier AB"
+	#TRANS	2640 {}        704    20091001 "FA20036/Uthyres & Inventarier AB"
+	#TRANS	5221 {}       2816    20091001 "FA20036/Uthyres & Inventarier AB"
+}
+#VER	D 12 20091012 "100822//Lîn sep 2009, F-skatt"
+{
+}
+#VER	D 13 20091025 100822//
+{
+}
+#VER	D 14 20091020 FA20037/Larminstallation
+{
+	#TRANS	2440 {}    -320250    20091020 FA20037/Larminstallation
+	#TRANS	2640 {}      64050    20091020 FA20037/Larminstallation
+	#TRANS	4610 {}     256200    20091020 FA20037/Larminstallation
+}
+#VER	D 15 20091105 "FA20038/Personbilar & Co"
+{
+	#TRANS	2440 {}     -32520    20091105 "FA20038/Personbilar & Co"
+	#TRANS	2640 {}       6504    20091105 "FA20038/Personbilar & Co"
+	#TRANS	5611 {}      26016    20091105 "FA20038/Personbilar & Co"
+}
+#VER	D 16 20091105 "FA20039/Skatt &  FîrsÑkrings Bil AB"
+{
+	#TRANS	2440 {}     -12507    20091105 "FA20039/Skatt &  FîrsÑkrings Bil AB"
+	#TRANS	5612 {}      12507    20091105 "FA20039/Skatt &  FîrsÑkrings Bil AB"
+}
+#VER	D 17 20091105 "FA20040/UnderhÜll och Reparationer Bilar"
+{
+	#TRANS	2440 {}     -39500    20091105 "FA20040/UnderhÜll och Reparationer Bilar"
+	#TRANS	2640 {}       7900    20091105 "FA20040/UnderhÜll och Reparationer Bilar"
+	#TRANS	5613 {}      31600    20091105 "FA20040/UnderhÜll och Reparationer Bilar"
+}
+#VER	D 18 20091105 "FA20041/Allt fîr Bilen AB"
+{
+	#TRANS	2440 {}      -4230    20091105 "FA20041/Allt fîr Bilen AB"
+	#TRANS	2640 {}        846    20091105 "FA20041/Allt fîr Bilen AB"
+	#TRANS	5619 {}       3384    20091105 "FA20041/Allt fîr Bilen AB"
+}
+#VER	D 19 20091105 "FA20042/Mîbelvaruhuset AB"
+{
+	#TRANS	2440 {}      -6200    20091105 "FA20042/Mîbelvaruhuset AB"
+	#TRANS	2640 {}       1240    20091105 "FA20042/Mîbelvaruhuset AB"
+	#TRANS	5410 {}       4960    20091105 "FA20042/Mîbelvaruhuset AB"
+}
+#VER	D 20 20091105 FA20043/
+{
+	#TRANS	2440 {}      -7790    20091105 FA20043/
+	#TRANS	2640 {}       1558    20091105 FA20043/
+	#TRANS	5460 {}       6232    20091105 FA20043/
+}
+#VER	D 21 20091105 "FA20044/Reparationer och UnderhÜll av inventarier AB"
+{
+	#TRANS	2440 {}      -2500    20091105 "FA20044/Reparationer och UnderhÜll av inventarier AB"
+	#TRANS	2640 {}        500    20091105 "FA20044/Reparationer och UnderhÜll av inventarier AB"
+	#TRANS	5520 {}       2000    20091105 "FA20044/Reparationer och UnderhÜll av inventarier AB"
+}
+#VER	D 22 20091105 "FA20045/Transporter och Frakter HB"
+{
+	#TRANS	2440 {}     -12400    20091105 "FA20045/Transporter och Frakter HB"
+	#TRANS	2640 {}       2480    20091105 "FA20045/Transporter och Frakter HB"
+	#TRANS	5710 {}       9920    20091105 "FA20045/Transporter och Frakter HB"
+}
+#VER	D 23 20091115 "FA20046/Poseidon hyra"
+{
+	#TRANS	2440 {}     -29858    20091115 "FA20046/Poseidon hyra"
+	#TRANS	5010 {}      23886.40 20091115 "FA20046/Poseidon hyra"
+	#TRANS	2640 {}       5971.60 20091115 "FA20046/Poseidon hyra"
+}
+#VER	D 24 20091115 "FA20047/FORD AB"
+{
+	#TRANS	2440 {}     -15000    20091115 "FA20047/FORD AB"
+	#TRANS	2640 {}       3000    20091115 "FA20047/FORD AB"
+	#TRANS	4010 {}      12000    20091115 "FA20047/FORD AB"
+}
+#VER	D 25 20091115 FA20048/Larminstallation
+{
+	#TRANS	2440 {}    -140000    20091115 FA20048/Larminstallation
+	#TRANS	2640 {}      28000    20091115 FA20048/Larminstallation
+	#TRANS	4610 {}     112000    20091115 FA20048/Larminstallation
+}
+#VER	D 26 20091221 "FA20049/ReklambyrÜn AB"
+{
+	#TRANS	2440 {}     -26000    20091221 "FA20049/ReklambyrÜn AB"
+	#TRANS	5930 {}      20800    20091221 "FA20049/ReklambyrÜn AB"
+	#TRANS	2640 {}       5200    20091221 "FA20049/ReklambyrÜn AB"
+}
+#VER	D 27 20091221 "FA20050/Tryck och kopiering AB"
+{
+	#TRANS	2440 {}     -16521    20091221 "FA20050/Tryck och kopiering AB"
+	#TRANS	2640 {}       3304.20 20091221 "FA20050/Tryck och kopiering AB"
+	#TRANS	6150 {}      13216.80 20091221 "FA20050/Tryck och kopiering AB"
+}
+#VER	D 28 20091221 "FA20051/Papper & Pennor AB"
+{
+	#TRANS	2440 {}      -8465    20091221 "FA20051/Papper & Pennor AB"
+	#TRANS	2640 {}       1693    20091221 "FA20051/Papper & Pennor AB"
+	#TRANS	6110 {}       6772    20091221 "FA20051/Papper & Pennor AB"
+}
+#VER	D 29 20091221 FA20052/Leasing
+{
+	#TRANS	2440 {}     -26670    20091221 FA20052/Leasing
+	#TRANS	2640 {}       5334    20091221 FA20052/Leasing
+	#TRANS	5615 {}      21336    20091221 FA20052/Leasing
+}
+#VER	D 30 20091221 "FA20053/Biljetter och lotter"
+{
+	#TRANS	2440 {}     -11562    20091221 "FA20053/Biljetter och lotter"
+	#TRANS	2640 {}       2312.40 20091221 "FA20053/Biljetter och lotter"
+	#TRANS	5810 {}       9249.60 20091221 "FA20053/Biljetter och lotter"
+}
+#VER	D 31 20091221 "FA20054/Nyhetsannonser AB"
+{
+	#TRANS	2440 {}      -3587    20091221 "FA20054/Nyhetsannonser AB"
+	#TRANS	2640 {}        717.40 20091221 "FA20054/Nyhetsannonser AB"
+	#TRANS	5910 {}       2869.60 20091221 "FA20054/Nyhetsannonser AB"
+}
+#VER	D 32 20091221 "FA20055/ReklamutstÑllning AB"
+{
+	#TRANS	2440 {}     -31450    20091221 "FA20055/ReklamutstÑllning AB"
+	#TRANS	2640 {}       6290    20091221 "FA20055/ReklamutstÑllning AB"
+	#TRANS	5940 {}      25160    20091221 "FA20055/ReklamutstÑllning AB"
+}
+#VER	D 33 20091212 FA20056/Larminstallation
+{
+	#TRANS	2440 {}    -340000    20091212 FA20056/Larminstallation
+	#TRANS	2640 {}      68000    20091212 FA20056/Larminstallation
+	#TRANS	4610 {}     272000    20091212 FA20056/Larminstallation
+}
+#VER	D 34 20100107 FA20057/NovaTele1000
+{
+	#TRANS	2440 {}     -53620    20100107 FA20057/NovaTele1000
+	#TRANS	2640 {}      10724    20100107 FA20057/NovaTele1000
+	#TRANS	6210 {}      42896    20100107 FA20057/NovaTele1000
+}
+#VER	D 35 20100107 "FA20058/Mobiltelefoni mm AB"
+{
+	#TRANS	2440 {}     -23250    20100107 "FA20058/Mobiltelefoni mm AB"
+	#TRANS	2640 {}       4650    20100107 "FA20058/Mobiltelefoni mm AB"
+	#TRANS	6211 {}      18600    20100107 "FA20058/Mobiltelefoni mm AB"
+}
+#VER	D 36 20100107 "FA20059/Kommunikation & Co AB"
+{
+	#TRANS	2440 {}     -73500    20100107 "FA20059/Kommunikation & Co AB"
+	#TRANS	6230 {}      58800    20100107 "FA20059/Kommunikation & Co AB"
+	#TRANS	2640 {}      14700    20100107 "FA20059/Kommunikation & Co AB"
+}
+#VER	D 37 20100107 "FA20060/E & T Redovisning AB"
+{
+	#TRANS	2440 {}     -63400    20100107 "FA20060/E & T Redovisning AB"
+	#TRANS	2640 {}      12680    20100107 "FA20060/E & T Redovisning AB"
+	#TRANS	6530 {}      50720    20100107 "FA20060/E & T Redovisning AB 090101-091231"
+}
+#VER	D 38 20100112 "FA20061/Datamaterial AB"
+{
+	#TRANS	2440 {}    -132000    20100112 "FA20061/Datamaterial AB"
+	#TRANS	2640 {}      26400    20100112 "FA20061/Datamaterial AB"
+	#TRANS	4010 {}     105600    20100112 "FA20061/Datamaterial AB"
+}
+#VER	D 39 20100130 "FA20062/Poseidon hyra"
+{
+	#TRANS	2440 {}     -29858    20100130 "FA20062/Poseidon hyra"
+	#TRANS	5010 {}      23886.40 20100130 "FA20062/Poseidon hyra"
+	#TRANS	2640 {}       5971.60 20100130 "FA20062/Poseidon hyra"
+}
+#VER	D 40 20100211 "FA20063/FORD AB"
+{
+	#TRANS	2440 {}    -170000    20100211 "FA20063/FORD AB"
+	#TRANS	2640 {}      34000    20100211 "FA20063/FORD AB"
+	#TRANS	4010 {}     136000    20100211 "FA20063/FORD AB"
+}
+#VER	D 41 20100415 FA20064/FORA
+{
+	#TRANS	2440 {}      -5467    20100415 FA20064/FORA
+	#TRANS	7570 {}       4373.60 20100415 FA20064/FORA
+	#TRANS	2640 {}       1093.40 20100415 FA20064/FORA
+}
+#VER	D 42 20100512 "FA20065/Poseidon hyra"
+{
+	#TRANS	2440 {}     -29858    20100512 "FA20065/Poseidon hyra"
+	#TRANS	5010 {}      23886.40 20100512 "FA20065/Poseidon hyra"
+	#TRANS	2640 {}       5971.60 20100512 "FA20065/Poseidon hyra"
+}
+#VER	D 43 20100512 "FA20066/Poseidon hyra"
+{
+	#TRANS	2440 {}     -29858    20100512 "FA20066/Poseidon hyra"
+	#TRANS	5010 {}      23886.40 20100512 "FA20066/Poseidon hyra"
+	#TRANS	2640 {}       5971.60 20100512 "FA20066/Poseidon hyra"
+}
+#VER	D 44 20100514 FA20067/FîretagsfîrsÑkring
+{
+	#TRANS	2440 {}     -18919    20100514 FA20067/FîretagsfîrsÑkring
+	#TRANS	6310 {}      18919    20100514 FA20067/FîretagsfîrsÑkring
+}
+#VER	D 45 20100630 "FA20068/VOLVO AB"
+{
+	#TRANS	2440 {}    -175000    20100630 "FA20068/VOLVO AB"
+	#TRANS	2640 {}      35000    20100630 "FA20068/VOLVO AB"
+	#TRANS	4010 {}     140000    20100630 "FA20068/VOLVO AB"
+}
+#VER	D 46 20100630 "FA20069/Kalles Elektronik"
+{
+	#TRANS	2440 {}     -92000    20100630 "FA20069/Kalles Elektronik"
+	#TRANS	2640 {}      18400    20100630 "FA20069/Kalles Elektronik"
+	#TRANS	4010 {}      73600    20100630 "FA20069/Kalles Elektronik"
+}
+#VER	D 47 20100630 FA20070/Larminstallation
+{
+	#TRANS	2440 {}    -260000    20100630 FA20070/Larminstallation
+	#TRANS	2640 {}      52000    20100630 FA20070/Larminstallation
+	#TRANS	4610 {}     208000    20100630 FA20070/Larminstallation
+}
+#VER	D 48 20100630 FA20071/FORA
+{
+	#TRANS	2440 {}      -2722    20100630 FA20071/FORA
+	#TRANS	7570 {}       2177.60 20100630 FA20071/FORA
+	#TRANS	2640 {}        544.40 20100630 FA20071/FORA
+}
+#VER	E 1 20090710 BE
+{
+	#TRANS	1930 {}    -339000    20090710 BE
+	#TRANS	2440 {}      89000    20090710 "BE/FA20024/Kalles Elektronik"
+	#TRANS	2440 {}     250000    20090710 BE/FA20025/Larminstallation
+}
+#VER	E 2 20090825 BE
+{
+	#TRANS	1930 {}     -29858    20090825 BE
+	#TRANS	2440 {}      29858    20090825 "BE/FA20026/Poseidon hyra"
+}
+#VER	E 3 20090730 BE
+{
+	#TRANS	1930 {}    -150000    20090730 BE
+	#TRANS	2440 {}     150000    20090730 "BE/FA20023/VOLVO AB"
+}
+#VER	E 4 20090804 BE
+{
+	#TRANS	1930 {}     -45000    20090804 BE
+	#TRANS	2440 {}      45000    20090804 "BE/FA20027/Kalles Elektronik"
+}
+#VER	E 5 20090825 BE
+{
+	#TRANS	1930 {}     -92000    20090825 BE
+	#TRANS	2440 {}      92000    20090825 "BE/FA20028/VOLVO AB"
+}
+#VER	E 6 20090925 BE
+{
+	#TRANS	1930 {}     -29858    20090925 BE
+	#TRANS	2440 {}      29858    20090925 "BE/FA20029/Poseidon hyra"
+}
+#VER	E 7 20091010 BE
+{
+	#TRANS	1930 {}     -18919    20091010 BE
+	#TRANS	2440 {}      18919    20091010 BE/FA20030/FîretagsfîrsÑkring
+}
+#VER	E 8 20091011 BE
+{
+	#TRANS	1930 {}     -38900    20091011 BE
+	#TRANS	2440 {}       3520    20091011 "BE/FA20036/Uthyres & Inventarier AB"
+	#TRANS	2440 {}      10680    20091011 "BE/FA20034/LokalvÜrdaren AB"
+	#TRANS	2440 {}       3600    20091011 "BE/FA20035/Lokalfixarna HB"
+	#TRANS	2440 {}      12300    20091011 "BE/FA20033/Hel & Repaaration"
+	#TRANS	2440 {}        300    20091011 BE/FA20031/Elverket
+	#TRANS	2440 {}       8500    20091011 BE/FA20032/StÑdbolaget
+}
+#VER	E 9 20091030 BE
+{
+	#TRANS	1930 {}    -320250    20091030 BE
+	#TRANS	2440 {}     320250    20091030 BE/FA20037/Larminstallation
+}
+#VER	E 10 20091115 BE
+{
+	#TRANS	1930 {}    -117647    20091115 BE
+	#TRANS	2440 {}       6200    20091115 "BE/FA20042/Mîbelvaruhuset AB"
+	#TRANS	2440 {}       7790    20091115 BE/FA20043/
+	#TRANS	2440 {}       2500    20091115 "BE/FA20044/Reparationer och UnderhÜll av inventarier AB"
+	#TRANS	2440 {}      32520    20091115 "BE/FA20038/Personbilar & Co"
+	#TRANS	2440 {}      12507    20091115 "BE/FA20039/Skatt &  FîrsÑkrings Bil AB"
+	#TRANS	2440 {}      39500    20091115 "BE/FA20040/UnderhÜll och Reparationer Bilar"
+	#TRANS	2440 {}       4230    20091115 "BE/FA20041/Allt fîr Bilen AB"
+	#TRANS	2440 {}      12400    20091115 "BE/FA20045/Transporter och Frakter HB"
+}
+#VER	E 11 20091125 BE
+{
+	#TRANS	1930 {}    -169858    20091125 BE
+	#TRANS	2440 {}      29858    20091125 "BE/FA20046/Poseidon hyra"
+	#TRANS	2440 {}     140000    20091125 BE/FA20048/Larminstallation
+}
+#VER	E 12 20091215 BE
+{
+	#TRANS	1930 {}     -15000    20091215 BE
+	#TRANS	2440 {}      15000    20091215 "BE/FA20047/FORD AB"
+}
+#VER	E 13 20091222 BE
+{
+	#TRANS	1930 {}    -340000    20091222 BE
+	#TRANS	2440 {}     340000    20091222 BE/FA20056/Larminstallation
+}
+#VER	E 14 20091231 BE
+{
+	#TRANS	1930 {}    -124255    20091231 BE
+	#TRANS	2440 {}      26670    20091231 BE/FA20052/Leasing
+	#TRANS	2440 {}      11562    20091231 "BE/FA20053/Biljetter och lotter"
+	#TRANS	2440 {}       3587    20091231 "BE/FA20054/Nyhetsannonser AB"
+	#TRANS	2440 {}      26000    20091231 "BE/FA20049/ReklambyrÜn AB"
+	#TRANS	2440 {}      31450    20091231 "BE/FA20055/ReklamutstÑllning AB"
+	#TRANS	2440 {}       8465    20091231 "BE/FA20051/Papper & Pennor AB"
+	#TRANS	2440 {}      16521    20091231 "BE/FA20050/Tryck och kopiering AB"
+}
+#VER	E 15 20100117 BE
+{
+	#TRANS	1930 {}    -213770    20100117 BE
+	#TRANS	2440 {}      53620    20100117 BE/FA20057/NovaTele1000
+	#TRANS	2440 {}      23250    20100117 "BE/FA20058/Mobiltelefoni mm AB"
+	#TRANS	2440 {}      73500    20100117 "BE/FA20059/Kommunikation & Co AB"
+	#TRANS	2440 {}      63400    20100117 "BE/FA20060/E & T Redovisning AB"
+}
+#VER	E 16 20100122 BE
+{
+	#TRANS	1930 {}    -132000    20100122 BE
+	#TRANS	2440 {}     132000    20100122 "BE/FA20061/Datamaterial AB"
+}
+#VER	E 17 20100209 BE
+{
+	#TRANS	1930 {}     -29858    20100209 BE
+	#TRANS	2440 {}      29858    20100209 "BE/FA20062/Poseidon hyra"
+}
+#VER	E 18 20100313 BE
+{
+	#TRANS	1930 {}    -170000    20100313 BE
+	#TRANS	2440 {}     170000    20100313 "BE/FA20063/FORD AB"
+}
+#VER	E 19 20100425 BE
+{
+	#TRANS	1930 {}      -5467    20100425 BE
+	#TRANS	2440 {}       5467    20100425 BE/FA20064/FORA
+}
+#VER	E 20 20100522 BE
+{
+	#TRANS	1930 {}     -59716    20100522 BE
+	#TRANS	2440 {}      29858    20100522 "BE/FA20065/Poseidon hyra"
+	#TRANS	2440 {}      29858    20100522 "BE/FA20066/Poseidon hyra"
+}
+#VER	E 21 20100524 BE
+{
+	#TRANS	1930 {}     -18919    20100524 BE
+	#TRANS	2440 {}      18919    20100524 BE/FA20067/FîretagsfîrsÑkring
+}
+#KSUMMA		854227682

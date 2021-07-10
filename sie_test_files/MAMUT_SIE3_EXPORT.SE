@@ -1,0 +1,2006 @@
+#FLAGGA	0
+#PROGRAM	"Mamut Enterprise ByrÜ"	14.8407
+#FORMAT	"PC8"
+#SIETYP	3
+#GEN	20101014	"mikaelb"
+#FNAMN	"Mamut_SIE"
+#FNR	2
+#KPTYP	"EUBAS97"
+#TAXAR	2011
+#ADRESS	"Mamut_SIE"	"Kungsgatan 24"	"08-566 991 70"
+#PROSA	"Exporterat av Mamut Enterprise ByrÜ"
+#ORGNR	"555555-5555"
+
+#OMFATTN	20101231
+
+#RAR	0	20100101	20101231
+#RAR	-1	20090101	20091231
+
+
+#DIM	1	"Avdelning"
+#DIM	6	"Projekt"
+#OBJEKT	1	2	"FîrsÑljningsavdelning"
+#OBJEKT	6	2	"Renovering  av utsÑllningslokaler"
+#OBJEKT	6	4	"Bergs pensionat"
+#OBJEKT	6	5	"Mango Internetcafe"
+#OBJEKT	6	8	"Annons KvÑllsposten 18/11"
+#OBJEKT	6	9	"Annons KvÑllsposten 12/12"
+#KONTO 1010 "Balanserade utgifter" 
+#SRU 1010 0
+
+
+#KONTO 1030 "Patent" 
+#SRU 1030 0
+
+
+#KONTO 1039 "Ack avskrivn patent" 
+#SRU 1039 0
+
+
+#KONTO 1060 "HyresrÑtt" 
+#SRU 1060 0
+
+
+#KONTO 1069 "Ack avskrivn hyresrÑtt" 
+#SRU 1069 0
+
+
+#KONTO 1070 "Goodwill" 
+#SRU 1070 0
+
+
+#KONTO 1079 "Ack avskrivn goodwill" 
+#SRU 1079 0
+
+
+#KONTO 1100 "Byggnader" 
+#SRU 1100 0
+
+
+#KONTO 1119 "Ack avskrivn byggnader" 
+#SRU 1119 0
+
+
+#KONTO 1130 "Mark" 
+#SRU 1130 0
+
+
+#KONTO 1140 "Tomter, markomr, obebyggda" 
+#SRU 1140 0
+
+
+#KONTO 1150 "MarkanlÑggningar" 
+#SRU 1150 0
+
+
+#KONTO 1159 "Ack avskrivn markanlÑggn" 
+#SRU 1159 0
+
+
+#KONTO 1211 "Arbetsmaskiner" 
+#SRU 1211 0
+
+
+#KONTO 1219 "Ack avskrivn arb.maskiner" 
+#SRU 1219 0
+
+
+#KONTO 1220 "Inventarier och verktyg" 
+#SRU 1220 0
+
+
+#KONTO 1221 "Inventarier" 
+#SRU 1221 0
+
+
+#KONTO 1222 "Byggnadsinventarier" 
+#SRU 1222 0
+
+
+#KONTO 1225 "Verktyg" 
+#SRU 1225 0
+
+
+#KONTO 1229 "Ack avskrivn inv/verktyg" 
+#SRU 1229 0
+
+
+#KONTO 1240 "Bilar och andra transportmedel" 
+#SRU 1240 0
+
+
+#KONTO 1241 "Personbilar" 
+#SRU 1241 0
+
+
+#KONTO 1242 "Lastbilar" 
+#SRU 1242 0
+
+
+#KONTO 1243 "Truckar" 
+#SRU 1243 0
+
+
+#KONTO 1244 "Arbetsmaskiner" 
+#SRU 1244 0
+
+
+#KONTO 1245 "Traktorer" 
+#SRU 1245 0
+
+
+#KONTO 1246 "Motorcyklar, mopeder och skotrar" 
+#SRU 1246 0
+
+
+#KONTO 1247 "BÜtar" 
+#SRU 1247 0
+
+
+#KONTO 1248 "Flygplan och helikoptrar" 
+#SRU 1248 0
+
+
+#KONTO 1249 "Ack avskr bilar/transportmedel" 
+#SRU 1249 0
+
+
+#KONTO 1250 "Dator" 
+#SRU 1250 0
+
+
+#KONTO 1251 "Dator, fîretag" 
+#SRU 1251 0
+
+
+#KONTO 1257 "Datorer, personal" 
+#SRU 1257 0
+
+
+#KONTO 1259 "Ack avskr dator" 
+#SRU 1259 0
+
+
+#KONTO 1291 "Konst o ej avskrivn invent" 
+#SRU 1291 0
+
+
+#KONTO 1311 "Aktier sv dotterfîretag" 
+#SRU 1311 0
+
+
+#KONTO 1312 "Aktier utl dotterfîretag" 
+#SRU 1312 0
+
+
+#KONTO 1314 "Aktier/and îvr utl konc.ftg" 
+#SRU 1314 0
+
+
+#KONTO 1330 "Aktier, andra sv fîretag" 
+#SRU 1330 0
+
+
+#KONTO 1350 "Aktier, andra utl fîretag" 
+#SRU 1350 0
+
+
+#KONTO 1354 "Obligationer, vÑrdepapper" 
+#SRU 1354 0
+
+
+#KONTO 1360 "Finansiella instrument" 
+#SRU 1360 0
+
+
+#KONTO 1369 "VÑrdereg finans instrument" 
+#SRU 1369 0
+
+
+#KONTO 1380 "LÜngfristiga fordringar" 
+#SRU 1380 0
+
+
+#KONTO 1382 "Fordringar hos anstÑllda" 
+#SRU 1382 0
+
+
+#KONTO 1383 "Depositioner" 
+#SRU 1383 0
+
+
+#KONTO 1390 "VÑrderegl lÜngfr fordr" 
+#SRU 1390 0
+
+
+#KONTO 1400 "Lager" 
+#SRU 1400 0
+
+
+#KONTO 1402 "Varor pÜ vÑg" 
+#SRU 1402 0
+
+
+#KONTO 1440 "Produkter i arbete" 
+#SRU 1440 0
+
+
+#KONTO 1470 "PÜgÜende arbete" 
+#SRU 1470 0
+
+
+#KONTO 1480 "Fîrskott till leverantîr" 
+#SRU 1480 0
+
+
+#KONTO 1510 "Kundfordringar" 
+#SRU 1510 0
+#IB 0 1510       499499.43
+#UB 0 1510       2310136.97
+#IB -1 1510       0.00
+#UB -1 1510       499499.43
+
+#PSALDO 0 201001 1510 {} 902769.14
+#PSALDO 0 201001 1510 {1 "2"} 2148941.57
+#PSALDO 0 201001 1510 {6 "2"} 150000.00
+#PSALDO 0 201001 1510 {1 "2"} 150000.00
+#PSALDO 0 201002 1510 {} -792504.63
+#PSALDO 0 201002 1510 {1 "2"} 1835703.01
+#PSALDO 0 201002 1510 {6 "2"} 40153.25
+#PSALDO 0 201002 1510 {1 "2"} 40153.25
+#PSALDO 0 201003 1510 {} -177260.93
+#PSALDO 0 201003 1510 {1 "2"} 1121559.33
+#PSALDO 0 201004 1510 {} -360422.37
+#PSALDO 0 201004 1510 {1 "2"} 1125326.26
+#PSALDO 0 201005 1510 {} 994166.95
+#PSALDO 0 201005 1510 {1 "2"} 1146957.58
+#PSALDO 0 201006 1510 {} -166645.00
+#PSALDO 0 201006 1510 {1 "2"} 1043155.00
+#PSALDO 0 201006 1510 {6 "2"} 8650.00
+#PSALDO 0 201006 1510 {1 "2"} 8650.00
+#PSALDO 0 201007 1510 {} 241287.50
+#PSALDO 0 201007 1510 {1 "2"} 912413.50
+#PSALDO 0 201008 1510 {} 567800.00
+#PSALDO 0 201008 1510 {1 "2"} 994864.50
+#PSALDO 0 201009 1510 {} 132987.50
+#PSALDO 0 201009 1510 {1 "2"} 1126059.38
+#PSALDO 0 201010 1510 {} 656386.88
+#PSALDO 0 201010 1510 {1 "2"} 1162832.76
+#PSALDO 0 201011 1510 {} -602040.00
+#PSALDO 0 201011 1510 {1 "2"} 1164216.50
+#PSALDO 0 201011 1510 {6 "2"} 6125.00
+#PSALDO 0 201011 1510 {1 "2"} 6125.00
+#PSALDO 0 201012 1510 {} 414112.50
+#PSALDO 0 201012 1510 {1 "2"} 1092367.51
+#OUB 0 1510 {1 "2"} 1092367.51
+
+#KONTO 1512 "BelÜnade fordringar" 
+#SRU 1512 0
+
+
+#KONTO 1513 "Kundfordringar - delad faktura" 
+#SRU 1513 0
+
+
+#KONTO 1515 "OsÑkra kundfordringar" 
+#SRU 1515 0
+
+
+#KONTO 1580 "Kontokort och kuponger" 
+#SRU 1580 0
+
+
+#KONTO 1610 "Fîrskott" 
+#SRU 1610 0
+
+
+#KONTO 1611 "Resefîrskott" 
+#SRU 1611 0
+
+
+#KONTO 1613 "ôvriga fîrskott" 
+#SRU 1613 0
+
+
+#KONTO 1619 "ôvr fordringar hos anstÑllda" 
+#SRU 1619 0
+
+
+#KONTO 1630 "AvrÑkn skatter och avgifter" 
+#SRU 1630 0
+
+
+#KONTO 1640 "Skattefordringar" 
+#SRU 1640 0
+
+
+#KONTO 1650 "Fordran moms" 
+#SRU 1650 0
+
+
+#KONTO 1680 "ôvr kortfristiga fordr" 
+#SRU 1680 0
+
+
+#KONTO 1684 "Fordring hos leverantîr" 
+#SRU 1684 0
+
+
+#KONTO 1685 "Fordring hos nÑrstÜende" 
+#SRU 1685 0
+
+
+#KONTO 1710 "Fîrutbetalda hyror" 
+#SRU 1710 0
+
+
+#KONTO 1740 "Fîrutbet rÑnteutgifter" 
+#SRU 1740 0
+
+
+#KONTO 1750 "Upplupna hyresinkomster" 
+#SRU 1750 0
+
+
+#KONTO 1760 "Upplupna inkomstrÑntor" 
+#SRU 1760 0
+
+
+#KONTO 1790 "ôvr interimsfordringar" 
+#SRU 1790 0
+
+
+#KONTO 1795 "Varer levererade, faktura ej skickad" 
+#SRU 1795 0
+
+
+#KONTO 1820 "Obligationer, vÑrdepapper" 
+#SRU 1820 0
+
+
+#KONTO 1860 "Finansiella instrument" 
+#SRU 1860 0
+
+
+#KONTO 1869 "VÑrderegl finans instr" 
+#SRU 1869 0
+
+
+#KONTO 1910 "Kassa" 
+#SRU 1910 0
+#IB 0 1910       132384.00
+#UB 0 1910       132384.00
+#IB -1 1910       0.00
+#UB -1 1910       132384.00
+
+#PSALDO 0 201001 1910 {} 0.00
+#PSALDO 0 201002 1910 {} 0.00
+#PSALDO 0 201003 1910 {} 0.00
+#PSALDO 0 201004 1910 {} 0.00
+#PSALDO 0 201005 1910 {} 0.00
+#PSALDO 0 201006 1910 {} 0.00
+#PSALDO 0 201007 1910 {} 0.00
+#PSALDO 0 201008 1910 {} 0.00
+#PSALDO 0 201009 1910 {} 0.00
+#PSALDO 0 201010 1910 {} 0.00
+#PSALDO 0 201011 1910 {} 0.00
+#PSALDO 0 201012 1910 {} 0.00
+
+#KONTO 1920 "Plusgiro" 
+#SRU 1920 0
+#IB 0 1920       4696879.00
+#UB 0 1920       9984204.89
+#IB -1 1920       0.00
+#UB -1 1920       4696879.00
+
+#PSALDO 0 201001 1920 {} 150437.75
+#PSALDO 0 201002 1920 {} 944568.75
+#PSALDO 0 201003 1920 {} 418769.38
+#PSALDO 0 201004 1920 {} 93007.00
+#PSALDO 0 201005 1920 {} 144140.63
+#PSALDO 0 201006 1920 {} 291225.00
+#PSALDO 0 201007 1920 {} 671126.00
+#PSALDO 0 201008 1920 {} 427064.50
+#PSALDO 0 201009 1920 {} 741921.88
+#PSALDO 0 201010 1920 {} 96580.00
+#PSALDO 0 201011 1920 {} 1175602.50
+#PSALDO 0 201012 1920 {} 132882.50
+
+#KONTO 1930 "CheckrÑkningskonto" 
+#SRU 1930 0
+#IB 0 1930       6389604.00
+#UB 0 1930       12391938.29
+#IB -1 1930       100000.00
+#UB -1 1930       6389604.00
+
+#PSALDO 0 201001 1930 {} 61481.25
+#PSALDO 0 201002 1930 {} 924761.14
+#PSALDO 0 201003 1930 {} 880050.88
+#PSALDO 0 201004 1930 {} 1396998.63
+#PSALDO 0 201005 1930 {} 8650.00
+#PSALDO 0 201006 1930 {} 927225.00
+#PSALDO 0 201007 1930 {} 0.00
+#PSALDO 0 201008 1930 {} 0.00
+#PSALDO 0 201009 1930 {} 251150.00
+#PSALDO 0 201010 1930 {} 409865.88
+#PSALDO 0 201011 1930 {} 596779.00
+#PSALDO 0 201012 1930 {} 545372.51
+
+#KONTO 1940 "ôvriga bankkonton" 
+#SRU 1940 0
+
+
+#KONTO 1950 "Kreditkort" 
+#SRU 1950 0
+
+
+#KONTO 2081 "Aktiekapital" 
+#SRU 2081 0
+#IB 0 2081       -100000.00
+#UB 0 2081       -100000.00
+#IB -1 2081       -100000.00
+#UB -1 2081       -100000.00
+
+#PSALDO 0 201001 2081 {} 0.00
+#PSALDO 0 201002 2081 {} 0.00
+#PSALDO 0 201003 2081 {} 0.00
+#PSALDO 0 201004 2081 {} 0.00
+#PSALDO 0 201005 2081 {} 0.00
+#PSALDO 0 201006 2081 {} 0.00
+#PSALDO 0 201007 2081 {} 0.00
+#PSALDO 0 201008 2081 {} 0.00
+#PSALDO 0 201009 2081 {} 0.00
+#PSALDO 0 201010 2081 {} 0.00
+#PSALDO 0 201011 2081 {} 0.00
+#PSALDO 0 201012 2081 {} 0.00
+
+#KONTO 2086 "Reservfond" 
+#SRU 2086 0
+
+
+#KONTO 2091 "Balanserad vinst/fîrlust" 
+#SRU 2091 0
+
+
+#KONTO 2094 "Egna aktier" 
+#SRU 2094 0
+
+
+#KONTO 2098 "Vinst/fîrlust fîreg Ür" 
+#SRU 2098 0
+
+
+#KONTO 2099 "Redovisat resultat" 
+#SRU 2099 0
+#IB 0 2099       -9295293.93
+#UB 0 2099       -9295293.93
+#IB -1 2099       0.00
+#UB -1 2099       0.00
+
+#PSALDO 0 201001 2099 {} 0.00
+#PSALDO 0 201002 2099 {} 0.00
+#PSALDO 0 201003 2099 {} 0.00
+#PSALDO 0 201004 2099 {} 0.00
+#PSALDO 0 201005 2099 {} 0.00
+#PSALDO 0 201006 2099 {} 0.00
+#PSALDO 0 201007 2099 {} 0.00
+#PSALDO 0 201008 2099 {} 0.00
+#PSALDO 0 201009 2099 {} 0.00
+#PSALDO 0 201010 2099 {} 0.00
+#PSALDO 0 201011 2099 {} 0.00
+#PSALDO 0 201012 2099 {} 0.00
+
+#KONTO 2116 "Periodiseringsfond TAX 1996" 
+#SRU 2116 0
+
+
+#KONTO 2117 "Periodiseringsfond TAX 1997" 
+#SRU 2117 0
+
+
+#KONTO 2118 "Periodiseringsfond TAX 1998" 
+#SRU 2118 0
+
+
+#KONTO 2119 "Periodiseringsfond TAX 1999" 
+#SRU 2119 0
+
+
+#KONTO 2120 "Periodiseringsfond TAX 2000" 
+#SRU 2120 0
+
+
+#KONTO 2121 "Periodiseringsfond TAX 2001" 
+#SRU 2121 0
+
+
+#KONTO 2150 "Ack îveravskrivningar" 
+#SRU 2150 0
+
+
+#KONTO 2151 "Ack îveravskr imm anl.tillg" 
+#SRU 2151 0
+
+
+#KONTO 2152 "Ack îveravskr pÜ byggn/markanl" 
+#SRU 2152 0
+
+
+#KONTO 2153 "Ack îveravskr maskiner/inv" 
+#SRU 2153 0
+
+
+#KONTO 2190 "ôvr obeskattade reserver" 
+#SRU 2190 0
+
+
+#KONTO 2195 "Valutakursreserv" 
+#SRU 2195 0
+
+
+#KONTO 2196 "Lagerreserv" 
+#SRU 2196 0
+
+
+#KONTO 2210 "Avsatt till pensioner" 
+#SRU 2210 0
+
+
+#KONTO 2211 "AvsÑttningar fîr PRI-pensioner" 
+#SRU 2211 0
+
+
+#KONTO 2219 "AvsÑttningar fîr îvr pensioner" 
+#SRU 2219 0
+
+
+#KONTO 2220 "Garantiskulder" 
+#SRU 2220 0
+
+
+#KONTO 2280 "AvsÑttning, faktura ej mottagen" 
+#SRU 2280 0
+
+
+#KONTO 2330 "CheckrÑkningskredit" 
+#SRU 2330 0
+
+
+#KONTO 2350 "ReverslÜn" 
+#SRU 2350 0
+
+
+#KONTO 2355 "LÜn i utlÑndsk valuta" 
+#SRU 2355 0
+
+
+#KONTO 2393 "LÜn frÜn aktieÑgare" 
+#SRU 2393 0
+
+
+#KONTO 2395 "Andra lÜn i utl valuta" 
+#SRU 2395 0
+
+
+#KONTO 2399 "ôvr lÜngfristiga skulder" 
+#SRU 2399 0
+
+
+#KONTO 2420 "Fîrskott frÜn kunder" 
+#SRU 2420 0
+
+
+#KONTO 2440 "Leverantîrskulder" 
+#SRU 2440 0
+#IB 0 2440       0.00
+#UB 0 2440       -312465.79
+#UB -1 2440       0.00
+
+#PSALDO 0 201001 2440 {} -54893.84
+#PSALDO 0 201002 2440 {} 0.00
+#PSALDO 0 201003 2440 {} -75033.00
+#PSALDO 0 201004 2440 {} -4186.37
+#PSALDO 0 201005 2440 {} 0.00
+#PSALDO 0 201006 2440 {} 0.00
+#PSALDO 0 201007 2440 {} 0.00
+#PSALDO 0 201008 2440 {} -126375.00
+#PSALDO 0 201008 2440 {6 "4"} -55625.00
+#PSALDO 0 201008 2440 {1 "2"} -55625.00
+#PSALDO 0 201008 2440 {6 "5"} -70750.00
+#PSALDO 0 201008 2440 {1 "2"} -70750.00
+#PSALDO 0 201009 2440 {} 0.00
+#PSALDO 0 201010 2440 {} -1977.58
+#PSALDO 0 201011 2440 {} -50000.00
+#PSALDO 0 201011 2440 {1 "2"} -50000.00
+#PSALDO 0 201012 2440 {} 0.00
+
+#KONTO 2510 "Skatteskulder" 
+#SRU 2510 0
+
+
+#KONTO 2611 "Utg moms fîrsÑljning 25%" 
+#SRU 2611 0
+#IB 0 2611       -2086222.50
+#UB 0 2611       -4705920.82
+#IB -1 2611       0.00
+#UB -1 2611       -1642725.40
+
+#PSALDO 0 201001 2611 {} -222937.43
+#PSALDO 0 201001 2611 {1 "2"} -429788.12
+#PSALDO 0 201001 2611 {6 "2"} -30000.00
+#PSALDO 0 201001 2611 {1 "2"} -30000.00
+#PSALDO 0 201002 2611 {} -215124.75
+#PSALDO 0 201002 2611 {1 "2"} -366300.50
+#PSALDO 0 201002 2611 {6 "2"} -8030.65
+#PSALDO 0 201002 2611 {1 "2"} -8030.65
+#PSALDO 0 201003 2611 {} -224311.87
+#PSALDO 0 201003 2611 {1 "2"} -224311.87
+#PSALDO 0 201004 2611 {} -225916.26
+#PSALDO 0 201004 2611 {1 "2"} -225065.01
+#PSALDO 0 201005 2611 {} -229391.52
+#PSALDO 0 201005 2611 {1 "2"} -229391.52
+#PSALDO 0 201006 2611 {} -210361.00
+#PSALDO 0 201006 2611 {1 "2"} -208631.00
+#PSALDO 0 201006 2611 {6 "2"} -1730.00
+#PSALDO 0 201006 2611 {1 "2"} -1730.00
+#PSALDO 0 201007 2611 {} -182482.55
+#PSALDO 0 201007 2611 {1 "2"} -182482.55
+#PSALDO 0 201008 2611 {} -198972.90
+#PSALDO 0 201008 2611 {1 "2"} -198972.90
+#PSALDO 0 201009 2611 {} -225211.88
+#PSALDO 0 201009 2611 {1 "2"} -225211.88
+#PSALDO 0 201010 2611 {} -232566.51
+#PSALDO 0 201010 2611 {1 "2"} -232566.51
+#PSALDO 0 201011 2611 {} -234068.14
+#PSALDO 0 201011 2611 {1 "2"} -232843.14
+#PSALDO 0 201011 2611 {6 "2"} -1225.00
+#PSALDO 0 201011 2611 {1 "2"} -1225.00
+#PSALDO 0 201012 2611 {} -218353.51
+#PSALDO 0 201012 2611 {1 "2"} -218353.51
+#OUB 0 2611 {1 "2"} -218353.51
+
+#KONTO 2612 "Utg moms egna uttag 25%" 
+#SRU 2612 0
+
+
+#KONTO 2613 "Utg moms uthyrning ored" 
+#SRU 2613 0
+
+
+#KONTO 2614 "Ber moms tjfîrv 25% utl" 
+#SRU 2614 0
+
+
+#KONTO 2615 "Ber moms varufîrv" 
+#SRU 2615 0
+
+
+#KONTO 2617 "Utg moms omvÑnd skattskyldighet Sverige 25%" 
+#SRU 2617 0
+
+
+#KONTO 2621 "Utg moms fîrsÑljning 12%" 
+#SRU 2621 0
+
+
+#KONTO 2622 "Utg moms egna uttag 12%" 
+#SRU 2622 0
+
+
+#KONTO 2623 "Utg moms fîr uthyrning 12%" 
+#SRU 2623 0
+
+
+#KONTO 2624 "Ber moms tjfîrv 12% utl" 
+#SRU 2624 0
+
+
+#KONTO 2625 "Ber moms varufîrv frÜn EG-land 12%" 
+#SRU 2625 0
+
+
+#KONTO 2627 "Utg moms omvÑnd skattskyldighet Sverige 12%" 
+#SRU 2627 0
+
+
+#KONTO 2631 "Utg moms fîrsÑljning 6%" 
+#SRU 2631 0
+
+
+#KONTO 2632 "Utg moms egna uttag 6%" 
+#SRU 2632 0
+
+
+#KONTO 2633 "Utg moms fîr uthyrning 6%" 
+#SRU 2633 0
+
+
+#KONTO 2634 "Ber moms tjfîrv 6% utl" 
+#SRU 2634 0
+
+
+#KONTO 2635 "Ber moms varufîrv frÜn EG-land 6%" 
+#SRU 2635 0
+
+
+#KONTO 2637 "Utg moms omvÑnd skattskyldighet Sverige 6%" 
+#SRU 2637 0
+
+
+#KONTO 2641 "IngÜende moms" 
+#SRU 2641 0
+#IB 0 2641       0.00
+#UB 0 2641       51514.29
+#UB -1 2641       0.00
+
+#PSALDO 0 201001 2641 {} 0.00
+#PSALDO 0 201002 2641 {} 0.00
+#PSALDO 0 201003 2641 {} 15006.50
+#PSALDO 0 201004 2641 {} 837.27
+#PSALDO 0 201005 2641 {} 0.00
+#PSALDO 0 201006 2641 {} 0.00
+#PSALDO 0 201007 2641 {} 0.00
+#PSALDO 0 201008 2641 {} 25275.00
+#PSALDO 0 201008 2641 {6 "4"} 11125.00
+#PSALDO 0 201008 2641 {1 "2"} 11125.00
+#PSALDO 0 201008 2641 {6 "5"} 14150.00
+#PSALDO 0 201008 2641 {1 "2"} 14150.00
+#PSALDO 0 201009 2641 {} 0.00
+#PSALDO 0 201010 2641 {} 395.52
+#PSALDO 0 201011 2641 {} 10000.00
+#PSALDO 0 201011 2641 {6 "8"} 5000.00
+#PSALDO 0 201011 2641 {6 "9"} 5000.00
+#PSALDO 0 201012 2641 {} 0.00
+
+#KONTO 2645 "IngÜende moms utland" 
+#SRU 2645 0
+
+
+#KONTO 2646 "IngÜende moms uth. verksamhetslokaler" 
+#SRU 2646 0
+
+
+#KONTO 2647 "IngÜende moms omvÑnd skattskyldighet Sverige" 
+#SRU 2647 0
+
+
+#KONTO 2648 "Fîrdelningskonto 1" 
+#SRU 2648 0
+
+
+#KONTO 2649 "Fîrdelningskonto 2 (motkontering)" 
+#SRU 2649 0
+
+
+#KONTO 2650 "Moms redovisningskonto" 
+#SRU 2650 0
+#IB 0 2650       -236850.00
+#UB 0 2650       -236850.00
+#IB -1 2650       0.00
+#UB -1 2650       -680347.00
+
+#PSALDO 0 201001 2650 {} 0.00
+#PSALDO 0 201002 2650 {} 0.00
+#PSALDO 0 201003 2650 {} 0.00
+#PSALDO 0 201004 2650 {} 0.00
+#PSALDO 0 201005 2650 {} 0.00
+#PSALDO 0 201006 2650 {} 0.00
+#PSALDO 0 201007 2650 {} 0.00
+#PSALDO 0 201008 2650 {} 0.00
+#PSALDO 0 201009 2650 {} 0.00
+#PSALDO 0 201010 2650 {} 0.00
+#PSALDO 0 201011 2650 {} 0.00
+#PSALDO 0 201012 2650 {} 0.00
+
+#KONTO 2660 "SÑrskilda punktskatter" 
+#SRU 2660 0
+
+
+#KONTO 2710 "Personalens kÑllskatt" 
+#SRU 2710 0
+
+
+#KONTO 2731 "AvrÑkn sociala avgifter" 
+#SRU 2731 0
+
+
+#KONTO 2732 "AvrÑkn sÑrsk lînesk pens" 
+#SRU 2732 0
+
+
+#KONTO 2750 "UtmÑtning i lîn mm" 
+#SRU 2750 0
+
+
+#KONTO 2790 "ôvriga lîneavdrag" 
+#SRU 2790 0
+
+
+#KONTO 2792 "Lînsparande" 
+#SRU 2792 0
+
+
+#KONTO 2793 "KollektivfîrsÑkring mm" 
+#SRU 2793 0
+
+
+#KONTO 2794 "Fackfîreningsavgifter" 
+#SRU 2794 0
+
+
+#KONTO 2795 "Granskningsavgifter" 
+#SRU 2795 0
+
+
+#KONTO 2840 "LÜneskulder" 
+#SRU 2840 0
+
+
+#KONTO 2850 "AvrÑkn skatter/avgifter" 
+#SRU 2850 0
+
+
+#KONTO 2890 "ôvr kortfr skulder" 
+#SRU 2890 0
+
+
+#KONTO 2893 "Skulder nÑrstÜende personer" 
+#SRU 2893 0
+
+
+#KONTO 2910 "Upplupna lîner" 
+#SRU 2910 0
+
+
+#KONTO 2920 "Upplupna semlîner" 
+#SRU 2920 0
+
+
+#KONTO 2921 "Upplupna soc.avg sem.lîn" 
+#SRU 2921 0
+
+
+#KONTO 2941 "Upplupna sociala avgifter" 
+#SRU 2941 0
+
+
+#KONTO 2950 "Upplupna avtalade soc avg" 
+#SRU 2950 0
+
+
+#KONTO 2960 "Upplupna utgiftsrÑntor" 
+#SRU 2960 0
+
+
+#KONTO 2970 "Fîrutbetalda hyresinkomster" 
+#SRU 2970 0
+
+
+#KONTO 2990 "ôvr interimsskulder" 
+#SRU 2990 0
+
+
+#KONTO 2995 "Skuld inkomna fîljesedlar" 
+#SRU 2995 0
+
+
+#KONTO 2999 "ôvr uppl kostn/fîrutbet intÑkter" 
+#SRU 2999 0
+
+
+#KONTO 3020 "FîrsÑljning VMB varor" 
+#SRU 3020 0
+
+
+#KONTO 3028 "Positiv VM omfîringskonto" 
+#SRU 3028 0
+
+
+#KONTO 3030 "Positiv VM" 
+#SRU 3030 0
+
+
+#KONTO 3041 "FîrsÑljn tjÑnst 25% sv" 
+#SRU 3041 0
+
+
+#KONTO 3042 "FîrsÑljn tjÑnst 12% sv" 
+#SRU 3042 0
+
+
+#KONTO 3043 "FîrsÑljn tjÑnst 6% sv" 
+#SRU 3043 0
+
+
+#KONTO 3044 "FîrsÑljn tjÑnst sv momsfri" 
+#SRU 3044 0
+
+
+#KONTO 3045 "FîrsÑlj tjÑnst utanfîr EU" 
+#SRU 3045 0
+
+
+#KONTO 3046 "FîrsÑljn tjÑnst till EU" 
+#SRU 3046 0
+
+
+#KONTO 3048 "FîrsÑljn tjÑnst EU momsfri" 
+#SRU 3048 0
+
+
+#KONTO 3051 "FîrsÑljn varor 25% sv" 
+#SRU 3051 0
+#RES 0 3051       -10478793.11
+#RES -1 3051       -9292292.74
+
+#PSALDO 0 201001 3051 {} -891749.71
+#PSALDO 0 201001 3051 {1 "2"} -1719152.45
+#PSALDO 0 201001 3051 {6 "2"} -120000.00
+#PSALDO 0 201001 3051 {1 "2"} -120000.00
+#PSALDO 0 201002 3051 {} -860499.01
+#PSALDO 0 201002 3051 {1 "2"} -1465202.01
+#PSALDO 0 201002 3051 {6 "2"} -32122.60
+#PSALDO 0 201002 3051 {1 "2"} -32122.60
+#PSALDO 0 201003 3051 {} -897247.46
+#PSALDO 0 201003 3051 {1 "2"} -897247.46
+#PSALDO 0 201004 3051 {} -903665.00
+#PSALDO 0 201004 3051 {1 "2"} -900260.00
+#PSALDO 0 201005 3051 {} -917566.06
+#PSALDO 0 201005 3051 {1 "2"} -917566.06
+#PSALDO 0 201006 3051 {} -841444.00
+#PSALDO 0 201006 3051 {1 "2"} -834524.00
+#PSALDO 0 201006 3051 {6 "2"} -6920.00
+#PSALDO 0 201006 3051 {1 "2"} -6920.00
+#PSALDO 0 201007 3051 {} -729930.22
+#PSALDO 0 201007 3051 {1 "2"} -729930.22
+#PSALDO 0 201008 3051 {} -795891.60
+#PSALDO 0 201008 3051 {1 "2"} -795891.60
+#PSALDO 0 201009 3051 {} -900847.50
+#PSALDO 0 201009 3051 {1 "2"} -900847.50
+#PSALDO 0 201010 3051 {} -930266.00
+#PSALDO 0 201010 3051 {1 "2"} -930266.00
+#PSALDO 0 201011 3051 {} -936272.55
+#PSALDO 0 201011 3051 {1 "2"} -931372.55
+#PSALDO 0 201011 3051 {6 "2"} -4900.00
+#PSALDO 0 201011 3051 {1 "2"} -4900.00
+#PSALDO 0 201012 3051 {} -873414.00
+#PSALDO 0 201012 3051 {1 "2"} -873414.00
+#OUB 0 3051 {1 "2"} -873414.00
+
+#KONTO 3052 "FîrsÑljn varor 12% sv" 
+#SRU 3052 0
+
+
+#KONTO 3053 "FîrsÑljn varor 6% sv" 
+#SRU 3053 0
+
+
+#KONTO 3054 "FîrsÑljn varor sv momsfri" 
+#SRU 3054 0
+#RES 0 3054       -1800.00
+#RES -1 3054       -3000.00
+
+#PSALDO 0 201001 3054 {} 0.00
+#PSALDO 0 201002 3054 {} -1200.00
+#PSALDO 0 201002 3054 {1 "2"} -4200.00
+#PSALDO 0 201003 3054 {} 0.00
+#PSALDO 0 201004 3054 {} 0.00
+#PSALDO 0 201005 3054 {} 0.00
+#PSALDO 0 201006 3054 {} 0.00
+#PSALDO 0 201007 3054 {} 0.00
+#PSALDO 0 201008 3054 {} 0.00
+#PSALDO 0 201009 3054 {} 0.00
+#PSALDO 0 201010 3054 {} 0.00
+#PSALDO 0 201011 3054 {} 0.00
+#PSALDO 0 201012 3054 {} -600.00
+#PSALDO 0 201012 3054 {1 "2"} -600.00
+#OUB 0 3054 {1 "2"} -600.00
+
+#KONTO 3055 "FîrsÑljn varor utanfîr EU" 
+#SRU 3055 0
+
+
+#KONTO 3056 "FîrsÑljn varor till EU" 
+#SRU 3056 0
+
+
+#KONTO 3058 "FîrsÑljn varor EU momsfri" 
+#SRU 3058 0
+
+
+#KONTO 3059 "Momspl uttag av fast.tj" 
+#SRU 3059 0
+
+
+#KONTO 3062 "Fîrs varor nÑrst fîretag" 
+#SRU 3062 0
+
+
+#KONTO 3066 "FîrsÑljn till nÑrstÜende fîretag inom EU" 
+#SRU 3066 0
+
+
+#KONTO 3100 "HyresintÑkt skattepl" 
+#SRU 3100 0
+
+
+#KONTO 3231 "FîrsÑljning inom byggsektorn,omvÑnd skattskyldighetmoms" 
+#SRU 3231 0
+
+
+#KONTO 3510 "Emballage" 
+#SRU 3510 0
+
+
+#KONTO 3520 "Frakter" 
+#SRU 3520 0
+
+
+#KONTO 3521 "Frakter export" 
+#SRU 3521 0
+
+
+#KONTO 3522 "Frakter EU" 
+#SRU 3522 0
+
+
+#KONTO 3530 "Fakt tull och spedition" 
+#SRU 3530 0
+
+
+#KONTO 3540 "Faktureringsavgifter" 
+#SRU 3540 0
+
+
+#KONTO 3541 "Faktureringsavgifter export" 
+#SRU 3541 0
+
+
+#KONTO 3542 "Faktureringsavgifter EU" 
+#SRU 3542 0
+
+
+#KONTO 3550 "Fakt resekostnader" 
+#SRU 3550 0
+
+
+#KONTO 3590 "ôvr fakt kostnader" 
+#SRU 3590 0
+
+
+#KONTO 3610 "FîrsÑljning material" 
+#SRU 3610 0
+
+
+#KONTO 3731 "Kassarabatter" 
+#SRU 3731 0
+
+
+#KONTO 3736 "Kassarabatter export" 
+#SRU 3736 0
+
+
+#KONTO 3737 "Kassarabatter EU" 
+#SRU 3737 0
+
+
+#KONTO 3740 "ôresutjÑmning" 
+#SRU 3740 0
+#RES 0 3740       -0.98
+#RES -1 3740       -1.29
+
+#PSALDO 0 201001 3740 {} 3.81
+#PSALDO 0 201001 3740 {1 "2"} -1.00
+#PSALDO 0 201002 3740 {} -1.50
+#PSALDO 0 201002 3740 {1 "2"} -0.50
+#PSALDO 0 201003 3740 {} 0.50
+#PSALDO 0 201004 3740 {} -2.00
+#PSALDO 0 201004 3740 {1 "2"} -1.25
+#PSALDO 0 201005 3740 {} 0.00
+#PSALDO 0 201006 3740 {} 0.00
+#PSALDO 0 201007 3740 {} -0.73
+#PSALDO 0 201007 3740 {1 "2"} -0.73
+#PSALDO 0 201008 3740 {} 0.00
+#PSALDO 0 201009 3740 {} 0.00
+#PSALDO 0 201010 3740 {} -0.25
+#PSALDO 0 201010 3740 {1 "2"} -0.25
+#PSALDO 0 201011 3740 {} -0.81
+#PSALDO 0 201011 3740 {1 "2"} -0.81
+#PSALDO 0 201012 3740 {} 0.00
+
+#KONTO 3840 "Aktiverat arbete (material)" 
+#SRU 3840 0
+
+
+#KONTO 3850 "Aktiverat arbete (omkostnader)" 
+#SRU 3850 0
+
+
+#KONTO 3870 "Aktiverat arbete (lîner)" 
+#SRU 3870 0
+
+
+#KONTO 3911 "HyresintÑkter" 
+#SRU 3911 0
+
+
+#KONTO 3921 "ProvisionsintÑkter" 
+#SRU 3921 0
+
+
+#KONTO 3950 "ètervunna kundfîrluster" 
+#SRU 3950 0
+
+
+#KONTO 3960 "Kursvinst rîrelsen" 
+#SRU 3960 0
+
+
+#KONTO 3970 "Vinst avyttr imm/mat anl.tillg" 
+#SRU 3970 0
+
+
+#KONTO 3972 "Vinst avyttr fastigheter" 
+#SRU 3972 0
+
+
+#KONTO 3973 "Vinst avyttr maskiner/inv" 
+#SRU 3973 0
+
+
+#KONTO 3985 "ErhÜllna statliga bidrag" 
+#SRU 3985 0
+
+
+#KONTO 3987 "ErhÜllna kommunala bidrag" 
+#SRU 3987 0
+
+
+#KONTO 3989 "ôvriga erhÜllna bidrag" 
+#SRU 3989 0
+
+
+#KONTO 3990 "ôvriga sidintÑkter" 
+#SRU 3990 0
+
+
+#KONTO 3994 "FîrsÑkringsersÑttningar" 
+#SRU 3994 0
+
+
+#KONTO 4011 "Inkîp material och varor 25 %" 
+#SRU 4011 0
+#RES 0 4011       166057.16
+#RES -1 4011       0.00
+
+#PSALDO 0 201001 4011 {} 0.00
+#PSALDO 0 201002 4011 {} 0.00
+#PSALDO 0 201003 4011 {} 60026.00
+#PSALDO 0 201004 4011 {} 3349.10
+#PSALDO 0 201005 4011 {} 0.00
+#PSALDO 0 201006 4011 {} 0.00
+#PSALDO 0 201007 4011 {} 0.00
+#PSALDO 0 201008 4011 {} 101100.00
+#PSALDO 0 201008 4011 {6 "4"} 44500.00
+#PSALDO 0 201008 4011 {1 "2"} 44500.00
+#PSALDO 0 201008 4011 {6 "5"} 56600.00
+#PSALDO 0 201008 4011 {1 "2"} 56600.00
+#PSALDO 0 201009 4011 {} 0.00
+#PSALDO 0 201010 4011 {} 1582.06
+#PSALDO 0 201011 4011 {} 0.00
+#PSALDO 0 201012 4011 {} 0.00
+
+#KONTO 4012 "Inkîp material och varor 12 %" 
+#SRU 4012 0
+
+
+#KONTO 4013 "Inkîp material och varor 6 %" 
+#SRU 4013 0
+
+
+#KONTO 4015 "Inkîp material momsfritt" 
+#SRU 4015 0
+#RES 0 4015       54889.03
+#RES -1 4015       0.00
+
+#PSALDO 0 201001 4015 {} 54889.03
+#PSALDO 0 201002 4015 {} 0.00
+#PSALDO 0 201003 4015 {} 0.00
+#PSALDO 0 201004 4015 {} 0.00
+#PSALDO 0 201005 4015 {} 0.00
+#PSALDO 0 201006 4015 {} 0.00
+#PSALDO 0 201007 4015 {} 0.00
+#PSALDO 0 201008 4015 {} 0.00
+#PSALDO 0 201009 4015 {} 0.00
+#PSALDO 0 201010 4015 {} 0.00
+#PSALDO 0 201011 4015 {} 0.00
+#PSALDO 0 201012 4015 {} 0.00
+
+#KONTO 4020 "Inkîp VMB varor" 
+#SRU 4020 0
+
+
+#KONTO 4028 "Negativ VMB varor" 
+#SRU 4028 0
+
+
+#KONTO 4030 "Negativ VM" 
+#SRU 4030 0
+
+
+#KONTO 4055 "Trepartsfîrv varor fr EU" 
+#SRU 4055 0
+
+
+#KONTO 4056 "Inkîp varor 25% EU" 
+#SRU 4056 0
+
+
+#KONTO 4057 "Inkîp varor EU 12%" 
+#SRU 4057 0
+
+
+#KONTO 4058 "Inkîp varor EU 6%" 
+#SRU 4058 0
+
+
+#KONTO 4059 "Inkîp varor EU momsfri" 
+#SRU 4059 0
+
+
+#KONTO 4100 "Kostn uthyrn lokal sk.pl" 
+#SRU 4100 0
+
+
+#KONTO 4415 "Inkîpta varor i Sverige,omvÑnd skattskyldighet, 25%" 
+#SRU 4415 0
+
+
+#KONTO 4416 "Inkîpta varor i Sverige,omvÑnd skattskyldighet, 12%" 
+#SRU 4416 0
+
+
+#KONTO 4417 "Inkîpta varor i Sverige,omvÑnd skattskyldighet, 6%" 
+#SRU 4417 0
+
+
+#KONTO 4425 "Inkîpta tjÑnster i Sverige,omvÑnd skattskyldighet, 25%" 
+#SRU 4425 0
+
+
+#KONTO 4426 "Inkîpta tjÑnster i Sverige,omvÑnd skattskyldighet, 12%" 
+#SRU 4426 0
+
+
+#KONTO 4427 "Inkîpta tjÑnster i Sverige,omvÑnd skattskyldighet, 6%" 
+#SRU 4427 0
+
+
+#KONTO 4600 "Legoarbeten, underentrepr" 
+#SRU 4600 0
+
+
+#KONTO 4731 "ErhÜllna kassarabatter" 
+#SRU 4731 0
+
+
+#KONTO 4733 "ErhÜllet aktivitetsstîd" 
+#SRU 4733 0
+
+
+#KONTO 4940 "FîrÑndr. produkter i arbete" 
+#SRU 4940 0
+
+
+#KONTO 4950 "FîrÑndr. lager fÑrdigvaror" 
+#SRU 4950 0
+
+
+#KONTO 4970 "FîrÑndr. pÜg arbete" 
+#SRU 4970 0
+
+
+#KONTO 4990 "LagerfîrÑndring" 
+#SRU 4990 0
+
+
+#KONTO 5010 "Lokalhyra" 
+#SRU 5010 0
+
+
+#KONTO 5020 "El hyrd lokal" 
+#SRU 5020 0
+
+
+#KONTO 5030 "VÑrme hyrd lokal" 
+#SRU 5030 0
+
+
+#KONTO 5050 "Lokaltillbehîr hyrd lokal" 
+#SRU 5050 0
+
+
+#KONTO 5060 "StÑdning, renhÜllning hyrd lokal" 
+#SRU 5060 0
+
+
+#KONTO 5070 "Reparationer hyrd lokal" 
+#SRU 5070 0
+
+
+#KONTO 5090 "ôvr kostnader hyrd lokal" 
+#SRU 5090 0
+
+
+#KONTO 5120 "Belysning" 
+#SRU 5120 0
+
+
+#KONTO 5130 "VÑrme" 
+#SRU 5130 0
+
+
+#KONTO 5132 "Sotning" 
+#SRU 5132 0
+
+
+#KONTO 5140 "Vatten och avlopp" 
+#SRU 5140 0
+
+
+#KONTO 5160 "RenhÜllning och stÑdning" 
+#SRU 5160 0
+
+
+#KONTO 5170 "Rep och underhÜll" 
+#SRU 5170 0
+
+
+#KONTO 5191 "Fastighetsskatt" 
+#SRU 5191 0
+
+
+#KONTO 5192 "FîrsÑkringsprem fastighet" 
+#SRU 5192 0
+
+
+#KONTO 5199 "ôvr fastighetskostnader" 
+#SRU 5199 0
+
+
+#KONTO 5210 "Hyra arbetsmaskiner" 
+#SRU 5210 0
+
+
+#KONTO 5220 "Hyra inventarier" 
+#SRU 5220 0
+
+
+#KONTO 5310 "El fîr drift" 
+#SRU 5310 0
+
+
+#KONTO 5380 "Vatten" 
+#SRU 5380 0
+
+
+#KONTO 5390 "ôvriga brÑnslen" 
+#SRU 5390 0
+
+
+#KONTO 5410 "Fîrbrukningsinventarier" 
+#SRU 5410 0
+
+
+#KONTO 5420 "Dataprogram" 
+#SRU 5420 0
+
+
+#KONTO 5460 "Fîrbrukningsmaterial" 
+#SRU 5460 0
+
+
+#KONTO 5480 "ArbetsklÑder o skyddsmtrl" 
+#SRU 5480 0
+
+
+#KONTO 5500 "Reparation och underhÜll" 
+#SRU 5500 0
+
+
+#KONTO 5611 "Drivmedel personbilar" 
+#SRU 5611 0
+
+
+#KONTO 5612 "Skatt fîrsÑkr personbilar" 
+#SRU 5612 0
+
+
+#KONTO 5613 "Reparation personbilar" 
+#SRU 5613 0
+
+
+#KONTO 5615 "Leasingavg personbilar" 
+#SRU 5615 0
+
+
+#KONTO 5690 "ôvr transportmedel" 
+#SRU 5690 0
+
+
+#KONTO 5710 "Frakt och transport" 
+#SRU 5710 0
+
+
+#KONTO 5720 "Tull- och speditionskost" 
+#SRU 5720 0
+
+
+#KONTO 5800 "Resekostnader" 
+#SRU 5800 0
+
+
+#KONTO 5910 "Annonsering" 
+#SRU 5910 0
+#RES 0 5910       40000.00
+#RES -1 5910       0.00
+
+#PSALDO 0 201001 5910 {} 0.00
+#PSALDO 0 201002 5910 {} 0.00
+#PSALDO 0 201003 5910 {} 0.00
+#PSALDO 0 201004 5910 {} 0.00
+#PSALDO 0 201005 5910 {} 0.00
+#PSALDO 0 201006 5910 {} 0.00
+#PSALDO 0 201007 5910 {} 0.00
+#PSALDO 0 201008 5910 {} 0.00
+#PSALDO 0 201009 5910 {} 0.00
+#PSALDO 0 201010 5910 {} 0.00
+#PSALDO 0 201011 5910 {} 40000.00
+#PSALDO 0 201011 5910 {6 "8"} 20000.00
+#PSALDO 0 201011 5910 {6 "9"} 20000.00
+#PSALDO 0 201012 5910 {} 0.00
+
+#KONTO 5930 "Reklamtrycksaker" 
+#SRU 5930 0
+
+
+#KONTO 5940 "UtstÑllning och mÑssor" 
+#SRU 5940 0
+
+
+#KONTO 5990 "ôvrig reklam" 
+#SRU 5990 0
+
+
+#KONTO 6010 "Kataloger och prislistor" 
+#SRU 6010 0
+
+
+#KONTO 6040 "Kontokortsavgifter" 
+#SRU 6040 0
+
+
+#KONTO 6050 "FîrsÑljningsprovision" 
+#SRU 6050 0
+
+
+#KONTO 6060 "KreditfîrsÑljningskostnad" 
+#SRU 6060 0
+
+
+#KONTO 6071 "Repr avdr.gill" 
+#SRU 6071 0
+
+
+#KONTO 6072 "Repr ej avdr.gill" 
+#SRU 6072 0
+
+
+#KONTO 6080 "Bankgarantier" 
+#SRU 6080 0
+
+
+#KONTO 6090 "ôvr fîrsÑljningskostnader" 
+#SRU 6090 0
+
+
+#KONTO 6110 "Kontorsmaterial" 
+#SRU 6110 0
+
+
+#KONTO 6150 "Trycksaker" 
+#SRU 6150 0
+
+
+#KONTO 6211 "Telefon" 
+#SRU 6211 0
+
+
+#KONTO 6212 "Mobiltelefon" 
+#SRU 6212 0
+
+
+#KONTO 6213 "Mobilsîkning" 
+#SRU 6213 0
+
+
+#KONTO 6214 "Fax" 
+#SRU 6214 0
+
+
+#KONTO 6230 "Datakommunikation" 
+#SRU 6230 0
+
+
+#KONTO 6250 "Porto" 
+#SRU 6250 0
+
+
+#KONTO 6310 "FîretagsfîrsÑkringar" 
+#SRU 6310 0
+
+
+#KONTO 6320 "SjÑlvrisker" 
+#SRU 6320 0
+
+
+#KONTO 6350 "Kundfîrluster" 
+#SRU 6350 0
+
+
+#KONTO 6390 "ôvriga riskkostnader" 
+#SRU 6390 0
+
+
+#KONTO 6410 "Styrelsearvode" 
+#SRU 6410 0
+
+
+#KONTO 6420 "Revisionsarvode" 
+#SRU 6420 0
+
+
+#KONTO 6430 "Management fees" 
+#SRU 6430 0
+
+
+#KONTO 6440 "èrsredovisn, delÜrsrapporter" 
+#SRU 6440 0
+
+
+#KONTO 6450 "BolagsstÑmma" 
+#SRU 6450 0
+
+
+#KONTO 6490 "ôvr fîrvaltningskostnader" 
+#SRU 6490 0
+
+
+#KONTO 6530 "RedovisningstjÑnster" 
+#SRU 6530 0
+
+
+#KONTO 6540 "IT-tjÑnster" 
+#SRU 6540 0
+
+
+#KONTO 6550 "Konsultarvoden" 
+#SRU 6550 0
+
+
+#KONTO 6570 "Bankkostnader" 
+#SRU 6570 0
+
+
+#KONTO 6580 "Advokatkostnader" 
+#SRU 6580 0
+
+
+#KONTO 6590 "ôvr frÑmmande tjÑnster" 
+#SRU 6590 0
+
+
+#KONTO 6800 "Inhyrd personal" 
+#SRU 6800 0
+
+
+#KONTO 6904 "TjÑnst fîrv utlandet" 
+#SRU 6904 0
+
+
+#KONTO 6909 "Fîrdelade fîrvÑrv" 
+#SRU 6909 0
+
+
+#KONTO 6970 "Tidningar, facklitteratur" 
+#SRU 6970 0
+
+
+#KONTO 6981 "Fîreningsavg avdr gill" 
+#SRU 6981 0
+
+
+#KONTO 6982 "Fîreningsavg ej avdr gill" 
+#SRU 6982 0
+
+
+#KONTO 6991 "ôvr avdr gill kostn" 
+#SRU 6991 0
+
+
+#KONTO 6992 "ôvr ej avdr gill kostn" 
+#SRU 6992 0
+
+
+#KONTO 6993 "LÑmnade bidrag och gÜvor" 
+#SRU 6993 0
+
+
+#KONTO 7010 "Lîn kollektivanstÑllda" 
+#SRU 7010 0
+
+
+#KONTO 7011 "Lîner till kollektivanstÑllda" 
+#SRU 7011 0
+
+
+#KONTO 7012 "Vinstandelar till kollektivanstÑllda" 
+#SRU 7012 0
+
+
+#KONTO 7014 "Lîner till kollektivanstÑllda (65 Ür)" 
+#SRU 7014 0
+
+
+#KONTO 7015 "Lîner till kollektivanstÑllda (sÑrskild lîneskatt)" 
+#SRU 7015 0
+
+
+#KONTO 7016 "Vinstandelar till kollektivanstÑllda (sÑrskild lîneskatt)" 
+#SRU 7016 0
+
+
+#KONTO 7017 "AvgÜngsvederlag till kollektivanstÑllda" 
+#SRU 7017 0
+
+
+#KONTO 7081 "Sjuklîn kollektivanstÑllda" 
+#SRU 7081 0
+
+
+#KONTO 7082 "Semesterlîn kollektivanstÑllda" 
+#SRU 7082 0
+
+
+#KONTO 7090 "FîrÑndr sem lîneskuld" 
+#SRU 7090 0
+
+
+#KONTO 7210 "Lîn tjÑnstemÑn" 
+#SRU 7210 0
+
+
+#KONTO 7211 "Lîner till tjÑnstemÑn" 
+#SRU 7211 0
+
+
+#KONTO 7212 "Vinstandelar till tjÑnstemÑn" 
+#SRU 7212 0
+
+
+#KONTO 7214 "Lîner till tjÑnstemÑn (65 Ür)" 
+#SRU 7214 0
+
+
+#KONTO 7215 "Lîner till tjÑnstemÑn (sÑrskild lîneskatt)" 
+#SRU 7215 0
+
+
+#KONTO 7216 "Vinstandelar till tjÑnstemÑn (sÑrskild lîneskatt)" 
+#SRU 7216 0
+
+
+#KONTO 7217 "AvgÜngsvederlag till tjÑnstemÑn" 
+#SRU 7217 0
+
+
+#KONTO 7220 "Lîn fîretagsledare" 
+#SRU 7220 0
+
+
+#KONTO 7221 "Lîner till styrelse och fîretagsledning" 
+#SRU 7221 0
+
+
+#KONTO 7222 "Tantiem till fîretagsledare" 
+#SRU 7222 0
+
+
+#KONTO 7223 "Gratifikationer till fîretagsledare" 
+#SRU 7223 0
+
+
+#KONTO 7224 "Lîner till fîretagsledare (65 Ür)" 
+#SRU 7224 0
+
+
+#KONTO 7227 "AvgÜngsvederlag till fîretagsledare" 
+#SRU 7227 0
+
+
+#KONTO 7281 "Sjuklîn tjÑnstemÑn" 
+#SRU 7281 0
+
+
+#KONTO 7282 "Sjuklîner till ftgledare" 
+#SRU 7282 0
+
+
+#KONTO 7285 "Semester lîn tjÑnstemÑn" 
+#SRU 7285 0
+
+
+#KONTO 7286 "Semesterlîn ftgledare" 
+#SRU 7286 0
+
+
+#KONTO 7290 "FîrÑndr sem lîneskuld" 
+#SRU 7290 0
+
+
+#KONTO 7300 "KostnadsersÑttningar och fîrmÜner" 
+#SRU 7300 0
+
+
+#KONTO 7310 "Kontanta extra ersÑttn" 
+#SRU 7310 0
+
+
+#KONTO 7312 "ErsÑttningar fîr fîrlagsverksamhet och uppfinningar" 
+#SRU 7312 0
+
+
+#KONTO 7316 "ErsÑttningar fîr/bidrag till arbetsklÑder" 
+#SRU 7316 0
+
+
+#KONTO 7318 "FelrÑkningspengar" 
+#SRU 7318 0
+
+
+#KONTO 7319 "ôvriga kontanta ersÑttningar" 
+#SRU 7319 0
+
+
+#KONTO 7321 "Skattefria trakt Sverige" 
+#SRU 7321 0
+
+
+#KONTO 7322 "Skattepl trakt Sverige" 
+#SRU 7322 0
+
+
+#KONTO 7323 "Skattefria trakt utland" 
+#SRU 7323 0
+
+
+#KONTO 7324 "Skattepl trakt utland" 
+#SRU 7324 0
+
+
+#KONTO 7331 "Skattefri bilersÑttning" 
+#SRU 7331 0
+
+
+#KONTO 7332 "Skattepl bilersÑttning" 
+#SRU 7332 0
+
+
+#KONTO 7381 "Kostn fîr fri bostad" 
+#SRU 7381 0
+
+
+#KONTO 7382 "Kostn fria/subv mÜltider" 
+#SRU 7382 0
+
+
+#KONTO 7385 "Kostn fîr fri bil" 
+#SRU 7385 0
+
+
+#KONTO 7389 "ôvriga kostn naturafîrm" 
+#SRU 7389 0
+
+
+#KONTO 7390 "ôvr kostnadsersÑttningar" 
+#SRU 7390 0
+
+
+#KONTO 7411 "Kollektiv pensionsfîrsÑkr" 
+#SRU 7411 0
+
+
+#KONTO 7412 "Indiv pensionsfîrsÑkring" 
+#SRU 7412 0
+
+
+#KONTO 7490 "ôvriga pensionsfîrsÑkring" 
+#SRU 7490 0
+
+
+#KONTO 7510 "Arbetsgivaravgifter" 
+#SRU 7510 0
+
+
+#KONTO 7519 "Soc.avgifter semesterlîn" 
+#SRU 7519 0
+
+
+#KONTO 7531 "Lîneskatt" 
+#SRU 7531 0
+
+
+#KONTO 7533 "SÑrsk lîneskatt pensionsk" 
+#SRU 7533 0
+
+
+#KONTO 7570 "AMF enl avtal" 
+#SRU 7570 0
+
+
+#KONTO 7610 "Utbildning" 
+#SRU 7610 0
+
+
+#KONTO 7620 "Sjuk- och hÑlsovÜrd" 
+#SRU 7620 0
+
+
+#KONTO 7650 "SjuklînefîrsÑkring" 
+#SRU 7650 0
+
+
+#KONTO 7690 "ôvr personalkostnader" 
+#SRU 7690 0
+
+
+#KONTO 7813 "Avskrivningar patent" 
+#SRU 7813 0
+
+
+#KONTO 7816 "Avskrivningar hyresrÑtt" 
+#SRU 7816 0
+
+
+#KONTO 7817 "Avskrivningar goodwill" 
+#SRU 7817 0
+
+
+#KONTO 7821 "Avskrivn byggnader" 
+#SRU 7821 0
+
+
+#KONTO 7822 "Avskrivn byggnadsinv" 
+#SRU 7822 0
+
+
+#KONTO 7824 "Avskrivn markanlÑggn" 
+#SRU 7824 0
+
+
+#KONTO 7831 "Avskrivn arbetsmaskiner" 
+#SRU 7831 0
+
+
+#KONTO 7832 "Avskrivn inventarier" 
+#SRU 7832 0
+
+
+#KONTO 7834 "Avskrivn bilar" 
+#SRU 7834 0
+
+
+#KONTO 7960 "Kursfîrluster" 
+#SRU 7960 0
+
+
+#KONTO 7972 "Fîrlust avyttr fastigheter" 
+#SRU 7972 0
+
+
+#KONTO 7973 "Fîrlust avyttr maskiner/inv" 
+#SRU 7973 0
+
+
+#KONTO 7974 "Fîrlust avyttr aktier/andel" 
+#SRU 7974 0
+
+
+#KONTO 8012 "Utdeln sv/utl dotterbolag" 
+#SRU 8012 0
+
+
+#KONTO 8210 "Utdeln andra sv/utl fîretag" 
+#SRU 8210 0
+
+
+#KONTO 8230 "Valutakursdiff lÜngfr fordr" 
+#SRU 8230 0
+
+
+#KONTO 8270 "Nedskr andel/lf ford îvr ftg" 
+#SRU 8270 0
+
+
+#KONTO 8280 "èterf nedskr and/lf ford î ftg" 
+#SRU 8280 0
+
+
+#KONTO 8300 "RÑnteintÑkter" 
+#SRU 8300 0
+
+
+#KONTO 8313 "RÑnteintÑkter kundfordringar" 
+#SRU 8313 0
+
+
+#KONTO 8331 "Valutakursvinster" 
+#SRU 8331 0
+
+
+#KONTO 8336 "Valutakursfîrluster" 
+#SRU 8336 0
+
+
+#KONTO 8390 "ôvr finansiella intÑkter" 
+#SRU 8390 0
+
+
+#KONTO 8400 "RÑntekostnader" 
+#SRU 8400 0
+
+
+#KONTO 8422 "RÑntekostnader levskulder" 
+#SRU 8422 0
+
+
+#KONTO 8431 "Valutakursvinster skulder" 
+#SRU 8431 0
+
+
+#KONTO 8436 "Valutakursfîrlust skulder" 
+#SRU 8436 0
+
+
+#KONTO 8490 "ôvr finansiella kostnader" 
+#SRU 8490 0
+
+
+#KONTO 8811 "AvsÑttning per fond" 
+#SRU 8811 0
+
+
+#KONTO 8819 "èterfîring av per fond" 
+#SRU 8819 0
+
+
+#KONTO 8850 "Avskrivn îver/under plan" 
+#SRU 8850 0
+
+
+#KONTO 8896 "FîrÑndring lagerreserv" 
+#SRU 8896 0
+
+
+#KONTO 8897 "èterfîring av SURV" 
+#SRU 8897 0
+
+
+#KONTO 8910 "èrets skattekostnad" 
+#SRU 8910 0
+
+
+#KONTO 8999 "Redovisat resultat" 
+#SRU 8999 0
+
+

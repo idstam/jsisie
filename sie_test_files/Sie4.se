@@ -1,0 +1,1177 @@
+#FLAGGA  0
+#PROGRAM "SoftOne Business Redovisning"  2016.SV.02
+#FORMAT  PC8
+#GEN     20160224  KH
+#SIETYP  4
+#PROSA   " "
+#FNR     910
+#ORGNR    556654-7898
+#ADRESS  "                              "  "Postgatan 77                  "  "777 77 Staden                        "  "077-77 77 00        "
+#FNAMN   "Demofîretaget AB"
+#RAR     0  20140101  20141231
+#KONTO   1010      "Balanserade utgifter"
+#KTYP    1010      T
+#KONTO   1019      "Ack avskr pÜ balans utg  "
+#KTYP    1019      T
+#KONTO   1040      "Licenser"
+#KTYP    1040      T
+#KONTO   1060      "Hyres-, tomtrÑtter"
+#KTYP    1060      T
+#KONTO   1069      "Ack avskr pÜ hyresrÑtter "
+#KTYP    1069      T
+#KONTO   1070      "Goodwill"
+#KTYP    1070      T
+#KONTO   1079      "Ack avskr pÜ goodwill"
+#KTYP    1079      T
+#KONTO   1090      "ôvr. immateriella anlÑggn"
+#KTYP    1090      T
+#KONTO   1099      "Ack avskr îvr immat anlti"
+#KTYP    1099      T
+#KONTO   1110      "Byggnader"
+#KTYP    1110      T
+#KONTO   1119      "Ack avskr byggn"
+#KTYP    1119      T
+#KONTO   1130      "Mark"
+#KTYP    1130      T
+#KONTO   1150      "MarkanlÑggningar"
+#KTYP    1150      T
+#KONTO   1159      "Ack avskr markanlÑggn"
+#KTYP    1159      T
+#KONTO   1210      "Mask o andra tekn anl"
+#KTYP    1210      T
+#KONTO   1219      "Ack avskr mask o tekn anl"
+#KTYP    1219      T
+#KONTO   1220      "Inventarier och verktyg  "
+#KTYP    1220      T
+#KONTO   1229      "Ack avskr inv o verktyg  "
+#KTYP    1229      T
+#KONTO   1240      "Bilar & andra transportm "
+#KTYP    1240      T
+#KONTO   1249      "Ack avskr bil o îvr trspm"
+#KTYP    1249      T
+#KONTO   1250      "Datorer"
+#KTYP    1250      T
+#KONTO   1259      "Ack avskr datorer"
+#KTYP    1259      T
+#KONTO   1291      "Konst o likn tillg"
+#KTYP    1291      T
+#KONTO   1310      "Andelar i koncernftg."
+#KTYP    1310      T
+#KONTO   1320      "LÜngfr fordr konc.ftg"
+#KTYP    1320      T
+#KONTO   1350      "Andel o vp i andra ftg"
+#KTYP    1350      T
+#KONTO   1380      "Andra lÜngfristiga fordr."
+#KTYP    1380      T
+#KONTO   1390      "Ack nedsk av vp o lÜngfr "
+#KTYP    1390      T
+#KONTO   1400      "Lager"
+#KTYP    1400      T
+#KONTO   1410      "Lager av rÜvaror"
+#KTYP    1410      T
+#KONTO   1440      "Produkter i arbete"
+#KTYP    1440      T
+#KONTO   1470      "PÜgÜende arbeten"
+#KTYP    1470      T
+#KONTO   1471      "PÜgÜende arb nedl kostn  "
+#KTYP    1471      T
+#KONTO   1478      "PÜgÜende arb fakturering "
+#KTYP    1478      T
+#KONTO   1479      "FîrÑnd lager pÜg. arbete "
+#KTYP    1479      T
+#KONTO   1490      "FîrÑndring lager, pÜg arb"
+#KTYP    1490      T
+#KONTO   1500      "Kundfordringar"
+#KTYP    1500      T
+#KONTO   1510      "Kundfordringar"
+#KTYP    1510      T
+#KONTO   1511      "Kundfordringar"
+#KTYP    1511      T
+#KONTO   1513      "PreliminÑrt HUS-avrdag"
+#KTYP    1513      T
+#KONTO   1515      "OsÑkra kundfordr"
+#KTYP    1515      T
+#KONTO   1516      "Tvistiga kundfordringar  "
+#KTYP    1516      T
+#KONTO   1518      "Ej reskontrafîrda kundfor"
+#KTYP    1518      T
+#KONTO   1580      "Fordr kontokort, kuponger"
+#KTYP    1580      T
+#KONTO   1590      "Nedsk av kundfordr"
+#KTYP    1590      T
+#KONTO   1610      "Fordringar hos anstÑllda "
+#KTYP    1610      T
+#KONTO   1630      "AvrÑk. skatter o avgifter"
+#KTYP    1630      T
+#KONTO   1640      "Skattefordringar"
+#KTYP    1640      T
+#KONTO   1650      "Momsfordran"
+#KTYP    1650      T
+#KONTO   1670      "Kortfr fordr hos intrftg "
+#KTYP    1670      T
+#KONTO   1680      "Andra kortfr fordr"
+#KTYP    1680      T
+#KONTO   1684      "Fordr hos leverantîrer"
+#KTYP    1684      T
+#KONTO   1690      "Nedsk av kortfr fordr"
+#KTYP    1690      T
+#KONTO   1700      "Fîrutb kostn o upplup int"
+#KTYP    1700      T
+#KONTO   1710      "Fîrutb hyresutg"
+#KTYP    1710      T
+#KONTO   1790      "ôvr. immateriella tillg  "
+#KTYP    1790      T
+#KONTO   1800      "Kortsiktiga placeringar  "
+#KTYP    1800      T
+#KONTO   1820      "Obligationer"
+#KTYP    1820      T
+#KONTO   1890      "Nedsk av kortfr plac"
+#KTYP    1890      T
+#KONTO   1910      "Kassa"
+#KTYP    1910      T
+#KONTO   1920      "Bank"
+#KTYP    1920      T
+#KONTO   1930      "CheckrÑkningskonto"
+#KTYP    1930      T
+#KONTO   1940      "Bank (îvr konton)"
+#KTYP    1940      T
+#KONTO   2010      "Eget kapital, delÑgare 1 "
+#KTYP    2010      S
+#KONTO   2020      "Eget kapital, delÑgare 2 "
+#KTYP    2020      S
+#KONTO   2030      "Eget kapital, delÑgare 3 "
+#KTYP    2030      S
+#KONTO   2040      "Eget kapital, delÑgare 4 "
+#KTYP    2040      S
+#KONTO   2081      "Aktiekapital"
+#KTYP    2081      S
+#KONTO   2086      "Reservfond"
+#KTYP    2086      S
+#KONTO   2091      "Balans. vinst el fîrlust "
+#KTYP    2091      S
+#KONTO   2098      "Vinst/fîrlust fîreg Ür"
+#KTYP    2098      S
+#KONTO   2099      "èrets resultat"
+#KTYP    2099      S
+#KONTO   2110      "Periodiseringsfonder"
+#KTYP    2110      S
+#KONTO   2123      "Period.fond 2003 Ürs tax."
+#KTYP    2123      S
+#KONTO   2124      "Period.fond 2004 Ürs tax."
+#KTYP    2124      S
+#KONTO   2125      "Period.fond 2005 Ürs tax."
+#KTYP    2125      S
+#KONTO   2126      "Period.fond 2006 Ürs tax."
+#KTYP    2126      S
+#KONTO   2127      "Period.fond 2007 Ürs tax."
+#KTYP    2127      S
+#KONTO   2128      "Period.fond 2008 Ürs tax."
+#KTYP    2128      S
+#KONTO   2129      "Period.fond 2009 Ürs tax."
+#KTYP    2129      S
+#KONTO   2150      "Ackumul îveravskrivningar"
+#KTYP    2150      S
+#KONTO   2199      "ôvr obeskattade reserver "
+#KTYP    2199      S
+#KONTO   2220      "AvsÑttn fîr garantier"
+#KTYP    2220      S
+#KONTO   2290      "ôvriga avsÑttningar"
+#KTYP    2290      S
+#KONTO   2330      "CheckrÑkningskredit"
+#KTYP    2330      S
+#KONTO   2350      "Annan skuld t kreditinst "
+#KTYP    2350      S
+#KONTO   2391      "Avbetalningskontrakt"
+#KTYP    2391      S
+#KONTO   2393      "LÜn frÜn nÑrstÜende pers "
+#KTYP    2393      S
+#KONTO   2399      "ôvr lÜngfristiga skulder "
+#KTYP    2399      S
+#KONTO   2410      "utg moms 25%"
+#KTYP    2410      S
+#KONTO   2420      "Fîrskott frÜn kunder"
+#KTYP    2420      S
+#KONTO   2421      "Ej inlîsta presentkort"
+#KTYP    2421      S
+#KONTO   2422      "Tillgodo presentkort"
+#KTYP    2422      S
+#KONTO   2429      "ôvr fîrskott fr kunder"
+#KTYP    2429      S
+#KONTO   2431      "PÜgÜende arb fakturering "
+#KTYP    2431      S
+#KONTO   2438      "PÜgÜende arb nedl kostn  "
+#KTYP    2438      S
+#KONTO   2439      "FîrÑndring pÜg. arbeten  "
+#KTYP    2439      S
+#KONTO   2440      "Leverantîrsskulder"
+#KTYP    2440      S
+#KONTO   2441      "Leverantîrsskulder"
+#KTYP    2441      S
+#KONTO   2448      "Ej reskontrafîrd lev.skul"
+#KTYP    2448      S
+#KONTO   2490      "ôvr kortfr skuld kund/lev"
+#KTYP    2490      S
+#KONTO   2510      "Skatteskulder"
+#KTYP    2510      S
+#KONTO   2610      "UtgÜende moms, oreducerad"
+#KTYP    2610      S
+#KONTO   2615      "Ber utg moms varor EU"
+#KTYP    2615      S
+#KONTO   2617      "Utg moms omvÑnd skatt 25%"
+#KTYP    2617      S
+#KONTO   2620      "UtgÜende moms, reducer. 1"
+#KTYP    2620      S
+#KONTO   2630      "UtgÜende moms reducer. 2 "
+#KTYP    2630      S
+#KONTO   2640      "IngÜende moms"
+#KTYP    2640      S
+#KONTO   2641      "Debiterad ingÜende moms  "
+#KTYP    2641      T
+#KONTO   2642      "Deb ing moms friv. skatts"
+#KTYP    2642      S
+#KONTO   2645      "Ber ing moms fîrvÑrv utl "
+#KTYP    2645      S
+#KONTO   2647      "Ing moms omvÑnd skatt"
+#KTYP    2647      S
+#KONTO   2650      "Redovkonto fîr moms"
+#KTYP    2650      S
+#KONTO   2710      "Personalens kÑllskatt"
+#KTYP    2710      S
+#KONTO   2730      "Lagstadg soc avg o sÑrsk "
+#KTYP    2730      S
+#KONTO   2731      "AvrÑkn lagstadgad soc avg"
+#KTYP    2731      S
+#KONTO   2740      "Avtalade sociala avgifter"
+#KTYP    2740      S
+#KONTO   2790      "ôvriga lîneavdrag"
+#KTYP    2790      T
+#KONTO   2840      "Kortfristiga lÜneskulder "
+#KTYP    2840      S
+#KONTO   2850      "AvsÑttning skatter & avg."
+#KTYP    2850      S
+#KONTO   2860      "Skulder till koncernfîret"
+#KTYP    2860      S
+#KONTO   2870      "Skulder till intesseftg  "
+#KTYP    2870      S
+#KONTO   2890      "ôvr kortfristiga skulder "
+#KTYP    2890      S
+#KONTO   2900      "Upplup kostn o fîrutb int"
+#KTYP    2900      S
+#KONTO   2943      "konto 2943"
+#KTYP    2943      S
+#KONTO   3010      "FîrsÑljning konto 3011"
+#KTYP    3010      I
+#KONTO   3011      "fîrsÑljning konto 3011"
+#KTYP    3011      I
+#KONTO   3012      "FîrsÑljning konto 3012"
+#KTYP    3012      I
+#KONTO   3013      ""
+#KTYP    3013      I
+#KONTO   3014      "FîrsÑljning momsfri"
+#KTYP    3014      I
+#KONTO   3015      "FîrsÑljning utanfîr EU"
+#KTYP    3015      I
+#KONTO   3016      "FîrsÑljning ej EU"
+#KTYP    3016      I
+#KONTO   3017      "FîrsÑlj. trepartshandel  "
+#KTYP    3017      I
+#KONTO   3018      "fîrs med auto.kontering  "
+#KTYP    3018      I
+#KONTO   3019      "fîrsÑlnjning periodiserad"
+#KTYP    3019      I
+#KONTO   3030      "FîrsÑljning export"
+#KTYP    3030      I
+#KONTO   3057      "FîrsÑlj.trepartshandel"
+#KTYP    3057      I
+#KONTO   3081      "Kassarabatt"
+#KTYP    3081      I
+#KONTO   3500      "Fakturerade kostn"
+#KTYP    3500      I
+#KONTO   3520      "Fakturerade frakter"
+#KTYP    3520      I
+#KONTO   3523      "Fakturerad frakt EU"
+#KTYP    3523      I
+#KONTO   3525      "Fakt,frakt EU trepartshan"
+#KTYP    3525      I
+#KONTO   3527      "Fraktkostnad export"
+#KTYP    3527      I
+#KONTO   3540      "Faktureringsavgifter"
+#KTYP    3540      I
+#KONTO   3543      "Faktureringsavgifter EU  "
+#KTYP    3543      I
+#KONTO   3545      "Fakturaavgift EU treparts"
+#KTYP    3545      I
+#KONTO   3547      "Fakturaavgift export"
+#KTYP    3547      I
+#KONTO   3590      "ôvr fakturerade kostnader"
+#KTYP    3590      I
+#KONTO   3593      "ôvr fakt,kostnader EU"
+#KTYP    3593      I
+#KONTO   3595      "ôvr fakt,kost EU trepart "
+#KTYP    3595      I
+#KONTO   3597      "ôvr fakt,kost export"
+#KTYP    3597      I
+#KONTO   3600      "Rîrelse sidointÑkter"
+#KTYP    3600      I
+#KONTO   3620      "Frakt"
+#KTYP    3620      I
+#KONTO   3640      "Exp.avgift"
+#KTYP    3640      I
+#KONTO   3690      "Fatturerad fîrsÑkring"
+#KTYP    3690      I
+#KONTO   3700      "IntÑktskorrigering"
+#KTYP    3700      I
+#KONTO   3731      "LÑmnade kassarabatter"
+#KTYP    3731      I
+#KONTO   3732      "LÑmnade mÑngdrabatter"
+#KTYP    3732      I
+#KONTO   3733      "Kassarabatter EU"
+#KTYP    3733      I
+#KONTO   3735      "Kassarab, EU trepartshand"
+#KTYP    3735      I
+#KONTO   3737      "Kassarabatter export"
+#KTYP    3737      I
+#KONTO   3800      "Aktiv. arb fîr egen rÑkn."
+#KTYP    3800      K
+#KONTO   3900      "ôvr rîrelseint (grpkonto)"
+#KTYP    3900      I
+#KONTO   3910      "Hyres- o arrendeintÑkter "
+#KTYP    3910      I
+#KONTO   3950      "èterv tid avskr kundfordr"
+#KTYP    3950      I
+#KONTO   3970      "Vinst vid avyttr av immat"
+#KTYP    3970      I
+#KONTO   3980      "ErhÜllna offentliga stîd "
+#KTYP    3980      I
+#KONTO   3990      "ôvr ersÑttn & intÑkter"
+#KTYP    3990      I
+#KONTO   4010      "Inkîp material tillv prod"
+#KTYP    4010      K
+#KONTO   4011      "Maskinkostnad"
+#KTYP    4011      K
+#KONTO   4019      "LagerfîrÑnd. mtrl tillv. "
+#KTYP    4019      K
+#KONTO   4056      "Inkîp varor och mtrl EU  "
+#KTYP    4056      K
+#KONTO   4057      "Ink varor mtrl EU trepart"
+#KTYP    4057      K
+#KONTO   4060      "Inkîp frÜn koncernftg"
+#KTYP    4060      K
+#KONTO   4080      "Ink.prisreduktion mtrl"
+#KTYP    4080      K
+#KONTO   4100      "Inkîp av handelsvaror"
+#KTYP    4100      K
+#KONTO   4425      "Ink. tjÑnst Sve omv 25%  "
+#KTYP    4425      K
+#KONTO   4535      "Inkîp av tjÑnst EU 25%"
+#KTYP    4535      K
+#KONTO   4600      "Legoarb o underentrep."
+#KTYP    4600      K
+#KONTO   4700      "Reduktion av inkîpspriser"
+#KTYP    4700      K
+#KONTO   4731      "ErhÜllna kassarabatter"
+#KTYP    4731      K
+#KONTO   4736      "ErhÜllna kassarabatter EU"
+#KTYP    4736      K
+#KONTO   4737      "Erh, kassarab, EU trepart"
+#KTYP    4737      K
+#KONTO   4900      "FîrÑndring av lager"
+#KTYP    4900      K
+#KONTO   4940      "FîrÑndr produkt i arbete "
+#KTYP    4940      K
+#KONTO   4970      "FîrÑnd pÜg arb, nedl kost"
+#KTYP    4970      K
+#KONTO   5000      "Lokalkostnader"
+#KTYP    5000      K
+#KONTO   5010      "Lokalhyra"
+#KTYP    5010      K
+#KONTO   5100      "Fastighetskost"
+#KTYP    5100      K
+#KONTO   5200      "Hyra anlÑggningstillgÜng "
+#KTYP    5200      K
+#KONTO   5300      "Energikostnader"
+#KTYP    5300      K
+#KONTO   5400      "Fîrbrukninv o fîrbruknmtr"
+#KTYP    5400      K
+#KONTO   5500      "Reparation o underhÜll"
+#KTYP    5500      K
+#KONTO   5600      "Kostnad transportmedel"
+#KTYP    5600      K
+#KONTO   5700      "Frakter och transporter  "
+#KTYP    5700      K
+#KONTO   5800      "Resekostnader"
+#KTYP    5800      K
+#KONTO   5900      "Reklam och PR"
+#KTYP    5900      K
+#KONTO   6010      "Hyror mm"
+#KTYP    6010      K
+#KONTO   6020      "Egna facktidskrifter"
+#KTYP    6020      K
+#KONTO   6030      "Speciella orderkostnader "
+#KTYP    6030      K
+#KONTO   6070      "Representation"
+#KTYP    6070      K
+#KONTO   6071      "Representation avdrgill  "
+#KTYP    6071      K
+#KONTO   6072      "Representation ej avdrgil"
+#KTYP    6072      K
+#KONTO   6090      "ôvriga fîrsÑljningskostn "
+#KTYP    6090      K
+#KONTO   6100      "Kontorsmtrl o trycksaker "
+#KTYP    6100      K
+#KONTO   6200      "Tele och post"
+#KTYP    6200      K
+#KONTO   6300      "Ftg.fîrsÑk o îvr riskkos "
+#KTYP    6300      K
+#KONTO   6310      "FîretagsfîrsÑkringar"
+#KTYP    6310      K
+#KONTO   6350      "Fîrluster pÜ kundfordring"
+#KTYP    6350      K
+#KONTO   6351      "Konstaterad fîrl kundford"
+#KTYP    6351      K
+#KONTO   6352      "Befarad fîrl kundfordr"
+#KTYP    6352      K
+#KONTO   6360      "Garantikostnader"
+#KTYP    6360      K
+#KONTO   6380      "Fîrl pÜ îvr kortfr fordr "
+#KTYP    6380      K
+#KONTO   6390      "ôvriga riskkostnader"
+#KTYP    6390      K
+#KONTO   6400      "Fîrvaltningskostnader"
+#KTYP    6400      K
+#KONTO   6410      "Styrelsearvoden"
+#KTYP    6410      K
+#KONTO   6420      "Revisionsarvoden"
+#KTYP    6420      K
+#KONTO   6490      "ôvr fîrvaltningskost"
+#KTYP    6490      K
+#KONTO   6530      "RedovisningstjÑnster"
+#KTYP    6530      K
+#KONTO   6540      "IT-tjÑnster"
+#KTYP    6540      K
+#KONTO   6551      "konto fîr test"
+#KTYP    6551      K
+#KONTO   6560      "Serviceavg t branschorg  "
+#KTYP    6560      K
+#KONTO   6590      "ôvriga externa tjÑnster  "
+#KTYP    6590      K
+#KONTO   6800      "Inhyrd personal"
+#KTYP    6800      K
+#KONTO   6970      "Tidn, tidskr o facklitt  "
+#KTYP    6970      K
+#KONTO   6980      "Fîreningsavgifter"
+#KTYP    6980      K
+#KONTO   6981      "Fîreningsavg avdragsgill "
+#KTYP    6981      K
+#KONTO   6982      "Fîreningsavg ej avdrgill "
+#KTYP    6982      K
+#KONTO   6990      "ôvriga externa kostnader "
+#KTYP    6990      K
+#KONTO   6991      "ôvr externa kost avdrgill"
+#KTYP    6991      K
+#KONTO   6992      "ôvr exte kost ej avdrgill"
+#KTYP    6992      K
+#KONTO   7000      "Lîn kollektivanstÑllda"
+#KTYP    7000      K
+#KONTO   7010      "Lîn kollektivanstÑllda"
+#KTYP    7010      K
+#KONTO   7090      "FîrÑndring sem.lîneskuld "
+#KTYP    7090      K
+#KONTO   7210      "Lîner till tjÑnstemÑn"
+#KTYP    7210      K
+#KONTO   7213      "Lîn tjÑnstemÑn < 26 Ür"
+#KTYP    7213      K
+#KONTO   7214      "Lîner tjÑnstemÑn nya pens"
+#KTYP    7214      K
+#KONTO   7220      "Lîner till fîretagsledare"
+#KTYP    7220      K
+#KONTO   7291      "FîrÑndr sem.skuld tjm."
+#KTYP    7291      K
+#KONTO   7292      "FîrÑndr sem.skuld ftg.led"
+#KTYP    7292      K
+#KONTO   7310      "Kontanta extraersÑttn."
+#KTYP    7310      K
+#KONTO   7320      "Traktamenten vid tjÑnster"
+#KTYP    7320      K
+#KONTO   7321      "Skattefria traktamente Sv"
+#KTYP    7321      K
+#KONTO   7322      "Skattepl. traktamente Sv "
+#KTYP    7322      K
+#KONTO   7330      "BilersÑttningar"
+#KTYP    7330      K
+#KONTO   7331      "Skattefri bilersÑttning  "
+#KTYP    7331      K
+#KONTO   7332      "Skatteplikt bilersÑttning"
+#KTYP    7332      K
+#KONTO   7350      "ErsÑttn fîreskr arbklÑder"
+#KTYP    7350      K
+#KONTO   7380      "Kost. fîr fîrmÜn t anst  "
+#KTYP    7380      K
+#KONTO   7390      "ôvr kostn.ersÑttn o fîrm."
+#KTYP    7390      K
+#KONTO   7410      "PensionfîrsÑkringspremier"
+#KTYP    7410      K
+#KONTO   7419      "konto 7419"
+#KTYP    7419      K
+#KONTO   7440      "FîrÑndr. av pens.stift"
+#KTYP    7440      K
+#KONTO   7510      "Lagstadg sociala avg"
+#KTYP    7510      K
+#KONTO   7530      "SÑrskild lîneskatt"
+#KTYP    7530      K
+#KONTO   7533      "konto 7533"
+#KTYP    7533      K
+#KONTO   7570      "Premie arbmarknfîrsÑkr.  "
+#KTYP    7570      K
+#KONTO   7580      "GruppfîrsÑkringspremier  "
+#KTYP    7580      K
+#KONTO   7590      "ôvr soc o andra avg"
+#KTYP    7590      K
+#KONTO   7600      "ôvr personalkostnader"
+#KTYP    7600      K
+#KONTO   7760      "èterf nedskr av imm anl.t"
+#KTYP    7760      K
+#KONTO   7761      "èterf nedskr av imm typ 2"
+#KTYP    7761      K
+#KONTO   7810      "Avskr pÜ immat anl.tillg "
+#KTYP    7810      K
+#KONTO   7820      "Avskr pÜ byggn o markanl "
+#KTYP    7820      K
+#KONTO   7830      "Avskr mask o inventarier "
+#KTYP    7830      K
+#KONTO   7910      "IntÑkt av engÜngskaraktÑr"
+#KTYP    7910      K
+#KONTO   7920      "Kostn av engÜngskaraktÑr "
+#KTYP    7920      K
+#KONTO   7960      "Valkursfîrl fordr o skuld"
+#KTYP    7960      K
+#KONTO   7970      "Fîrl avyttr av anltillg  "
+#KTYP    7970      K
+#KONTO   7990      "ôvr rîrelsekostnader"
+#KTYP    7990      K
+#KONTO   8080      "valutavinst"
+#KTYP    8080      I
+#KONTO   8180      "valutafîrlust"
+#KTYP    8180      K
+#KONTO   8200      "RÑnteintÑkt fr anl.tillg."
+#KTYP    8200      K
+#KONTO   8270      "Nedskr andel i andra ftg "
+#KTYP    8270      K
+#KONTO   8310      "RÑnteintÑkt fr oms.tillg."
+#KTYP    8310      K
+#KONTO   8313      "RÑnteint fr kortfr fordr "
+#KTYP    8313      K
+#KONTO   8314      "Skattefria rÑnteint"
+#KTYP    8314      K
+#KONTO   8330      "Valkursdiff kortfr fordr "
+#KTYP    8330      K
+#KONTO   8340      "Utd kortfr placeringar"
+#KTYP    8340      K
+#KONTO   8350      "Res fîrsÑlj kortfr plac  "
+#KTYP    8350      K
+#KONTO   8370      "Nedskr kortfr plac"
+#KTYP    8370      K
+#KONTO   8380      "èterf nedskr kortfr plac "
+#KTYP    8380      K
+#KONTO   8410      "RÑntekost lÜngfr skuld"
+#KTYP    8410      K
+#KONTO   8420      "RÑntekost kortfr skuld"
+#KTYP    8420      K
+#KONTO   8430      "Valkursdiff pÜ skulder"
+#KTYP    8430      K
+#KONTO   8810      "FîrÑndr periodiseringfond"
+#KTYP    8810      K
+#KONTO   8850      "Skilln bokf o plan avskr "
+#KTYP    8850      K
+#KONTO   8899      "ôvr bokslutsdispositioner"
+#KTYP    8899      K
+#KONTO   8910      "Skatt pÜ Ür besk.bara res"
+#KTYP    8910      K
+#KONTO   8999      "èrets resultat"
+#KTYP    8999      K
+#KONTO   DIFF      "DIFF"
+#KTYP    DIFF
+#DIM     1    "KostnadsstÑlle"
+#DIM     6    "Projekt"
+#OBJEKT  1    "00"  "kostnadsstÑlle 00"
+#OBJEKT  1    "1"  "kostnadsstÑlle nr 1"
+#OBJEKT  1    "10"  "10 UPPLAGD VID IMPORT"
+#OBJEKT  1    "11"  "kst 11"
+#OBJEKT  1    "112233"  "012345678901234567890123"
+#OBJEKT  1    "123456"  "012345678901234567890123"
+#OBJEKT  1    "2"  "Kst 2"
+#OBJEKT  1    "30"  "projekt / objekt 30"
+#OBJEKT  1    "31"  "kst 31"
+#OBJEKT  1    "333333"  "012345678901234567890123"
+#OBJEKT  1    "4"  "k-stÑlle 4"
+#OBJEKT  1    "6"  "6 UPPLAGD VID IMPORT"
+#OBJEKT  1    "654321"  "6-stÑlligt kst"
+#OBJEKT  1    "7"  "k-stÑlle 7"
+#OBJEKT  1    "8"  "8 UPPLAGD VID IMPORT"
+#OBJEKT  1    "FEL"  "FEL"
+#OBJEKT  1    "R10"  "k-stÑlle R10"
+#OBJEKT  6    "+00000"  "test Johns Bygg & Fasad"
+#OBJEKT  6    "000072"  "projekt 72"
+#OBJEKT  6    "1"  "Projekt 1"
+#OBJEKT  6    "10"  "Projekt 10"
+#OBJEKT  6    "11"  "11 UPPLAGD VID IMPORT"
+#OBJEKT  6    "12"  "12 UPPLAGD VID IMPORT"
+#OBJEKT  6    "123"  "projekt 123"
+#OBJEKT  6    "123456"  "123456789012345678901234"
+#OBJEKT  6    "13"  "13 UPPLAGD VID IMPORT"
+#OBJEKT  6    "16"  "16 UPPLAGD VID IMPORT"
+#OBJEKT  6    "2"  "2 UPPLAGD VID IMPORT"
+#OBJEKT  6    "20"  "20 UPPLAGD VID IMPORT"
+#OBJEKT  6    "3"  "Projekt 3"
+#OBJEKT  6    "30"  "Order / objekt 30"
+#OBJEKT  6    "4"  "Projekt 4"
+#OBJEKT  6    "5"  "5 UPPLAGD VID IMPORT"
+#OBJEKT  6    "555"  "test 555"
+#OBJEKT  6    "6"  "6 UPPLAGD VID IMPORT"
+#OBJEKT  6    "665829"  "projekt 665829"
+#OBJEKT  6    "7"  "projekt 7"
+#OBJEKT  6    "8"  "8 UPPLAGD VID IMPORT"
+#OBJEKT  6    "90"  "90 UPPLAGD VID IMPORT"
+#OBJEKT  6    "FEL"  "FEL"
+#OBJEKT  6    "R9"  "Projekt R9"
+#IB      0  1010           1000.00
+#UB      0  1010           1000.00
+#IB      0  1090          -1000.00
+#UB      0  1090          -1000.00
+#IB      0  1210         190868.00
+#UB      0  1210         190868.00
+#IB      0  1320         -34500.00
+#UB      0  1320         -35000.00
+#IB      0  1380           5000.00
+#UB      0  1380           5000.00
+#IB      0  1471            225.00
+#UB      0  1471            225.00
+#IB      0  1510      106179739.00
+#UB      0  1510      108444497.25
+#IB      0  1513          48751.00
+#UB      0  1513          49251.00
+#IB      0  1590         899109.16
+#UB      0  1590         864111.29
+#IB      0  1650         109420.00
+#UB      0  1650         109420.00
+#IB      0  1700          12442.56
+#UB      0  1700          10221.28
+#IB      0  1710           7850.01
+#UB      0  1710          -1649.98
+#IB      0  1820           9600.00
+#UB      0  1820           9600.00
+#IB      0  1910         117110.00                6.00
+#UB      0  1910          -1587.00                6.00
+#IB      0  1920           1053.00
+#UB      0  1920           1053.00
+#IB      0  1930       -5250055.64
+#UB      0  1930       -5349316.89
+#IB      0  1940         -34000.00
+#UB      0  1940         -34000.00
+#IB      0  2099      -81696735.23
+#UB      0  2099      -81696735.23
+#IB      0  2110           8995.00
+#UB      0  2110           8995.00
+#IB      0  2410           -225.00
+#UB      0  2410         -11675.00
+#UB      0  2420          77486.00
+#IB      0  2440        -461222.32
+#UB      0  2440        -548115.32
+#IB      0  2610      -21195089.07
+#UB      0  2610      -21639695.57
+#IB      0  2615         -56824.96
+#UB      0  2615         -57199.96
+#IB      0  2620           -120.00
+#UB      0  2620           -120.00
+#IB      0  2630            -60.00
+#UB      0  2630            -95.40
+#IB      0  2640        1118290.67
+#UB      0  2640        1137249.27
+#IB      0  2641            551.36
+#UB      0  2641            551.36
+#IB      0  2645          22752.46
+#UB      0  2645          22752.46
+#IB      0  2943          -2925.00
+#UB      0  2943          -2925.00
+#RES     0  3010         -23935.95
+#RES     0  3011         118697.00
+#RES     0  3014         -12000.00
+#RES     0  3015         -41000.00
+#RES     0  3030       -1716270.00
+#RES     0  3620           -100.00
+#RES     0  3640           -910.00
+#RES     0  3690           -200.00
+#RES     0  4010          67034.40
+#RES     0  5010           3000.00
+#RES     0  6010          18021.27
+#RES     0  7910           1372.00
+#VER     1       1  20140131 "3" 20131218
+{
+  #TRANS 1320      { }           -500.00  20140131 "3"
+  #TRANS 6010      { }            500.00  20140131 "3"
+}
+#VER     1       2  20140131 "LNR 59 Standardleverantî" 20131218
+{
+  #TRANS 1710      { }           -800.00  20140131 "LNR 59 Standardleverantî"
+  #TRANS 6010      { }            800.00  20140131 "LNR 59 Standardleverantî"
+}
+#VER     1       7  20140113 "Journalnr:  10" 20140103
+{
+  #TRANS 1590      { }           -487.38  20140113 "Journalnr:  10"
+  #TRANS FEL       { }            487.38  20140113 "Journalnr:  10"
+}
+#VER     1       8  20140114 "136 Standardleverantîren" 20140114
+{
+  #TRANS 2440      { }          -6000.00  20140114 "136 Standardleverantîren"
+  #TRANS 2640      { }           1200.00  20140114 "136 Standardleverantîren"
+  #TRANS 6010      {"1" "1" "6" "1"}           4800.00  20140114 "136 Standardleverantîren"
+}
+#VER     1       9  20140114 "137 Hebe Frukt och Grînt" 20140114
+{
+  #TRANS 2440      { }          -5000.00  20140114 "137 Hebe Frukt och Grînt"
+  #TRANS 2640      { }           1000.00  20140114 "137 Hebe Frukt och Grînt"
+  #TRANS 4010      { }           4000.00  20140114 "137 Hebe Frukt och Grînt"
+}
+#VER     1      10  20140115 "138 G4S Security Service" 20140115
+{
+  #TRANS 2440      { }          -6000.00  20140115 "138 G4S Security Service"
+  #TRANS 2640      { }           1200.00  20140115 "138 G4S Security Service"
+  #TRANS 4010      { }           4800.00  20140115 "138 G4S Security Service"
+}
+#VER     1      11  20140115 "139 Standardleverantîren" 20140115
+{
+  #TRANS 2440      { }           -900.00  20140115 "139 Standardleverantîren"
+  #TRANS 2640      { }            180.00  20140115 "139 Standardleverantîren"
+  #TRANS 4010      { }            720.00  20140115 "139 Standardleverantîren"
+}
+#VER     1      12  20140117 "140 Standardleverantîren" 20140117
+{
+  #TRANS 2440      { }          -7000.00  20140117 "140 Standardleverantîren"
+  #TRANS 2640      { }           1400.00  20140117 "140 Standardleverantîren"
+  #TRANS 4010      { }           5600.00  20140117 "140 Standardleverantîren"
+}
+#VER     1      13  20140131 "Inventarie nr 1" 20140218
+{
+  #TRANS FEL       { }           -117.00  20140131 "Inventarie nr 1"
+  #TRANS 7910      { }            117.00  20140131 "Inventarie nr 1"
+}
+#VER     1      14  20140131 "Soffa" 20140218
+{
+  #TRANS FEL       { }           -138.00  20140131 "Soffa"
+  #TRANS 7910      { }            138.00  20140131 "Soffa"
+}
+#VER     1      15  20140131 "EkskÜp" 20140218
+{
+  #TRANS FEL       { }          -1000.00  20140131 "EkskÜp"
+  #TRANS 7910      { }           1000.00  20140131 "EkskÜp"
+}
+#VER     1      16  20140131 "" 20140223
+{
+  #TRANS 3010      {"1" "1"}           1000.00  20140131 ""
+  #TRANS 3010      {"1" "2"}           2000.00  20140131 ""
+  #TRANS 3010      {"1" "31"}          31000.00  20140131 ""
+  #TRANS 3010      {"1" "11"}          11000.00  20140131 ""
+  #TRANS 3010      { }         -45000.00  20140131 ""
+}
+#VER     1      17  20140131 "" 20140223
+{
+  #TRANS 3011      {"1" "1"}           1111.00  20140131 ""
+  #TRANS 3011      {"1" "2"}           2222.00  20140131 ""
+  #TRANS 3011      {"1" "31"}           3131.00  20140131 ""
+  #TRANS 3011      {"1" "11"}         112233.00  20140131 ""
+  #TRANS 1910      { }        -118697.00  20140131 ""
+}
+#VER     1      18  20140131 "" 20140223
+{
+  #TRANS 2420      {"1" "1"}            111.00  20140131 ""
+  #TRANS 2420      {"1" "2"}            222.00  20140131 ""
+  #TRANS 2420      {"1" "31"}          31031.00  20140131 ""
+  #TRANS 2420      {"1" "11"}           1122.00  20140131 ""
+  #TRANS 1930      { }         -32486.00  20140131 ""
+}
+#VER     1      19  20140131 "" 20140223
+{
+  #TRANS 2420      {"1" "1"}           1000.00  20140131 ""
+  #TRANS 2420      {"1" "2"}           2000.00  20140131 ""
+  #TRANS 2420      {"1" "31"}          31000.00  20140131 ""
+  #TRANS 2420      {"1" "11"}          11000.00  20140131 ""
+  #TRANS 3010      {"1" "1"}           1000.00  20140131 ""
+  #TRANS 3010      {"1" "2"}           2000.00  20140131 ""
+  #TRANS 3010      {"1" "31"}          31000.00  20140131 ""
+  #TRANS 3010      {"1" "11"}          11000.00  20140131 ""
+  #TRANS 1930      { }         -90000.00  20140131 ""
+}
+#VER     1      26  20140131 "inventarie nr 7" 20140423
+{
+  #TRANS FEL       { }           -117.00  20140131 "inventarie nr 7"
+  #TRANS 7910      { }            117.00  20140131 "inventarie nr 7"
+}
+#VER     1      29  20140101 "159 OK Q8" 20140616
+{
+  #TRANS FEL       {"1" "1" "6" "1"}           3914.40  20140101 "159 OK Q8"
+  #TRANS 2440      { }          -4893.00  20140101 "159 OK Q8"
+  #TRANS 2640      { }            978.60  20140101 "159 OK Q8"
+}
+#VER     1      34  20140131 "5" 20140919
+{
+  #TRANS 1710      { }          -2000.00  20140131 "5"
+  #TRANS 6010      { }           2000.00  20140131 "5"
+}
+#VER     1      35  20140107 "Journalnr:  12" 20140926
+{
+  #TRANS 1590      { }          -8164.34  20140107 "Journalnr:  12"
+  #TRANS FEL       { }           8164.34  20140107 "Journalnr:  12"
+}
+#VER     1      36  20140114 "Journalnr:  12" 20140926
+{
+  #TRANS 1590      { }          -1526.34  20140114 "Journalnr:  12"
+  #TRANS FEL       { }           1526.34  20140114 "Journalnr:  12"
+}
+#VER     1      37  20140117 "Journalnr:  12" 20140926
+{
+  #TRANS 1590      { }           -487.38  20140117 "Journalnr:  12"
+  #TRANS FEL       { }            487.38  20140117 "Journalnr:  12"
+}
+#VER     1      38  20140124 "Journalnr:  12" 20140926
+{
+  #TRANS 1590      { }          -1040.55  20140124 "Journalnr:  12"
+  #TRANS FEL       { }           1040.55  20140124 "Journalnr:  12"
+}
+#VER     1      39  20140127 "Journalnr:  12" 20140926
+{
+  #TRANS 1590      { }         -22317.12  20140127 "Journalnr:  12"
+  #TRANS FEL       { }          22317.12  20140127 "Journalnr:  12"
+}
+#VER     1      40  20140128 "Journalnr:  12" 20140926
+{
+  #TRANS 1590      { }           -974.76  20140128 "Journalnr:  12"
+  #TRANS FEL       { }            974.76  20140128 "Journalnr:  12"
+}
+#VER     1      82  20140131 "Inventarie nr 1" 20150219
+{
+  #TRANS FEL       { }          -5216.00  20140131 "Inventarie nr 1"
+  #TRANS FEL       { }           5216.00  20140131 "Inventarie nr 1"
+}
+#VER     2       1  20140113 "237    Kund med omvÑnd s" 20131212
+{
+  #TRANS 1510      { }          10600.00  20140113 "237    Kund med omvÑnd s"
+  #TRANS 3014      {"1" "10" "6" "10"}         -10000.00  20140113 "237    Kund med omvÑnd s"
+  #TRANS 3620      { }           -100.00  20140113 "237    Kund med omvÑnd s"
+  #TRANS 3640      { }           -300.00  20140113 "237    Kund med omvÑnd s"
+  #TRANS 3690      { }           -200.00  20140113 "237    Kund med omvÑnd s"
+}
+#VER     2       2  20140107 "238    Idealkunden" 20140107
+{
+  #TRANS 1510      { }          35389.00  20140107 "238    Idealkunden"
+  #TRANS 2610      { }          -7077.75  20140107 "238    Idealkunden"
+  #TRANS 3010      { }         -27311.00  20140107 "238    Idealkunden"
+  #TRANS 3010      {"1" "10" "6" "20"}          -1000.00  20140107 "238    Idealkunden"
+  #TRANS FEL       { }             -0.25  20140107 "238    Idealkunden"
+}
+#VER     2       3  20140107 "239    Idealkunden" 20140107
+{
+  #TRANS 1510      { }           9281.00  20140107 "239    Idealkunden"
+  #TRANS 2610      { }          -1856.25  20140107 "239    Idealkunden"
+  #TRANS 3010      { }          -6615.00  20140107 "239    Idealkunden"
+  #TRANS 3010      {"1" "10" "6" "20"}           -810.00  20140107 "239    Idealkunden"
+  #TRANS FEL       { }              0.25  20140107 "239    Idealkunden"
+}
+#VER     2       4  20140114 "240    Bra kund" 20140304
+{
+  #TRANS 1510      { }           3250.00  20140114 "240    Bra kund"
+  #TRANS 2610      { }           -250.00  20140114 "240    Bra kund"
+  #TRANS 3014      {"1" "1" "6" "10"}          -2000.00  20140114 "240    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}          -1000.00  20140114 "240    Bra kund"
+}
+#VER     2       5  20140114 "241    Bra kund" 20140304
+{
+  #TRANS 1510      { }           1896.00  20140114 "241    Bra kund"
+  #TRANS 2610      { }           -375.00  20140114 "241    Bra kund"
+  #TRANS 2630      { }             -1.20  20140114 "241    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}          -1500.00  20140114 "241    Bra kund"
+  #TRANS 3640      { }            -20.00  20140114 "241    Bra kund"
+  #TRANS FEL       { }              0.20  20140114 "241    Bra kund"
+}
+#VER     2       6  20140124 "242    Idealkunden" 20140304
+{
+  #TRANS 1510      { }          12500.00  20140124 "242    Idealkunden"
+  #TRANS 2610      { }          -2500.00  20140124 "242    Idealkunden"
+  #TRANS 3010      { }         -10000.00  20140124 "242    Idealkunden"
+}
+#VER     2       7  20140124 "243    Bra kund" 20140304
+{
+  #TRANS 1510      { }            400.00  20140124 "243    Bra kund"
+  #TRANS 2610      { }            -37.50  20140124 "243    Bra kund"
+  #TRANS 2630      { }            -12.00  20140124 "243    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}           -150.00  20140124 "243    Bra kund"
+  #TRANS 3640      { }           -200.00  20140124 "243    Bra kund"
+  #TRANS FEL       { }             -0.50  20140124 "243    Bra kund"
+}
+#VER     2       8  20140124 "244    Storkunden" 20140304
+{
+  #TRANS 1510      { }           6275.00  20140124 "244    Storkunden"
+  #TRANS 2610      { }          -1255.00  20140124 "244    Storkunden"
+  #TRANS 3010      { }          -4000.00  20140124 "244    Storkunden"
+  #TRANS 3010      {"1" "10" "6" "20"}          -1000.00  20140124 "244    Storkunden"
+  #TRANS 3640      { }            -20.00  20140124 "244    Storkunden"
+}
+#VER     2       9  20140127 "245    Tysk kund" 20140304
+{
+  #TRANS 1510      { }           1875.00  20140127 "245    Tysk kund"
+  #TRANS 2615      { }           -375.00  20140127 "245    Tysk kund"
+  #TRANS 3010      {"1" "10" "6" "20"}          -1000.00  20140127 "245    Tysk kund"
+  #TRANS FEL       { }           -500.00  20140127 "245    Tysk kund"
+}
+#VER     2      10  20140127 "246    Privatpersonen" 20140304
+{
+  #TRANS 1510      { }           5000.00  20140127 "246    Privatpersonen"
+  #TRANS 2610      { }          -1000.00  20140127 "246    Privatpersonen"
+  #TRANS 3010      { }          -4000.00  20140127 "246    Privatpersonen"
+}
+#VER     2      11  20140127 "247    Kund USA" 20140304
+{
+  #TRANS 1510      { }           1001.00  20140127 "247    Kund USA"
+  #TRANS 3010      {"1" "10" "6" "20"}           -999.95  20140127 "247    Kund USA"
+  #TRANS FEL       { }             -1.05  20140127 "247    Kund USA"
+}
+#VER     2      12  20140127 "248    Bra kund" 20140304
+{
+  #TRANS 1510      { }           1896.00  20140127 "248    Bra kund"
+  #TRANS 2610      { }           -375.00  20140127 "248    Bra kund"
+  #TRANS 2630      { }             -1.20  20140127 "248    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}          -1500.00  20140127 "248    Bra kund"
+  #TRANS 3640      { }            -20.00  20140127 "248    Bra kund"
+  #TRANS FEL       { }              0.20  20140127 "248    Bra kund"
+}
+#VER     2      13  20140127 "249    Bra kund" 20140304
+{
+  #TRANS 1510      { }           1896.00  20140127 "249    Bra kund"
+  #TRANS 2610      { }           -375.00  20140127 "249    Bra kund"
+  #TRANS 2630      { }             -1.20  20140127 "249    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}          -1500.00  20140127 "249    Bra kund"
+  #TRANS 3640      { }            -20.00  20140127 "249    Bra kund"
+  #TRANS FEL       { }              0.20  20140127 "249    Bra kund"
+}
+#VER     2      14  20140127 "250    Bra kund" 20140304
+{
+  #TRANS 1510      { }           1896.00  20140127 "250    Bra kund"
+  #TRANS 2610      { }           -375.00  20140127 "250    Bra kund"
+  #TRANS 2630      { }             -1.20  20140127 "250    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}          -1500.00  20140127 "250    Bra kund"
+  #TRANS 3640      { }            -20.00  20140127 "250    Bra kund"
+  #TRANS FEL       { }              0.20  20140127 "250    Bra kund"
+}
+#VER     2      15  20140127 "251    Bra kund" 20140304
+{
+  #TRANS 1510      { }           1896.00  20140127 "251    Bra kund"
+  #TRANS 2610      { }           -375.00  20140127 "251    Bra kund"
+  #TRANS 2630      { }             -1.20  20140127 "251    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}          -1500.00  20140127 "251    Bra kund"
+  #TRANS 3640      { }            -20.00  20140127 "251    Bra kund"
+  #TRANS FEL       { }              0.20  20140127 "251    Bra kund"
+}
+#VER     2      16  20140127 "252    Bra kund" 20140304
+{
+  #TRANS 1510      { }           1896.00  20140127 "252    Bra kund"
+  #TRANS 2610      { }           -375.00  20140127 "252    Bra kund"
+  #TRANS 2630      { }             -1.20  20140127 "252    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}          -1500.00  20140127 "252    Bra kund"
+  #TRANS 3640      { }            -20.00  20140127 "252    Bra kund"
+  #TRANS FEL       { }              0.20  20140127 "252    Bra kund"
+}
+#VER     2      17  20140127 "253    Bra kund" 20140304
+{
+  #TRANS 1510      { }           1896.00  20140127 "253    Bra kund"
+  #TRANS 2610      { }           -375.00  20140127 "253    Bra kund"
+  #TRANS 2630      { }             -1.20  20140127 "253    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}          -1500.00  20140127 "253    Bra kund"
+  #TRANS 3640      { }            -20.00  20140127 "253    Bra kund"
+  #TRANS FEL       { }              0.20  20140127 "253    Bra kund"
+}
+#VER     2      18  20140127 "254    Bra kund" 20140304
+{
+  #TRANS 1510      { }            732.00  20140127 "254    Bra kund"
+  #TRANS 2610      { }           -142.25  20140127 "254    Bra kund"
+  #TRANS 2630      { }             -1.20  20140127 "254    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}           -569.00  20140127 "254    Bra kund"
+  #TRANS 3640      { }            -20.00  20140127 "254    Bra kund"
+  #TRANS FEL       { }              0.45  20140127 "254    Bra kund"
+}
+#VER     2      19  20140127 "255    Bra kund" 20140304
+{
+  #TRANS 1510      { }           1896.00  20140127 "255    Bra kund"
+  #TRANS 2610      { }           -375.00  20140127 "255    Bra kund"
+  #TRANS 2630      { }             -1.20  20140127 "255    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}          -1500.00  20140127 "255    Bra kund"
+  #TRANS 3640      { }            -20.00  20140127 "255    Bra kund"
+  #TRANS FEL       { }              0.20  20140127 "255    Bra kund"
+}
+#VER     2      20  20140127 "256    Privatpersonen" 20140304
+{
+  #TRANS 1510      { }           1000.00  20140127 "256    Privatpersonen"
+  #TRANS 2610      { }           -200.00  20140127 "256    Privatpersonen"
+  #TRANS 3010      { }           -800.00  20140127 "256    Privatpersonen"
+}
+#VER     2      21  20140127 "257    Privatpersonen" 20140304
+{
+  #TRANS 1510      { }            500.00  20140127 "257    Privatpersonen"
+  #TRANS 1513      { }            500.00  20140127 "257    Privatpersonen"
+  #TRANS 2610      { }           -200.00  20140127 "257    Privatpersonen"
+  #TRANS 3010      { }           -800.00  20140127 "257    Privatpersonen"
+}
+#VER     2      22  20140127 "258    Bra kund" 20140304
+{
+  #TRANS 1510      { }           1896.00  20140127 "258    Bra kund"
+  #TRANS 2610      { }           -375.00  20140127 "258    Bra kund"
+  #TRANS 2630      { }             -1.20  20140127 "258    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}          -1500.00  20140127 "258    Bra kund"
+  #TRANS 3640      { }            -20.00  20140127 "258    Bra kund"
+  #TRANS FEL       { }              0.20  20140127 "258    Bra kund"
+}
+#VER     2      23  20140127 "259    Kund 11" 20140304
+{
+  #TRANS 1510      { }           7250.00  20140127 "259    Kund 11"
+  #TRANS 2610      { }          -1450.00  20140127 "259    Kund 11"
+  #TRANS 3010      {"1" "10" "6" "20"}          -5800.00  20140127 "259    Kund 11"
+}
+#VER     2      24  20140127 "260    aaaaaaaaaaaaaaaaa" 20140304
+{
+  #TRANS 1510      { }          57250.00  20140127 "260    aaaaaaaaaaaaaaaaa"
+  #TRANS 2410      { }         -11450.00  20140127 "260    aaaaaaaaaaaaaaaaa"
+  #TRANS 3010      {"1" "654321" "6" "123456"}           -900.00  20140127 "260    aaaaaaaaaaaaaaaa
+  #TRANS 3010      {"1" "654321" "6" "665829"}          -3900.00  20140127 "260    aaaaaaaaaaaaaaaa
+  #TRANS 3015      {"1" "654321" "6" "665829"}         -41000.00  20140127 "260    aaaaaaaaaaaaaaaa
+}
+#VER     2      25  20140128 "261    Bra kund" 20140304
+{
+  #TRANS 1510      { }           1896.00  20140128 "261    Bra kund"
+  #TRANS 2610      { }           -375.00  20140128 "261    Bra kund"
+  #TRANS 2630      { }             -1.20  20140128 "261    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}          -1500.00  20140128 "261    Bra kund"
+  #TRANS 3640      { }            -20.00  20140128 "261    Bra kund"
+  #TRANS FEL       { }              0.20  20140128 "261    Bra kund"
+}
+#VER     2      26  20140128 "262    Bra kund" 20140304
+{
+  #TRANS 1510      { }           1709.00  20140128 "262    Bra kund"
+  #TRANS 2610      { }           -337.50  20140128 "262    Bra kund"
+  #TRANS 2630      { }             -1.20  20140128 "262    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}          -1350.00  20140128 "262    Bra kund"
+  #TRANS 3640      { }            -20.00  20140128 "262    Bra kund"
+  #TRANS FEL       { }             -0.30  20140128 "262    Bra kund"
+}
+#VER     2      70  20140115 "303    aaaaaaaaaaaaaaaaa" 20140731
+{
+  #TRANS 1510      { }              0.00  20140115 "303    aaaaaaaaaaaaaaaaa"
+}
+#VER     2      97  20140101 "345    Bra kund" 20150325
+{
+  #TRANS 1510      { }          41282.00  20140101 "345    Bra kund"
+  #TRANS 2610      { }          -8250.00  20140101 "345    Bra kund"
+  #TRANS 2630      { }             -1.80  20140101 "345    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}         -33000.00  20140101 "345    Bra kund"
+  #TRANS 3640      { }            -30.00  20140101 "345    Bra kund"
+  #TRANS FEL       { }             -0.20  20140101 "345    Bra kund"
+}
+#VER     2      98  20140102 "346    Bra kund" 20150325
+{
+  #TRANS 1510      { }         112532.00  20140102 "346    Bra kund"
+  #TRANS 2610      { }         -22500.00  20140102 "346    Bra kund"
+  #TRANS 2630      { }             -1.80  20140102 "346    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}         -90000.00  20140102 "346    Bra kund"
+  #TRANS 3640      { }            -30.00  20140102 "346    Bra kund"
+  #TRANS FEL       { }             -0.20  20140102 "346    Bra kund"
+}
+#VER     2      99  20140101 "348    Bra kund" 20150325
+{
+  #TRANS 1510      { }        1689613.00  20140101 "348    Bra kund"
+  #TRANS 2610      { }        -337916.25  20140101 "348    Bra kund"
+  #TRANS 2630      { }             -1.80  20140101 "348    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}       -1351665.00  20140101 "348    Bra kund"
+  #TRANS 3640      { }            -30.00  20140101 "348    Bra kund"
+  #TRANS FEL       { }              0.05  20140101 "348    Bra kund"
+}
+#VER     2     100  20140102 "349    Bra kund" 20150325
+{
+  #TRANS 1510      { }         140657.00  20140102 "349    Bra kund"
+  #TRANS 2610      { }         -28125.00  20140102 "349    Bra kund"
+  #TRANS 2630      { }             -1.80  20140102 "349    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}        -112500.00  20140102 "349    Bra kund"
+  #TRANS 3640      { }            -30.00  20140102 "349    Bra kund"
+  #TRANS FEL       { }             -0.20  20140102 "349    Bra kund"
+}
+#VER     2     101  20140103 "350    Bra kund" 20150325
+{
+  #TRANS 1510      { }         138827.00  20140103 "350    Bra kund"
+  #TRANS 2610      { }         -27759.00  20140103 "350    Bra kund"
+  #TRANS 2630      { }             -1.80  20140103 "350    Bra kund"
+  #TRANS 3030      {"1" "1" "6" "10"}        -111036.00  20140103 "350    Bra kund"
+  #TRANS 3640      { }            -30.00  20140103 "350    Bra kund"
+  #TRANS FEL       { }             -0.20  20140103 "350    Bra kund"
+}
+#VER     3       1  20140131 "LNR 000065-01" 20131218
+{
+  #TRANS 1710      { }          -1600.00  20140131 "LNR 000065-01"
+  #TRANS 6010      { }           1600.00  20140131 "LNR 000065-01"
+}
+#VER     3       2  20140131 "LNR 000076-01" 20131218
+{
+  #TRANS 1710      { }          -1866.66  20140131 "LNR 000076-01"
+  #TRANS 6010      { }           1866.66  20140131 "LNR 000076-01"
+}
+#VER     3       3  20140131 "LNR 000089-01" 20131218
+{
+  #TRANS 1700      { }            -21.28  20140131 "LNR 000089-01"
+  #TRANS 6010      { }             21.28  20140131 "LNR 000089-01"
+}
+#VER     3       4  20140131 "LNR 000127-01" 20131218
+{
+  #TRANS 1710      { }           -133.33  20140131 "LNR 000127-01"
+  #TRANS 6010      { }            133.33  20140131 "LNR 000127-01"
+}
+#VER     3       5  20140131 "LNR 109 Standardleverant" 20131218
+{
+  #TRANS 1700      {"6" "1"}          -3200.00  20140131 "LNR 109 Standardleverant"
+  #TRANS 6010      {"6" "1"}           3200.00  20140131 "LNR 109 Standardleverant"
+}
+#VER     3       6  20140131 "LNR 132 Kontorsmaterial" 20131218
+{
+  #TRANS 1710      { }           -100.00  20140131 "LNR 132 Kontorsmaterial"
+  #TRANS 6010      { }            100.00  20140131 "LNR 132 Kontorsmaterial"
+}
+#VER     3       7  20140131 "LNR 75 Standardleverantî" 20131218
+{
+  #TRANS 1710      { }          -3000.00  20140131 "LNR 75 Standardleverantî"
+  #TRANS 6010      { }           3000.00  20140131 "LNR 75 Standardleverantî"
+}
+#VER     3       8  20140131 "VNR 1-29 2013-01-06" 20131218
+{
+  #TRANS 1700      { }          -3000.00  20140131 "VNR 1-29 2013-01-06"
+  #TRANS 5010      { }           3000.00  20140131 "VNR 1-29 2013-01-06"
+}
+#VER     3      24  20140120 "139    Standardleverantî" 20140115
+{
+  #TRANS 1930      { }           -900.00  20140120 "139    Standardleverantî"
+  #TRANS 2440      { }            900.00  20140120 "139    Standardleverantî"
+}
+#VER     3      25  20140120 "140    Standardleverantî" 20140117
+{
+  #TRANS 1930      { }          -7000.00  20140120 "140    Standardleverantî"
+  #TRANS 2440      { }           7000.00  20140120 "140    Standardleverantî"
+}
+#VER     3     141  20140110 "141 Standardleverantîren" 20140124
+{
+  #TRANS 1700      { }           4000.00  20140110 "141 Standardleverantîren"
+  #TRANS 2440      { }          -5000.00  20140110 "141 Standardleverantîren"
+  #TRANS 2640      { }           1000.00  20140110 "141 Standardleverantîren"
+}
+#VER     3     159  20140101 "159 OK Q8" 20140616
+{
+  #TRANS FEL       {"1" "1" "6" "1"}          -3914.40  20140101 "159 OK Q8"
+  #TRANS 4010      {"1" "1" "6" "1"}           3914.40  20140101 "159 OK Q8"
+}
+#VER     4       5  20140112 "Journalnr:  18" 20140515
+{
+  #TRANS 1510      { }         -31124.75  20140112 "Journalnr:  18"
+  #TRANS 1930      { }          31124.75  20140112 "Journalnr:  18"
+}

@@ -1,0 +1,30 @@
+#FLAGGA 0
+#FORMAT PC8
+#SIETYP 4
+#PROGRAM "Visma Anl„ggningsregister" 4.5 
+#GEN 20110307 "Visma Spcs Admin"
+#FNAMN "™vningsbolaget AB"
+#ORGNR 555555-5555
+#RAR 0 20100101 20101231
+#KPTYP  EUBAS97
+#VER ""  "" 20101231 "Planenliga avskrivningar t o m 2010-12-31" 20110307
+{
+   #TRANS  1039 {} -2500.00
+   #TRANS  1119 {} -31376.00
+   #TRANS  1159 {} -75377.00
+   #TRANS  1229 {} -1909.00
+   #TRANS  1249 {} -7959.00
+   #TRANS  1259 {} -6038.00
+   #TRANS  7813 {1 "Nord" 6 "0015"} 2500.00
+   #TRANS  7821 {1 "Nord" 6 "0001"} 20838.00
+   #TRANS  7821 {1 "Syd" 6 "0002"} 10538.00
+   #TRANS  7824 {1 "Nord" 6 "0019"} 75377.00
+   #TRANS  7832 {1 "Nord" 6 "0021"} 937.00
+   #TRANS  7832 {1 "Nord" 6 "0025"} 972.00
+   #TRANS  7834 {1 "Nord" 6 "0009"} 681.00
+   #TRANS  7834 {1 "Syd" 6 "0024"} 7278.00
+   #TRANS  7835 {1 "Nord" 6 "0027"} 1810.00
+   #TRANS  7835 {1 "Syd" 6 "0020"} 617.00
+   #TRANS  7835 {1 "Syd" 6 "0026"} 1189.00
+   #TRANS  7835 {1 "Syd" 6 "0028"} 2422.00
+} 

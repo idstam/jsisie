@@ -1,0 +1,3887 @@
+#FLAGGA 0
+#FORMAT PC8
+#SIETYP 2
+#PROGRAM "Avendo" 5.20
+#GEN 20110531
+#FNAMN "ôvningsbolaget AB (Ekonomi 60)"
+#ORGNR "5555555555"
+#ADRESS "Box 1" "123 45" "STORSTAD" "012-34 56 78"
+#RAR 0 20110101 20111231
+#KPTYP EUBAS97
+#VALUTA SEK
+#RAR -1 20100101 20101231
+#KONTO 1010 "Balanserade utgifter"
+#KTYP 1010 T
+#SRU 1010 7201
+#KONTO 1018 "Ack nedskrivningar balanserade utg"
+#KTYP 1018 T
+#SRU 1018 7201
+#KONTO 1019 "Ack avskrivningar balanserade utg"
+#KTYP 1019 T
+#SRU 1019 7201
+#KONTO 1028 "Ack nedskrivningar koncessioner m.m."
+#KTYP 1028 T
+#SRU 1028 7201
+#KONTO 1030 Patent
+#KTYP 1030 T
+#SRU 1030 7201
+#KONTO 1038 "Ack nedskrivn patent"
+#KTYP 1038 T
+#SRU 1038 7201
+#KONTO 1039 "Ack avskrivn patent"
+#KTYP 1039 T
+#SRU 1039 7201
+#KONTO 1040 Licenser
+#KTYP 1040 T
+#SRU 1040 7201
+#KONTO 1048 "Ack nedskrivn licenser"
+#KTYP 1048 T
+#SRU 1048 7201
+#KONTO 1049 "Ack avskrivn licenser"
+#KTYP 1049 T
+#SRU 1049 7201
+#KONTO 1050 VarumÑrken
+#KTYP 1050 T
+#SRU 1050 7201
+#KONTO 1058 "Ack nedskrivn varumÑrken"
+#KTYP 1058 T
+#SRU 1058 7201
+#KONTO 1059 "Ack avskrivn varumÑrken"
+#KTYP 1059 T
+#SRU 1059 7201
+#KONTO 1060 HyresrÑtt
+#KTYP 1060 T
+#SRU 1060 7201
+#KONTO 1068 "Ack nedskrivn hyresrÑtt"
+#KTYP 1068 T
+#SRU 1068 7201
+#KONTO 1069 "Ack avskrivn hyresrÑtt"
+#KTYP 1069 T
+#SRU 1069 7201
+#KONTO 1070 Goodwill
+#KTYP 1070 T
+#SRU 1070 7201
+#KONTO 1078 "Ack nedskrivn goodwill"
+#KTYP 1078 T
+#SRU 1078 7201
+#KONTO 1079 "Ack avskrivn goodwill"
+#KTYP 1079 T
+#SRU 1079 7201
+#KONTO 1110 Byggnader
+#KTYP 1110 T
+#SRU 1110 7214
+#KONTO 1118 "Ack nedskrivn byggnader"
+#KTYP 1118 T
+#SRU 1118 7214
+#KONTO 1119 "Ack avskrivn byggnader"
+#KTYP 1119 T
+#SRU 1119 7214
+#KONTO 1130 Mark
+#KTYP 1130 T
+#SRU 1130 7214
+#KONTO 1140 "Tomter, markomr obebyggda"
+#KTYP 1140 T
+#SRU 1140 7214
+#KONTO 1150 MarkanlÑggningar
+#KTYP 1150 T
+#SRU 1150 7214
+#KONTO 1158 "Ack nedskrivn markanlÑggn"
+#KTYP 1158 T
+#SRU 1158 7214
+#KONTO 1159 "Ack avskrivn markanlÑggn"
+#KTYP 1159 T
+#SRU 1159 7214
+#KONTO 1210 "Maskiner och andra tekniska anlÑggningar"
+#KTYP 1210 T
+#SRU 1210 7215
+#KONTO 1211 Arbetsmaskiner
+#KTYP 1211 T
+#SRU 1211 7215
+#KONTO 1218 "Ack nedskrivn maskiner/tekn anl"
+#KTYP 1218 T
+#SRU 1218 7215
+#KONTO 1219 "Ack avskrivn arb.maskiner"
+#KTYP 1219 T
+#SRU 1219 7215
+#KONTO 1220 "Inventarier och verktyg"
+#KTYP 1220 T
+#SRU 1220 7215
+#KONTO 1221 Inventarier
+#KTYP 1221 T
+#SRU 1221 7215
+#KONTO 1222 Byggnadsinventarier
+#KTYP 1222 T
+#SRU 1222 7215
+#KONTO 1223 Markinventarier
+#KTYP 1223 T
+#SRU 1223 7215
+#KONTO 1225 Verktyg
+#KTYP 1225 T
+#SRU 1225 7215
+#KONTO 1228 "Ack nedskrivn inv/verktyg"
+#KTYP 1228 T
+#SRU 1228 7215
+#KONTO 1229 "Ack avskrivn inv/verktyg"
+#KTYP 1229 T
+#SRU 1229 7215
+#KONTO 1230 Installationer
+#KTYP 1230 T
+#SRU 1230 7215
+#KONTO 1238 "Ack nedskrivn installationer"
+#KTYP 1238 T
+#SRU 1238 7215
+#KONTO 1239 "Ack avskrivn maskiner och inv"
+#KTYP 1239 T
+#SRU 1239 7215
+#KONTO 1240 "Bilar och andra transportmedel"
+#KTYP 1240 T
+#SRU 1240 7215
+#KONTO 1241 Personbilar
+#KTYP 1241 T
+#SRU 1241 7215
+#KONTO 1242 Lastbilar
+#KTYP 1242 T
+#SRU 1242 7215
+#KONTO 1243 Truckar
+#KTYP 1243 T
+#SRU 1243 7215
+#KONTO 1244 Arbetsmaskiner
+#KTYP 1244 T
+#SRU 1244 7215
+#KONTO 1245 Traktorer
+#KTYP 1245 T
+#SRU 1245 7215
+#KONTO 1246 "Motorcyklar, mopeder och skotrar"
+#KTYP 1246 T
+#SRU 1246 7215
+#KONTO 1247 "BÜtar, flygplan och helikoptrar"
+#KTYP 1247 T
+#SRU 1247 7215
+#KONTO 1248 "Ack nedskr bilar/transportmedel"
+#KTYP 1248 T
+#SRU 1248 7215
+#KONTO 1249 "Ack avskr bilar/transportmedel"
+#KTYP 1249 T
+#SRU 1249 7215
+#KONTO 1250 Datorer
+#KTYP 1250 T
+#SRU 1250 7215
+#KONTO 1251 "Datorer, fîretaget"
+#KTYP 1251 T
+#SRU 1251 7215
+#KONTO 1257 "Datorer, personal"
+#KTYP 1257 T
+#SRU 1257 7215
+#KONTO 1258 "Ack nedskrivn datorer"
+#KTYP 1258 T
+#SRU 1258 7215
+#KONTO 1259 "Ack avskrivn datorer"
+#KTYP 1259 T
+#SRU 1259 7215
+#KONTO 1260 "Leasade tillgÜngar"
+#KTYP 1260 T
+#SRU 1260 7215
+#KONTO 1270 AnlÑggningsdjur
+#KTYP 1270 T
+#SRU 1270 7215
+#KONTO 1279 "Ack avskrivn anlÑggningsdjur"
+#KTYP 1279 T
+#SRU 1279 7215
+#KONTO 1290 "ôvriga materiella anlÑggningstillgÜngar"
+#KTYP 1290 T
+#SRU 1290 7215
+#KONTO 1291 "Konst o ej avskrivn invent"
+#KTYP 1291 T
+#SRU 1291 7215
+#KONTO 1292 "Djur som klassificeras som anlÑggningstillgÜng"
+#KTYP 1292 T
+#SRU 1292 7215
+#KONTO 1298 "Ack nedskrivn pÜ îvr materiella anlÑggningstillgÜn"
+#KTYP 1298 T
+#SRU 1298 7215
+#KONTO 1299 "Ack avskrivn îvr materiella anlÑggningstillgÜngar"
+#KTYP 1299 T
+#SRU 1299 7215
+#KONTO 1311 "Aktier sv dotterfîretag"
+#KTYP 1311 T
+#SRU 1311 7230
+#KONTO 1312 "Aktier utl dotterfîretag"
+#KTYP 1312 T
+#SRU 1312 7230
+#KONTO 1314 "Aktier/and îvr utl konc.ftg"
+#KTYP 1314 T
+#SRU 1314 7230
+#KONTO 1318 "Ack nedskrivn andelar koncernftg"
+#KTYP 1318 T
+#SRU 1318 7230
+#KONTO 1330 "Aktier, andra sv fîretag"
+#KTYP 1330 T
+#SRU 1330 7231
+#KONTO 1338 "Ack nedskrivn andelar int.ftg"
+#KTYP 1338 T
+#SRU 1338 7231
+#KONTO 1350 "Andelar/vÑrdepapper andra ftg"
+#KTYP 1350 T
+#SRU 1350 7233
+#KONTO 1354 "Obligationer, vÑrdepapper"
+#KTYP 1354 T
+#SRU 1354 7233
+#KONTO 1358 "Ack nedskrivn andel/vÑrdepapper"
+#KTYP 1358 T
+#SRU 1358 7233
+#KONTO 1360 "LÜn till delÑgare eller nÑrstÜende, lÜngfristig de"
+#KTYP 1360 T
+#SRU 1360 7234
+#KONTO 1369 "Ack nedskrivn lÜn till delÑgare eller nÑrstÜende, "
+#KTYP 1369 T
+#SRU 1369 7234
+#KONTO 1370 "Uppskjuten skattefordran"
+#KTYP 1370 T
+#SRU 1370 7235
+#KONTO 1380 "LÜngfristiga fordringar"
+#KTYP 1380 T
+#SRU 1380 7235
+#KONTO 1382 "Fordringar hos anstÑllda"
+#KTYP 1382 T
+#SRU 1382 7235
+#KONTO 1383 Depositioner
+#KTYP 1383 T
+#SRU 1383 7235
+#KONTO 1384 Derivat
+#KTYP 1384 T
+#SRU 1384 7235
+#KONTO 1400 Lager
+#KTYP 1400 T
+#SRU 1400 7241
+#KONTO 1410 "Lager av rÜvaror"
+#KTYP 1410 T
+#SRU 1410 7241
+#KONTO 1419 "FîrÑndring av lager av rÜvaror"
+#KTYP 1419 T
+#SRU 1419 7241
+#KONTO 1420 "Lager av tillsatsmaterial och fîrnîdenheter"
+#KTYP 1420 T
+#SRU 1420 7241
+#KONTO 1429 "FîrÑndring av lager av tillsatsmaterial och fîrnîd"
+#KTYP 1429 T
+#SRU 1429 7241
+#KONTO 1430 "Lager av halvfabrikat"
+#KTYP 1430 T
+#SRU 1430 7242
+#KONTO 1431 "Lager av kîpta halvfabrikat"
+#KTYP 1431 T
+#SRU 1431 7241
+#KONTO 1432 "Lager av egentillverkade halvfabrikat"
+#KTYP 1432 T
+#SRU 1432 7242
+#KONTO 1438 "FîrÑndring av lager av kîpta halvfabrikat"
+#KTYP 1438 T
+#SRU 1438 7241
+#KONTO 1439 "FîrÑndring av lager av egentillverkade halvfabrika"
+#KTYP 1439 T
+#SRU 1439 7242
+#KONTO 1440 "Produkter i arbete"
+#KTYP 1440 T
+#SRU 1440 7242
+#KONTO 1449 "FîrÑndring av produkter i arbete"
+#KTYP 1449 T
+#SRU 1449 7242
+#KONTO 1450 "Lager av fÑrdiga varor"
+#KTYP 1450 T
+#SRU 1450 7243
+#KONTO 1459 "FîrÑndring av lager av fÑrdiga varor"
+#KTYP 1459 T
+#SRU 1459 7243
+#KONTO 1460 "Lager av handelsvaror"
+#KTYP 1460 T
+#SRU 1460 7243
+#KONTO 1465 "Lager av varor VMB"
+#KTYP 1465 T
+#SRU 1465 7243
+#KONTO 1466 "Nedskrivning av varor VMB"
+#KTYP 1466 T
+#SRU 1466 7243
+#KONTO 1467 "Lager av avror VMB fîrenklad"
+#KTYP 1467 T
+#SRU 1467 7243
+#KONTO 1469 "FîrÑndring av lager av handelsvaror"
+#KTYP 1469 T
+#SRU 1469 7243
+#KONTO 1470 "PÜgÜende arbete"
+#KTYP 1470 T
+#SRU 1470 7245
+#KONTO 1471 "PÜgÜende arbeten, nedlagda kostnader"
+#KTYP 1471 T
+#SRU 1471 7245
+#KONTO 1480 "Fîrskott till leverantîr"
+#KTYP 1480 T
+#SRU 1480 7246
+#KONTO 1481 Remburser
+#KTYP 1481 T
+#SRU 1481 7246
+#KONTO 1490 "ôvriga lagertillgÜngar"
+#KTYP 1490 T
+#SRU 1490 7244
+#KONTO 1491 "lager av vÑrdepapper"
+#KTYP 1491 T
+#SRU 1491 7244
+#KONTO 1492 "Lager av fastigheter"
+#KTYP 1492 T
+#SRU 1492 7244
+#KONTO 1493 "Djur som klassificeras som omsÑttningstillgÜng"
+#KTYP 1493 T
+#SRU 1493 7244
+#KONTO 1510 Kundfordringar
+#KTYP 1510 T
+#SRU 1510 7251
+#KONTO 1512 "BelÜnade fordringar"
+#KTYP 1512 T
+#SRU 1512 7251
+#KONTO 1515 "OsÑkra kundfordringar"
+#KTYP 1515 T
+#SRU 1515 7251
+#KONTO 1517 "Kvittning kundfaktura"
+#KTYP 1517 T
+#SRU 1517 7251
+#KONTO 1580 "Kontokort och kuponger"
+#KTYP 1580 T
+#SRU 1580 7251
+#KONTO 1610 Fîrskott
+#KTYP 1610 T
+#SRU 1610 7261
+#KONTO 1611 Resefîrskott
+#KTYP 1611 T
+#SRU 1611 7261
+#KONTO 1613 "ôvriga fîrskott"
+#KTYP 1613 T
+#SRU 1613 7261
+#KONTO 1619 "ôvr fordringar hos anstÑllda"
+#KTYP 1619 T
+#SRU 1619 7261
+#KONTO 1620 "Upparbetad men ej fakturerad intÑkt"
+#KTYP 1620 T
+#SRU 1620 7262
+#KONTO 1630 "AvrÑkn skatter och avgifter"
+#KTYP 1630 T
+#SRU 1630 7261
+#KONTO 1640 Skattefordringar
+#KTYP 1640 T
+#SRU 1640 7261
+#KONTO 1650 "Fordran moms"
+#KTYP 1650 T
+#SRU 1650 7261
+#KONTO 1680 "ôvr kortfristiga fordr"
+#KTYP 1680 T
+#SRU 1680 7261
+#KONTO 1683 Derivat
+#KTYP 1683 T
+#SRU 1683 7261
+#KONTO 1684 "Fordring hos leverantîr"
+#KTYP 1684 T
+#SRU 1684 7261
+#KONTO 1685 "Fordring hos nÑrstÜende"
+#KTYP 1685 T
+#SRU 1685 7261
+#KONTO 1688 "Fordran persionsfîrsÑkringar, dekl.post"
+#KTYP 1688 T
+#SRU 1688 7261
+#KONTO 1690 "Fordringar fîr tecknat men ej inbetalt aktiekapita"
+#KTYP 1690 T
+#SRU 1690 7261
+#KONTO 1710 "Fîrutbetalda hyror"
+#KTYP 1710 T
+#SRU 1710 7263
+#KONTO 1740 "Fîrutbet rÑnteutgifter"
+#KTYP 1740 T
+#SRU 1740 7263
+#KONTO 1750 "Upplupna hyresinkomster"
+#KTYP 1750 T
+#SRU 1750 7263
+#KONTO 1760 "Upplupna inkomstrÑntor"
+#KTYP 1760 T
+#SRU 1760 7263
+#KONTO 1790 "ôvr interimsfordringar"
+#KTYP 1790 T
+#SRU 1790 7263
+#KONTO 1820 "Obligationer, vÑrdepapper"
+#KTYP 1820 T
+#SRU 1820 7271
+#KONTO 1860 "Andelar i koncernfîretag"
+#KTYP 1860 T
+#SRU 1860 7270
+#KONTO 1869 "Nedskrivn andelar i koncernfîretag"
+#KTYP 1869 T
+#SRU 1869 7271
+#KONTO 1886 Derivat
+#KTYP 1886 T
+#SRU 1886 7271
+#KONTO 1910 Kassa
+#KTYP 1910 T
+#SRU 1910 7281
+#KONTO 1920 "Bank, PlusGiro"
+#KTYP 1920 T
+#SRU 1920 7281
+#KONTO 1930 "Bank, checkrÑkningskonto"
+#KTYP 1930 T
+#SRU 1930 7281
+#KONTO 1940 "Bank, ôvriga bankkonto"
+#KTYP 1940 T
+#SRU 1940 7281
+#KONTO 1980 Valutakonton
+#KTYP 1980 T
+#SRU 1980 7281
+#KONTO 1990 Redovisningsmedel
+#KTYP 1990 T
+#SRU 1990 7281
+#KONTO 2081 Aktiekapital
+#KTYP 2081 S
+#SRU 2081 7301
+#KONTO 2085 Uppskrivningsfond
+#KTYP 2085 T
+#SRU 2085 7301
+#KONTO 2086 Reservfond
+#KTYP 2086 S
+#SRU 2086 7301
+#KONTO 2091 "Balanserad vinst/fîrlust"
+#KTYP 2091 S
+#SRU 2091 7302
+#KONTO 2094 "Egna aktier"
+#KTYP 2094 S
+#SRU 2094 7302
+#KONTO 2097 ôverkursfond
+#KTYP 2097 S
+#SRU 2097 7302
+#KONTO 2098 "Vinst/fîrlust fîreg Ür"
+#KTYP 2098 S
+#SRU 2098 7302
+#KONTO 2099 "Redovisat resultat"
+#KTYP 2099 S
+#SRU 2099 7302
+#KONTO 2110 "Periodiseringsfond TAX 2010"
+#KTYP 2110 S
+#SRU 2110 7321
+#KONTO 2111 "Periodiseringsfond TAX 2011"
+#KTYP 2111 S
+#SRU 2111 7321
+#KONTO 2112 "Periodiseringsfond TAX 2012"
+#KTYP 2112 S
+#SRU 2112 7321
+#KONTO 2113 "Periodiseringsfond TAX 2013"
+#KTYP 2113 S
+#SRU 2113 7321
+#KONTO 2114 "Periodiseringsfond TAX 2014"
+#KTYP 2114 S
+#SRU 2114 7321
+#KONTO 2115 "Periodiseringsfond TAX 2015"
+#KTYP 2115 S
+#SRU 2115 7321
+#KONTO 2123 "Periodiseringsfond TAX 2003"
+#KTYP 2123 S
+#SRU 2123 7321
+#KONTO 2124 "Periodiseringsfond TAX 2004"
+#KTYP 2124 S
+#SRU 2124 7321
+#KONTO 2125 "Periodiseringsfond TAX 2005"
+#KTYP 2125 S
+#SRU 2125 7321
+#KONTO 2126 "Periodiseringsfond TAX 2006"
+#KTYP 2126 S
+#SRU 2126 7321
+#KONTO 2127 "Periodiseringsfond TAX 2007"
+#KTYP 2127 S
+#SRU 2127 7321
+#KONTO 2128 "Periodiseringsfond TAX 2008"
+#KTYP 2128 S
+#SRU 2128 7321
+#KONTO 2129 "Periodiseringsfond TAX 2009"
+#KTYP 2129 S
+#SRU 2129 7321
+#KONTO 2150 "Ack îveravskrivningar"
+#KTYP 2150 S
+#SRU 2150 7322
+#KONTO 2151 "Ack îveravskr imm anl.tillg"
+#KTYP 2151 S
+#SRU 2151 7322
+#KONTO 2152 "Ack îveravskr pÜ byggn/markanl"
+#KTYP 2152 S
+#SRU 2152 7322
+#KONTO 2153 "Ack îveravskr maskiner/inv"
+#KTYP 2153 S
+#SRU 2153 7322
+#KONTO 2157 "Ack îveravskr anlÑggningsdjur"
+#KTYP 2157 T
+#SRU 2157 7322
+#KONTO 2190 "ôvr obeskattade reserver"
+#KTYP 2190 S
+#SRU 2190 7323
+#KONTO 2196 Lagerreserv
+#KTYP 2196 S
+#SRU 2196 7323
+#KONTO 2210 "Avsatt fîr pensioner enl tryggandelagen"
+#KTYP 2210 S
+#SRU 2210 7331
+#KONTO 2220 Garantiskulder
+#KTYP 2220 S
+#SRU 2220 7333
+#KONTO 2230 "îvr avsÑttn pensioner och liknande fîrpliktelser"
+#KTYP 2230 S
+#SRU 2230 7332
+#KONTO 2240 "AvsÑttningar fîr îvriga pensioner"
+#KTYP 2240 S
+#SRU 2240 7333
+#KONTO 2250 "îvr avsÑttningar fîr skatter"
+#KTYP 2250 S
+#SRU 2250 7333
+#KONTO 2253 "AvsÑttning sÑrskild lîneskatt, deklarationspost"
+#KTYP 2253 S
+#SRU 2253 7333
+#KONTO 2321 "Konvertibla lÜn"
+#KTYP 2321 S
+#SRU 2321 7350
+#KONTO 2322 "LÜn fîrenade med optionsrÑtt"
+#KTYP 2322 S
+#SRU 2322 7350
+#KONTO 2323 VinstandelslÜn
+#KTYP 2323 S
+#SRU 2323 7350
+#KONTO 2324 KapitalandelslÜn
+#KTYP 2324 S
+#SRU 2324 7350
+#KONTO 2330 CheckrÑkningskredit
+#KTYP 2330 S
+#SRU 2330 7351
+#KONTO 2350 ReverslÜn
+#KTYP 2350 S
+#SRU 2350 7352
+#KONTO 2355 "LÜn i utlÑndsk valuta"
+#KTYP 2355 S
+#SRU 2355 7352
+#KONTO 2393 "LÜn frÜn aktieÑgare"
+#KTYP 2393 S
+#SRU 2393 7354
+#KONTO 2395 "Andra lÜn i utl valuta"
+#KTYP 2395 S
+#SRU 2395 7354
+#KONTO 2396 Derivat
+#KTYP 2396 S
+#SRU 2396 7354
+#KONTO 2399 "ôvr lÜngfristiga skulder"
+#KTYP 2399 S
+#SRU 2399 7354
+#KONTO 2410 "Andra kortfristiga lÜneskulder till kreditinstitut"
+#KTYP 2410 S
+#SRU 2410 7361
+#KONTO 2420 "Fîrskott frÜn kunder"
+#KTYP 2420 S
+#SRU 2420 7362
+#KONTO 2421 "Ej inlîsta presentkort"
+#KTYP 2421 S
+#SRU 2421 7362
+#KONTO 2440 Leverantîrsskulder
+#KTYP 2440 S
+#SRU 2440 7365
+#KONTO 2449 "Kvittning av leverantîrsfakturor"
+#KTYP 2449 S
+#SRU 2449 7365
+#KONTO 2450 "fakturerad men ej upparbetad intÑkt"
+#KTYP 2450 S
+#SRU 2450 7364
+#KONTO 2480 "CheckrÑkningskredit, kortfristig"
+#KTYP 2480 S
+#SRU 2480 7360
+#KONTO 2490 "ôvriga kortfristiga skulder, tillgodokvitto"
+#KTYP 2490 S
+#SRU 2490 7369
+#KONTO 2492 VÑxelskulder
+#KTYP 2492 S
+#SRU 2492 7366
+#KONTO 2499 "Andra îvr kortfrist skulder"
+#KTYP 2499 S
+#SRU 2499 7369
+#KONTO 2510 Skatteskulder
+#KTYP 2510 S
+#SRU 2510 7368
+#KONTO 2513 "BerÑknad fastighetsskatt/fastighetsavgift"
+#KTYP 2513 S
+#SRU 2513 7368
+#KONTO 2517 "BerÑknad utlÑndsk skatt"
+#KTYP 2517 S
+#SRU 2517 7368
+#KONTO 2611 "Utg moms fîrsÑljning/uttag 25%"
+#KTYP 2611 S
+#SRU 2611 7369
+#KONTO 2613 "Utg moms, uthyrning"
+#KTYP 2613 S
+#SRU 2613 7369
+#KONTO 2614 "Ber utg moms inkîp 25%"
+#KTYP 2614 S
+#SRU 2614 7369
+#KONTO 2615 "Ber moms varufîrvÑrv EU"
+#KTYP 2615 S
+#SRU 2615 7369
+#KONTO 2617 "Utg moms omv skattskyld, Sv"
+#KTYP 2617 S
+#SRU 2617 7369
+#KONTO 2621 "Utg moms fîrsÑljning/uttag 12%"
+#KTYP 2621 S
+#SRU 2621 7369
+#KONTO 2624 "Ber utg moms inkîp 12%"
+#KTYP 2624 S
+#SRU 2624 7369
+#KONTO 2631 "Utg moms fîrsÑljning/uttag 6%"
+#KTYP 2631 S
+#SRU 2631 7369
+#KONTO 2634 "Ber utg moms inkîp 6%"
+#KTYP 2634 S
+#SRU 2634 7369
+#KONTO 2641 "IngÜende moms"
+#KTYP 2641 S
+#SRU 2641 7369
+#KONTO 2645 "Ber ingÜende moms inkîp"
+#KTYP 2645 S
+#SRU 2645 7369
+#KONTO 2647 "Ing moms omv skattskyld, Sv"
+#KTYP 2647 S
+#SRU 2647 7369
+#KONTO 2650 "Moms redovisningskonto"
+#KTYP 2650 S
+#SRU 2650 7369
+#KONTO 2660 "SÑrskilda punktskatter"
+#KTYP 2660 S
+#SRU 2660 7369
+#KONTO 2710 "Personalens kÑllskatt"
+#KTYP 2710 S
+#SRU 2710 7369
+#KONTO 2730 "Lagstadgade sociala avg"
+#KTYP 2730 S
+#SRU 2730 7369
+#KONTO 2731 "AvrÑkn sociala avgifter"
+#KTYP 2731 S
+#SRU 2731 7369
+#KONTO 2732 "AvrÑkn sÑrsk lînesk pens"
+#KTYP 2732 S
+#SRU 2732 7369
+#KONTO 2733 "AvrÑkn sÑrsk sjukfîrsÑkrings avg"
+#KTYP 2733 S
+#SRU 2733 7369
+#KONTO 2750 "UtmÑtning i lîn mm"
+#KTYP 2750 S
+#SRU 2750 7369
+#KONTO 2790 "ôvriga lîneavdrag"
+#KTYP 2790 S
+#SRU 2790 7369
+#KONTO 2792 Lînsparande
+#KTYP 2792 S
+#SRU 2792 7369
+#KONTO 2793 "KollektivfîrsÑkring mm"
+#KTYP 2793 S
+#SRU 2793 7369
+#KONTO 2794 Fackfîreningsavgifter
+#KTYP 2794 S
+#SRU 2794 7369
+#KONTO 2795 Granskningsavgifter
+#KTYP 2795 S
+#SRU 2795 7369
+#KONTO 2840 LÜneskulder
+#KTYP 2840 S
+#SRU 2840 7369
+#KONTO 2850 "AvrÑkn skatter/avgifter"
+#KTYP 2850 S
+#SRU 2850 7369
+#KONTO 2880 "Skuld erhÜllna bidrag"
+#KTYP 2880 S
+#SRU 2880 7369
+#KONTO 2890 "ôvr kortfr skulder"
+#KTYP 2890 S
+#SRU 2890 7369
+#KONTO 2893 "Skulder nÑrstÜende personer"
+#KTYP 2893 S
+#SRU 2893 7369
+#KONTO 2895 "Derivat kortfr skulder"
+#KTYP 2895 S
+#SRU 2895 7369
+#KONTO 2910 "Upplupna lîner"
+#KTYP 2910 S
+#SRU 2910 7370
+#KONTO 2920 "Upplupna semlîner"
+#KTYP 2920 S
+#SRU 2920 7370
+#KONTO 2921 "Upplupna soc.avg sem.lîn"
+#KTYP 2921 S
+#SRU 2921 7370
+#KONTO 2940 "Upplupna sociala avgifter"
+#KTYP 2940 S
+#SRU 2940 7370
+#KONTO 2941 "BerÑkn upplupna sociala avgifter"
+#KTYP 2941 S
+#SRU 2941 7370
+#KONTO 2945 "BerÑkn upplupna sÑrskild sjuk fîrsÑk. avg"
+#KTYP 2945 S
+#SRU 2945 7370
+#KONTO 2950 "Upplupna avtalade soc avg"
+#KTYP 2950 S
+#SRU 2950 7370
+#KONTO 2951 "Upplupna avtalade fîrsÑkringsavgifter"
+#KTYP 2951 S
+#SRU 2951 7370
+#KONTO 2959 "Upplupna avt. pensionsfîrsÑkringspremier, dekl.pos"
+#KTYP 2959 S
+#SRU 2959 7370
+#KONTO 2960 "Upplupna utgiftsrÑntor"
+#KTYP 2960 S
+#SRU 2960 7370
+#KONTO 2970 "Fîrutbetalda hyresinkomster"
+#KTYP 2970 S
+#SRU 2970 7370
+#KONTO 2971 "Fîrutbetalda hyresintÑkter"
+#KTYP 2971 S
+#SRU 2971 7370
+#KONTO 2979 "ôvriga fîrutbetalda intÑkter"
+#KTYP 2979 S
+#SRU 2979 7370
+#KONTO 2990 "ôvr interimsskulder"
+#KTYP 2990 S
+#SRU 2990 7370
+#KONTO 2993 "Ospecificerad skuld till leverantîrer"
+#KTYP 2993 S
+#SRU 2993 7370
+#KONTO 2995 "Skuld inkomna fîljesedlar"
+#KTYP 2995 S
+#SRU 2995 7370
+#KONTO 2996 "Skuld berÑknad tull/frakt"
+#KTYP 2996 S
+#SRU 2996 7370
+#KONTO 2999 "ôvr uppl kostn/fîrutbet intÑkter"
+#KTYP 2999 S
+#SRU 2999 7370
+#KONTO 3020 "FîrsÑljning VMB varor"
+#KTYP 3020 I
+#SRU 3020 7410
+#KONTO 3028 "Positiv VM omfîringskonto"
+#KTYP 3028 I
+#SRU 3028 7410
+#KONTO 3030 "Positiv VM 25%"
+#KTYP 3030 I
+#SRU 3030 7410
+#KONTO 3041 "FîrsÑljn tjÑnst 25% sv"
+#KTYP 3041 I
+#SRU 3041 7410
+#KONTO 3042 "FîrsÑljn tjÑnst 12% sv"
+#KTYP 3042 I
+#SRU 3042 7410
+#KONTO 3043 "FîrsÑljn tjÑnst 6% sv"
+#KTYP 3043 I
+#SRU 3043 7410
+#KONTO 3044 "FîrsÑljn tjÑnst sv momsfri"
+#KTYP 3044 I
+#SRU 3044 7410
+#KONTO 3045 "FîrsÑljn tjÑnst utanfîr EU momsfri"
+#KTYP 3045 I
+#SRU 3045 7410
+#KONTO 3046 "FîrsÑljn tjÑnst till EU momspliktig"
+#KTYP 3046 I
+#SRU 3046 7410
+#KONTO 3048 "FîrsÑljn tjÑnst EU momsfri"
+#KTYP 3048 I
+#SRU 3048 7410
+#KONTO 3051 "FîrsÑljn varor 25% sv"
+#KTYP 3051 I
+#SRU 3051 7410
+#KONTO 3052 "FîrsÑljn varor 12% sv"
+#KTYP 3052 I
+#SRU 3052 7410
+#KONTO 3053 "FîrsÑljn varor 6% sv"
+#KTYP 3053 I
+#SRU 3053 7410
+#KONTO 3054 "FîrsÑljn varor sv momsfri"
+#KTYP 3054 I
+#SRU 3054 7410
+#KONTO 3055 "FîrsÑljn varor utanfîr EU momsfri"
+#KTYP 3055 I
+#SRU 3055 7410
+#KONTO 3056 "FîrsÑljn varor till EU 25 momspliktig"
+#KTYP 3056 I
+#SRU 3056 7410
+#KONTO 3057 "Treparts fîrsÑljn varor till EU"
+#KTYP 3057 I
+#SRU 3057 7410
+#KONTO 3058 "FîrsÑljn varor EU momsfri"
+#KTYP 3058 I
+#SRU 3058 7410
+#KONTO 3059 "Momspl uttag av fast.tj 25%"
+#KTYP 3059 I
+#SRU 3059 7410
+#KONTO 3062 "Fîrs varor nÑrst fîretag"
+#KTYP 3062 I
+#SRU 3062 7410
+#KONTO 3100 "FîrsÑljning kîpta produkter"
+#KTYP 3100 I
+#SRU 3100 7410
+#KONTO 3231 "FîrsÑljn bygg, omv skattskyld"
+#KTYP 3231 I
+#SRU 3231 7410
+#KONTO 3510 Emballage
+#KTYP 3510 I
+#SRU 3510 7410
+#KONTO 3520 Frakter
+#KTYP 3520 I
+#SRU 3520 7410
+#KONTO 3521 "Frakter export momsfri"
+#KTYP 3521 I
+#SRU 3521 7410
+#KONTO 3522 "Frakter EU momsfri"
+#KTYP 3522 I
+#SRU 3522 7410
+#KONTO 3530 "Fakt tull och spedition"
+#KTYP 3530 I
+#SRU 3530 7410
+#KONTO 3540 Faktureringsavgifter
+#KTYP 3540 I
+#SRU 3540 7410
+#KONTO 3541 "Faktureringsavgifter export"
+#KTYP 3541 I
+#SRU 3541 7410
+#KONTO 3542 "Faktureringsavgifter EU momsfri"
+#KTYP 3542 I
+#SRU 3542 7410
+#KONTO 3550 "Fakt resekostnader"
+#KTYP 3550 I
+#SRU 3550 7410
+#KONTO 3561 "Fakt kostn moderftg"
+#KTYP 3561 I
+#SRU 3561 7410
+#KONTO 3562 "Fakt kostn dotterftg"
+#KTYP 3562 I
+#SRU 3562 7410
+#KONTO 3563 "Fakt kostn andra koncernftg"
+#KTYP 3563 I
+#SRU 3563 7410
+#KONTO 3590 "ôvr fakt kostnader"
+#KTYP 3590 I
+#SRU 3590 7410
+#KONTO 3610 "FîrsÑljning material"
+#KTYP 3610 I
+#SRU 3610 7410
+#KONTO 3671 "FîrsÑljning vÑrdepapper"
+#KTYP 3671 I
+#SRU 3671 7410
+#KONTO 3672 "Utdeln vÑrdepapper"
+#KTYP 3672 I
+#SRU 3672 7410
+#KONTO 3679 "ôvr intÑkter vÑrdepapper"
+#KTYP 3679 I
+#SRU 3679 7410
+#KONTO 3690 "ôvriga sidointÑkter"
+#KTYP 3690 I
+#SRU 3690 7410
+#KONTO 3731 Kassarabatter
+#KTYP 3731 I
+#SRU 3731 7410
+#KONTO 3736 "Kassarabatter export"
+#KTYP 3736 I
+#SRU 3736 7410
+#KONTO 3737 "Kassarabatter EU momsfri"
+#KTYP 3737 I
+#SRU 3737 7410
+#KONTO 3740 "ôres- och kronutjÑmning"
+#KTYP 3740 I
+#SRU 3740 7410
+#KONTO 3840 "Aktiverat arbete (material)"
+#KTYP 3840 I
+#SRU 3840 7412
+#KONTO 3850 "Aktiverat arbete (omkostnader)"
+#KTYP 3850 I
+#SRU 3850 7412
+#KONTO 3870 "Aktiverat arbete (personal)"
+#KTYP 3870 I
+#SRU 3870 7412
+#KONTO 3911 HyresintÑkter
+#KTYP 3911 I
+#SRU 3911 7413
+#KONTO 3912 "HyresintÑkter frivilligskattskyldighet"
+#KTYP 3912 I
+#SRU 3912 7413
+#KONTO 3921 ProvisionsintÑkter
+#KTYP 3921 I
+#SRU 3921 7413
+#KONTO 3940 "Orealiserad negativ fîrÑndr sÑk. instrum"
+#KTYP 3940 I
+#SRU 3940 7413
+#KONTO 3950 "ètervunna kundfîrluster"
+#KTYP 3950 I
+#SRU 3950 7413
+#KONTO 3960 "Kursvinst rîrelsen"
+#KTYP 3960 I
+#SRU 3960 7413
+#KONTO 3971 "Vinst avyttr imm anl tillg"
+#KTYP 3971 I
+#SRU 3971 7413
+#KONTO 3972 "Vinst avyttr fastigheter"
+#KTYP 3972 I
+#SRU 3972 7413
+#KONTO 3973 "Vinst avyttr maskiner/inv"
+#KTYP 3973 I
+#SRU 3973 7413
+#KONTO 3974 "Vinst avyttr bilar och transportmedel"
+#KTYP 3974 I
+#SRU 3974 7413
+#KONTO 3977 "Vinst avyttr anlÑggningsdjur"
+#KTYP 3977 I
+#SRU 3977 7413
+#KONTO 3985 "ErhÜllna statliga bidrag"
+#KTYP 3985 I
+#SRU 3985 7413
+#KONTO 3987 "ErhÜllna kommunala bidrag"
+#KTYP 3987 I
+#SRU 3987 7413
+#KONTO 3988 "ErhÜllna bidrag personal"
+#KTYP 3988 I
+#SRU 3988 7413
+#KONTO 3989 "ôvriga erhÜllna bidrag"
+#KTYP 3989 I
+#SRU 3989 7413
+#KONTO 3990 "ôvr ersÑttn och intÑker"
+#KTYP 3990 I
+#SRU 3990 7413
+#KONTO 3994 FîrsÑkringsersÑttningar
+#KTYP 3994 I
+#SRU 3994 7413
+#KONTO 3996 "ErhÜllna reklambidrag"
+#KTYP 3996 I
+#SRU 3996 7413
+#KONTO 3997 SjuklîneersÑttning
+#KTYP 3997 I
+#SRU 3997 7413
+#KONTO 3999 PÜminnelseavgift
+#KTYP 3999 I
+#SRU 3999 7413
+#KONTO 4010 "Inkîp material och varor"
+#KTYP 4010 K
+#SRU 4010 7511
+#KONTO 4020 "Inkîp VMB varor"
+#KTYP 4020 K
+#SRU 4020 7511
+#KONTO 4028 "Negativ VM omfîringskonto"
+#KTYP 4028 K
+#SRU 4028 7511
+#KONTO 4030 "Negativ VM"
+#KTYP 4030 K
+#SRU 4030 7511
+#KONTO 4055 "Trepartsfîrv varor fr EU"
+#KTYP 4055 K
+#SRU 4055 7511
+#KONTO 4056 "Inkîp av varor EU"
+#KTYP 4056 K
+#SRU 4056 7511
+#KONTO 4100 "Kostn uthyrn lokal sk.pl"
+#KTYP 4100 K
+#SRU 4100 7511
+#KONTO 4425 "Inkîp tjÑnster Sv, omv skattskyld"
+#KTYP 4425 K
+#SRU 4425 7511
+#KONTO 4600 "Legoarbeten, underentrepr"
+#KTYP 4600 K
+#SRU 4600 7511
+#KONTO 4700 "Reduktion av inkîpspriser"
+#KTYP 4700 K
+#SRU 4700 7513
+#KONTO 4731 "ErhÜllna kassarabatter"
+#KTYP 4731 K
+#SRU 4731 7511
+#KONTO 4733 "ErhÜllet aktivitetsstîd"
+#KTYP 4733 K
+#SRU 4733 7511
+#KONTO 4940 "FîrÑndr produkter i arbete"
+#KTYP 4940 K
+#SRU 4940 7411
+#KONTO 4950 "FîrÑndr lager fÑrdigvaror"
+#KTYP 4950 K
+#SRU 4950 7411
+#KONTO 4960 "FîrÑndring lager handelsvaror"
+#KTYP 4960 K
+#SRU 4960 7411
+#KONTO 4970 "FîrÑndr pÜg arbete"
+#KTYP 4970 K
+#SRU 4970 7411
+#KONTO 4980 "FîrÑndr vÑrdepapper"
+#KTYP 4980 K
+#SRU 4980 7512
+#KONTO 4981 "SÜlda vÑrdepappers ansk.kostn"
+#KTYP 4981 K
+#SRU 4981 7512
+#KONTO 4987 "Nedskrivn vÑrdepapper"
+#KTYP 4987 K
+#SRU 4987 7512
+#KONTO 4990 LagerfîrÑndring
+#KTYP 4990 K
+#SRU 4990 7411
+#KONTO 5010 Lokalhyra
+#KTYP 5010 K
+#SRU 5010 7513
+#KONTO 5020 "El hyrd lokal"
+#KTYP 5020 K
+#SRU 5020 7513
+#KONTO 5030 "VÑrme hyrd lokal"
+#KTYP 5030 K
+#SRU 5030 7513
+#KONTO 5050 "Lokaltillbehîr hyrd lokal"
+#KTYP 5050 K
+#SRU 5050 7513
+#KONTO 5060 "StÑdning, renhÜllning hyrd lokal"
+#KTYP 5060 K
+#SRU 5060 7513
+#KONTO 5070 "Reparationer hyrd lokal"
+#KTYP 5070 K
+#SRU 5070 7513
+#KONTO 5090 "ôvr kostnader hyrd lokal"
+#KTYP 5090 K
+#SRU 5090 7513
+#KONTO 5120 Belysning
+#KTYP 5120 K
+#SRU 5120 7513
+#KONTO 5130 VÑrme
+#KTYP 5130 K
+#SRU 5130 7513
+#KONTO 5132 Sotning
+#KTYP 5132 K
+#SRU 5132 7513
+#KONTO 5140 "Vatten och avlopp"
+#KTYP 5140 K
+#SRU 5140 7513
+#KONTO 5160 "RenhÜlln och stÑdning"
+#KTYP 5160 K
+#SRU 5160 7513
+#KONTO 5170 "Rep och underhÜll fastighet"
+#KTYP 5170 K
+#SRU 5170 7513
+#KONTO 5191 Fastighetsskatt
+#KTYP 5191 K
+#SRU 5191 7513
+#KONTO 5192 "FîrsÑkringsprem fastighet"
+#KTYP 5192 K
+#SRU 5192 7513
+#KONTO 5193 "Fastighetsskîtsel och fîrvaltn"
+#KTYP 5193 K
+#SRU 5193 7513
+#KONTO 5198 "ôvr fastighetskostn avdragsgill"
+#KTYP 5198 K
+#SRU 5198 7513
+#KONTO 5199 "ôvr fastigheskostnr ej avdragsgill"
+#KTYP 5199 K
+#SRU 5199 7513
+#KONTO 5210 "Hyra arbetsmaskiner"
+#KTYP 5210 K
+#SRU 5210 7513
+#KONTO 5220 "Hyra inventarier"
+#KTYP 5220 K
+#SRU 5220 7513
+#KONTO 5290 "ôvr hyreskostn anl tillg"
+#KTYP 5290 K
+#SRU 5290 7513
+#KONTO 5310 "El fîr drift"
+#KTYP 5310 K
+#SRU 5310 7513
+#KONTO 5380 Vatten
+#KTYP 5380 K
+#SRU 5380 7513
+#KONTO 5390 "ôvriga brÑnslen"
+#KTYP 5390 K
+#SRU 5390 7513
+#KONTO 5410 Fîrbrukningsinventarier
+#KTYP 5410 K
+#SRU 5410 7513
+#KONTO 5420 Programvaror
+#KTYP 5420 K
+#SRU 5420 7513
+#KONTO 5460 Fîrbrukningsmaterial
+#KTYP 5460 K
+#SRU 5460 7513
+#KONTO 5480 "ArbetsklÑder o skyddsmtrl"
+#KTYP 5480 K
+#SRU 5480 7513
+#KONTO 5500 "Reparation och underhÜll"
+#KTYP 5500 K
+#SRU 5500 7513
+#KONTO 5611 "Drivmedel personbilar"
+#KTYP 5611 K
+#SRU 5611 7513
+#KONTO 5612 "Skatt fîrsÑkr personbilar"
+#KTYP 5612 K
+#SRU 5612 7513
+#KONTO 5613 "Reparation personbilar"
+#KTYP 5613 K
+#SRU 5613 7513
+#KONTO 5615 "Leasingavg personbilar"
+#KTYP 5615 K
+#SRU 5615 7513
+#KONTO 5616 "TrÑngselskatter avdragsg"
+#KTYP 5616 K
+#SRU 5616 7513
+#KONTO 5690 "ôvr transportmedel"
+#KTYP 5690 K
+#SRU 5690 7513
+#KONTO 5710 "Frakt och transport"
+#KTYP 5710 K
+#SRU 5710 7513
+#KONTO 5720 "Tull- och speditionskost"
+#KTYP 5720 K
+#SRU 5720 7513
+#KONTO 5800 Resekostnader
+#KTYP 5800 K
+#SRU 5800 7513
+#KONTO 5910 Annonsering
+#KTYP 5910 K
+#SRU 5910 7513
+#KONTO 5930 Reklamtrycksaker
+#KTYP 5930 K
+#SRU 5930 7513
+#KONTO 5940 "UtstÑllning och mÑssor"
+#KTYP 5940 K
+#SRU 5940 7513
+#KONTO 5990 "ôvrig reklam"
+#KTYP 5990 K
+#SRU 5990 7513
+#KONTO 6010 "Kataloger och prislistor"
+#KTYP 6010 K
+#SRU 6010 7513
+#KONTO 6040 Kontokortsavgifter
+#KTYP 6040 K
+#SRU 6040 7513
+#KONTO 6050 FîrsÑljningsprovision
+#KTYP 6050 K
+#SRU 6050 7513
+#KONTO 6060 KreditfîrsÑljningskostnad
+#KTYP 6060 K
+#SRU 6060 7513
+#KONTO 6063 KreditfîrsÑkringspremier
+#KTYP 6063 K
+#SRU 6063 7513
+#KONTO 6064 Factoringavgifter
+#KTYP 6064 K
+#SRU 6064 7513
+#KONTO 6069 "ôvr kreditfîrsÑljnkostnader"
+#KTYP 6069 K
+#SRU 6069 7513
+#KONTO 6071 "Repr avdr.gill"
+#KTYP 6071 K
+#SRU 6071 7513
+#KONTO 6072 "Repr ej avdr.gill"
+#KTYP 6072 K
+#SRU 6072 7513
+#KONTO 6080 Bankgarantier
+#KTYP 6080 K
+#SRU 6080 7513
+#KONTO 6090 "ôvr fîrsÑljningskostnader"
+#KTYP 6090 K
+#SRU 6090 7513
+#KONTO 6110 Kontorsmaterial
+#KTYP 6110 K
+#SRU 6110 7513
+#KONTO 6150 Trycksaker
+#KTYP 6150 K
+#SRU 6150 7513
+#KONTO 6211 "Fast telefoni"
+#KTYP 6211 K
+#SRU 6211 7513
+#KONTO 6212 Mobiltelefon
+#KTYP 6212 K
+#SRU 6212 7513
+#KONTO 6213 Mobilsîkning
+#KTYP 6213 K
+#SRU 6213 7513
+#KONTO 6214 Fax
+#KTYP 6214 K
+#SRU 6214 7513
+#KONTO 6230 Datakommunikation
+#KTYP 6230 K
+#SRU 6230 7513
+#KONTO 6250 Porto
+#KTYP 6250 K
+#SRU 6250 7513
+#KONTO 6310 FîretagsfîrsÑkringar
+#KTYP 6310 K
+#SRU 6310 7513
+#KONTO 6320 SjÑlvrisker
+#KTYP 6320 K
+#SRU 6320 7513
+#KONTO 6340 "LÑmnade skadestÜnd"
+#KTYP 6340 K
+#SRU 6340 7513
+#KONTO 6350 Kundfîrluster
+#KTYP 6350 K
+#SRU 6350 7513
+#KONTO 6390 "ôvriga riskkostnader"
+#KTYP 6390 K
+#SRU 6390 7513
+#KONTO 6410 "Styrelsearvode som inte Ñr lîn"
+#KTYP 6410 K
+#SRU 6410 7513
+#KONTO 6420 "ErsÑttning till revisor"
+#KTYP 6420 K
+#SRU 6420 7513
+#KONTO 6430 "Management fees"
+#KTYP 6430 K
+#SRU 6430 7513
+#KONTO 6440 "èrsredovisn, delÜrsrapporter"
+#KTYP 6440 K
+#SRU 6440 7513
+#KONTO 6450 BolagsstÑmma
+#KTYP 6450 K
+#SRU 6450 7513
+#KONTO 6490 "ôvr fîrvaltningskostnader"
+#KTYP 6490 K
+#SRU 6490 7513
+#KONTO 6530 RedovisningstjÑnster
+#KTYP 6530 K
+#SRU 6530 7513
+#KONTO 6540 IT-tjÑnster
+#KTYP 6540 K
+#SRU 6540 7513
+#KONTO 6550 Konsultarvoden
+#KTYP 6550 K
+#SRU 6550 7513
+#KONTO 6570 Bankkostnader
+#KTYP 6570 K
+#SRU 6570 7513
+#KONTO 6580 Advokatkostnader
+#KTYP 6580 K
+#SRU 6580 7513
+#KONTO 6590 "ôvr frÑmmande tjÑnster"
+#KTYP 6590 K
+#SRU 6590 7513
+#KONTO 6800 "Inhyrd personal"
+#KTYP 6800 K
+#SRU 6800 7513
+#KONTO 6970 "Tidningar, facklitteratur"
+#KTYP 6970 K
+#SRU 6970 7513
+#KONTO 6981 "Fîreningsavg avdr gill"
+#KTYP 6981 K
+#SRU 6981 7513
+#KONTO 6982 "Fîreningsavg ej avdr gill"
+#KTYP 6982 K
+#SRU 6982 7513
+#KONTO 6991 "ôvr avdr gill kostn"
+#KTYP 6991 K
+#SRU 6991 7513
+#KONTO 6992 "ôvr ej avdr gill kostn"
+#KTYP 6992 K
+#SRU 6992 7513
+#KONTO 6993 "LÑmnade bidrag och gÜvor"
+#KTYP 6993 K
+#SRU 6993 7513
+#KONTO 6996 "Betald utlÑndsk inkomstskatt"
+#KTYP 6996 K
+#SRU 6996 7513
+#KONTO 6997 "Obetald utlÑndsk inkomstskatt"
+#KTYP 6997 K
+#SRU 6997 7513
+#KONTO 7010 "Lîn till kollektivanstÑllda"
+#KTYP 7010 K
+#SRU 7010 7514
+#KONTO 7013 "Lîn till kollektivanst under 26 Ür"
+#KTYP 7013 K
+#SRU 7013 7514
+#KONTO 7014 "Lîn kollektivanstÑllda nya pens"
+#KTYP 7014 K
+#SRU 7014 7514
+#KONTO 7030 "Lîn kollektivanstÑllda, utland"
+#KTYP 7030 K
+#SRU 7030 7514
+#KONTO 7033 "Lîn kollektivanstÑllda under 26 Ür (utland)"
+#KTYP 7033 K
+#SRU 7033 7514
+#KONTO 7081 "Sjuklîn kollektivanstÑllda"
+#KTYP 7081 K
+#SRU 7081 7514
+#KONTO 7082 Semesterlîn
+#KTYP 7082 K
+#SRU 7082 7514
+#KONTO 7083 "FîrÑldraers kollektivanstÑllda"
+#KTYP 7083 K
+#SRU 7083 7514
+#KONTO 7089 "ôvr lîner kollektivanst ej arb tid"
+#KTYP 7089 K
+#SRU 7089 7514
+#KONTO 7090 "FîrÑndr sem lîneskuld"
+#KTYP 7090 K
+#SRU 7090 7514
+#KONTO 7210 "Lîn tjÑnstemÑn"
+#KTYP 7210 K
+#SRU 7210 7514
+#KONTO 7211 "Lîn tjÑnstemÑn"
+#KTYP 7211 K
+#SRU 7211 7514
+#KONTO 7213 "Lîn tjÑnstemÑn under 26 Ür"
+#KTYP 7213 K
+#SRU 7213 7514
+#KONTO 7214 "Lîn tjÑnstemÑn nya pens"
+#KTYP 7214 K
+#SRU 7214 7514
+#KONTO 7220 "Lîn fîretagsledare"
+#KTYP 7220 K
+#SRU 7220 7514
+#KONTO 7223 "Lîn fîretagsledare under 26 Ür"
+#KTYP 7223 K
+#SRU 7223 7514
+#KONTO 7224 "Lîn fîretagsledare nya pens"
+#KTYP 7224 K
+#SRU 7224 7514
+#KONTO 7225 "Lîn fîretagsledare, lîneskatt"
+#KTYP 7225 K
+#SRU 7225 7514
+#KONTO 7230 "Lîn tjÑnstemÑn, fîretagsledare, utland"
+#KTYP 7230 K
+#SRU 7230 7514
+#KONTO 7233 "Lîn tjÑnstemÑn och fîretagsledare under 26 Ür, utl"
+#KTYP 7233 K
+#SRU 7233 7514
+#KONTO 7240 Styrelsearvoden
+#KTYP 7240 K
+#SRU 7240 7514
+#KONTO 7281 "Sjuklîn tjÑnstemÑn"
+#KTYP 7281 K
+#SRU 7281 7514
+#KONTO 7282 "Sjuklîner till ftgledare"
+#KTYP 7282 K
+#SRU 7282 7514
+#KONTO 7283 "FîrÑldraers tjÑnstemÑn"
+#KTYP 7283 K
+#SRU 7283 7514
+#KONTO 7284 "FîrÑldraers ftgledare"
+#KTYP 7284 K
+#SRU 7284 7514
+#KONTO 7285 "Semesterlîn tjÑnstemÑn"
+#KTYP 7285 K
+#SRU 7285 7514
+#KONTO 7286 "Semesterlîn ftgledare"
+#KTYP 7286 K
+#SRU 7286 7514
+#KONTO 7288 "ôvr lîner tjÑnstemÑn ej arb tid"
+#KTYP 7288 K
+#SRU 7288 7514
+#KONTO 7289 "ôvr lîner ftgledare ej arb tid"
+#KTYP 7289 K
+#SRU 7289 7514
+#KONTO 7290 "FîrÑndr sem lîneskuld"
+#KTYP 7290 K
+#SRU 7290 7514
+#KONTO 7310 "Kontanta extra ersÑttn"
+#KTYP 7310 K
+#SRU 7310 7514
+#KONTO 7321 "Skattefria trakt Sverige"
+#KTYP 7321 K
+#SRU 7321 7514
+#KONTO 7322 "Skattepl trakt Sverige"
+#KTYP 7322 K
+#SRU 7322 7514
+#KONTO 7323 "Skattefria trakt utland"
+#KTYP 7323 K
+#SRU 7323 7514
+#KONTO 7324 "Skattepl trakt utland"
+#KTYP 7324 K
+#SRU 7324 7514
+#KONTO 7331 "Skattefri bilersÑttning"
+#KTYP 7331 K
+#SRU 7331 7514
+#KONTO 7332 "Skattepl bilersÑttning"
+#KTYP 7332 K
+#SRU 7332 7514
+#KONTO 7333 "Skattefri ers trÑngselskatt"
+#KTYP 7333 K
+#SRU 7333 7514
+#KONTO 7338 "Skattepliktig ers trÑngselskatt"
+#KTYP 7338 K
+#SRU 7338 7514
+#KONTO 7381 "Kostn fîr fri bostad"
+#KTYP 7381 K
+#SRU 7381 7514
+#KONTO 7382 "Kostn fria/subv mÜltider"
+#KTYP 7382 K
+#SRU 7382 7514
+#KONTO 7385 "Kostn fîr fri bil"
+#KTYP 7385 K
+#SRU 7385 7514
+#KONTO 7387 "Kostn fîr lÜnedatorer"
+#KTYP 7387 K
+#SRU 7387 7514
+#KONTO 7389 "ôvriga kostn naturafîrm"
+#KTYP 7389 K
+#SRU 7389 7514
+#KONTO 7390 "ôvr kostnadsersÑttningar"
+#KTYP 7390 K
+#SRU 7390 7514
+#KONTO 7391 "Kostn trÑngselskattefîrmÜn"
+#KTYP 7391 K
+#SRU 7391 7514
+#KONTO 7392 "Kostn fîrmÜn, hushÜllsnÑra tjÑnster"
+#KTYP 7392 K
+#SRU 7392 7514
+#KONTO 7399 "Motkontering av fîrmÜn"
+#KTYP 7399 K
+#SRU 7399 7514
+#KONTO 7411 "Kollektiv pensionsfîrsÑkr"
+#KTYP 7411 K
+#SRU 7411 7514
+#KONTO 7412 "Indiv pensionsfîrsÑkring"
+#KTYP 7412 K
+#SRU 7412 7514
+#KONTO 7461 "Pensionsutbetalningar till kollektivanst"
+#KTYP 7461 K
+#SRU 7461 7514
+#KONTO 7462 "Pensionsutbetalningar till tjÑnstemÑn"
+#KTYP 7462 K
+#SRU 7462 7514
+#KONTO 7490 "ôvriga pensionskostnader"
+#KTYP 7490 K
+#SRU 7490 7514
+#KONTO 7510 Arbetsgivaravgifter
+#KTYP 7510 K
+#SRU 7510 7514
+#KONTO 7519 "Soc.avgifter semesterlîn"
+#KTYP 7519 K
+#SRU 7519 7514
+#KONTO 7520 "Arbetsgivaravg (nya pensionssystemet)"
+#KTYP 7520 K
+#SRU 7520 7514
+#KONTO 7521 "Arbgivaravg lîner ers (nya pensionssyst)"
+#KTYP 7521 K
+#SRU 7521 7514
+#KONTO 7531 Lîneskatt
+#KTYP 7531 K
+#SRU 7531 7514
+#KONTO 7532 "SÑrsk lîneskatt pÜ pensionsk, dekl.post"
+#KTYP 7532 K
+#SRU 7532 7514
+#KONTO 7533 "SÑrsk lîneskatt pensionsk"
+#KTYP 7533 K
+#SRU 7533 7514
+#KONTO 7540 "SÑrsk sjukfîrsÑk avg"
+#KTYP 7540 K
+#SRU 7540 7514
+#KONTO 7560 "Arbgivaravg under 26 Ür"
+#KTYP 7560 K
+#SRU 7560 7514
+#KONTO 7570 "AMF enl avtal"
+#KTYP 7570 K
+#SRU 7570 7514
+#KONTO 7571 "ArbetsmarknadsfîrsÑkringar fîrsÑkringsavgifter"
+#KTYP 7571 K
+#SRU 7571 7514
+#KONTO 7572 "Arbetsm.fîrsÑkringar pensionsfîrsÑkr.premier, dekl"
+#KTYP 7572 K
+#SRU 7572 7514
+#KONTO 7573 "ArbetsmarknadsfîrsÑkringar, betalda premier och av"
+#KTYP 7573 K
+#SRU 7573 7514
+#KONTO 7583 GruppolycksfallsfîrsÑkringspremier
+#KTYP 7583 K
+#SRU 7583 7514
+#KONTO 7589 "ôvr gruppfîrsÑkringspremier"
+#KTYP 7589 K
+#SRU 7589 7514
+#KONTO 7610 Utbildning
+#KTYP 7610 K
+#SRU 7610 7514
+#KONTO 7620 "Sjuk- och hÑlsovÜrd"
+#KTYP 7620 K
+#SRU 7620 7514
+#KONTO 7650 SjuklînefîrsÑkring
+#KTYP 7650 K
+#SRU 7650 7514
+#KONTO 7690 "ôvr personalkostnader"
+#KTYP 7690 K
+#SRU 7690 7514
+#KONTO 7710 "Nedskrivn av imm anl tillg"
+#KTYP 7710 K
+#SRU 7710 7515
+#KONTO 7720 "Nedskrivn av byggnader och mark"
+#KTYP 7720 K
+#SRU 7720 7515
+#KONTO 7730 "Nedskrivn av maskiner och inv"
+#KTYP 7730 K
+#SRU 7730 7515
+#KONTO 7760 "èterfîring av nedskrivn imm anl tillg"
+#KTYP 7760 I
+#SRU 7760 7515
+#KONTO 7770 "èterfîring av nedskrivn byggn/mark"
+#KTYP 7770 I
+#SRU 7770 7515
+#KONTO 7780 "èterfîring av nedskrivn maskiner/inv"
+#KTYP 7780 I
+#SRU 7780 7515
+#KONTO 7810 "Avskrivningar imm anl tillg"
+#KTYP 7810 K
+#SRU 7810 7515
+#KONTO 7811 "Avskrivningar balanserade utgifter"
+#KTYP 7811 K
+#SRU 7811 7515
+#KONTO 7813 "Avskrivningar patent"
+#KTYP 7813 K
+#SRU 7813 7515
+#KONTO 7814 "Avskrivningar licenser"
+#KTYP 7814 K
+#SRU 7814 7515
+#KONTO 7815 "Avskrivningar varumÑrken"
+#KTYP 7815 K
+#SRU 7815 7515
+#KONTO 7816 "Avskrivningar hyresrÑtt"
+#KTYP 7816 K
+#SRU 7816 7515
+#KONTO 7817 "Avskrivningar goodwill"
+#KTYP 7817 K
+#SRU 7817 7515
+#KONTO 7820 "Avskrivningar byggnader/mark"
+#KTYP 7820 K
+#SRU 7820 7515
+#KONTO 7821 "Avskrivn byggnader"
+#KTYP 7821 K
+#SRU 7821 7515
+#KONTO 7822 "Avskrivn byggnadsinv"
+#KTYP 7822 K
+#SRU 7822 7515
+#KONTO 7824 "Avskrivn markanlÑggn"
+#KTYP 7824 K
+#SRU 7824 7515
+#KONTO 7829 "Avskrivningar îvr byggnader"
+#KTYP 7829 K
+#SRU 7829 7515
+#KONTO 7830 "Avskrivningar maskiner/inv"
+#KTYP 7830 K
+#SRU 7830 7515
+#KONTO 7831 "Avskrivn arbetsmaskiner"
+#KTYP 7831 K
+#SRU 7831 7515
+#KONTO 7832 "Avskrivn inventarier"
+#KTYP 7832 K
+#SRU 7832 7515
+#KONTO 7833 "Avskrivningar installationer"
+#KTYP 7833 K
+#SRU 7833 7515
+#KONTO 7834 "Avskrivn bilar"
+#KTYP 7834 K
+#SRU 7834 7515
+#KONTO 7835 "Avskrivningar datorer"
+#KTYP 7835 K
+#SRU 7835 7515
+#KONTO 7836 "Avskrivningar leasade tillg"
+#KTYP 7836 K
+#SRU 7836 7515
+#KONTO 7837 "Avskrivningar anlÑggningsdjur"
+#KTYP 7837 K
+#SRU 7837 7515
+#KONTO 7840 "Avskrivningar pÜ fîrbÑttringutgifter pÜ annans fas"
+#KTYP 7840 K
+#SRU 7840 7515
+#KONTO 7940 "Orealiserad positiv vÑrdefîr sÑkr instr"
+#KTYP 7940 K
+#SRU 7940 7517
+#KONTO 7960 Kursfîrluster
+#KTYP 7960 K
+#SRU 7960 7517
+#KONTO 7970 "Fîrlust avyttr imm/mat anl tillg"
+#KTYP 7970 K
+#SRU 7970 7517
+#KONTO 7971 "Fîrlust avyttr imm anl tillg"
+#KTYP 7971 K
+#SRU 7971 7517
+#KONTO 7972 "Fîrlust avyttr fastigheter"
+#KTYP 7972 K
+#SRU 7972 7517
+#KONTO 7973 "Fîrlust avyttr maskiner/inv"
+#KTYP 7973 K
+#SRU 7973 7517
+#KONTO 7977 "Fîrlust avyttr anlÑggningsdjur"
+#KTYP 7977 K
+#SRU 7977 7517
+#KONTO 8012 "Utdeln andelar dotterbolag"
+#KTYP 8012 I
+#SRU 8012 7414
+#KONTO 8014 Koncernbidrag
+#KTYP 8014 I
+#SRU 8014 7414
+#KONTO 8019 "ôvr utdeln andelar koncernftg"
+#KTYP 8019 I
+#SRU 8019 7414
+#KONTO 8210 "Utdeln andelar andra fîretag"
+#KTYP 8210 I
+#SRU 8210 7416
+#KONTO 8221 "Res fîrs andelar îvr fîretag"
+#KTYP 8221 I
+#SRU 8221 7416
+#KONTO 8222 "Res lf fordr îvr fîretag"
+#KTYP 8222 I
+#SRU 8222 7416
+#KONTO 8223 "Res fîrs derivat"
+#KTYP 8223 I
+#SRU 8223 7416
+#KONTO 8230 "Valutakursdiff lÜngfr fordr"
+#KTYP 8230 I
+#SRU 8230 7416
+#KONTO 8240 "Resultatandelar handelsbolag (andra ftg)"
+#KTYP 8240 I
+#SRU 8240 7416
+#KONTO 8270 "Nedskr andel/lf fordr îvr ftg"
+#KTYP 8270 I
+#SRU 8270 7521
+#KONTO 8280 "èterf nedskr and/lf ford î ftg"
+#KTYP 8280 I
+#SRU 8280 7416
+#KONTO 8291 "Orealiserade fîrÑndr anlÑggningstillg"
+#KTYP 8291 I
+#SRU 8291 7416
+#KONTO 8295 "Orealiserade fîrÑndr derivat"
+#KTYP 8295 I
+#SRU 8295 7416
+#KONTO 8310 "RÑnteintÑkter omsÑttningstillgÜngar"
+#KTYP 8310 I
+#SRU 8310 7417
+#KONTO 8313 "RÑnteintÑkter kundfordringar"
+#KTYP 8313 I
+#SRU 8313 7417
+#KONTO 8321 "Orealiserade fîrÑndr omsÑttn tillg"
+#KTYP 8321 I
+#SRU 8321 7417
+#KONTO 8325 "Orealiserade fîrÑndr derivat omsÑttn tillg"
+#KTYP 8325 I
+#SRU 8325 7417
+#KONTO 8331 Valutakursvinster
+#KTYP 8331 I
+#SRU 8331 7417
+#KONTO 8336 Valutakursfîrluster
+#KTYP 8336 K
+#SRU 8336 7417
+#KONTO 8390 "ôvr finansiella intÑkter"
+#KTYP 8390 I
+#SRU 8390 7417
+#KONTO 8400 RÑntekostnader
+#KTYP 8400 K
+#SRU 8400 7522
+#KONTO 8422 "RÑntekostnader levskulder"
+#KTYP 8422 K
+#SRU 8422 7522
+#KONTO 8431 "Valutakursvinst skulder"
+#KTYP 8431 I
+#SRU 8431 7522
+#KONTO 8436 "Valutakursfîrlust skulder"
+#KTYP 8436 K
+#SRU 8436 7522
+#KONTO 8451 "Orealiserade fîrÑndr skulder"
+#KTYP 8451 K
+#SRU 8451 7522
+#KONTO 8452 "Orealiserade fîrÑndr sÑkr instr"
+#KTYP 8452 K
+#SRU 8452 7522
+#KONTO 8490 "ôvr finansiella kostnader"
+#KTYP 8490 K
+#SRU 8490 7522
+#KONTO 8811 "AvsÑttning per fond"
+#KTYP 8811 K
+#SRU 8811 7525
+#KONTO 8819 "èterfîring av per fond"
+#KTYP 8819 K
+#SRU 8819 7420
+#KONTO 8820 "Mottagna koncernbidrag"
+#KTYP 8820 K
+#SRU 8820 7419
+#KONTO 8830 "LÑmnade koncernbidrag"
+#KTYP 8830 K
+#SRU 8830 7524
+#KONTO 8850 "Avskrivn îver/under plan"
+#KTYP 8850 K
+#SRU 8850 7526
+#KONTO 8851 "ôveravskrivningar imm anl tillg"
+#KTYP 8851 K
+#SRU 8851 7526
+#KONTO 8852 "ôveravskrivningar byggnader/mark"
+#KTYP 8852 K
+#SRU 8852 7526
+#KONTO 8853 "ôveravskrivningar maskiner/inv"
+#KTYP 8853 K
+#SRU 8853 7526
+#KONTO 8857 "ôveravskrivningar anlÑggningsdjur"
+#KTYP 8857 K
+#SRU 8857 7526
+#KONTO 8896 "FîrÑndring lagerreserv"
+#KTYP 8896 K
+#SRU 8896 7422
+#KONTO 8910 "èrets skattekostnad"
+#KTYP 8910 K
+#SRU 8910 7528
+#KONTO 8999 "Redovisat resultat"
+#KTYP 8999 K
+#SRU 8999 7450
+#IB 0 1221 518057.53
+#UB 0 1221 532017.53
+#PSALDO 0 201102 1221 {} 13960.00
+#IB 0 1229 -366754.50
+#UB 0 1229 -366754.50
+#IB 0 1460 612139.47
+#UB 0 1460 688700.22
+#PSALDO 0 201101 1460 {} -134536.50
+#PSALDO 0 201102 1460 {} -37764.30
+#PSALDO 0 201103 1460 {} 248861.55
+#IB 0 1510 814506.00
+#UB 0 1510 971482.00
+#PSALDO 0 201101 1510 {} 122626.00
+#PSALDO 0 201102 1510 {} -192243.00
+#PSALDO 0 201103 1510 {} 226593.00
+#UB 0 1610 -1500.00
+#PSALDO 0 201103 1610 {} -1500.00
+#IB 0 1710 33500.00
+#UB 0 1710 33500.00
+#PSALDO 0 201101 1710 {} 34000.00
+#PSALDO 0 201102 1710 {} -17000.00
+#PSALDO 0 201103 1710 {} -17000.00
+#IB 0 1910 4220.75
+#UB 0 1910 1713.75
+#PSALDO 0 201101 1910 {} -1264.00
+#PSALDO 0 201102 1910 {} -448.00
+#PSALDO 0 201103 1910 {} -795.00
+#IB 0 1920 104648.01
+#UB 0 1920 189087.20
+#PSALDO 0 201101 1920 {} 38226.19
+#PSALDO 0 201102 1920 {} 46213.00
+#IB 0 1930 1071347.58
+#UB 0 1930 1511049.94
+#PSALDO 0 201101 1930 {} 399920.15
+#PSALDO 0 201102 1930 {} 149862.61
+#PSALDO 0 201103 1930 {} -110080.40
+#IB 0 1940 1500000.00
+#UB 0 1940 1500000.00
+#IB 0 2081 -200000.00
+#UB 0 2081 -200000.00
+#IB 0 2086 -20000.00
+#UB 0 2086 -20000.00
+#IB 0 2091 -1145096.80
+#UB 0 2091 -1145096.80
+#IB 0 2098 -485166.48
+#UB 0 2098 -485166.48
+#IB 0 2099 -585964.73
+#UB 0 2099 -585964.73
+#IB 0 2124 -87500.00
+#UB 0 2124 -87500.00
+#IB 0 2125 -36800.00
+#UB 0 2125 -36800.00
+#IB 0 2127 -187000.00
+#UB 0 2127 -187000.00
+#IB 0 2440 -199491.80
+#UB 0 2440 -738854.30
+#PSALDO 0 201101 2440 {} -221600.20
+#PSALDO 0 201102 2440 {} 37825.80
+#PSALDO 0 201103 2440 {} -355588.10
+#IB 0 2510 210000.00
+#UB 0 2510 262500.00
+#PSALDO 0 201101 2510 {} 17500.00
+#PSALDO 0 201102 2510 {} 17500.00
+#PSALDO 0 201103 2510 {} 17500.00
+#UB 0 2611 -126216.25
+#PSALDO 0 201103 2611 {} -126216.25
+#UB 0 2615 -6541.49
+#PSALDO 0 201103 2615 {} -6541.49
+#UB 0 2641 141600.17
+#PSALDO 0 201101 2641 {} 0.00
+#PSALDO 0 201103 2641 {} 141600.17
+#UB 0 2645 6541.49
+#PSALDO 0 201103 2645 {} 6541.49
+#IB 0 2650 -111615.00
+#UB 0 2650 -57867.00
+#PSALDO 0 201101 2650 {} -46854.00
+#PSALDO 0 201102 2650 {} 36454.00
+#PSALDO 0 201103 2650 {} 64148.00
+#IB 0 2710 -24790.00
+#UB 0 2710 -35168.00
+#PSALDO 0 201101 2710 {} -2407.00
+#PSALDO 0 201102 2710 {} -7.00
+#PSALDO 0 201103 2710 {} -7964.00
+#IB 0 2732 -10500.00
+#UB 0 2732 -10500.00
+#IB 0 2790 -250.00
+#UB 0 2790 -250.00
+#IB 0 2794 -7089.31
+#UB 0 2794 -12599.31
+#PSALDO 0 201101 2794 {} -1846.00
+#PSALDO 0 201102 2794 {} -1821.00
+#PSALDO 0 201103 2794 {} -1843.00
+#IB 0 2920 -163438.89
+#UB 0 2920 -200470.23
+#PSALDO 0 201101 2920 {} -13249.52
+#PSALDO 0 201102 2920 {} -8685.96
+#PSALDO 0 201103 2920 {} -15095.86
+#IB 0 2921 -44983.21
+#UB 0 2921 -44983.21
+#IB 0 2940 -32812.86
+#UB 0 2940 -40610.42
+#PSALDO 0 201101 2940 {} -3059.62
+#PSALDO 0 201102 2940 {} -104.15
+#PSALDO 0 201103 2940 {} -4633.79
+#IB 0 2941 -7487.61
+#UB 0 2941 -18872.97
+#PSALDO 0 201101 2941 {} -4078.70
+#PSALDO 0 201102 2941 {} -2648.84
+#PSALDO 0 201103 2941 {} -4657.82
+#RES 0 3041 -386180.00
+#PSALDO 0 201101 3041 {} -169975.00
+#PSALDO 0 201102 3041 {} -102750.00
+#PSALDO 0 201103 3041 {} -113455.00
+#RES 0 3045 -94850.00
+#PSALDO 0 201101 3045 {} -44200.00
+#PSALDO 0 201102 3045 {} -32250.00
+#PSALDO 0 201103 3045 {} -18400.00
+#RES 0 3048 -120000.00
+#PSALDO 0 201101 3048 {} -27000.00
+#PSALDO 0 201102 3048 {} -26250.00
+#PSALDO 0 201103 3048 {} -66750.00
+#RES 0 3051 -1189180.00
+#PSALDO 0 201101 3051 {} -402570.00
+#PSALDO 0 201102 3051 {} -395960.00
+#PSALDO 0 201103 3051 {} -390650.00
+#RES 0 3055 -169250.00
+#PSALDO 0 201101 3055 {} -150250.00
+#PSALDO 0 201103 3055 {} -19000.00
+#RES 0 3590 -760.00
+#PSALDO 0 201103 3590 {} -760.00
+#RES 0 3740 -0.73
+#PSALDO 0 201101 3740 {} -0.48
+#PSALDO 0 201102 3740 {} -0.63
+#PSALDO 0 201103 3740 {} 0.38
+#RES 0 3960 -4124.11
+#PSALDO 0 201101 3960 {} -30.40
+#PSALDO 0 201102 3960 {} -3224.91
+#PSALDO 0 201103 3960 {} -868.80
+#RES 0 4010 1013297.70
+#PSALDO 0 201101 4010 {} 227262.50
+#PSALDO 0 201102 4010 {} 239690.00
+#PSALDO 0 201103 4010 {} 546345.20
+#RES 0 4056 78118.65
+#PSALDO 0 201101 4056 {} 8550.00
+#PSALDO 0 201102 4056 {} 43402.70
+#PSALDO 0 201103 4056 {} 26165.95
+#RES 0 4990 -76560.75
+#PSALDO 0 201101 4990 {} 134536.50
+#PSALDO 0 201102 4990 {} 37764.30
+#PSALDO 0 201103 4990 {} -248861.55
+#RES 0 5010 51000.00
+#PSALDO 0 201101 5010 {} 17000.00
+#PSALDO 0 201102 5010 {} 17000.00
+#PSALDO 0 201103 5010 {} 17000.00
+#RES 0 5020 2560.00
+#PSALDO 0 201101 5020 {} 2560.00
+#RES 0 5090 820.00
+#PSALDO 0 201101 5090 {} 420.00
+#PSALDO 0 201102 5090 {} 400.00
+#RES 0 5410 7119.20
+#PSALDO 0 201102 5410 {} 2799.20
+#PSALDO 0 201103 5410 {} 4320.00
+#RES 0 5460 782.40
+#PSALDO 0 201103 5460 {} 782.40
+#RES 0 5611 9178.40
+#PSALDO 0 201101 5611 {} 4504.00
+#PSALDO 0 201102 5611 {} 2110.40
+#PSALDO 0 201103 5611 {} 2564.00
+#RES 0 5612 1200.00
+#PSALDO 0 201103 5612 {} 1200.00
+#RES 0 5613 9774.40
+#PSALDO 0 201101 5613 {} 2926.40
+#PSALDO 0 201102 5613 {} 4000.00
+#PSALDO 0 201103 5613 {} 2848.00
+#RES 0 5615 12960.00
+#PSALDO 0 201101 5615 {} 4320.00
+#PSALDO 0 201102 5615 {} 4320.00
+#PSALDO 0 201103 5615 {} 4320.00
+#RES 0 5800 1268.88
+#PSALDO 0 201102 5800 {} 471.70
+#PSALDO 0 201103 5800 {} 797.18
+#RES 0 5930 3158.40
+#PSALDO 0 201101 5930 {} 1883.20
+#PSALDO 0 201102 5930 {} 495.20
+#PSALDO 0 201103 5930 {} 780.00
+#RES 0 6071 200.00
+#PSALDO 0 201103 6071 {} 200.00
+#RES 0 6110 2479.20
+#PSALDO 0 201101 6110 {} 2080.00
+#PSALDO 0 201102 6110 {} 259.20
+#PSALDO 0 201103 6110 {} 140.00
+#RES 0 6212 6522.40
+#PSALDO 0 201101 6212 {} 3400.00
+#PSALDO 0 201102 6212 {} 996.00
+#PSALDO 0 201103 6212 {} 2126.40
+#RES 0 6250 1160.00
+#PSALDO 0 201101 6250 {} 720.00
+#PSALDO 0 201103 6250 {} 440.00
+#RES 0 6310 4500.00
+#PSALDO 0 201102 6310 {} 4500.00
+#RES 0 6420 20000.00
+#PSALDO 0 201101 6420 {} 16000.00
+#PSALDO 0 201103 6420 {} 4000.00
+#RES 0 6530 4952.00
+#PSALDO 0 201101 6530 {} 4952.00
+#RES 0 6570 130.00
+#PSALDO 0 201102 6570 {} 65.00
+#PSALDO 0 201103 6570 {} 65.00
+#RES 0 6970 1840.00
+#PSALDO 0 201103 6970 {} 1840.00
+#RES 0 7010 185005.04
+#PSALDO 0 201101 7010 {} 63128.00
+#PSALDO 0 201102 7010 {} 60597.24
+#PSALDO 0 201103 7010 {} 61279.80
+#RES 0 7081 1189.40
+#PSALDO 0 201103 7081 {} 1189.40
+#RES 0 7090 22200.61
+#PSALDO 0 201101 7090 {} 7575.36
+#PSALDO 0 201102 7090 {} 7271.67
+#PSALDO 0 201103 7090 {} 7353.58
+#RES 0 7220 10597.80
+#PSALDO 0 201102 7220 {} -4402.20
+#PSALDO 0 201103 7220 {} 15000.00
+#RES 0 7281 1846.08
+#PSALDO 0 201101 7281 {} 1846.08
+#RES 0 7285 4813.71
+#PSALDO 0 201102 7285 {} 4813.71
+#RES 0 7290 14830.73
+#PSALDO 0 201101 7290 {} 5674.16
+#PSALDO 0 201102 7290 {} 1414.29
+#PSALDO 0 201103 7290 {} 7742.28
+#RES 0 7331 1202.50
+#PSALDO 0 201103 7331 {} 1202.50
+#RES 0 7332 747.50
+#PSALDO 0 201103 7332 {} 747.50
+#RES 0 7385 12162.60
+#PSALDO 0 201101 7385 {} 4372.60
+#PSALDO 0 201102 7385 {} 3862.60
+#PSALDO 0 201103 7385 {} 3927.40
+#RES 0 7399 -12162.60
+#PSALDO 0 201101 7399 {} -4372.60
+#PSALDO 0 201102 7399 {} -3862.60
+#PSALDO 0 201103 7399 {} -3927.40
+#RES 0 7510 110434.60
+#PSALDO 0 201101 7510 {} 35189.37
+#PSALDO 0 201102 7510 {} 35326.05
+#PSALDO 0 201103 7510 {} 39919.18
+#RES 0 7519 11385.36
+#PSALDO 0 201101 7519 {} 4078.70
+#PSALDO 0 201102 7519 {} 2648.84
+#PSALDO 0 201103 7519 {} 4657.82
+#RES 0 7560 2024.93
+#PSALDO 0 201101 7560 {} 683.11
+#PSALDO 0 201102 7560 {} 650.58
+#PSALDO 0 201103 7560 {} 691.24
+#RES 0 7570 12500.00
+#PSALDO 0 201101 7570 {} 12500.00
+#RES 0 7690 968.00
+#PSALDO 0 201101 7690 {} 288.80
+#PSALDO 0 201102 7690 {} 499.20
+#PSALDO 0 201103 7690 {} 180.00
+#RES 0 7960 1635.56
+#PSALDO 0 201101 7960 {} 1286.26
+#PSALDO 0 201102 7960 {} 349.30
+#RES 0 7210 148703.68
+#PSALDO 0 201101 7210 {} 47284.64
+#PSALDO 0 201102 7210 {} 51900.00
+#PSALDO 0 201103 7210 {} 49519.04
+#IB -1 1221 421457.53
+#UB -1 1221 518057.53
+#PSALDO -1 201002 1221 {} 96600.00
+#IB -1 1229 -366754.50
+#UB -1 1229 -366754.50
+#IB -1 1460 580940.82
+#UB -1 1460 612139.47
+#PSALDO -1 201001 1460 {} -72175.00
+#PSALDO -1 201002 1460 {} -50585.00
+#PSALDO -1 201003 1460 {} 31194.30
+#PSALDO -1 201004 1460 {} 195800.40
+#PSALDO -1 201005 1460 {} 81191.80
+#PSALDO -1 201006 1460 {} -263941.00
+#PSALDO -1 201007 1460 {} 318678.00
+#PSALDO -1 201008 1460 {} -244063.00
+#PSALDO -1 201009 1460 {} -36809.10
+#PSALDO -1 201010 1460 {} 5324.95
+#PSALDO -1 201011 1460 {} 74226.50
+#PSALDO -1 201012 1460 {} -7644.20
+#IB -1 1510 1000255.40
+#UB -1 1510 814506.00
+#PSALDO -1 201001 1510 {} -517437.40
+#PSALDO -1 201002 1510 {} 291509.00
+#PSALDO -1 201003 1510 {} -5671.00
+#PSALDO -1 201004 1510 {} -250562.00
+#PSALDO -1 201005 1510 {} 1332.00
+#PSALDO -1 201006 1510 {} 25887.00
+#PSALDO -1 201007 1510 {} -151122.00
+#PSALDO -1 201008 1510 {} 268202.48
+#PSALDO -1 201009 1510 {} -103954.48
+#PSALDO -1 201010 1510 {} -220357.00
+#PSALDO -1 201011 1510 {} -67956.00
+#PSALDO -1 201012 1510 {} 544380.00
+#PSALDO -1 201004 1650 {} 22637.00
+#PSALDO -1 201006 1650 {} -22637.00
+#PSALDO -1 201007 1650 {} 65123.00
+#PSALDO -1 201009 1650 {} -65123.00
+#IB -1 1710 16500.00
+#UB -1 1710 33500.00
+#PSALDO -1 201001 1710 {} 51000.00
+#PSALDO -1 201002 1710 {} -17000.00
+#PSALDO -1 201003 1710 {} -17000.00
+#PSALDO -1 201004 1710 {} 34000.00
+#PSALDO -1 201005 1710 {} -17000.00
+#PSALDO -1 201006 1710 {} -17000.00
+#PSALDO -1 201007 1710 {} 34000.00
+#PSALDO -1 201008 1710 {} -17000.00
+#PSALDO -1 201009 1710 {} -17000.00
+#PSALDO -1 201010 1710 {} 34000.00
+#PSALDO -1 201011 1710 {} -17000.00
+#PSALDO -1 201012 1710 {} -17000.00
+#IB -1 1910 1339.00
+#UB -1 1910 4220.75
+#PSALDO -1 201001 1910 {} 810.00
+#PSALDO -1 201002 1910 {} -1253.00
+#PSALDO -1 201003 1910 {} 400.00
+#PSALDO -1 201004 1910 {} 2557.75
+#PSALDO -1 201005 1910 {} -156.00
+#PSALDO -1 201007 1910 {} -596.00
+#PSALDO -1 201008 1910 {} 1200.00
+#PSALDO -1 201009 1910 {} -2000.00
+#PSALDO -1 201010 1910 {} 1615.00
+#PSALDO -1 201011 1910 {} -1935.00
+#PSALDO -1 201012 1910 {} 2239.00
+#IB -1 1920 844123.13
+#UB -1 1920 104648.01
+#PSALDO -1 201001 1920 {} -350000.00
+#PSALDO -1 201002 1920 {} -500000.00
+#PSALDO -1 201003 1920 {} 252202.00
+#PSALDO -1 201004 1920 {} -1475.00
+#PSALDO -1 201005 1920 {} 2094.00
+#PSALDO -1 201006 1920 {} 95800.00
+#PSALDO -1 201007 1920 {} -205452.99
+#PSALDO -1 201008 1920 {} 173376.00
+#PSALDO -1 201009 1920 {} -143062.00
+#PSALDO -1 201010 1920 {} 362375.00
+#PSALDO -1 201011 1920 {} -91932.70
+#PSALDO -1 201012 1920 {} -333399.43
+#IB -1 1930 538311.64
+#UB -1 1930 1071347.58
+#PSALDO -1 201001 1930 {} 776307.10
+#PSALDO -1 201002 1930 {} 15874.00
+#PSALDO -1 201003 1930 {} -131644.13
+#PSALDO -1 201004 1930 {} -342006.02
+#PSALDO -1 201005 1930 {} -304253.76
+#PSALDO -1 201006 1930 {} -67002.03
+#PSALDO -1 201007 1930 {} 508333.34
+#PSALDO -1 201008 1930 {} -659135.44
+#PSALDO -1 201009 1930 {} 667162.02
+#PSALDO -1 201010 1930 {} -322257.93
+#PSALDO -1 201011 1930 {} 315565.34
+#PSALDO -1 201012 1930 {} 76093.45
+#IB -1 1940 1000000.00
+#UB -1 1940 1500000.00
+#PSALDO -1 201002 1940 {} 500000.00
+#IB -1 2081 -200000.00
+#UB -1 2081 -200000.00
+#IB -1 2086 -20000.00
+#UB -1 2086 -20000.00
+#IB -1 2091 -1645096.80
+#UB -1 2091 -1145096.80
+#PSALDO -1 201004 2091 {} 500000.00
+#IB -1 2098 -485166.48
+#UB -1 2098 -485166.48
+#IB -1 2099 -585964.73
+#UB -1 2099 -585964.73
+#IB -1 2124 -87500.00
+#UB -1 2124 -87500.00
+#IB -1 2125 -36800.00
+#UB -1 2125 -36800.00
+#IB -1 2127 -187000.00
+#UB -1 2127 -187000.00
+#IB -1 2440 -398062.30
+#UB -1 2440 -199491.80
+#PSALDO -1 201001 2440 {} 155351.30
+#PSALDO -1 201002 2440 {} -204855.00
+#PSALDO -1 201003 2440 {} 72839.00
+#PSALDO -1 201004 2440 {} -214792.00
+#PSALDO -1 201005 2440 {} 235612.50
+#PSALDO -1 201006 2440 {} 311695.50
+#PSALDO -1 201007 2440 {} -556916.25
+#PSALDO -1 201008 2440 {} 573607.25
+#PSALDO -1 201009 2440 {} -212676.65
+#PSALDO -1 201010 2440 {} 66676.15
+#PSALDO -1 201011 2440 {} -189891.25
+#PSALDO -1 201012 2440 {} 161919.95
+#UB -1 2510 210000.00
+#PSALDO -1 201001 2510 {} 17500.00
+#PSALDO -1 201002 2510 {} 17500.00
+#PSALDO -1 201003 2510 {} 17500.00
+#PSALDO -1 201004 2510 {} 17500.00
+#PSALDO -1 201005 2510 {} 17500.00
+#PSALDO -1 201006 2510 {} 17500.00
+#PSALDO -1 201007 2510 {} 17500.00
+#PSALDO -1 201008 2510 {} 17500.00
+#PSALDO -1 201009 2510 {} 17500.00
+#PSALDO -1 201010 2510 {} 17500.00
+#PSALDO -1 201011 2510 {} 17500.00
+#PSALDO -1 201012 2510 {} 17500.00
+#UB -1 2641 -0.00
+#PSALDO -1 201001 2641 {} 0.00
+#PSALDO -1 201010 2641 {} -0.00
+#PSALDO -1 201012 2641 {} -0.00
+#IB -1 2650 -72508.00
+#UB -1 2650 -111615.00
+#PSALDO -1 201001 2650 {} -36654.00
+#PSALDO -1 201002 2650 {} 5781.00
+#PSALDO -1 201003 2650 {} -22567.00
+#PSALDO -1 201004 2650 {} 56660.00
+#PSALDO -1 201005 2650 {} 41686.00
+#PSALDO -1 201006 2650 {} -96654.00
+#PSALDO -1 201007 2650 {} 27602.00
+#PSALDO -1 201008 2650 {} -18525.00
+#PSALDO -1 201009 2650 {} -49067.00
+#PSALDO -1 201010 2650 {} 114082.00
+#PSALDO -1 201011 2650 {} 31772.00
+#PSALDO -1 201012 2650 {} -93223.00
+#IB -1 2710 -29254.00
+#UB -1 2710 -24790.00
+#PSALDO -1 201001 2710 {} -5128.00
+#PSALDO -1 201002 2710 {} 1586.00
+#PSALDO -1 201003 2710 {} -405.00
+#PSALDO -1 201004 2710 {} 5389.00
+#PSALDO -1 201005 2710 {} 1127.00
+#PSALDO -1 201006 2710 {} -632.00
+#PSALDO -1 201007 2710 {} -3970.00
+#PSALDO -1 201008 2710 {} -542.00
+#PSALDO -1 201009 2710 {} 2556.00
+#PSALDO -1 201010 2710 {} 2063.00
+#PSALDO -1 201011 2710 {} 440.00
+#PSALDO -1 201012 2710 {} 1980.00
+#IB -1 2732 -10500.00
+#UB -1 2732 -10500.00
+#IB -1 2790 -250.00
+#UB -1 2790 -250.00
+#IB -1 2794 -6822.29
+#UB -1 2794 -7089.31
+#PSALDO -1 201001 2794 {} -1825.72
+#PSALDO -1 201002 2794 {} -1741.83
+#PSALDO -1 201003 2794 {} -1792.79
+#PSALDO -1 201004 2794 {} 10372.78
+#PSALDO -1 201005 2794 {} 12.32
+#PSALDO -1 201006 2794 {} -1.96
+#PSALDO -1 201007 2794 {} -74.46
+#PSALDO -1 201008 2794 {} 22.57
+#PSALDO -1 201009 2794 {} 53.60
+#PSALDO -1 201010 2794 {} -1797.53
+#PSALDO -1 201011 2794 {} -1782.31
+#PSALDO -1 201012 2794 {} -1711.69
+#IB -1 2920 -177754.09
+#UB -1 2920 -163438.89
+#PSALDO -1 201001 2920 {} -3289.80
+#PSALDO -1 201002 2920 {} -12224.32
+#PSALDO -1 201003 2920 {} -2373.32
+#PSALDO -1 201004 2920 {} -6654.17
+#PSALDO -1 201005 2920 {} -12875.52
+#PSALDO -1 201006 2920 {} 10244.87
+#PSALDO -1 201007 2920 {} 51320.46
+#PSALDO -1 201008 2920 {} 16596.89
+#PSALDO -1 201009 2920 {} -1931.96
+#PSALDO -1 201010 2920 {} -12881.52
+#PSALDO -1 201011 2920 {} -106.69
+#PSALDO -1 201012 2920 {} -11509.72
+#IB -1 2921 -44983.21
+#UB -1 2921 -44983.21
+#IB -1 2940 -36021.97
+#UB -1 2940 -32812.86
+#PSALDO -1 201001 2940 {} 1089.55
+#PSALDO -1 201002 2940 {} 1107.69
+#PSALDO -1 201003 2940 {} -434.80
+#PSALDO -1 201004 2940 {} -1017.18
+#PSALDO -1 201005 2940 {} 831.12
+#PSALDO -1 201006 2940 {} 168.50
+#PSALDO -1 201007 2940 {} -3996.88
+#PSALDO -1 201008 2940 {} -72.55
+#PSALDO -1 201009 2940 {} 2191.18
+#PSALDO -1 201010 2940 {} 1482.37
+#PSALDO -1 201011 2940 {} -248.77
+#PSALDO -1 201012 2940 {} 2108.88
+#IB -1 2941 -12489.15
+#UB -1 2941 -7487.61
+#PSALDO -1 201001 2941 {} -957.19
+#PSALDO -1 201002 2941 {} -3773.98
+#PSALDO -1 201003 2941 {} -721.81
+#PSALDO -1 201004 2941 {} -2044.86
+#PSALDO -1 201005 2941 {} -4016.81
+#PSALDO -1 201006 2941 {} 3264.83
+#PSALDO -1 201007 2941 {} 15690.00
+#PSALDO -1 201008 2941 {} 5444.13
+#PSALDO -1 201009 2941 {} -377.63
+#PSALDO -1 201010 2941 {} -4017.74
+#PSALDO -1 201011 2941 {} 52.49
+#PSALDO -1 201012 2941 {} -3539.89
+#PSALDO -1 201012 2995 {} 0.00
+#RES -1 3041 -1764575.20
+#PSALDO -1 201001 3041 {} -112225.00
+#PSALDO -1 201002 3041 {} -218275.00
+#PSALDO -1 201003 3041 {} -233800.00
+#PSALDO -1 201004 3041 {} -107875.00
+#PSALDO -1 201005 3041 {} -147400.00
+#PSALDO -1 201006 3041 {} -71300.00
+#PSALDO -1 201007 3041 {} -95400.00
+#PSALDO -1 201008 3041 {} -158550.00
+#PSALDO -1 201009 3041 {} -117550.00
+#PSALDO -1 201010 3041 {} -54625.00
+#PSALDO -1 201011 3041 {} -112500.00
+#PSALDO -1 201012 3041 {} -335075.20
+#RES -1 3044 -194875.00
+#PSALDO -1 201004 3044 {} -49750.00
+#PSALDO -1 201006 3044 {} -26250.00
+#PSALDO -1 201007 3044 {} -70375.00
+#PSALDO -1 201008 3044 {} -29750.00
+#PSALDO -1 201009 3044 {} -18750.00
+#RES -1 3045 -177425.00
+#PSALDO -1 201010 3045 {} -64500.00
+#PSALDO -1 201011 3045 {} -46750.00
+#PSALDO -1 201012 3045 {} -66175.00
+#RES -1 3048 -446450.00
+#PSALDO -1 201002 3048 {} -43200.00
+#PSALDO -1 201003 3048 {} -67150.00
+#PSALDO -1 201005 3048 {} -29750.00
+#PSALDO -1 201007 3048 {} -34000.00
+#PSALDO -1 201008 3048 {} -33750.00
+#PSALDO -1 201009 3048 {} -49500.00
+#PSALDO -1 201010 3048 {} -97150.00
+#PSALDO -1 201011 3048 {} -48750.00
+#PSALDO -1 201012 3048 {} -43200.00
+#RES -1 3051 -3010430.00
+#PSALDO -1 201001 3051 {} -262509.00
+#PSALDO -1 201002 3051 {} -362075.00
+#PSALDO -1 201003 3051 {} -326700.00
+#PSALDO -1 201004 3051 {} -266800.00
+#PSALDO -1 201005 3051 {} -241300.00
+#PSALDO -1 201006 3051 {} -343950.00
+#PSALDO -1 201007 3051 {} -116252.00
+#PSALDO -1 201008 3051 {} -320725.00
+#PSALDO -1 201009 3051 {} -259400.00
+#PSALDO -1 201010 3051 {} -86040.00
+#PSALDO -1 201011 3051 {} -242450.00
+#PSALDO -1 201012 3051 {} -182229.00
+#RES -1 3054 -28500.00
+#PSALDO -1 201007 3054 {} -9500.00
+#PSALDO -1 201009 3054 {} -19000.00
+#RES -1 3055 -39500.00
+#PSALDO -1 201012 3055 {} -39500.00
+#RES -1 3058 -42350.00
+#PSALDO -1 201005 3058 {} -3800.00
+#PSALDO -1 201007 3058 {} -15750.00
+#PSALDO -1 201011 3058 {} -3800.00
+#PSALDO -1 201012 3058 {} -19000.00
+#RES -1 3522 -5689.00
+#PSALDO -1 201002 3522 {} -5689.00
+#RES -1 3590 -7164.00
+#PSALDO -1 201001 3590 {} -5500.00
+#PSALDO -1 201003 3590 {} -704.00
+#PSALDO -1 201010 3590 {} -480.00
+#PSALDO -1 201011 3590 {} -480.00
+#RES -1 3740 -4.72
+#PSALDO -1 201001 3740 {} 0.87
+#PSALDO -1 201002 3740 {} -1.13
+#PSALDO -1 201003 3740 {} 0.51
+#PSALDO -1 201004 3740 {} 0.21
+#PSALDO -1 201005 3740 {} -2.13
+#PSALDO -1 201006 3740 {} 0.45
+#PSALDO -1 201007 3740 {} 0.23
+#PSALDO -1 201008 3740 {} -0.03
+#PSALDO -1 201009 3740 {} -1.23
+#PSALDO -1 201010 3740 {} -2.25
+#PSALDO -1 201011 3740 {} 0.23
+#PSALDO -1 201012 3740 {} -0.45
+#RES -1 3960 -2365.97
+#PSALDO -1 201003 3960 {} -318.37
+#PSALDO -1 201004 3960 {} -113.61
+#PSALDO -1 201005 3960 {} -979.09
+#PSALDO -1 201007 3960 {} -327.99
+#PSALDO -1 201008 3960 {} -168.00
+#PSALDO -1 201010 3960 {} -49.50
+#PSALDO -1 201011 3960 {} -58.84
+#PSALDO -1 201012 3960 {} -350.57
+#RES -1 4010 2360021.30
+#PSALDO -1 201001 4010 {} 129500.00
+#PSALDO -1 201002 4010 {} 240780.00
+#PSALDO -1 201003 4010 {} 276586.50
+#PSALDO -1 201004 4010 {} 405040.00
+#PSALDO -1 201005 4010 {} 269530.00
+#PSALDO -1 201007 4010 {} 410125.00
+#PSALDO -1 201009 4010 {} 168270.00
+#PSALDO -1 201010 4010 {} 70750.00
+#PSALDO -1 201011 4010 {} 264829.00
+#PSALDO -1 201012 4010 {} 124610.80
+#RES -1 4056 13905.40
+#PSALDO -1 201003 4056 {} 3163.00
+#PSALDO -1 201004 4056 {} 5592.00
+#PSALDO -1 201009 4056 {} 1118.40
+#PSALDO -1 201012 4056 {} 4032.00
+#RES -1 4990 -31198.65
+#PSALDO -1 201001 4990 {} 72175.00
+#PSALDO -1 201002 4990 {} 50585.00
+#PSALDO -1 201003 4990 {} -31194.30
+#PSALDO -1 201004 4990 {} -195800.40
+#PSALDO -1 201005 4990 {} -81191.80
+#PSALDO -1 201006 4990 {} 263941.00
+#PSALDO -1 201007 4990 {} -318678.00
+#PSALDO -1 201008 4990 {} 244063.00
+#PSALDO -1 201009 4990 {} 36809.10
+#PSALDO -1 201010 4990 {} -5324.95
+#PSALDO -1 201011 4990 {} -74226.50
+#PSALDO -1 201012 4990 {} 7644.20
+#RES -1 5010 187000.00
+#PSALDO -1 201002 5010 {} 17000.00
+#PSALDO -1 201003 5010 {} 17000.00
+#PSALDO -1 201004 5010 {} 17000.00
+#PSALDO -1 201005 5010 {} 17000.00
+#PSALDO -1 201006 5010 {} 17000.00
+#PSALDO -1 201007 5010 {} 17000.00
+#PSALDO -1 201008 5010 {} 17000.00
+#PSALDO -1 201009 5010 {} 17000.00
+#PSALDO -1 201010 5010 {} 17000.00
+#PSALDO -1 201011 5010 {} 17000.00
+#PSALDO -1 201012 5010 {} 17000.00
+#RES -1 5020 8102.40
+#PSALDO -1 201001 5020 {} 2000.00
+#PSALDO -1 201003 5020 {} 1022.40
+#PSALDO -1 201006 5020 {} 1248.00
+#PSALDO -1 201011 5020 {} 2848.00
+#PSALDO -1 201012 5020 {} 984.00
+#RES -1 5090 6373.60
+#PSALDO -1 201001 5090 {} 804.00
+#PSALDO -1 201003 5090 {} 288.00
+#PSALDO -1 201006 5090 {} 520.00
+#PSALDO -1 201008 5090 {} 416.00
+#PSALDO -1 201009 5090 {} 4345.60
+#RES -1 5410 16636.00
+#PSALDO -1 201006 5410 {} 6160.00
+#PSALDO -1 201011 5410 {} 10476.00
+#RES -1 5420 2480.00
+#PSALDO -1 201009 5420 {} 2480.00
+#RES -1 5460 14043.20
+#PSALDO -1 201003 5460 {} 7351.20
+#PSALDO -1 201007 5460 {} 6692.00
+#RES -1 5611 25352.00
+#PSALDO -1 201001 5611 {} 2496.00
+#PSALDO -1 201002 5611 {} 3655.20
+#PSALDO -1 201003 5611 {} 2855.20
+#PSALDO -1 201004 5611 {} 2848.00
+#PSALDO -1 201005 5611 {} 1480.80
+#PSALDO -1 201006 5611 {} 1840.00
+#PSALDO -1 201007 5611 {} 2855.20
+#PSALDO -1 201008 5611 {} 1840.00
+#PSALDO -1 201009 5611 {} 1431.20
+#PSALDO -1 201010 5611 {} 1892.00
+#PSALDO -1 201011 5611 {} 2158.40
+#RES -1 5612 4850.00
+#PSALDO -1 201003 5612 {} 1200.00
+#PSALDO -1 201005 5612 {} 1200.00
+#PSALDO -1 201008 5612 {} 2450.00
+#RES -1 5613 15432.00
+#PSALDO -1 201002 5613 {} 4480.00
+#PSALDO -1 201005 5613 {} 1427.20
+#PSALDO -1 201008 5613 {} 4200.00
+#PSALDO -1 201009 5613 {} 2720.00
+#PSALDO -1 201012 5613 {} 2604.80
+#RES -1 5615 51345.00
+#PSALDO -1 201001 5615 {} 3825.00
+#PSALDO -1 201002 5615 {} 4320.00
+#PSALDO -1 201003 5615 {} 4320.00
+#PSALDO -1 201004 5615 {} 4320.00
+#PSALDO -1 201005 5615 {} 4320.00
+#PSALDO -1 201006 5615 {} 4320.00
+#PSALDO -1 201007 5615 {} 4320.00
+#PSALDO -1 201008 5615 {} 4320.00
+#PSALDO -1 201009 5615 {} 4320.00
+#PSALDO -1 201010 5615 {} 4320.00
+#PSALDO -1 201011 5615 {} 4320.00
+#PSALDO -1 201012 5615 {} 4320.00
+#RES -1 5800 16088.82
+#PSALDO -1 201002 5800 {} 3177.75
+#PSALDO -1 201005 5800 {} 1034.45
+#PSALDO -1 201006 5800 {} 846.61
+#PSALDO -1 201008 5800 {} 1488.49
+#PSALDO -1 201011 5800 {} 4905.68
+#PSALDO -1 201012 5800 {} 4635.84
+#RES -1 5930 12120.80
+#PSALDO -1 201002 5930 {} 1000.00
+#PSALDO -1 201003 5930 {} 360.00
+#PSALDO -1 201006 5930 {} 2116.00
+#PSALDO -1 201007 5930 {} 1128.00
+#PSALDO -1 201009 5930 {} 4240.80
+#PSALDO -1 201011 5930 {} 960.00
+#PSALDO -1 201012 5930 {} 2316.00
+#RES -1 6071 2546.00
+#PSALDO -1 201003 6071 {} 270.00
+#PSALDO -1 201006 6071 {} 276.00
+#PSALDO -1 201008 6071 {} 640.00
+#PSALDO -1 201009 6071 {} 400.00
+#PSALDO -1 201010 6071 {} 960.00
+#RES -1 6110 12386.40
+#PSALDO -1 201002 6110 {} 212.00
+#PSALDO -1 201003 6110 {} 400.00
+#PSALDO -1 201004 6110 {} 1000.00
+#PSALDO -1 201006 6110 {} 5040.00
+#PSALDO -1 201010 6110 {} 4480.00
+#PSALDO -1 201012 6110 {} 1254.40
+#RES -1 6211 9115.20
+#PSALDO -1 201003 6211 {} 2055.20
+#PSALDO -1 201004 6211 {} 1255.20
+#PSALDO -1 201006 6211 {} 1004.80
+#PSALDO -1 201010 6211 {} 2000.00
+#PSALDO -1 201012 6211 {} 2800.00
+#RES -1 6212 13159.20
+#PSALDO -1 201001 6212 {} 1724.80
+#PSALDO -1 201002 6212 {} 1409.60
+#PSALDO -1 201004 6212 {} 2158.40
+#PSALDO -1 201005 6212 {} 687.20
+#PSALDO -1 201007 6212 {} 1000.00
+#PSALDO -1 201008 6212 {} 960.00
+#PSALDO -1 201010 6212 {} 1254.40
+#PSALDO -1 201011 6212 {} 1884.80
+#PSALDO -1 201012 6212 {} 2080.00
+#RES -1 6250 4240.00
+#PSALDO -1 201001 6250 {} 440.00
+#PSALDO -1 201003 6250 {} 880.00
+#PSALDO -1 201008 6250 {} 800.00
+#PSALDO -1 201009 6250 {} 1200.00
+#PSALDO -1 201010 6250 {} 440.00
+#PSALDO -1 201011 6250 {} 480.00
+#RES -1 6310 10300.00
+#PSALDO -1 201002 6310 {} 4800.00
+#PSALDO -1 201005 6310 {} 3500.00
+#PSALDO -1 201012 6310 {} 2000.00
+#RES -1 6420 8320.00
+#PSALDO -1 201008 6420 {} 4320.00
+#PSALDO -1 201011 6420 {} 4000.00
+#RES -1 6530 28080.00
+#PSALDO -1 201001 6530 {} 3600.00
+#PSALDO -1 201002 6530 {} 2000.00
+#PSALDO -1 201005 6530 {} 2400.00
+#PSALDO -1 201006 6530 {} 8000.00
+#PSALDO -1 201007 6530 {} 4000.00
+#PSALDO -1 201008 6530 {} 2880.00
+#PSALDO -1 201010 6530 {} 2000.00
+#PSALDO -1 201012 6530 {} 3200.00
+#RES -1 6570 2000.00
+#PSALDO -1 201003 6570 {} 800.00
+#PSALDO -1 201009 6570 {} 1200.00
+#RES -1 7010 617171.14
+#PSALDO -1 201001 7010 {} 55290.80
+#PSALDO -1 201002 7010 {} 54831.27
+#PSALDO -1 201003 7010 {} 49263.20
+#PSALDO -1 201004 7010 {} 50488.32
+#PSALDO -1 201005 7010 {} 56896.00
+#PSALDO -1 201006 7010 {} 50235.96
+#PSALDO -1 201007 7010 {} 31844.00
+#PSALDO -1 201008 7010 {} 58156.91
+#PSALDO -1 201009 7010 {} 57536.96
+#PSALDO -1 201010 7010 {} 56946.00
+#PSALDO -1 201011 7010 {} 47854.84
+#PSALDO -1 201012 7010 {} 47826.88
+#RES -1 7081 11668.72
+#PSALDO -1 201002 7081 {} 1801.92
+#PSALDO -1 201004 7081 {} 900.96
+#PSALDO -1 201009 7081 {} 716.32
+#PSALDO -1 201011 7081 {} 2702.88
+#PSALDO -1 201012 7081 {} 5546.64
+#RES -1 7082 95723.36
+#PSALDO -1 201001 7082 {} 5778.84
+#PSALDO -1 201003 7082 {} 6195.95
+#PSALDO -1 201004 7082 {} 6195.95
+#PSALDO -1 201006 7082 {} 6326.00
+#PSALDO -1 201007 7082 {} 39487.78
+#PSALDO -1 201008 7082 {} 13620.14
+#PSALDO -1 201009 7082 {} 8530.36
+#PSALDO -1 201011 7082 {} 9588.34
+#RES -1 7090 -19828.33
+#PSALDO -1 201001 7090 {} 856.05
+#PSALDO -1 201002 7090 {} 6579.75
+#PSALDO -1 201003 7090 {} 13.04
+#PSALDO -1 201004 7090 {} 606.17
+#PSALDO -1 201005 7090 {} 6827.52
+#PSALDO -1 201006 7090 {} -297.68
+#PSALDO -1 201007 7090 {} -35666.50
+#PSALDO -1 201008 7090 {} -6641.31
+#PSALDO -1 201009 7090 {} -1493.66
+#PSALDO -1 201010 7090 {} 6833.52
+#PSALDO -1 201011 7090 {} -3184.45
+#PSALDO -1 201012 7090 {} 5739.22
+#RES -1 7281 7172.48
+#PSALDO -1 201002 7281 {} 1793.12
+#PSALDO -1 201006 7281 {} 5379.36
+#RES -1 7285 65037.17
+#PSALDO -1 201001 7285 {} 3345.30
+#PSALDO -1 201003 7285 {} 3687.72
+#PSALDO -1 201006 7285 {} 15053.85
+#PSALDO -1 201007 7285 {} 21701.96
+#PSALDO -1 201008 7285 {} 16003.58
+#PSALDO -1 201009 7285 {} 2622.38
+#PSALDO -1 201011 7285 {} 2622.38
+#RES -1 7290 5513.13
+#PSALDO -1 201001 7290 {} 2433.75
+#PSALDO -1 201002 7290 {} 5644.57
+#PSALDO -1 201003 7290 {} 2360.28
+#PSALDO -1 201004 7290 {} 6048.00
+#PSALDO -1 201005 7290 {} 6048.00
+#PSALDO -1 201006 7290 {} -9947.19
+#PSALDO -1 201007 7290 {} -15653.96
+#PSALDO -1 201008 7290 {} -9955.58
+#PSALDO -1 201009 7290 {} 3425.62
+#PSALDO -1 201010 7290 {} 6048.00
+#PSALDO -1 201011 7290 {} 3291.14
+#PSALDO -1 201012 7290 {} 5770.50
+#RES -1 7321 546.00
+#PSALDO -1 201003 7321 {} 546.00
+#RES -1 7331 92.50
+#PSALDO -1 201003 7331 {} 92.50
+#RES -1 7385 40480.80
+#PSALDO -1 201001 7385 {} 3734.60
+#PSALDO -1 201002 7385 {} 3062.60
+#PSALDO -1 201003 7385 {} 3725.00
+#PSALDO -1 201004 7385 {} 3665.00
+#PSALDO -1 201005 7385 {} 3267.80
+#PSALDO -1 201006 7385 {} 3854.60
+#PSALDO -1 201007 7385 {} 2907.80
+#PSALDO -1 201008 7385 {} 3852.20
+#PSALDO -1 201009 7385 {} 3854.60
+#PSALDO -1 201010 7385 {} 4106.60
+#PSALDO -1 201011 7385 {} 2225.00
+#PSALDO -1 201012 7385 {} 2225.00
+#RES -1 7399 -40480.80
+#PSALDO -1 201001 7399 {} -3734.60
+#PSALDO -1 201002 7399 {} -3062.60
+#PSALDO -1 201003 7399 {} -3725.00
+#PSALDO -1 201004 7399 {} -3665.00
+#PSALDO -1 201005 7399 {} -3267.80
+#PSALDO -1 201006 7399 {} -3854.60
+#PSALDO -1 201007 7399 {} -2907.80
+#PSALDO -1 201008 7399 {} -3852.20
+#PSALDO -1 201009 7399 {} -3854.60
+#PSALDO -1 201010 7399 {} -4106.60
+#PSALDO -1 201011 7399 {} -2225.00
+#PSALDO -1 201012 7399 {} -2225.00
+#RES -1 7510 412783.09
+#PSALDO -1 201001 7510 {} 34312.82
+#PSALDO -1 201002 7510 {} 33282.58
+#PSALDO -1 201003 7510 {} 34065.90
+#PSALDO -1 201004 7510 {} 34904.95
+#PSALDO -1 201005 7510 {} 34213.24
+#PSALDO -1 201006 7510 {} 33905.33
+#PSALDO -1 201007 7510 {} 36463.19
+#PSALDO -1 201008 7510 {} 36487.72
+#PSALDO -1 201009 7510 {} 34296.54
+#PSALDO -1 201010 7510 {} 34432.87
+#PSALDO -1 201011 7510 {} 34224.69
+#PSALDO -1 201012 7510 {} 32193.26
+#RES -1 7519 -5001.54
+#PSALDO -1 201001 7519 {} 957.19
+#PSALDO -1 201002 7519 {} 3773.98
+#PSALDO -1 201003 7519 {} 721.81
+#PSALDO -1 201004 7519 {} 2044.86
+#PSALDO -1 201005 7519 {} 4016.81
+#PSALDO -1 201006 7519 {} -3264.83
+#PSALDO -1 201007 7519 {} -15690.00
+#PSALDO -1 201008 7519 {} -5444.13
+#PSALDO -1 201009 7519 {} 377.63
+#PSALDO -1 201010 7519 {} 4017.74
+#PSALDO -1 201011 7519 {} -52.49
+#PSALDO -1 201012 7519 {} 3539.89
+#RES -1 7560 9416.38
+#PSALDO -1 201001 7560 {} 619.60
+#PSALDO -1 201002 7560 {} 542.15
+#PSALDO -1 201003 7560 {} 193.63
+#PSALDO -1 201004 7560 {} 371.76
+#PSALDO -1 201005 7560 {} 232.35
+#PSALDO -1 201006 7560 {} 371.76
+#PSALDO -1 201007 7560 {} 1810.78
+#PSALDO -1 201008 7560 {} 1858.80
+#PSALDO -1 201009 7560 {} 1858.80
+#PSALDO -1 201010 7560 {} 240.10
+#PSALDO -1 201011 7560 {} 697.05
+#PSALDO -1 201012 7560 {} 619.60
+#RES -1 7570 30100.00
+#PSALDO -1 201003 7570 {} 5600.00
+#PSALDO -1 201006 7570 {} 5000.00
+#PSALDO -1 201009 7570 {} 4500.00
+#PSALDO -1 201012 7570 {} 15000.00
+#RES -1 7620 1750.00
+#PSALDO -1 201002 7620 {} 800.00
+#PSALDO -1 201004 7620 {} 500.00
+#PSALDO -1 201007 7620 {} 450.00
+#RES -1 7690 1629.26
+#PSALDO -1 201001 7690 {} 174.12
+#PSALDO -1 201002 7690 {} 167.96
+#PSALDO -1 201004 7690 {} 125.00
+#PSALDO -1 201005 7690 {} 124.80
+#PSALDO -1 201007 7690 {} 116.80
+#PSALDO -1 201010 7690 {} 120.54
+#PSALDO -1 201011 7690 {} 120.54
+#PSALDO -1 201012 7690 {} 679.50
+#RES -1 7960 1586.52
+#PSALDO -1 201004 7960 {} 92.25
+#PSALDO -1 201007 7960 {} 267.15
+#PSALDO -1 201008 7960 {} 100.76
+#PSALDO -1 201009 7960 {} 668.08
+#PSALDO -1 201010 7960 {} 229.78
+#PSALDO -1 201011 7960 {} 151.70
+#PSALDO -1 201012 7960 {} 76.80
+#RES -1 7210 539592.19
+#PSALDO -1 201001 7210 {} 45309.02
+#PSALDO -1 201002 7210 {} 48078.72
+#PSALDO -1 201003 7210 {} 47049.18
+#PSALDO -1 201004 7210 {} 52481.28
+#PSALDO -1 201005 7210 {} 50400.00
+#PSALDO -1 201006 7210 {} 29731.87
+#PSALDO -1 201007 7210 {} 31913.14
+#PSALDO -1 201008 7210 {} 36767.32
+#PSALDO -1 201009 7210 {} 48166.12
+#PSALDO -1 201010 7210 {} 50400.00
+#PSALDO -1 201011 7210 {} 48433.00
+#PSALDO -1 201012 7210 {} 50862.54
+#PBUDGET 0 201101 3041 {} -150000.00
+#PBUDGET 0 201102 3041 {} -150000.00
+#PBUDGET 0 201103 3041 {} -150000.00
+#PBUDGET 0 201104 3041 {} -150000.00
+#PBUDGET 0 201105 3041 {} -150000.00
+#PBUDGET 0 201106 3041 {} -150000.00
+#PBUDGET 0 201107 3041 {} -150000.00
+#PBUDGET 0 201108 3041 {} -150000.00
+#PBUDGET 0 201109 3041 {} -150000.00
+#PBUDGET 0 201110 3041 {} -150000.00
+#PBUDGET 0 201111 3041 {} -150000.00
+#PBUDGET 0 201112 3041 {} -150000.00
+#PBUDGET 0 201101 3045 {} -16667.00
+#PBUDGET 0 201102 3045 {} -16667.00
+#PBUDGET 0 201103 3045 {} -16667.00
+#PBUDGET 0 201104 3045 {} -16667.00
+#PBUDGET 0 201105 3045 {} -16667.00
+#PBUDGET 0 201106 3045 {} -16667.00
+#PBUDGET 0 201107 3045 {} -16667.00
+#PBUDGET 0 201108 3045 {} -16667.00
+#PBUDGET 0 201109 3045 {} -16666.00
+#PBUDGET 0 201110 3045 {} -16666.00
+#PBUDGET 0 201111 3045 {} -16666.00
+#PBUDGET 0 201112 3045 {} -16666.00
+#PBUDGET 0 201101 3048 {} -16667.00
+#PBUDGET 0 201102 3048 {} -16667.00
+#PBUDGET 0 201103 3048 {} -16667.00
+#PBUDGET 0 201104 3048 {} -16667.00
+#PBUDGET 0 201105 3048 {} -16667.00
+#PBUDGET 0 201106 3048 {} -16667.00
+#PBUDGET 0 201107 3048 {} -16667.00
+#PBUDGET 0 201108 3048 {} -16667.00
+#PBUDGET 0 201109 3048 {} -16666.00
+#PBUDGET 0 201110 3048 {} -16666.00
+#PBUDGET 0 201111 3048 {} -16666.00
+#PBUDGET 0 201112 3048 {} -16666.00
+#PBUDGET 0 201101 3051 {} -250000.00
+#PBUDGET 0 201102 3051 {} -250000.00
+#PBUDGET 0 201103 3051 {} -250000.00
+#PBUDGET 0 201104 3051 {} -250000.00
+#PBUDGET 0 201105 3051 {} -250000.00
+#PBUDGET 0 201106 3051 {} -250000.00
+#PBUDGET 0 201107 3051 {} -250000.00
+#PBUDGET 0 201108 3051 {} -250000.00
+#PBUDGET 0 201109 3051 {} -250000.00
+#PBUDGET 0 201110 3051 {} -250000.00
+#PBUDGET 0 201111 3051 {} -250000.00
+#PBUDGET 0 201112 3051 {} -250000.00
+#PBUDGET 0 201101 3055 {} -25000.00
+#PBUDGET 0 201102 3055 {} -25000.00
+#PBUDGET 0 201103 3055 {} -25000.00
+#PBUDGET 0 201104 3055 {} -25000.00
+#PBUDGET 0 201105 3055 {} -25000.00
+#PBUDGET 0 201106 3055 {} -25000.00
+#PBUDGET 0 201107 3055 {} -25000.00
+#PBUDGET 0 201108 3055 {} -25000.00
+#PBUDGET 0 201109 3055 {} -25000.00
+#PBUDGET 0 201110 3055 {} -25000.00
+#PBUDGET 0 201111 3055 {} -25000.00
+#PBUDGET 0 201112 3055 {} -25000.00
+#PBUDGET 0 201101 3058 {} -25000.00
+#PBUDGET 0 201102 3058 {} -25000.00
+#PBUDGET 0 201103 3058 {} -25000.00
+#PBUDGET 0 201104 3058 {} -25000.00
+#PBUDGET 0 201105 3058 {} -25000.00
+#PBUDGET 0 201106 3058 {} -25000.00
+#PBUDGET 0 201107 3058 {} -25000.00
+#PBUDGET 0 201108 3058 {} -25000.00
+#PBUDGET 0 201109 3058 {} -25000.00
+#PBUDGET 0 201110 3058 {} -25000.00
+#PBUDGET 0 201111 3058 {} -25000.00
+#PBUDGET 0 201112 3058 {} -25000.00
+#PBUDGET 0 201101 3590 {} -1250.00
+#PBUDGET 0 201102 3590 {} -1250.00
+#PBUDGET 0 201103 3590 {} -1250.00
+#PBUDGET 0 201104 3590 {} -1250.00
+#PBUDGET 0 201105 3590 {} -1250.00
+#PBUDGET 0 201106 3590 {} -1250.00
+#PBUDGET 0 201107 3590 {} -1250.00
+#PBUDGET 0 201108 3590 {} -1250.00
+#PBUDGET 0 201109 3590 {} -1250.00
+#PBUDGET 0 201110 3590 {} -1250.00
+#PBUDGET 0 201111 3590 {} -1250.00
+#PBUDGET 0 201112 3590 {} -1250.00
+#PBUDGET 0 201101 4010 {} 208334.00
+#PBUDGET 0 201102 4010 {} 208334.00
+#PBUDGET 0 201103 4010 {} 208334.00
+#PBUDGET 0 201104 4010 {} 208334.00
+#PBUDGET 0 201105 4010 {} 208333.00
+#PBUDGET 0 201106 4010 {} 208333.00
+#PBUDGET 0 201107 4010 {} 208333.00
+#PBUDGET 0 201108 4010 {} 208333.00
+#PBUDGET 0 201109 4010 {} 208333.00
+#PBUDGET 0 201110 4010 {} 208333.00
+#PBUDGET 0 201111 4010 {} 208333.00
+#PBUDGET 0 201112 4010 {} 208333.00
+#PBUDGET 0 201101 4056 {} 9167.00
+#PBUDGET 0 201102 4056 {} 9167.00
+#PBUDGET 0 201103 4056 {} 9167.00
+#PBUDGET 0 201104 4056 {} 9167.00
+#PBUDGET 0 201105 4056 {} 9167.00
+#PBUDGET 0 201106 4056 {} 9167.00
+#PBUDGET 0 201107 4056 {} 9167.00
+#PBUDGET 0 201108 4056 {} 9167.00
+#PBUDGET 0 201109 4056 {} 9166.00
+#PBUDGET 0 201110 4056 {} 9166.00
+#PBUDGET 0 201111 4056 {} 9166.00
+#PBUDGET 0 201112 4056 {} 9166.00
+#PBUDGET 0 201101 5010 {} 17500.00
+#PBUDGET 0 201102 5010 {} 17500.00
+#PBUDGET 0 201103 5010 {} 17500.00
+#PBUDGET 0 201104 5010 {} 17500.00
+#PBUDGET 0 201105 5010 {} 17500.00
+#PBUDGET 0 201106 5010 {} 17500.00
+#PBUDGET 0 201107 5010 {} 17500.00
+#PBUDGET 0 201108 5010 {} 17500.00
+#PBUDGET 0 201109 5010 {} 17500.00
+#PBUDGET 0 201110 5010 {} 17500.00
+#PBUDGET 0 201111 5010 {} 17500.00
+#PBUDGET 0 201112 5010 {} 17500.00
+#PBUDGET 0 201101 5020 {} 542.00
+#PBUDGET 0 201102 5020 {} 542.00
+#PBUDGET 0 201103 5020 {} 542.00
+#PBUDGET 0 201104 5020 {} 542.00
+#PBUDGET 0 201105 5020 {} 542.00
+#PBUDGET 0 201106 5020 {} 542.00
+#PBUDGET 0 201107 5020 {} 542.00
+#PBUDGET 0 201108 5020 {} 542.00
+#PBUDGET 0 201109 5020 {} 541.00
+#PBUDGET 0 201110 5020 {} 541.00
+#PBUDGET 0 201111 5020 {} 541.00
+#PBUDGET 0 201112 5020 {} 541.00
+#PBUDGET 0 201101 5090 {} 667.00
+#PBUDGET 0 201102 5090 {} 667.00
+#PBUDGET 0 201103 5090 {} 667.00
+#PBUDGET 0 201104 5090 {} 667.00
+#PBUDGET 0 201105 5090 {} 667.00
+#PBUDGET 0 201106 5090 {} 667.00
+#PBUDGET 0 201107 5090 {} 667.00
+#PBUDGET 0 201108 5090 {} 667.00
+#PBUDGET 0 201109 5090 {} 666.00
+#PBUDGET 0 201110 5090 {} 666.00
+#PBUDGET 0 201111 5090 {} 666.00
+#PBUDGET 0 201112 5090 {} 666.00
+#PBUDGET 0 201101 5410 {} 917.00
+#PBUDGET 0 201102 5410 {} 917.00
+#PBUDGET 0 201103 5410 {} 917.00
+#PBUDGET 0 201104 5410 {} 917.00
+#PBUDGET 0 201105 5410 {} 917.00
+#PBUDGET 0 201106 5410 {} 917.00
+#PBUDGET 0 201107 5410 {} 917.00
+#PBUDGET 0 201108 5410 {} 917.00
+#PBUDGET 0 201109 5410 {} 916.00
+#PBUDGET 0 201110 5410 {} 916.00
+#PBUDGET 0 201111 5410 {} 916.00
+#PBUDGET 0 201112 5410 {} 916.00
+#PBUDGET 0 201101 5460 {} 542.00
+#PBUDGET 0 201102 5460 {} 542.00
+#PBUDGET 0 201103 5460 {} 542.00
+#PBUDGET 0 201104 5460 {} 542.00
+#PBUDGET 0 201105 5460 {} 542.00
+#PBUDGET 0 201106 5460 {} 542.00
+#PBUDGET 0 201107 5460 {} 542.00
+#PBUDGET 0 201108 5460 {} 542.00
+#PBUDGET 0 201109 5460 {} 541.00
+#PBUDGET 0 201110 5460 {} 541.00
+#PBUDGET 0 201111 5460 {} 541.00
+#PBUDGET 0 201112 5460 {} 541.00
+#PBUDGET 0 201101 5611 {} 2500.00
+#PBUDGET 0 201102 5611 {} 2500.00
+#PBUDGET 0 201103 5611 {} 2500.00
+#PBUDGET 0 201104 5611 {} 2500.00
+#PBUDGET 0 201105 5611 {} 2500.00
+#PBUDGET 0 201106 5611 {} 2500.00
+#PBUDGET 0 201107 5611 {} 2500.00
+#PBUDGET 0 201108 5611 {} 2500.00
+#PBUDGET 0 201109 5611 {} 2500.00
+#PBUDGET 0 201110 5611 {} 2500.00
+#PBUDGET 0 201111 5611 {} 2500.00
+#PBUDGET 0 201112 5611 {} 2500.00
+#PBUDGET 0 201101 5612 {} 500.00
+#PBUDGET 0 201102 5612 {} 500.00
+#PBUDGET 0 201103 5612 {} 500.00
+#PBUDGET 0 201104 5612 {} 500.00
+#PBUDGET 0 201105 5612 {} 500.00
+#PBUDGET 0 201106 5612 {} 500.00
+#PBUDGET 0 201107 5612 {} 500.00
+#PBUDGET 0 201108 5612 {} 500.00
+#PBUDGET 0 201109 5612 {} 500.00
+#PBUDGET 0 201110 5612 {} 500.00
+#PBUDGET 0 201111 5612 {} 500.00
+#PBUDGET 0 201112 5612 {} 500.00
+#PBUDGET 0 201101 5613 {} 1250.00
+#PBUDGET 0 201102 5613 {} 1250.00
+#PBUDGET 0 201103 5613 {} 1250.00
+#PBUDGET 0 201104 5613 {} 1250.00
+#PBUDGET 0 201105 5613 {} 1250.00
+#PBUDGET 0 201106 5613 {} 1250.00
+#PBUDGET 0 201107 5613 {} 1250.00
+#PBUDGET 0 201108 5613 {} 1250.00
+#PBUDGET 0 201109 5613 {} 1250.00
+#PBUDGET 0 201110 5613 {} 1250.00
+#PBUDGET 0 201111 5613 {} 1250.00
+#PBUDGET 0 201112 5613 {} 1250.00
+#PBUDGET 0 201101 5615 {} 3334.00
+#PBUDGET 0 201102 5615 {} 3334.00
+#PBUDGET 0 201103 5615 {} 3334.00
+#PBUDGET 0 201104 5615 {} 3334.00
+#PBUDGET 0 201105 5615 {} 3333.00
+#PBUDGET 0 201106 5615 {} 3333.00
+#PBUDGET 0 201107 5615 {} 3333.00
+#PBUDGET 0 201108 5615 {} 3333.00
+#PBUDGET 0 201109 5615 {} 3333.00
+#PBUDGET 0 201110 5615 {} 3333.00
+#PBUDGET 0 201111 5615 {} 3333.00
+#PBUDGET 0 201112 5615 {} 3333.00
+#PBUDGET 0 201101 5710 {} 84.00
+#PBUDGET 0 201102 5710 {} 84.00
+#PBUDGET 0 201103 5710 {} 84.00
+#PBUDGET 0 201104 5710 {} 84.00
+#PBUDGET 0 201105 5710 {} 83.00
+#PBUDGET 0 201106 5710 {} 83.00
+#PBUDGET 0 201107 5710 {} 83.00
+#PBUDGET 0 201108 5710 {} 83.00
+#PBUDGET 0 201109 5710 {} 83.00
+#PBUDGET 0 201110 5710 {} 83.00
+#PBUDGET 0 201111 5710 {} 83.00
+#PBUDGET 0 201112 5710 {} 83.00
+#PBUDGET 0 201101 5800 {} 917.00
+#PBUDGET 0 201102 5800 {} 917.00
+#PBUDGET 0 201103 5800 {} 917.00
+#PBUDGET 0 201104 5800 {} 917.00
+#PBUDGET 0 201105 5800 {} 917.00
+#PBUDGET 0 201106 5800 {} 917.00
+#PBUDGET 0 201107 5800 {} 917.00
+#PBUDGET 0 201108 5800 {} 917.00
+#PBUDGET 0 201109 5800 {} 916.00
+#PBUDGET 0 201110 5800 {} 916.00
+#PBUDGET 0 201111 5800 {} 916.00
+#PBUDGET 0 201112 5800 {} 916.00
+#PBUDGET 0 201101 5930 {} 834.00
+#PBUDGET 0 201102 5930 {} 834.00
+#PBUDGET 0 201103 5930 {} 834.00
+#PBUDGET 0 201104 5930 {} 834.00
+#PBUDGET 0 201105 5930 {} 833.00
+#PBUDGET 0 201106 5930 {} 833.00
+#PBUDGET 0 201107 5930 {} 833.00
+#PBUDGET 0 201108 5930 {} 833.00
+#PBUDGET 0 201109 5930 {} 833.00
+#PBUDGET 0 201110 5930 {} 833.00
+#PBUDGET 0 201111 5930 {} 833.00
+#PBUDGET 0 201112 5930 {} 833.00
+#PBUDGET 0 201101 6071 {} 167.00
+#PBUDGET 0 201102 6071 {} 167.00
+#PBUDGET 0 201103 6071 {} 167.00
+#PBUDGET 0 201104 6071 {} 167.00
+#PBUDGET 0 201105 6071 {} 167.00
+#PBUDGET 0 201106 6071 {} 167.00
+#PBUDGET 0 201107 6071 {} 167.00
+#PBUDGET 0 201108 6071 {} 167.00
+#PBUDGET 0 201109 6071 {} 166.00
+#PBUDGET 0 201110 6071 {} 166.00
+#PBUDGET 0 201111 6071 {} 166.00
+#PBUDGET 0 201112 6071 {} 166.00
+#PBUDGET 0 201101 6072 {} 167.00
+#PBUDGET 0 201102 6072 {} 167.00
+#PBUDGET 0 201103 6072 {} 167.00
+#PBUDGET 0 201104 6072 {} 167.00
+#PBUDGET 0 201105 6072 {} 167.00
+#PBUDGET 0 201106 6072 {} 167.00
+#PBUDGET 0 201107 6072 {} 167.00
+#PBUDGET 0 201108 6072 {} 167.00
+#PBUDGET 0 201109 6072 {} 166.00
+#PBUDGET 0 201110 6072 {} 166.00
+#PBUDGET 0 201111 6072 {} 166.00
+#PBUDGET 0 201112 6072 {} 166.00
+#PBUDGET 0 201101 6090 {} 250.00
+#PBUDGET 0 201102 6090 {} 250.00
+#PBUDGET 0 201103 6090 {} 250.00
+#PBUDGET 0 201104 6090 {} 250.00
+#PBUDGET 0 201105 6090 {} 250.00
+#PBUDGET 0 201106 6090 {} 250.00
+#PBUDGET 0 201107 6090 {} 250.00
+#PBUDGET 0 201108 6090 {} 250.00
+#PBUDGET 0 201109 6090 {} 250.00
+#PBUDGET 0 201110 6090 {} 250.00
+#PBUDGET 0 201111 6090 {} 250.00
+#PBUDGET 0 201112 6090 {} 250.00
+#PBUDGET 0 201101 6110 {} 500.00
+#PBUDGET 0 201102 6110 {} 500.00
+#PBUDGET 0 201103 6110 {} 500.00
+#PBUDGET 0 201104 6110 {} 500.00
+#PBUDGET 0 201105 6110 {} 500.00
+#PBUDGET 0 201106 6110 {} 500.00
+#PBUDGET 0 201107 6110 {} 500.00
+#PBUDGET 0 201108 6110 {} 500.00
+#PBUDGET 0 201109 6110 {} 500.00
+#PBUDGET 0 201110 6110 {} 500.00
+#PBUDGET 0 201111 6110 {} 500.00
+#PBUDGET 0 201112 6110 {} 500.00
+#PBUDGET 0 201101 6211 {} 542.00
+#PBUDGET 0 201102 6211 {} 542.00
+#PBUDGET 0 201103 6211 {} 542.00
+#PBUDGET 0 201104 6211 {} 542.00
+#PBUDGET 0 201105 6211 {} 542.00
+#PBUDGET 0 201106 6211 {} 542.00
+#PBUDGET 0 201107 6211 {} 542.00
+#PBUDGET 0 201108 6211 {} 542.00
+#PBUDGET 0 201109 6211 {} 541.00
+#PBUDGET 0 201110 6211 {} 541.00
+#PBUDGET 0 201111 6211 {} 541.00
+#PBUDGET 0 201112 6211 {} 541.00
+#PBUDGET 0 201101 6212 {} 1042.00
+#PBUDGET 0 201102 6212 {} 1042.00
+#PBUDGET 0 201103 6212 {} 1042.00
+#PBUDGET 0 201104 6212 {} 1042.00
+#PBUDGET 0 201105 6212 {} 1042.00
+#PBUDGET 0 201106 6212 {} 1042.00
+#PBUDGET 0 201107 6212 {} 1042.00
+#PBUDGET 0 201108 6212 {} 1042.00
+#PBUDGET 0 201109 6212 {} 1041.00
+#PBUDGET 0 201110 6212 {} 1041.00
+#PBUDGET 0 201111 6212 {} 1041.00
+#PBUDGET 0 201112 6212 {} 1041.00
+#PBUDGET 0 201101 6250 {} 417.00
+#PBUDGET 0 201102 6250 {} 417.00
+#PBUDGET 0 201103 6250 {} 417.00
+#PBUDGET 0 201104 6250 {} 417.00
+#PBUDGET 0 201105 6250 {} 417.00
+#PBUDGET 0 201106 6250 {} 417.00
+#PBUDGET 0 201107 6250 {} 417.00
+#PBUDGET 0 201108 6250 {} 417.00
+#PBUDGET 0 201109 6250 {} 416.00
+#PBUDGET 0 201110 6250 {} 416.00
+#PBUDGET 0 201111 6250 {} 416.00
+#PBUDGET 0 201112 6250 {} 416.00
+#PBUDGET 0 201101 6310 {} 1000.00
+#PBUDGET 0 201102 6310 {} 1000.00
+#PBUDGET 0 201103 6310 {} 1000.00
+#PBUDGET 0 201104 6310 {} 1000.00
+#PBUDGET 0 201105 6310 {} 1000.00
+#PBUDGET 0 201106 6310 {} 1000.00
+#PBUDGET 0 201107 6310 {} 1000.00
+#PBUDGET 0 201108 6310 {} 1000.00
+#PBUDGET 0 201109 6310 {} 1000.00
+#PBUDGET 0 201110 6310 {} 1000.00
+#PBUDGET 0 201111 6310 {} 1000.00
+#PBUDGET 0 201112 6310 {} 1000.00
+#PBUDGET 0 201101 6420 {} 1834.00
+#PBUDGET 0 201102 6420 {} 1834.00
+#PBUDGET 0 201103 6420 {} 1834.00
+#PBUDGET 0 201104 6420 {} 1834.00
+#PBUDGET 0 201105 6420 {} 1833.00
+#PBUDGET 0 201106 6420 {} 1833.00
+#PBUDGET 0 201107 6420 {} 1833.00
+#PBUDGET 0 201108 6420 {} 1833.00
+#PBUDGET 0 201109 6420 {} 1833.00
+#PBUDGET 0 201110 6420 {} 1833.00
+#PBUDGET 0 201111 6420 {} 1833.00
+#PBUDGET 0 201112 6420 {} 1833.00
+#PBUDGET 0 201101 6530 {} 1250.00
+#PBUDGET 0 201102 6530 {} 1250.00
+#PBUDGET 0 201103 6530 {} 1250.00
+#PBUDGET 0 201104 6530 {} 1250.00
+#PBUDGET 0 201105 6530 {} 1250.00
+#PBUDGET 0 201106 6530 {} 1250.00
+#PBUDGET 0 201107 6530 {} 1250.00
+#PBUDGET 0 201108 6530 {} 1250.00
+#PBUDGET 0 201109 6530 {} 1250.00
+#PBUDGET 0 201110 6530 {} 1250.00
+#PBUDGET 0 201111 6530 {} 1250.00
+#PBUDGET 0 201112 6530 {} 1250.00
+#PBUDGET 0 201101 6550 {} 209.00
+#PBUDGET 0 201102 6550 {} 209.00
+#PBUDGET 0 201103 6550 {} 209.00
+#PBUDGET 0 201104 6550 {} 209.00
+#PBUDGET 0 201105 6550 {} 208.00
+#PBUDGET 0 201106 6550 {} 208.00
+#PBUDGET 0 201107 6550 {} 208.00
+#PBUDGET 0 201108 6550 {} 208.00
+#PBUDGET 0 201109 6550 {} 208.00
+#PBUDGET 0 201110 6550 {} 208.00
+#PBUDGET 0 201111 6550 {} 208.00
+#PBUDGET 0 201112 6550 {} 208.00
+#PBUDGET 0 201101 6570 {} 209.00
+#PBUDGET 0 201102 6570 {} 209.00
+#PBUDGET 0 201103 6570 {} 209.00
+#PBUDGET 0 201104 6570 {} 209.00
+#PBUDGET 0 201105 6570 {} 208.00
+#PBUDGET 0 201106 6570 {} 208.00
+#PBUDGET 0 201107 6570 {} 208.00
+#PBUDGET 0 201108 6570 {} 208.00
+#PBUDGET 0 201109 6570 {} 208.00
+#PBUDGET 0 201110 6570 {} 208.00
+#PBUDGET 0 201111 6570 {} 208.00
+#PBUDGET 0 201112 6570 {} 208.00
+#PBUDGET 0 201101 6970 {} 167.00
+#PBUDGET 0 201102 6970 {} 167.00
+#PBUDGET 0 201103 6970 {} 167.00
+#PBUDGET 0 201104 6970 {} 167.00
+#PBUDGET 0 201105 6970 {} 167.00
+#PBUDGET 0 201106 6970 {} 167.00
+#PBUDGET 0 201107 6970 {} 167.00
+#PBUDGET 0 201108 6970 {} 167.00
+#PBUDGET 0 201109 6970 {} 166.00
+#PBUDGET 0 201110 6970 {} 166.00
+#PBUDGET 0 201111 6970 {} 166.00
+#PBUDGET 0 201112 6970 {} 166.00
+#PBUDGET 0 201101 7010 {} 50000.00
+#PBUDGET 0 201102 7010 {} 50000.00
+#PBUDGET 0 201103 7010 {} 50000.00
+#PBUDGET 0 201104 7010 {} 50000.00
+#PBUDGET 0 201105 7010 {} 50000.00
+#PBUDGET 0 201106 7010 {} 50000.00
+#PBUDGET 0 201107 7010 {} 50000.00
+#PBUDGET 0 201108 7010 {} 50000.00
+#PBUDGET 0 201109 7010 {} 50000.00
+#PBUDGET 0 201110 7010 {} 50000.00
+#PBUDGET 0 201111 7010 {} 50000.00
+#PBUDGET 0 201112 7010 {} 50000.00
+#PBUDGET 0 201101 7081 {} 1417.00
+#PBUDGET 0 201102 7081 {} 1417.00
+#PBUDGET 0 201103 7081 {} 1417.00
+#PBUDGET 0 201104 7081 {} 1417.00
+#PBUDGET 0 201105 7081 {} 1417.00
+#PBUDGET 0 201106 7081 {} 1417.00
+#PBUDGET 0 201107 7081 {} 1417.00
+#PBUDGET 0 201108 7081 {} 1417.00
+#PBUDGET 0 201109 7081 {} 1416.00
+#PBUDGET 0 201110 7081 {} 1416.00
+#PBUDGET 0 201111 7081 {} 1416.00
+#PBUDGET 0 201112 7081 {} 1416.00
+#PBUDGET 0 201101 7082 {} 6667.00
+#PBUDGET 0 201102 7082 {} 6667.00
+#PBUDGET 0 201103 7082 {} 6667.00
+#PBUDGET 0 201104 7082 {} 6667.00
+#PBUDGET 0 201105 7082 {} 6667.00
+#PBUDGET 0 201106 7082 {} 6667.00
+#PBUDGET 0 201107 7082 {} 6667.00
+#PBUDGET 0 201108 7082 {} 6667.00
+#PBUDGET 0 201109 7082 {} 6666.00
+#PBUDGET 0 201110 7082 {} 6666.00
+#PBUDGET 0 201111 7082 {} 6666.00
+#PBUDGET 0 201112 7082 {} 6666.00
+#PBUDGET 0 201101 7210 {} 44167.00
+#PBUDGET 0 201102 7210 {} 44167.00
+#PBUDGET 0 201103 7210 {} 44167.00
+#PBUDGET 0 201104 7210 {} 44167.00
+#PBUDGET 0 201105 7210 {} 44167.00
+#PBUDGET 0 201106 7210 {} 44167.00
+#PBUDGET 0 201107 7210 {} 44167.00
+#PBUDGET 0 201108 7210 {} 44167.00
+#PBUDGET 0 201109 7210 {} 44166.00
+#PBUDGET 0 201110 7210 {} 44166.00
+#PBUDGET 0 201111 7210 {} 44166.00
+#PBUDGET 0 201112 7210 {} 44166.00
+#PBUDGET 0 201101 7281 {} 1250.00
+#PBUDGET 0 201102 7281 {} 1250.00
+#PBUDGET 0 201103 7281 {} 1250.00
+#PBUDGET 0 201104 7281 {} 1250.00
+#PBUDGET 0 201105 7281 {} 1250.00
+#PBUDGET 0 201106 7281 {} 1250.00
+#PBUDGET 0 201107 7281 {} 1250.00
+#PBUDGET 0 201108 7281 {} 1250.00
+#PBUDGET 0 201109 7281 {} 1250.00
+#PBUDGET 0 201110 7281 {} 1250.00
+#PBUDGET 0 201111 7281 {} 1250.00
+#PBUDGET 0 201112 7281 {} 1250.00
+#PBUDGET 0 201101 7285 {} 7500.00
+#PBUDGET 0 201102 7285 {} 7500.00
+#PBUDGET 0 201103 7285 {} 7500.00
+#PBUDGET 0 201104 7285 {} 7500.00
+#PBUDGET 0 201105 7285 {} 7500.00
+#PBUDGET 0 201106 7285 {} 7500.00
+#PBUDGET 0 201107 7285 {} 7500.00
+#PBUDGET 0 201108 7285 {} 7500.00
+#PBUDGET 0 201109 7285 {} 7500.00
+#PBUDGET 0 201110 7285 {} 7500.00
+#PBUDGET 0 201111 7285 {} 7500.00
+#PBUDGET 0 201112 7285 {} 7500.00
+#PBUDGET 0 201101 7321 {} 167.00
+#PBUDGET 0 201102 7321 {} 167.00
+#PBUDGET 0 201103 7321 {} 167.00
+#PBUDGET 0 201104 7321 {} 167.00
+#PBUDGET 0 201105 7321 {} 167.00
+#PBUDGET 0 201106 7321 {} 167.00
+#PBUDGET 0 201107 7321 {} 167.00
+#PBUDGET 0 201108 7321 {} 167.00
+#PBUDGET 0 201109 7321 {} 166.00
+#PBUDGET 0 201110 7321 {} 166.00
+#PBUDGET 0 201111 7321 {} 166.00
+#PBUDGET 0 201112 7321 {} 166.00
+#PBUDGET 0 201101 7331 {} 250.00
+#PBUDGET 0 201102 7331 {} 250.00
+#PBUDGET 0 201103 7331 {} 250.00
+#PBUDGET 0 201104 7331 {} 250.00
+#PBUDGET 0 201105 7331 {} 250.00
+#PBUDGET 0 201106 7331 {} 250.00
+#PBUDGET 0 201107 7331 {} 250.00
+#PBUDGET 0 201108 7331 {} 250.00
+#PBUDGET 0 201109 7331 {} 250.00
+#PBUDGET 0 201110 7331 {} 250.00
+#PBUDGET 0 201111 7331 {} 250.00
+#PBUDGET 0 201112 7331 {} 250.00
+#PBUDGET 0 201101 7385 {} 4417.00
+#PBUDGET 0 201102 7385 {} 4417.00
+#PBUDGET 0 201103 7385 {} 4417.00
+#PBUDGET 0 201104 7385 {} 4417.00
+#PBUDGET 0 201105 7385 {} 4417.00
+#PBUDGET 0 201106 7385 {} 4417.00
+#PBUDGET 0 201107 7385 {} 4417.00
+#PBUDGET 0 201108 7385 {} 4417.00
+#PBUDGET 0 201109 7385 {} 4416.00
+#PBUDGET 0 201110 7385 {} 4416.00
+#PBUDGET 0 201111 7385 {} 4416.00
+#PBUDGET 0 201112 7385 {} 4416.00
+#PBUDGET 0 201101 7392 {} 0.00
+#PBUDGET 0 201102 7392 {} 0.00
+#PBUDGET 0 201103 7392 {} 0.00
+#PBUDGET 0 201104 7392 {} 0.00
+#PBUDGET 0 201105 7392 {} 0.00
+#PBUDGET 0 201106 7392 {} 0.00
+#PBUDGET 0 201107 7392 {} 0.00
+#PBUDGET 0 201108 7392 {} 0.00
+#PBUDGET 0 201109 7392 {} 0.00
+#PBUDGET 0 201110 7392 {} 0.00
+#PBUDGET 0 201111 7392 {} 0.00
+#PBUDGET 0 201112 7392 {} 0.00
+#PBUDGET 0 201101 7399 {} -4417.00
+#PBUDGET 0 201102 7399 {} -4417.00
+#PBUDGET 0 201103 7399 {} -4417.00
+#PBUDGET 0 201104 7399 {} -4417.00
+#PBUDGET 0 201105 7399 {} -4417.00
+#PBUDGET 0 201106 7399 {} -4417.00
+#PBUDGET 0 201107 7399 {} -4417.00
+#PBUDGET 0 201108 7399 {} -4417.00
+#PBUDGET 0 201109 7399 {} -4416.00
+#PBUDGET 0 201110 7399 {} -4416.00
+#PBUDGET 0 201111 7399 {} -4416.00
+#PBUDGET 0 201112 7399 {} -4416.00
+#PBUDGET 0 201101 7510 {} 35834.00
+#PBUDGET 0 201102 7510 {} 35834.00
+#PBUDGET 0 201103 7510 {} 35834.00
+#PBUDGET 0 201104 7510 {} 35834.00
+#PBUDGET 0 201105 7510 {} 35833.00
+#PBUDGET 0 201106 7510 {} 35833.00
+#PBUDGET 0 201107 7510 {} 35833.00
+#PBUDGET 0 201108 7510 {} 35833.00
+#PBUDGET 0 201109 7510 {} 35833.00
+#PBUDGET 0 201110 7510 {} 35833.00
+#PBUDGET 0 201111 7510 {} 35833.00
+#PBUDGET 0 201112 7510 {} 35833.00
+#PBUDGET 0 201101 7519 {} 4584.00
+#PBUDGET 0 201102 7519 {} 4584.00
+#PBUDGET 0 201103 7519 {} 4584.00
+#PBUDGET 0 201104 7519 {} 4584.00
+#PBUDGET 0 201105 7519 {} 4583.00
+#PBUDGET 0 201106 7519 {} 4583.00
+#PBUDGET 0 201107 7519 {} 4583.00
+#PBUDGET 0 201108 7519 {} 4583.00
+#PBUDGET 0 201109 7519 {} 4583.00
+#PBUDGET 0 201110 7519 {} 4583.00
+#PBUDGET 0 201111 7519 {} 4583.00
+#PBUDGET 0 201112 7519 {} 4583.00
+#PBUDGET 0 201101 7570 {} 2084.00
+#PBUDGET 0 201102 7570 {} 2084.00
+#PBUDGET 0 201103 7570 {} 2084.00
+#PBUDGET 0 201104 7570 {} 2084.00
+#PBUDGET 0 201105 7570 {} 2083.00
+#PBUDGET 0 201106 7570 {} 2083.00
+#PBUDGET 0 201107 7570 {} 2083.00
+#PBUDGET 0 201108 7570 {} 2083.00
+#PBUDGET 0 201109 7570 {} 2083.00
+#PBUDGET 0 201110 7570 {} 2083.00
+#PBUDGET 0 201111 7570 {} 2083.00
+#PBUDGET 0 201112 7570 {} 2083.00
+#PBUDGET 0 201101 7620 {} 834.00
+#PBUDGET 0 201102 7620 {} 834.00
+#PBUDGET 0 201103 7620 {} 834.00
+#PBUDGET 0 201104 7620 {} 834.00
+#PBUDGET 0 201105 7620 {} 833.00
+#PBUDGET 0 201106 7620 {} 833.00
+#PBUDGET 0 201107 7620 {} 833.00
+#PBUDGET 0 201108 7620 {} 833.00
+#PBUDGET 0 201109 7620 {} 833.00
+#PBUDGET 0 201110 7620 {} 833.00
+#PBUDGET 0 201111 7620 {} 833.00
+#PBUDGET 0 201112 7620 {} 833.00
+#PBUDGET 0 201101 7690 {} 834.00
+#PBUDGET 0 201102 7690 {} 834.00
+#PBUDGET 0 201103 7690 {} 834.00
+#PBUDGET 0 201104 7690 {} 834.00
+#PBUDGET 0 201105 7690 {} 833.00
+#PBUDGET 0 201106 7690 {} 833.00
+#PBUDGET 0 201107 7690 {} 833.00
+#PBUDGET 0 201108 7690 {} 833.00
+#PBUDGET 0 201109 7690 {} 833.00
+#PBUDGET 0 201110 7690 {} 833.00
+#PBUDGET 0 201111 7690 {} 833.00
+#PBUDGET 0 201112 7690 {} 833.00
+#PBUDGET 0 201101 7832 {} 6667.00
+#PBUDGET 0 201102 7832 {} 6667.00
+#PBUDGET 0 201103 7832 {} 6667.00
+#PBUDGET 0 201104 7832 {} 6667.00
+#PBUDGET 0 201105 7832 {} 6667.00
+#PBUDGET 0 201106 7832 {} 6667.00
+#PBUDGET 0 201107 7832 {} 6667.00
+#PBUDGET 0 201108 7832 {} 6667.00
+#PBUDGET 0 201109 7832 {} 6666.00
+#PBUDGET 0 201110 7832 {} 6666.00
+#PBUDGET 0 201111 7832 {} 6666.00
+#PBUDGET 0 201112 7832 {} 6666.00
+#PBUDGET 0 201101 8490 {} 834.00
+#PBUDGET 0 201102 8490 {} 834.00
+#PBUDGET 0 201103 8490 {} 834.00
+#PBUDGET 0 201104 8490 {} 834.00
+#PBUDGET 0 201105 8490 {} 833.00
+#PBUDGET 0 201106 8490 {} 833.00
+#PBUDGET 0 201107 8490 {} 833.00
+#PBUDGET 0 201108 8490 {} 833.00
+#PBUDGET 0 201109 8490 {} 833.00
+#PBUDGET 0 201110 8490 {} 833.00
+#PBUDGET 0 201111 8490 {} 833.00
+#PBUDGET 0 201112 8490 {} 833.00
+#PBUDGET -1 201101 3041 {} -150000.00
+#PBUDGET -1 201102 3041 {} -150000.00
+#PBUDGET -1 201103 3041 {} -150000.00
+#PBUDGET -1 201104 3041 {} -150000.00
+#PBUDGET -1 201105 3041 {} -150000.00
+#PBUDGET -1 201106 3041 {} -150000.00
+#PBUDGET -1 201107 3041 {} -150000.00
+#PBUDGET -1 201108 3041 {} -150000.00
+#PBUDGET -1 201109 3041 {} -150000.00
+#PBUDGET -1 201110 3041 {} -150000.00
+#PBUDGET -1 201111 3041 {} -150000.00
+#PBUDGET -1 201112 3041 {} -150000.00
+#PBUDGET -1 201101 3045 {} -16667.00
+#PBUDGET -1 201102 3045 {} -16667.00
+#PBUDGET -1 201103 3045 {} -16667.00
+#PBUDGET -1 201104 3045 {} -16667.00
+#PBUDGET -1 201105 3045 {} -16667.00
+#PBUDGET -1 201106 3045 {} -16667.00
+#PBUDGET -1 201107 3045 {} -16667.00
+#PBUDGET -1 201108 3045 {} -16667.00
+#PBUDGET -1 201109 3045 {} -16666.00
+#PBUDGET -1 201110 3045 {} -16666.00
+#PBUDGET -1 201111 3045 {} -16666.00
+#PBUDGET -1 201112 3045 {} -16666.00
+#PBUDGET -1 201101 3048 {} -16667.00
+#PBUDGET -1 201102 3048 {} -16667.00
+#PBUDGET -1 201103 3048 {} -16667.00
+#PBUDGET -1 201104 3048 {} -16667.00
+#PBUDGET -1 201105 3048 {} -16667.00
+#PBUDGET -1 201106 3048 {} -16667.00
+#PBUDGET -1 201107 3048 {} -16667.00
+#PBUDGET -1 201108 3048 {} -16667.00
+#PBUDGET -1 201109 3048 {} -16666.00
+#PBUDGET -1 201110 3048 {} -16666.00
+#PBUDGET -1 201111 3048 {} -16666.00
+#PBUDGET -1 201112 3048 {} -16666.00
+#PBUDGET -1 201101 3051 {} -250000.00
+#PBUDGET -1 201102 3051 {} -250000.00
+#PBUDGET -1 201103 3051 {} -250000.00
+#PBUDGET -1 201104 3051 {} -250000.00
+#PBUDGET -1 201105 3051 {} -250000.00
+#PBUDGET -1 201106 3051 {} -250000.00
+#PBUDGET -1 201107 3051 {} -250000.00
+#PBUDGET -1 201108 3051 {} -250000.00
+#PBUDGET -1 201109 3051 {} -250000.00
+#PBUDGET -1 201110 3051 {} -250000.00
+#PBUDGET -1 201111 3051 {} -250000.00
+#PBUDGET -1 201112 3051 {} -250000.00
+#PBUDGET -1 201101 3055 {} -25000.00
+#PBUDGET -1 201102 3055 {} -25000.00
+#PBUDGET -1 201103 3055 {} -25000.00
+#PBUDGET -1 201104 3055 {} -25000.00
+#PBUDGET -1 201105 3055 {} -25000.00
+#PBUDGET -1 201106 3055 {} -25000.00
+#PBUDGET -1 201107 3055 {} -25000.00
+#PBUDGET -1 201108 3055 {} -25000.00
+#PBUDGET -1 201109 3055 {} -25000.00
+#PBUDGET -1 201110 3055 {} -25000.00
+#PBUDGET -1 201111 3055 {} -25000.00
+#PBUDGET -1 201112 3055 {} -25000.00
+#PBUDGET -1 201101 3058 {} -25000.00
+#PBUDGET -1 201102 3058 {} -25000.00
+#PBUDGET -1 201103 3058 {} -25000.00
+#PBUDGET -1 201104 3058 {} -25000.00
+#PBUDGET -1 201105 3058 {} -25000.00
+#PBUDGET -1 201106 3058 {} -25000.00
+#PBUDGET -1 201107 3058 {} -25000.00
+#PBUDGET -1 201108 3058 {} -25000.00
+#PBUDGET -1 201109 3058 {} -25000.00
+#PBUDGET -1 201110 3058 {} -25000.00
+#PBUDGET -1 201111 3058 {} -25000.00
+#PBUDGET -1 201112 3058 {} -25000.00
+#PBUDGET -1 201101 3590 {} -1250.00
+#PBUDGET -1 201102 3590 {} -1250.00
+#PBUDGET -1 201103 3590 {} -1250.00
+#PBUDGET -1 201104 3590 {} -1250.00
+#PBUDGET -1 201105 3590 {} -1250.00
+#PBUDGET -1 201106 3590 {} -1250.00
+#PBUDGET -1 201107 3590 {} -1250.00
+#PBUDGET -1 201108 3590 {} -1250.00
+#PBUDGET -1 201109 3590 {} -1250.00
+#PBUDGET -1 201110 3590 {} -1250.00
+#PBUDGET -1 201111 3590 {} -1250.00
+#PBUDGET -1 201112 3590 {} -1250.00
+#PBUDGET -1 201101 4010 {} 208334.00
+#PBUDGET -1 201102 4010 {} 208334.00
+#PBUDGET -1 201103 4010 {} 208334.00
+#PBUDGET -1 201104 4010 {} 208334.00
+#PBUDGET -1 201105 4010 {} 208333.00
+#PBUDGET -1 201106 4010 {} 208333.00
+#PBUDGET -1 201107 4010 {} 208333.00
+#PBUDGET -1 201108 4010 {} 208333.00
+#PBUDGET -1 201109 4010 {} 208333.00
+#PBUDGET -1 201110 4010 {} 208333.00
+#PBUDGET -1 201111 4010 {} 208333.00
+#PBUDGET -1 201112 4010 {} 208333.00
+#PBUDGET -1 201101 4056 {} 9167.00
+#PBUDGET -1 201102 4056 {} 9167.00
+#PBUDGET -1 201103 4056 {} 9167.00
+#PBUDGET -1 201104 4056 {} 9167.00
+#PBUDGET -1 201105 4056 {} 9167.00
+#PBUDGET -1 201106 4056 {} 9167.00
+#PBUDGET -1 201107 4056 {} 9167.00
+#PBUDGET -1 201108 4056 {} 9167.00
+#PBUDGET -1 201109 4056 {} 9166.00
+#PBUDGET -1 201110 4056 {} 9166.00
+#PBUDGET -1 201111 4056 {} 9166.00
+#PBUDGET -1 201112 4056 {} 9166.00
+#PBUDGET -1 201101 5010 {} 17500.00
+#PBUDGET -1 201102 5010 {} 17500.00
+#PBUDGET -1 201103 5010 {} 17500.00
+#PBUDGET -1 201104 5010 {} 17500.00
+#PBUDGET -1 201105 5010 {} 17500.00
+#PBUDGET -1 201106 5010 {} 17500.00
+#PBUDGET -1 201107 5010 {} 17500.00
+#PBUDGET -1 201108 5010 {} 17500.00
+#PBUDGET -1 201109 5010 {} 17500.00
+#PBUDGET -1 201110 5010 {} 17500.00
+#PBUDGET -1 201111 5010 {} 17500.00
+#PBUDGET -1 201112 5010 {} 17500.00
+#PBUDGET -1 201101 5020 {} 542.00
+#PBUDGET -1 201102 5020 {} 542.00
+#PBUDGET -1 201103 5020 {} 542.00
+#PBUDGET -1 201104 5020 {} 542.00
+#PBUDGET -1 201105 5020 {} 542.00
+#PBUDGET -1 201106 5020 {} 542.00
+#PBUDGET -1 201107 5020 {} 542.00
+#PBUDGET -1 201108 5020 {} 542.00
+#PBUDGET -1 201109 5020 {} 541.00
+#PBUDGET -1 201110 5020 {} 541.00
+#PBUDGET -1 201111 5020 {} 541.00
+#PBUDGET -1 201112 5020 {} 541.00
+#PBUDGET -1 201101 5090 {} 667.00
+#PBUDGET -1 201102 5090 {} 667.00
+#PBUDGET -1 201103 5090 {} 667.00
+#PBUDGET -1 201104 5090 {} 667.00
+#PBUDGET -1 201105 5090 {} 667.00
+#PBUDGET -1 201106 5090 {} 667.00
+#PBUDGET -1 201107 5090 {} 667.00
+#PBUDGET -1 201108 5090 {} 667.00
+#PBUDGET -1 201109 5090 {} 666.00
+#PBUDGET -1 201110 5090 {} 666.00
+#PBUDGET -1 201111 5090 {} 666.00
+#PBUDGET -1 201112 5090 {} 666.00
+#PBUDGET -1 201101 5410 {} 917.00
+#PBUDGET -1 201102 5410 {} 917.00
+#PBUDGET -1 201103 5410 {} 917.00
+#PBUDGET -1 201104 5410 {} 917.00
+#PBUDGET -1 201105 5410 {} 917.00
+#PBUDGET -1 201106 5410 {} 917.00
+#PBUDGET -1 201107 5410 {} 917.00
+#PBUDGET -1 201108 5410 {} 917.00
+#PBUDGET -1 201109 5410 {} 916.00
+#PBUDGET -1 201110 5410 {} 916.00
+#PBUDGET -1 201111 5410 {} 916.00
+#PBUDGET -1 201112 5410 {} 916.00
+#PBUDGET -1 201101 5460 {} 542.00
+#PBUDGET -1 201102 5460 {} 542.00
+#PBUDGET -1 201103 5460 {} 542.00
+#PBUDGET -1 201104 5460 {} 542.00
+#PBUDGET -1 201105 5460 {} 542.00
+#PBUDGET -1 201106 5460 {} 542.00
+#PBUDGET -1 201107 5460 {} 542.00
+#PBUDGET -1 201108 5460 {} 542.00
+#PBUDGET -1 201109 5460 {} 541.00
+#PBUDGET -1 201110 5460 {} 541.00
+#PBUDGET -1 201111 5460 {} 541.00
+#PBUDGET -1 201112 5460 {} 541.00
+#PBUDGET -1 201101 5611 {} 2500.00
+#PBUDGET -1 201102 5611 {} 2500.00
+#PBUDGET -1 201103 5611 {} 2500.00
+#PBUDGET -1 201104 5611 {} 2500.00
+#PBUDGET -1 201105 5611 {} 2500.00
+#PBUDGET -1 201106 5611 {} 2500.00
+#PBUDGET -1 201107 5611 {} 2500.00
+#PBUDGET -1 201108 5611 {} 2500.00
+#PBUDGET -1 201109 5611 {} 2500.00
+#PBUDGET -1 201110 5611 {} 2500.00
+#PBUDGET -1 201111 5611 {} 2500.00
+#PBUDGET -1 201112 5611 {} 2500.00
+#PBUDGET -1 201101 5612 {} 500.00
+#PBUDGET -1 201102 5612 {} 500.00
+#PBUDGET -1 201103 5612 {} 500.00
+#PBUDGET -1 201104 5612 {} 500.00
+#PBUDGET -1 201105 5612 {} 500.00
+#PBUDGET -1 201106 5612 {} 500.00
+#PBUDGET -1 201107 5612 {} 500.00
+#PBUDGET -1 201108 5612 {} 500.00
+#PBUDGET -1 201109 5612 {} 500.00
+#PBUDGET -1 201110 5612 {} 500.00
+#PBUDGET -1 201111 5612 {} 500.00
+#PBUDGET -1 201112 5612 {} 500.00
+#PBUDGET -1 201101 5613 {} 1250.00
+#PBUDGET -1 201102 5613 {} 1250.00
+#PBUDGET -1 201103 5613 {} 1250.00
+#PBUDGET -1 201104 5613 {} 1250.00
+#PBUDGET -1 201105 5613 {} 1250.00
+#PBUDGET -1 201106 5613 {} 1250.00
+#PBUDGET -1 201107 5613 {} 1250.00
+#PBUDGET -1 201108 5613 {} 1250.00
+#PBUDGET -1 201109 5613 {} 1250.00
+#PBUDGET -1 201110 5613 {} 1250.00
+#PBUDGET -1 201111 5613 {} 1250.00
+#PBUDGET -1 201112 5613 {} 1250.00
+#PBUDGET -1 201101 5615 {} 3334.00
+#PBUDGET -1 201102 5615 {} 3334.00
+#PBUDGET -1 201103 5615 {} 3334.00
+#PBUDGET -1 201104 5615 {} 3334.00
+#PBUDGET -1 201105 5615 {} 3333.00
+#PBUDGET -1 201106 5615 {} 3333.00
+#PBUDGET -1 201107 5615 {} 3333.00
+#PBUDGET -1 201108 5615 {} 3333.00
+#PBUDGET -1 201109 5615 {} 3333.00
+#PBUDGET -1 201110 5615 {} 3333.00
+#PBUDGET -1 201111 5615 {} 3333.00
+#PBUDGET -1 201112 5615 {} 3333.00
+#PBUDGET -1 201101 5710 {} 84.00
+#PBUDGET -1 201102 5710 {} 84.00
+#PBUDGET -1 201103 5710 {} 84.00
+#PBUDGET -1 201104 5710 {} 84.00
+#PBUDGET -1 201105 5710 {} 83.00
+#PBUDGET -1 201106 5710 {} 83.00
+#PBUDGET -1 201107 5710 {} 83.00
+#PBUDGET -1 201108 5710 {} 83.00
+#PBUDGET -1 201109 5710 {} 83.00
+#PBUDGET -1 201110 5710 {} 83.00
+#PBUDGET -1 201111 5710 {} 83.00
+#PBUDGET -1 201112 5710 {} 83.00
+#PBUDGET -1 201101 5800 {} 917.00
+#PBUDGET -1 201102 5800 {} 917.00
+#PBUDGET -1 201103 5800 {} 917.00
+#PBUDGET -1 201104 5800 {} 917.00
+#PBUDGET -1 201105 5800 {} 917.00
+#PBUDGET -1 201106 5800 {} 917.00
+#PBUDGET -1 201107 5800 {} 917.00
+#PBUDGET -1 201108 5800 {} 917.00
+#PBUDGET -1 201109 5800 {} 916.00
+#PBUDGET -1 201110 5800 {} 916.00
+#PBUDGET -1 201111 5800 {} 916.00
+#PBUDGET -1 201112 5800 {} 916.00
+#PBUDGET -1 201101 5930 {} 834.00
+#PBUDGET -1 201102 5930 {} 834.00
+#PBUDGET -1 201103 5930 {} 834.00
+#PBUDGET -1 201104 5930 {} 834.00
+#PBUDGET -1 201105 5930 {} 833.00
+#PBUDGET -1 201106 5930 {} 833.00
+#PBUDGET -1 201107 5930 {} 833.00
+#PBUDGET -1 201108 5930 {} 833.00
+#PBUDGET -1 201109 5930 {} 833.00
+#PBUDGET -1 201110 5930 {} 833.00
+#PBUDGET -1 201111 5930 {} 833.00
+#PBUDGET -1 201112 5930 {} 833.00
+#PBUDGET -1 201101 6071 {} 167.00
+#PBUDGET -1 201102 6071 {} 167.00
+#PBUDGET -1 201103 6071 {} 167.00
+#PBUDGET -1 201104 6071 {} 167.00
+#PBUDGET -1 201105 6071 {} 167.00
+#PBUDGET -1 201106 6071 {} 167.00
+#PBUDGET -1 201107 6071 {} 167.00
+#PBUDGET -1 201108 6071 {} 167.00
+#PBUDGET -1 201109 6071 {} 166.00
+#PBUDGET -1 201110 6071 {} 166.00
+#PBUDGET -1 201111 6071 {} 166.00
+#PBUDGET -1 201112 6071 {} 166.00
+#PBUDGET -1 201101 6072 {} 167.00
+#PBUDGET -1 201102 6072 {} 167.00
+#PBUDGET -1 201103 6072 {} 167.00
+#PBUDGET -1 201104 6072 {} 167.00
+#PBUDGET -1 201105 6072 {} 167.00
+#PBUDGET -1 201106 6072 {} 167.00
+#PBUDGET -1 201107 6072 {} 167.00
+#PBUDGET -1 201108 6072 {} 167.00
+#PBUDGET -1 201109 6072 {} 166.00
+#PBUDGET -1 201110 6072 {} 166.00
+#PBUDGET -1 201111 6072 {} 166.00
+#PBUDGET -1 201112 6072 {} 166.00
+#PBUDGET -1 201101 6090 {} 250.00
+#PBUDGET -1 201102 6090 {} 250.00
+#PBUDGET -1 201103 6090 {} 250.00
+#PBUDGET -1 201104 6090 {} 250.00
+#PBUDGET -1 201105 6090 {} 250.00
+#PBUDGET -1 201106 6090 {} 250.00
+#PBUDGET -1 201107 6090 {} 250.00
+#PBUDGET -1 201108 6090 {} 250.00
+#PBUDGET -1 201109 6090 {} 250.00
+#PBUDGET -1 201110 6090 {} 250.00
+#PBUDGET -1 201111 6090 {} 250.00
+#PBUDGET -1 201112 6090 {} 250.00
+#PBUDGET -1 201101 6110 {} 500.00
+#PBUDGET -1 201102 6110 {} 500.00
+#PBUDGET -1 201103 6110 {} 500.00
+#PBUDGET -1 201104 6110 {} 500.00
+#PBUDGET -1 201105 6110 {} 500.00
+#PBUDGET -1 201106 6110 {} 500.00
+#PBUDGET -1 201107 6110 {} 500.00
+#PBUDGET -1 201108 6110 {} 500.00
+#PBUDGET -1 201109 6110 {} 500.00
+#PBUDGET -1 201110 6110 {} 500.00
+#PBUDGET -1 201111 6110 {} 500.00
+#PBUDGET -1 201112 6110 {} 500.00
+#PBUDGET -1 201101 6211 {} 542.00
+#PBUDGET -1 201102 6211 {} 542.00
+#PBUDGET -1 201103 6211 {} 542.00
+#PBUDGET -1 201104 6211 {} 542.00
+#PBUDGET -1 201105 6211 {} 542.00
+#PBUDGET -1 201106 6211 {} 542.00
+#PBUDGET -1 201107 6211 {} 542.00
+#PBUDGET -1 201108 6211 {} 542.00
+#PBUDGET -1 201109 6211 {} 541.00
+#PBUDGET -1 201110 6211 {} 541.00
+#PBUDGET -1 201111 6211 {} 541.00
+#PBUDGET -1 201112 6211 {} 541.00
+#PBUDGET -1 201101 6212 {} 1042.00
+#PBUDGET -1 201102 6212 {} 1042.00
+#PBUDGET -1 201103 6212 {} 1042.00
+#PBUDGET -1 201104 6212 {} 1042.00
+#PBUDGET -1 201105 6212 {} 1042.00
+#PBUDGET -1 201106 6212 {} 1042.00
+#PBUDGET -1 201107 6212 {} 1042.00
+#PBUDGET -1 201108 6212 {} 1042.00
+#PBUDGET -1 201109 6212 {} 1041.00
+#PBUDGET -1 201110 6212 {} 1041.00
+#PBUDGET -1 201111 6212 {} 1041.00
+#PBUDGET -1 201112 6212 {} 1041.00
+#PBUDGET -1 201101 6250 {} 417.00
+#PBUDGET -1 201102 6250 {} 417.00
+#PBUDGET -1 201103 6250 {} 417.00
+#PBUDGET -1 201104 6250 {} 417.00
+#PBUDGET -1 201105 6250 {} 417.00
+#PBUDGET -1 201106 6250 {} 417.00
+#PBUDGET -1 201107 6250 {} 417.00
+#PBUDGET -1 201108 6250 {} 417.00
+#PBUDGET -1 201109 6250 {} 416.00
+#PBUDGET -1 201110 6250 {} 416.00
+#PBUDGET -1 201111 6250 {} 416.00
+#PBUDGET -1 201112 6250 {} 416.00
+#PBUDGET -1 201101 6310 {} 1000.00
+#PBUDGET -1 201102 6310 {} 1000.00
+#PBUDGET -1 201103 6310 {} 1000.00
+#PBUDGET -1 201104 6310 {} 1000.00
+#PBUDGET -1 201105 6310 {} 1000.00
+#PBUDGET -1 201106 6310 {} 1000.00
+#PBUDGET -1 201107 6310 {} 1000.00
+#PBUDGET -1 201108 6310 {} 1000.00
+#PBUDGET -1 201109 6310 {} 1000.00
+#PBUDGET -1 201110 6310 {} 1000.00
+#PBUDGET -1 201111 6310 {} 1000.00
+#PBUDGET -1 201112 6310 {} 1000.00
+#PBUDGET -1 201101 6420 {} 1834.00
+#PBUDGET -1 201102 6420 {} 1834.00
+#PBUDGET -1 201103 6420 {} 1834.00
+#PBUDGET -1 201104 6420 {} 1834.00
+#PBUDGET -1 201105 6420 {} 1833.00
+#PBUDGET -1 201106 6420 {} 1833.00
+#PBUDGET -1 201107 6420 {} 1833.00
+#PBUDGET -1 201108 6420 {} 1833.00
+#PBUDGET -1 201109 6420 {} 1833.00
+#PBUDGET -1 201110 6420 {} 1833.00
+#PBUDGET -1 201111 6420 {} 1833.00
+#PBUDGET -1 201112 6420 {} 1833.00
+#PBUDGET -1 201101 6530 {} 1250.00
+#PBUDGET -1 201102 6530 {} 1250.00
+#PBUDGET -1 201103 6530 {} 1250.00
+#PBUDGET -1 201104 6530 {} 1250.00
+#PBUDGET -1 201105 6530 {} 1250.00
+#PBUDGET -1 201106 6530 {} 1250.00
+#PBUDGET -1 201107 6530 {} 1250.00
+#PBUDGET -1 201108 6530 {} 1250.00
+#PBUDGET -1 201109 6530 {} 1250.00
+#PBUDGET -1 201110 6530 {} 1250.00
+#PBUDGET -1 201111 6530 {} 1250.00
+#PBUDGET -1 201112 6530 {} 1250.00
+#PBUDGET -1 201101 6550 {} 209.00
+#PBUDGET -1 201102 6550 {} 209.00
+#PBUDGET -1 201103 6550 {} 209.00
+#PBUDGET -1 201104 6550 {} 209.00
+#PBUDGET -1 201105 6550 {} 208.00
+#PBUDGET -1 201106 6550 {} 208.00
+#PBUDGET -1 201107 6550 {} 208.00
+#PBUDGET -1 201108 6550 {} 208.00
+#PBUDGET -1 201109 6550 {} 208.00
+#PBUDGET -1 201110 6550 {} 208.00
+#PBUDGET -1 201111 6550 {} 208.00
+#PBUDGET -1 201112 6550 {} 208.00
+#PBUDGET -1 201101 6570 {} 209.00
+#PBUDGET -1 201102 6570 {} 209.00
+#PBUDGET -1 201103 6570 {} 209.00
+#PBUDGET -1 201104 6570 {} 209.00
+#PBUDGET -1 201105 6570 {} 208.00
+#PBUDGET -1 201106 6570 {} 208.00
+#PBUDGET -1 201107 6570 {} 208.00
+#PBUDGET -1 201108 6570 {} 208.00
+#PBUDGET -1 201109 6570 {} 208.00
+#PBUDGET -1 201110 6570 {} 208.00
+#PBUDGET -1 201111 6570 {} 208.00
+#PBUDGET -1 201112 6570 {} 208.00
+#PBUDGET -1 201101 6970 {} 167.00
+#PBUDGET -1 201102 6970 {} 167.00
+#PBUDGET -1 201103 6970 {} 167.00
+#PBUDGET -1 201104 6970 {} 167.00
+#PBUDGET -1 201105 6970 {} 167.00
+#PBUDGET -1 201106 6970 {} 167.00
+#PBUDGET -1 201107 6970 {} 167.00
+#PBUDGET -1 201108 6970 {} 167.00
+#PBUDGET -1 201109 6970 {} 166.00
+#PBUDGET -1 201110 6970 {} 166.00
+#PBUDGET -1 201111 6970 {} 166.00
+#PBUDGET -1 201112 6970 {} 166.00
+#PBUDGET -1 201101 7010 {} 50000.00
+#PBUDGET -1 201102 7010 {} 50000.00
+#PBUDGET -1 201103 7010 {} 50000.00
+#PBUDGET -1 201104 7010 {} 50000.00
+#PBUDGET -1 201105 7010 {} 50000.00
+#PBUDGET -1 201106 7010 {} 50000.00
+#PBUDGET -1 201107 7010 {} 50000.00
+#PBUDGET -1 201108 7010 {} 50000.00
+#PBUDGET -1 201109 7010 {} 50000.00
+#PBUDGET -1 201110 7010 {} 50000.00
+#PBUDGET -1 201111 7010 {} 50000.00
+#PBUDGET -1 201112 7010 {} 50000.00
+#PBUDGET -1 201101 7081 {} 1417.00
+#PBUDGET -1 201102 7081 {} 1417.00
+#PBUDGET -1 201103 7081 {} 1417.00
+#PBUDGET -1 201104 7081 {} 1417.00
+#PBUDGET -1 201105 7081 {} 1417.00
+#PBUDGET -1 201106 7081 {} 1417.00
+#PBUDGET -1 201107 7081 {} 1417.00
+#PBUDGET -1 201108 7081 {} 1417.00
+#PBUDGET -1 201109 7081 {} 1416.00
+#PBUDGET -1 201110 7081 {} 1416.00
+#PBUDGET -1 201111 7081 {} 1416.00
+#PBUDGET -1 201112 7081 {} 1416.00
+#PBUDGET -1 201101 7082 {} 6667.00
+#PBUDGET -1 201102 7082 {} 6667.00
+#PBUDGET -1 201103 7082 {} 6667.00
+#PBUDGET -1 201104 7082 {} 6667.00
+#PBUDGET -1 201105 7082 {} 6667.00
+#PBUDGET -1 201106 7082 {} 6667.00
+#PBUDGET -1 201107 7082 {} 6667.00
+#PBUDGET -1 201108 7082 {} 6667.00
+#PBUDGET -1 201109 7082 {} 6666.00
+#PBUDGET -1 201110 7082 {} 6666.00
+#PBUDGET -1 201111 7082 {} 6666.00
+#PBUDGET -1 201112 7082 {} 6666.00
+#PBUDGET -1 201101 7210 {} 44167.00
+#PBUDGET -1 201102 7210 {} 44167.00
+#PBUDGET -1 201103 7210 {} 44167.00
+#PBUDGET -1 201104 7210 {} 44167.00
+#PBUDGET -1 201105 7210 {} 44167.00
+#PBUDGET -1 201106 7210 {} 44167.00
+#PBUDGET -1 201107 7210 {} 44167.00
+#PBUDGET -1 201108 7210 {} 44167.00
+#PBUDGET -1 201109 7210 {} 44166.00
+#PBUDGET -1 201110 7210 {} 44166.00
+#PBUDGET -1 201111 7210 {} 44166.00
+#PBUDGET -1 201112 7210 {} 44166.00
+#PBUDGET -1 201101 7281 {} 1250.00
+#PBUDGET -1 201102 7281 {} 1250.00
+#PBUDGET -1 201103 7281 {} 1250.00
+#PBUDGET -1 201104 7281 {} 1250.00
+#PBUDGET -1 201105 7281 {} 1250.00
+#PBUDGET -1 201106 7281 {} 1250.00
+#PBUDGET -1 201107 7281 {} 1250.00
+#PBUDGET -1 201108 7281 {} 1250.00
+#PBUDGET -1 201109 7281 {} 1250.00
+#PBUDGET -1 201110 7281 {} 1250.00
+#PBUDGET -1 201111 7281 {} 1250.00
+#PBUDGET -1 201112 7281 {} 1250.00
+#PBUDGET -1 201101 7285 {} 7500.00
+#PBUDGET -1 201102 7285 {} 7500.00
+#PBUDGET -1 201103 7285 {} 7500.00
+#PBUDGET -1 201104 7285 {} 7500.00
+#PBUDGET -1 201105 7285 {} 7500.00
+#PBUDGET -1 201106 7285 {} 7500.00
+#PBUDGET -1 201107 7285 {} 7500.00
+#PBUDGET -1 201108 7285 {} 7500.00
+#PBUDGET -1 201109 7285 {} 7500.00
+#PBUDGET -1 201110 7285 {} 7500.00
+#PBUDGET -1 201111 7285 {} 7500.00
+#PBUDGET -1 201112 7285 {} 7500.00
+#PBUDGET -1 201101 7321 {} 167.00
+#PBUDGET -1 201102 7321 {} 167.00
+#PBUDGET -1 201103 7321 {} 167.00
+#PBUDGET -1 201104 7321 {} 167.00
+#PBUDGET -1 201105 7321 {} 167.00
+#PBUDGET -1 201106 7321 {} 167.00
+#PBUDGET -1 201107 7321 {} 167.00
+#PBUDGET -1 201108 7321 {} 167.00
+#PBUDGET -1 201109 7321 {} 166.00
+#PBUDGET -1 201110 7321 {} 166.00
+#PBUDGET -1 201111 7321 {} 166.00
+#PBUDGET -1 201112 7321 {} 166.00
+#PBUDGET -1 201101 7331 {} 250.00
+#PBUDGET -1 201102 7331 {} 250.00
+#PBUDGET -1 201103 7331 {} 250.00
+#PBUDGET -1 201104 7331 {} 250.00
+#PBUDGET -1 201105 7331 {} 250.00
+#PBUDGET -1 201106 7331 {} 250.00
+#PBUDGET -1 201107 7331 {} 250.00
+#PBUDGET -1 201108 7331 {} 250.00
+#PBUDGET -1 201109 7331 {} 250.00
+#PBUDGET -1 201110 7331 {} 250.00
+#PBUDGET -1 201111 7331 {} 250.00
+#PBUDGET -1 201112 7331 {} 250.00
+#PBUDGET -1 201101 7385 {} 4417.00
+#PBUDGET -1 201102 7385 {} 4417.00
+#PBUDGET -1 201103 7385 {} 4417.00
+#PBUDGET -1 201104 7385 {} 4417.00
+#PBUDGET -1 201105 7385 {} 4417.00
+#PBUDGET -1 201106 7385 {} 4417.00
+#PBUDGET -1 201107 7385 {} 4417.00
+#PBUDGET -1 201108 7385 {} 4417.00
+#PBUDGET -1 201109 7385 {} 4416.00
+#PBUDGET -1 201110 7385 {} 4416.00
+#PBUDGET -1 201111 7385 {} 4416.00
+#PBUDGET -1 201112 7385 {} 4416.00
+#PBUDGET -1 201101 7392 {} 0.00
+#PBUDGET -1 201102 7392 {} 0.00
+#PBUDGET -1 201103 7392 {} 0.00
+#PBUDGET -1 201104 7392 {} 0.00
+#PBUDGET -1 201105 7392 {} 0.00
+#PBUDGET -1 201106 7392 {} 0.00
+#PBUDGET -1 201107 7392 {} 0.00
+#PBUDGET -1 201108 7392 {} 0.00
+#PBUDGET -1 201109 7392 {} 0.00
+#PBUDGET -1 201110 7392 {} 0.00
+#PBUDGET -1 201111 7392 {} 0.00
+#PBUDGET -1 201112 7392 {} 0.00
+#PBUDGET -1 201101 7399 {} -4417.00
+#PBUDGET -1 201102 7399 {} -4417.00
+#PBUDGET -1 201103 7399 {} -4417.00
+#PBUDGET -1 201104 7399 {} -4417.00
+#PBUDGET -1 201105 7399 {} -4417.00
+#PBUDGET -1 201106 7399 {} -4417.00
+#PBUDGET -1 201107 7399 {} -4417.00
+#PBUDGET -1 201108 7399 {} -4417.00
+#PBUDGET -1 201109 7399 {} -4416.00
+#PBUDGET -1 201110 7399 {} -4416.00
+#PBUDGET -1 201111 7399 {} -4416.00
+#PBUDGET -1 201112 7399 {} -4416.00
+#PBUDGET -1 201101 7510 {} 35834.00
+#PBUDGET -1 201102 7510 {} 35834.00
+#PBUDGET -1 201103 7510 {} 35834.00
+#PBUDGET -1 201104 7510 {} 35834.00
+#PBUDGET -1 201105 7510 {} 35833.00
+#PBUDGET -1 201106 7510 {} 35833.00
+#PBUDGET -1 201107 7510 {} 35833.00
+#PBUDGET -1 201108 7510 {} 35833.00
+#PBUDGET -1 201109 7510 {} 35833.00
+#PBUDGET -1 201110 7510 {} 35833.00
+#PBUDGET -1 201111 7510 {} 35833.00
+#PBUDGET -1 201112 7510 {} 35833.00
+#PBUDGET -1 201101 7519 {} 4584.00
+#PBUDGET -1 201102 7519 {} 4584.00
+#PBUDGET -1 201103 7519 {} 4584.00
+#PBUDGET -1 201104 7519 {} 4584.00
+#PBUDGET -1 201105 7519 {} 4583.00
+#PBUDGET -1 201106 7519 {} 4583.00
+#PBUDGET -1 201107 7519 {} 4583.00
+#PBUDGET -1 201108 7519 {} 4583.00
+#PBUDGET -1 201109 7519 {} 4583.00
+#PBUDGET -1 201110 7519 {} 4583.00
+#PBUDGET -1 201111 7519 {} 4583.00
+#PBUDGET -1 201112 7519 {} 4583.00
+#PBUDGET -1 201101 7570 {} 2084.00
+#PBUDGET -1 201102 7570 {} 2084.00
+#PBUDGET -1 201103 7570 {} 2084.00
+#PBUDGET -1 201104 7570 {} 2084.00
+#PBUDGET -1 201105 7570 {} 2083.00
+#PBUDGET -1 201106 7570 {} 2083.00
+#PBUDGET -1 201107 7570 {} 2083.00
+#PBUDGET -1 201108 7570 {} 2083.00
+#PBUDGET -1 201109 7570 {} 2083.00
+#PBUDGET -1 201110 7570 {} 2083.00
+#PBUDGET -1 201111 7570 {} 2083.00
+#PBUDGET -1 201112 7570 {} 2083.00
+#PBUDGET -1 201101 7620 {} 834.00
+#PBUDGET -1 201102 7620 {} 834.00
+#PBUDGET -1 201103 7620 {} 834.00
+#PBUDGET -1 201104 7620 {} 834.00
+#PBUDGET -1 201105 7620 {} 833.00
+#PBUDGET -1 201106 7620 {} 833.00
+#PBUDGET -1 201107 7620 {} 833.00
+#PBUDGET -1 201108 7620 {} 833.00
+#PBUDGET -1 201109 7620 {} 833.00
+#PBUDGET -1 201110 7620 {} 833.00
+#PBUDGET -1 201111 7620 {} 833.00
+#PBUDGET -1 201112 7620 {} 833.00
+#PBUDGET -1 201101 7690 {} 834.00
+#PBUDGET -1 201102 7690 {} 834.00
+#PBUDGET -1 201103 7690 {} 834.00
+#PBUDGET -1 201104 7690 {} 834.00
+#PBUDGET -1 201105 7690 {} 833.00
+#PBUDGET -1 201106 7690 {} 833.00
+#PBUDGET -1 201107 7690 {} 833.00
+#PBUDGET -1 201108 7690 {} 833.00
+#PBUDGET -1 201109 7690 {} 833.00
+#PBUDGET -1 201110 7690 {} 833.00
+#PBUDGET -1 201111 7690 {} 833.00
+#PBUDGET -1 201112 7690 {} 833.00
+#PBUDGET -1 201101 7832 {} 6667.00
+#PBUDGET -1 201102 7832 {} 6667.00
+#PBUDGET -1 201103 7832 {} 6667.00
+#PBUDGET -1 201104 7832 {} 6667.00
+#PBUDGET -1 201105 7832 {} 6667.00
+#PBUDGET -1 201106 7832 {} 6667.00
+#PBUDGET -1 201107 7832 {} 6667.00
+#PBUDGET -1 201108 7832 {} 6667.00
+#PBUDGET -1 201109 7832 {} 6666.00
+#PBUDGET -1 201110 7832 {} 6666.00
+#PBUDGET -1 201111 7832 {} 6666.00
+#PBUDGET -1 201112 7832 {} 6666.00
+#PBUDGET -1 201101 8490 {} 834.00
+#PBUDGET -1 201102 8490 {} 834.00
+#PBUDGET -1 201103 8490 {} 834.00
+#PBUDGET -1 201104 8490 {} 834.00
+#PBUDGET -1 201105 8490 {} 833.00
+#PBUDGET -1 201106 8490 {} 833.00
+#PBUDGET -1 201107 8490 {} 833.00
+#PBUDGET -1 201108 8490 {} 833.00
+#PBUDGET -1 201109 8490 {} 833.00
+#PBUDGET -1 201110 8490 {} 833.00
+#PBUDGET -1 201111 8490 {} 833.00
+#PBUDGET -1 201112 8490 {} 833.00

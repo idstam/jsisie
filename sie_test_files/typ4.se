@@ -1,0 +1,1365 @@
+#FLAGGA  0
+#PROGRAM "Edison Ekonomi ByrÜ" "4.9G"
+#FORMAT  PC8
+#GEN     20121008 "LL"
+#SIETYP  4
+
+#FNR     "2"
+#ORGNR   "000000-0000" 1
+#FNAMN   "ôvningsfîretaget AB"
+#RAR     0  20120101 20121231
+#RAR    -1  20110101 20111231
+#KONTO 1010   "Balanserade utgifter"
+#KONTO 1030   "Patent"
+#KONTO 1060   "HyresrÑtter, tomtrÑtter, etc"
+#KONTO 1070   "Goodwill"
+#KONTO 1110   "Byggnader"
+#KONTO 1119   "Ack avskr pÜ byggnader"
+#KONTO 1130   "Mark"
+#KONTO 1150   "MarkanlÑggningar"
+#KONTO 1159   "Ack avskr pÜ markanlÑggningar"
+#KONTO 1210   "Maskiner och andra tekn anl"
+#KONTO 1219   "Ack avskr mask/andra tekn anl"
+#KONTO 1220   "Inventarier och verktyg"
+#KONTO 1229   "Ack avskr pÜ inv/verktyg"
+#KONTO 1240   "Bilar och andra transportmedel"
+#KONTO 1249   "Ack avskr bilar/transportmedel"
+#KONTO 1354   "Obligationer"
+#KONTO 1380   "Andra lÜngfristiga fordringar"
+#KONTO 1410   "Lager av rÜvaror"
+#KONTO 1420   "Lager av tillsatsmtrl/fîrnîd"
+#KONTO 1440   "Produkter i arbete"
+#KONTO 1460   "Lager av handelsvaror"
+#KONTO 1470   "PÜgÜende arbeten"
+#KONTO 1480   "Fîrskott varor och tjÑnster"
+#KONTO 1510   "Kundfordringar"
+#KONTO 1511   "Kundfordringar"
+#KONTO 1515   "OsÑkra kundfordringar"
+#KONTO 1590   "Omatchade inbetalningar"
+#KONTO 1610   "Kortfr fordr hos anstÑllda"
+#KONTO 1611   "Resefîrskott"
+#KONTO 1613   "ôvriga fîrskott"
+#KONTO 1614   "TillfÑlliga lÜn till anstÑllda"
+#KONTO 1630   "AvrÑkn skatter och avgifter"
+#KONTO 1640   "Skattefordringar"
+#KONTO 1650   "Momsfordran"
+#KONTO 1680   "Andra kortfristiga fordringar"
+#KONTO 1684   "Kortfr fordr hos leverantîrer"
+#KONTO 1710   "Fîrutbetalda hyreskostnader"
+#KONTO 1720   "Fîrutbet leasingavg kortfr del"
+#KONTO 1730   "Fîrutbet fîrsÑkringspremier"
+#KONTO 1740   "Fîrutbetalda rÑntekostnader"
+#KONTO 1750   "Upplupna hyresintÑkter"
+#KONTO 1760   "Upplupna rÑnteintÑkter"
+#KONTO 1790   "ôvr fîrutbet kostn/upplup int"
+#KONTO 1910   "Kassa"
+#KONTO 1920   "PlusGiro"
+#KONTO 1940   "ôvriga bankkonton"
+#KONTO 1980   "Valutakonton"
+#KONTO 2081   "Aktiekapital"
+#KONTO 2082   "Ej registrerat aktiekapital"
+#KONTO 2083   "Medlemsinsatser"
+#KONTO 2085   "Uppskrivningsfond"
+#KONTO 2086   "Reservfond"
+#KONTO 2091   "Balanserad vinst eller fîrlust"
+#KONTO 2093   "ErhÜllna aktieÑgartillskott"
+#KONTO 2098   "Vinst/fîrlust fîregÜende Ür"
+#KONTO 2099   "èrets resultat"
+#KONTO 2110   "Periodiseringsfond tax 2010"
+#KONTO 2111   "Periodiseringsfond tax 2011"
+#KONTO 2112   "Periodiseringsfond tax 2012"
+#KONTO 2113   "Periodiseringsfond tax 2013"
+#KONTO 2114   "Periodiseringsfond tax 2014"
+#KONTO 2115   "Periodiseringsfond tax 2015"
+#KONTO 2123   "Periodiseringsfond tax 2003"
+#KONTO 2124   "Periodiseringsfond tax 2004"
+#KONTO 2125   "Periodiseringsfond tax 2005"
+#KONTO 2126   "Periodiseringsfond tax 2006"
+#KONTO 2127   "Periodiseringsfond tax 2007"
+#KONTO 2128   "Periodiseringsfond tax 2008"
+#KONTO 2129   "Periodiseringsfond tax 2009"
+#KONTO 2150   "Ackumulerade îveravskrivningar"
+#KONTO 2151   "Ack îveravskr imm anl.tillg"
+#KONTO 2152   "Ack îveravskr pÜ byggn/markanl"
+#KONTO 2153   "Ack îveravskr maskiner/inv"
+#KONTO 2160   "ErsÑttningsfond"
+#KONTO 2190   "ôvriga obeskattade reserver"
+#KONTO 2330   "CheckrÑkningskredit"
+#KONTO 2340   "Byggnadskreditiv"
+#KONTO 2390   "ôvriga lÜngfristiga skulder"
+#KONTO 2420   "Fîrskott frÜn kunder"
+#KONTO 2440   "Leverantîrsskulder"
+#KONTO 2441   "Leverantîrsskulder"
+#KONTO 2510   "Skatteskulder"
+#KONTO 2610   "UtgÜende moms, oreducerad"
+#KONTO 2611   "Utg moms fîrs inom Sv, ored"
+#KONTO 2614   "Utg moms tjÑnstefîrv utl ored"
+#KONTO 2615   "Utg moms varufîrvÑrv EU, ored"
+#KONTO 2620   "UtgÜende moms, reducerad 1"
+#KONTO 2621   "Utg moms fîrs inom Sv, red 1"
+#KONTO 2624   "Utg moms tjÑnstefîrv utl red 1"
+#KONTO 2625   "Utg moms, varufîrvÑrv EU, red1"
+#KONTO 2630   "UtgÜende moms, reducerad 2"
+#KONTO 2631   "Utg moms fîrs inom Sv, red 2"
+#KONTO 2634   "Utg moms tjÑnstefîrv utl red 2"
+#KONTO 2635   "Utg moms, varufîrvÑrv EU, red2"
+#KONTO 2640   "IngÜende moms"
+#KONTO 2645   "BerÑknad ing moms fîrv utland"
+#KONTO 2650   "Redovisningskonto fîr moms"
+#KONTO 2710   "Personalskatt"
+#KONTO 2731   "AvrÑkn lagstadgade sociala avg"
+#KONTO 2750   "UtmÑtning i lîn m m"
+#KONTO 2760   "Semestermedel"
+#KONTO 2790   "ôvriga lîneavdrag"
+#KONTO 2792   "Lînsparande"
+#KONTO 2793   "GruppfîrsÑkringspremier"
+#KONTO 2794   "Fackfîreningsavgifter"
+#KONTO 2810   "AvrÑkn f factoring, kortfr del"
+#KONTO 2820   "Kortfr skulder till anstÑllda"
+#KONTO 2890   "ôvriga kortfristiga skulder"
+#KONTO 2910   "Upplupna lîner"
+#KONTO 2920   "Upplupna semesterlîner"
+#KONTO 2941   "Ber uppl lagst sociala avg"
+#KONTO 2960   "Upplupna rÑntekostnader"
+#KONTO 2970   "Fîrutbetalda intÑkter"
+#KONTO 2990   "ôvr uppl kostn/fîrutbet int"
+#KONTO 3010   "FîrsÑljning material"
+#KONTO 3020   "FîrsÑljning tjÑnst"
+#KONTO 3080   "Reduktion f.pris rÜvar/fîrnîd"
+#KONTO 3081   "LÑmnade kassarab rÜvar/fîrnîd"
+#KONTO 3110   "FîrsÑljning handelsvaror"
+#KONTO 3180   "Reduktion f.pris handelsvaror"
+#KONTO 3181   "LÑmnade kassarab handelsvaror"
+#KONTO 3740   "ôres- och kronutjÑmning"
+#KONTO 3911   "HyresintÑkter"
+#KONTO 3912   "ArrendeintÑkter"
+#KONTO 3921   "ProvisionsintÑkter"
+#KONTO 3922   "LicensintÑkter och royalties"
+#KONTO 3981   "ErhÜllna EU-bidrag"
+#KONTO 3985   "ErhÜllna statliga bidrag"
+#KONTO 3987   "ErhÜllna kommunala bidrag"
+#KONTO 3989   "ôvriga erhÜllna bidrag"
+#KONTO 3990   "ôvr ersÑttningar och intÑkter"
+#KONTO 4010   "Inkîp rÜvaror/fîrnîdenheter,Sv"
+#KONTO 4051   "Inkîp rÜvar/fîrnîd, utanfîr EU"
+#KONTO 4055   "TrepartsfîrvÑrv rÜvar/fîrn, EU"
+#KONTO 4056   "Inkîp rÜvaror/fîrnîd, EU, ored"
+#KONTO 4057   "Inkîp rÜvaror/fîrnîd EU, red 1"
+#KONTO 4058   "Ink rÜvaror/fîrnîd EU momsfri"
+#KONTO 4059   "Fîrdelade rÜvaruinkîp"
+#KONTO 4081   "ErhÜllna kassarabatter"
+#KONTO 4090   "FîrÑndring rÜvaror/fîrnîd"
+#KONTO 4110   "Inkîp handelsvaror,Sv"
+#KONTO 4151   "Inkîp handelsvaror, utanfîr EU"
+#KONTO 4155   "Trepartsfîrv, handelsvaror, EU"
+#KONTO 4156   "Inkîp handelsvaror, EU, ored"
+#KONTO 4157   "Inkîp handelsvaror, EU, red1"
+#KONTO 4158   "Inkîp handelsvaror, EU momsfri"
+#KONTO 4159   "Fîrdelade rÜvaruinkîp"
+#KONTO 4181   "ErhÜllna kassarabatter"
+#KONTO 4190   "FîrÑndring handelsvaror"
+#KONTO 4910   "FîrÑndring av lager av rÜvaror"
+#KONTO 4920   "FîrÑnd lager tills.mtrl/fîrnîd"
+#KONTO 4960   "FîrÑndring lager handelsvaror"
+#KONTO 4970   "FîrÑnd pÜg arb, nedlagda kostn"
+#KONTO 5010   "Lokalhyra"
+#KONTO 5020   "El fîr belysning"
+#KONTO 5050   "Lokaltillbehîr"
+#KONTO 5060   "StÑdning och renhÜllning"
+#KONTO 5070   "Reparation/underhÜll lokaler"
+#KONTO 5090   "ôvriga lokalkostnader"
+#KONTO 5140   "Vatten och avlopp"
+#KONTO 5161   "StÑdning"
+#KONTO 5170   "Rep/underhÜll av fastighet"
+#KONTO 5191   "Fastighetsskatt/avgift"
+#KONTO 5192   "FastighetsfîrsÑkringspremier"
+#KONTO 5198   "ôvr fast.kostn, avdragsg"
+#KONTO 5199   "ôvr fast.kostn, ej avdragsgill"
+#KONTO 5210   "Hyra maskiner/tekn anl"
+#KONTO 5220   "Hyra inventarier/verktyg"
+#KONTO 5290   "ôvr hyreskostn fîr anl.tillg"
+#KONTO 5410   "Fîrbrukningsinventarier"
+#KONTO 5420   "Programvaror"
+#KONTO 5440   "Fîrbrukningsemballage"
+#KONTO 5460   "Fîrbrukningsmaterial"
+#KONTO 5500   "Reparation och underhÜll"
+#KONTO 5611   "Drivmedel fîr personbilar"
+#KONTO 5612   "FîrsÑkring/skatt personbilar"
+#KONTO 5613   "Rep/underhÜll personbilar"
+#KONTO 5615   "Leasing av personbilar"
+#KONTO 5619   "ôvriga personbilskostnader"
+#KONTO 5710   "Frakt/transp/fîrsÑkr varudistr"
+#KONTO 5800   "Resekostnader"
+#KONTO 5810   "Biljetter"
+#KONTO 5831   "Kost och logi i Sverige"
+#KONTO 5832   "Kost och logi i utlandet"
+#KONTO 5890   "ôvriga resekostnader"
+#KONTO 5910   "Annonsering"
+#KONTO 5930   "Reklamtrycksaker/direktreklam"
+#KONTO 5940   "UtstÑllningar och mÑssor"
+#KONTO 5950   "Butiks-/ÜterfîrsÑljarreklam"
+#KONTO 5960   "Varuprover, reklamgÜvor mm"
+#KONTO 5980   "PR, institut reklam, sponsring"
+#KONTO 5990   "ôvr kostnader reklam och PR"
+#KONTO 6010   "Kataloger, prislistor mm"
+#KONTO 6050   "FîrsÑljningsprovisioner"
+#KONTO 6060   "KreditfîrsÑljningskostnader"
+#KONTO 6071   "Representation, avdragsgill"
+#KONTO 6072   "Representation, ej avdragsgill"
+#KONTO 6090   "ôvriga fîrsÑljningskostnader"
+#KONTO 6110   "Kontorsmateriel"
+#KONTO 6150   "Trycksaker"
+#KONTO 6211   "Fast telefoni"
+#KONTO 6212   "Mobiltelefon"
+#KONTO 6214   "Fax"
+#KONTO 6250   "Postbefordran"
+#KONTO 6310   "FîretagsfîrsÑkringar"
+#KONTO 6350   "Fîrluster pÜ kundfordringar"
+#KONTO 6400   "Fîrvaltningskostnader"
+#KONTO 6410   "Styrelsearvoden, ej lîn"
+#KONTO 6420   "ErsÑttningar till revisor"
+#KONTO 6490   "ôvriga fîrvaltningskostnader"
+#KONTO 6520   "Ritnings- och kopieringskostn"
+#KONTO 6530   "RedovisningstjÑnster"
+#KONTO 6550   "Konsultarvoden"
+#KONTO 6560   "Serviceavg till branschorg"
+#KONTO 6561   "Medlemsavgift"
+#KONTO 6570   "Bankkostnader"
+#KONTO 6580   "Advokat-/rÑttegÜngskostnader"
+#KONTO 6590   "ôvriga externa tjÑnster"
+#KONTO 6910   "Licensavgifter och royalties"
+#KONTO 6970   "Tidningar/tidskrifter/facklitt"
+#KONTO 6980   "Fîreningsavgifter"
+#KONTO 6991   "ôvr ext kostn, avdragsgilla"
+#KONTO 6992   "ôvr ext kostn, ej avdragsgilla"
+#KONTO 7010   "Lîner till kollektivanstÑllda"
+#KONTO 7080   "Lîner koll.anst ej arbetad tid"
+#KONTO 7090   "FîrÑndring semesterlîneskuld"
+#KONTO 7210   "Lîner till tjÑnstemÑn"
+#KONTO 7219   "Uppl lîner/vinstand tjÑnstemÑn"
+#KONTO 7220   "Lîner till fîretagsledare"
+#KONTO 7229   "Uppl lîner/tantiem ftgledare"
+#KONTO 7280   "Lîner tj.mÑn/ftgled ej arb tid"
+#KONTO 7290   "FîrÑndring semesterlîneskuld"
+#KONTO 7311   "ErsÑttningar sammantrÑden mm"
+#KONTO 7312   "ErsÑttn fîrslagsverks/uppf"
+#KONTO 7313   "ErsÑttn/bidrag bostadskostn"
+#KONTO 7314   "ErsÑttn/bidrag mÜltidskostn"
+#KONTO 7315   "ErsÑttn/bidrag resor t/f arb.p"
+#KONTO 7316   "ErsÑttning/bidrag arbetsklÑder"
+#KONTO 7319   "ôvr kontanta extraersÑttningar"
+#KONTO 7321   "Skattefria traktamenten, Sv"
+#KONTO 7322   "Skattepl traktamenten, Sv"
+#KONTO 7323   "Skattefria traktamenten, utl"
+#KONTO 7324   "Skattepl traktamenten, utl"
+#KONTO 7331   "Skattefria bilersÑttningar"
+#KONTO 7332   "Skattepliktiga bilersÑttningar"
+#KONTO 7350   "ErsÑttn fîreskrivna arb.klÑder"
+#KONTO 7370   "RepresentationsersÑttning"
+#KONTO 7381   "Kostnader fîr fri bostad"
+#KONTO 7382   "Kostn fria/subv mÜltider"
+#KONTO 7383   "Kostn fria resor t/f arb.plats"
+#KONTO 7384   "Kostn f fria/sub arbetsklÑder"
+#KONTO 7385   "Kostnader fîr fri bil"
+#KONTO 7389   "ôvriga kostn fîr fîrmÜner"
+#KONTO 7390   "ôvr kostnadsers och fîrmÜner"
+#KONTO 7410   "PensionsfîrsÑkringspremier"
+#KONTO 7420   "FîrÑndring av pensionsskuld"
+#KONTO 7460   "Pensionsutbetalningar"
+#KONTO 7490   "ôvriga pensionskostnader"
+#KONTO 7510   "Lagstadgade sociala avgifter"
+#KONTO 7511   "Sociala avg lîner/ersÑttningar"
+#KONTO 7512   "Sociala avg fîr fîrmÜnsvÑrden"
+#KONTO 7519   "Sociala avg semester/lîneskuld"
+#KONTO 7531   "SÑrsk lîneskatt lîn/ersÑttn"
+#KONTO 7532   "SÑrsk lîneskatt pension, dekl"
+#KONTO 7533   "SÑrsk lîneskatt pensionskostn"
+#KONTO 7570   "Premier arb.markn.fîrsÑkringar"
+#KONTO 7610   "Utbildning"
+#KONTO 7620   "Sjuk- och hÑlsovÜrd"
+#KONTO 7631   "Personalrepr, avdragsgill"
+#KONTO 7632   "Personalrepr, ej avdragsgill"
+#KONTO 7690   "ôvriga personalkostnader"
+#KONTO 7691   "FriskvÜrd"
+#KONTO 7693   "Fritidsverksamhet"
+#KONTO 7810   "Avskrivn pÜ imm anl.tillg"
+#KONTO 7811   "Avskrivn pÜ balanserade utg"
+#KONTO 7813   "Avskrivningar pÜ patent"
+#KONTO 7816   "Avskrivningar pÜ hyresrÑtter"
+#KONTO 7817   "Avskrivningar pÜ goodwill"
+#KONTO 7820   "Avskrivn byggnader och markanl"
+#KONTO 7821   "Avskrivningar pÜ byggnader"
+#KONTO 7824   "Avskrivn pÜ markanlÑggningar"
+#KONTO 7830   "Avskrivn maskiner/inventarier"
+#KONTO 7831   "Avskrivn mask/andra tekn anl"
+#KONTO 7832   "Avskrivn inventarier/verktyg"
+#KONTO 7834   "Avskrivn bilar/andra transpm"
+#KONTO 8310   "RÑnteintÑkter frÜn oms.tillg"
+#KONTO 8390   "ôvriga finansiella intÑkter"
+#KONTO 8410   "RÑntekostnader, lÜngfristiga"
+#KONTO 8422   "DrîjsmÜlsrÑntor lev.skulder"
+#KONTO 8423   "RÑntekostnader skatter och avg"
+#KONTO 8490   "ôvriga skuldrelaterade poster"
+#KONTO 8811   "AvsÑttning periodiseringsfond"
+#KONTO 8819   "èterfîring periodiseringsfond"
+#KONTO 8850   "FîrÑndringar îveravskrivningar"
+#KONTO 8860   "FîrÑndring av ersÑttningsfond"
+#KONTO 8890   "ôvriga bokslutsdispositioner"
+#KONTO 8910   "Skatt Ürets besk.bara res"
+#KONTO 8920   "Skatt pga Ñndrad taxering"
+#KONTO 8999   "èrets resultat"
+#KTYP  1010   T
+#KTYP  1030   T
+#KTYP  1060   T
+#KTYP  1070   T
+#KTYP  1110   T
+#KTYP  1119   T
+#KTYP  1130   T
+#KTYP  1150   T
+#KTYP  1159   T
+#KTYP  1210   T
+#KTYP  1219   T
+#KTYP  1220   T
+#KTYP  1229   T
+#KTYP  1240   T
+#KTYP  1249   T
+#KTYP  1354   T
+#KTYP  1380   T
+#KTYP  1410   T
+#KTYP  1420   T
+#KTYP  1440   T
+#KTYP  1460   T
+#KTYP  1470   T
+#KTYP  1480   T
+#KTYP  1510   T
+#KTYP  1511   T
+#KTYP  1515   T
+#KTYP  1590   T
+#KTYP  1610   T
+#KTYP  1611   T
+#KTYP  1613   T
+#KTYP  1614   T
+#KTYP  1630   T
+#KTYP  1640   T
+#KTYP  1650   T
+#KTYP  1680   T
+#KTYP  1684   T
+#KTYP  1710   T
+#KTYP  1720   T
+#KTYP  1730   T
+#KTYP  1740   T
+#KTYP  1750   T
+#KTYP  1760   T
+#KTYP  1790   T
+#KTYP  1910   T
+#KTYP  1920   T
+#KTYP  1940   T
+#KTYP  1980   T
+#KTYP  2081   S
+#KTYP  2082   S
+#KTYP  2083   S
+#KTYP  2085   S
+#KTYP  2086   S
+#KTYP  2091   S
+#KTYP  2093   S
+#KTYP  2098   S
+#KTYP  2099   S
+#KTYP  2110   S
+#KTYP  2111   S
+#KTYP  2112   S
+#KTYP  2113   S
+#KTYP  2114   S
+#KTYP  2115   S
+#KTYP  2123   S
+#KTYP  2124   S
+#KTYP  2125   S
+#KTYP  2126   S
+#KTYP  2127   S
+#KTYP  2128   S
+#KTYP  2129   S
+#KTYP  2150   S
+#KTYP  2151   S
+#KTYP  2152   S
+#KTYP  2153   S
+#KTYP  2160   S
+#KTYP  2190   S
+#KTYP  2330   S
+#KTYP  2340   S
+#KTYP  2390   S
+#KTYP  2420   S
+#KTYP  2440   S
+#KTYP  2441   S
+#KTYP  2510   S
+#KTYP  2610   S
+#KTYP  2611   S
+#KTYP  2614   S
+#KTYP  2615   S
+#KTYP  2620   S
+#KTYP  2621   S
+#KTYP  2624   S
+#KTYP  2625   S
+#KTYP  2630   S
+#KTYP  2631   S
+#KTYP  2634   S
+#KTYP  2635   S
+#KTYP  2640   S
+#KTYP  2645   S
+#KTYP  2650   S
+#KTYP  2710   S
+#KTYP  2731   S
+#KTYP  2750   S
+#KTYP  2760   S
+#KTYP  2790   S
+#KTYP  2792   S
+#KTYP  2793   S
+#KTYP  2794   S
+#KTYP  2810   S
+#KTYP  2820   S
+#KTYP  2890   S
+#KTYP  2910   S
+#KTYP  2920   S
+#KTYP  2941   S
+#KTYP  2960   S
+#KTYP  2970   S
+#KTYP  2990   S
+#KTYP  3010   I
+#KTYP  3020   I
+#KTYP  3080   I
+#KTYP  3081   I
+#KTYP  3110   I
+#KTYP  3180   I
+#KTYP  3181   I
+#KTYP  3740   I
+#KTYP  3911   I
+#KTYP  3912   I
+#KTYP  3921   I
+#KTYP  3922   I
+#KTYP  3981   I
+#KTYP  3985   I
+#KTYP  3987   I
+#KTYP  3989   I
+#KTYP  3990   I
+#KTYP  4010   K
+#KTYP  4051   K
+#KTYP  4055   K
+#KTYP  4056   K
+#KTYP  4057   K
+#KTYP  4058   K
+#KTYP  4059   K
+#KTYP  4081   K
+#KTYP  4090   K
+#KTYP  4110   K
+#KTYP  4151   K
+#KTYP  4155   K
+#KTYP  4156   K
+#KTYP  4157   K
+#KTYP  4158   K
+#KTYP  4159   K
+#KTYP  4181   K
+#KTYP  4190   K
+#KTYP  4910   K
+#KTYP  4920   K
+#KTYP  4960   K
+#KTYP  4970   K
+#KTYP  5010   K
+#KTYP  5020   K
+#KTYP  5050   K
+#KTYP  5060   K
+#KTYP  5070   K
+#KTYP  5090   K
+#KTYP  5140   K
+#KTYP  5161   K
+#KTYP  5170   K
+#KTYP  5191   K
+#KTYP  5192   K
+#KTYP  5198   K
+#KTYP  5199   K
+#KTYP  5210   K
+#KTYP  5220   K
+#KTYP  5290   K
+#KTYP  5410   K
+#KTYP  5420   K
+#KTYP  5440   K
+#KTYP  5460   K
+#KTYP  5500   K
+#KTYP  5611   K
+#KTYP  5612   K
+#KTYP  5613   K
+#KTYP  5615   K
+#KTYP  5619   K
+#KTYP  5710   K
+#KTYP  5800   K
+#KTYP  5810   K
+#KTYP  5831   K
+#KTYP  5832   K
+#KTYP  5890   K
+#KTYP  5910   K
+#KTYP  5930   K
+#KTYP  5940   K
+#KTYP  5950   K
+#KTYP  5960   K
+#KTYP  5980   K
+#KTYP  5990   K
+#KTYP  6010   K
+#KTYP  6050   K
+#KTYP  6060   K
+#KTYP  6071   K
+#KTYP  6072   K
+#KTYP  6090   K
+#KTYP  6110   K
+#KTYP  6150   K
+#KTYP  6211   K
+#KTYP  6212   K
+#KTYP  6214   K
+#KTYP  6250   K
+#KTYP  6310   K
+#KTYP  6350   K
+#KTYP  6400   K
+#KTYP  6410   K
+#KTYP  6420   K
+#KTYP  6490   K
+#KTYP  6520   K
+#KTYP  6530   K
+#KTYP  6550   K
+#KTYP  6560   K
+#KTYP  6561   K
+#KTYP  6570   K
+#KTYP  6580   K
+#KTYP  6590   K
+#KTYP  6910   K
+#KTYP  6970   K
+#KTYP  6980   K
+#KTYP  6991   K
+#KTYP  6992   K
+#KTYP  7010   K
+#KTYP  7080   K
+#KTYP  7090   K
+#KTYP  7210   K
+#KTYP  7219   K
+#KTYP  7220   K
+#KTYP  7229   K
+#KTYP  7280   K
+#KTYP  7290   K
+#KTYP  7311   K
+#KTYP  7312   K
+#KTYP  7313   K
+#KTYP  7314   K
+#KTYP  7315   K
+#KTYP  7316   K
+#KTYP  7319   K
+#KTYP  7321   K
+#KTYP  7322   K
+#KTYP  7323   K
+#KTYP  7324   K
+#KTYP  7331   K
+#KTYP  7332   K
+#KTYP  7350   K
+#KTYP  7370   K
+#KTYP  7381   K
+#KTYP  7382   K
+#KTYP  7383   K
+#KTYP  7384   K
+#KTYP  7385   K
+#KTYP  7389   K
+#KTYP  7390   K
+#KTYP  7410   K
+#KTYP  7420   K
+#KTYP  7460   K
+#KTYP  7490   K
+#KTYP  7510   K
+#KTYP  7511   K
+#KTYP  7512   K
+#KTYP  7519   K
+#KTYP  7531   K
+#KTYP  7532   K
+#KTYP  7533   K
+#KTYP  7570   K
+#KTYP  7610   K
+#KTYP  7620   K
+#KTYP  7631   K
+#KTYP  7632   K
+#KTYP  7690   K
+#KTYP  7691   K
+#KTYP  7693   K
+#KTYP  7810   K
+#KTYP  7811   K
+#KTYP  7813   K
+#KTYP  7816   K
+#KTYP  7817   K
+#KTYP  7820   K
+#KTYP  7821   K
+#KTYP  7824   K
+#KTYP  7830   K
+#KTYP  7831   K
+#KTYP  7832   K
+#KTYP  7834   K
+#KTYP  8310   I
+#KTYP  8390   I
+#KTYP  8410   K
+#KTYP  8422   K
+#KTYP  8423   K
+#KTYP  8490   K
+#KTYP  8811   K
+#KTYP  8819   K
+#KTYP  8850   K
+#KTYP  8860   K
+#KTYP  8890   K
+#KTYP  8910   K
+#KTYP  8920   K
+#KTYP  8999   K
+#DIM 1 KostnadsstÑlle
+#DIM 6 Projekt
+#OBJEKT 1 AO         "Anders Olsson"
+#OBJEKT 1 IB         "Inger Blad"
+#OBJEKT 1 LS         "Lisa Svensson"
+#OBJEKT 1 YK         "Ylva Karlsson"
+#OBJEKT 6 100        "Nyetablering Norr"
+#OBJEKT 6 200        "Nyetablering Sîder"
+#UB     -1 1220         420050.00
+#IB      0 1220         420050.00
+#UB      0 1220         436649.17
+#UB     -1 1229        -143321.00
+#IB      0 1229        -143321.00
+#UB      0 1229        -143321.00
+#UB     -1 1460         145063.00
+#IB      0 1460         145063.00
+#UB      0 1460         145063.00
+#UB     -1 1510         432056.00
+#IB      0 1510         432056.00
+#UB      0 1510         418471.00
+#UB     -1 1515          16300.00
+#IB      0 1515          16300.00
+#UB      0 1515          16300.00
+#UB     -1 1630          76563.00
+#IB      0 1630          76563.00
+#UB      0 1630          76563.00
+#UB     -1 1710          75000.00
+#IB      0 1710          75000.00
+#UB      0 1710          50000.00
+#UB     -1 1790          48007.00
+#IB      0 1790          48007.00
+#UB      0 1790          48007.00
+#UB     -1 1920         269876.00
+#IB      0 1920         269876.00
+#UB      0 1920         562642.00
+#UB     -1 1940         387000.00
+#IB      0 1940         387000.00
+#UB      0 1940          10115.72
+#UB     -1 2081         -50000.00
+#IB      0 2081         -50000.00
+#UB      0 2081         -50000.00
+#UB     -1 2091        -301321.00
+#IB      0 2091        -301321.00
+#UB      0 2091        -301321.00
+#UB      0 2098        -193179.00
+#UB     -1 2099        -193179.00
+#IB      0 2099        -193179.00
+#UB     -1 2110         -55000.00
+#IB      0 2110         -55000.00
+#UB      0 2110         -55000.00
+#UB     -1 2129         -55000.00
+#IB      0 2129         -55000.00
+#UB      0 2129         -55000.00
+#UB     -1 2440        -240632.00
+#IB      0 2440        -240632.00
+#UB      0 2440        -163176.00
+#UB     -1 2510        -261009.00
+#IB      0 2510        -261009.00
+#UB      0 2510        -247209.00
+#UB      0 2610         -55851.25
+#UB      0 2640          24213.82
+#UB     -1 2650         -36897.00
+#IB      0 2650         -36897.00
+#UB      0 2650         -13568.00
+#UB     -1 2710         -29876.00
+#IB      0 2710         -29876.00
+#UB      0 2710         -33300.00
+#UB     -1 2731         -30888.00
+#IB      0 2731         -30888.00
+#UB      0 2731         -34876.20
+#UB     -1 2890         -70000.00
+#IB      0 2890         -70000.00
+#UB      0 2890         -50000.00
+#UB     -1 2920        -260789.00
+#IB      0 2920        -260789.00
+#UB      0 2920        -274109.00
+#UB     -1 2941         -80003.00
+#IB      0 2941         -80003.00
+#UB      0 2941         -84188.14
+#UB     -1 2990         -62000.00
+#IB      0 2990         -62000.00
+#UB      0 2990         -62000.00
+#RES     0 3010        -156767.50
+#RES    -1 3010       -1870000.00
+#RES     0 3020        -226500.00
+#RES    -1 3020       -2630870.00
+#RES     0 3740             -1.64
+#RES     0 3990           -136.50
+#RES     0 4110          92448.80
+#RES    -1 4110         190000.00
+#RES     0 4156          24269.28
+#RES     0 5010          25000.00
+#RES    -1 5010         300000.00
+#RES     0 5020           6492.80
+#RES    -1 5020          12000.00
+#RES     0 5060          10480.00
+#RES    -1 5140         123000.00
+#RES    -1 5161          26000.00
+#RES     0 5410           5432.00
+#RES    -1 5410          63000.00
+#RES     0 5800          11320.75
+#RES    -1 5800         560000.00
+#RES     0 5810            550.00
+#RES     0 5910          32000.00
+#RES    -1 5910         100000.00
+#RES    -1 5930           6000.00
+#RES    -1 5940          63000.00
+#RES    -1 5960          10000.00
+#RES     0 6071            180.00
+#RES    -1 6071          62000.00
+#RES     0 6072            240.00
+#RES     0 6110          24376.00
+#RES    -1 6110         250000.00
+#RES     0 6212            841.60
+#RES    -1 6212          38500.00
+#RES     0 6250            360.00
+#RES    -1 6420          25000.00
+#RES     0 6560            400.00
+#RES     0 6561            100.00
+#RES     0 6570             40.00
+#RES     0 6970            400.94
+#RES    -1 6970           2000.00
+#RES     0 6992            200.00
+#RES     0 7010          76000.00
+#RES    -1 7010        1230000.00
+#RES     0 7090          13320.00
+#RES     0 7220          35000.00
+#RES    -1 7220         400000.00
+#RES    -1 7510         463000.00
+#RES     0 7511          34876.20
+#RES     0 7519           4185.14
+#RES    -1 7519         230000.00
+#RES     0 7610           1600.00
+#RES    -1 7610          25000.00
+#RES     0 7631            720.00
+#RES    -1 7631          25000.00
+#RES     0 7632            120.00
+#RES     0 7690            715.18
+#RES     0 7691           1410.00
+#RES    -1 7691           6000.00
+#RES     0 7832           7400.83
+#RES    -1 7832          56000.00
+#RES     0 8410           1000.00
+#RES    -1 8910          42191.00
+#RES    -1 8999         193179.00
+ 
+#VER 0     1     20120101 "Kontoavslut 2099 mot 2098" 20120101
+{
+   #TRANS     2099 {}    193179.00 20120101
+   #TRANS     2098 {}   -193179.00 20120101
+}
+ 
+#VER 1     1     20120104 "Omf Inventarier pÜ fîrteckn." 20120713
+{
+   #TRANS     1220 {}   -420050.00 20120104
+   #TRANS     1229 {}    143321.00 20120104
+   #TRANS     1220 {}     25000.00 20120104
+   #TRANS     1229 {}     -5000.00 20120104
+   #TRANS     1220 {}     35000.00 20120104
+   #TRANS     1229 {}     -6000.00 20120104
+   #TRANS     1220 {}     20000.00 20120104
+   #TRANS     1229 {}     -5000.00 20120104
+   #TRANS     1220 {}     30000.00 20120104
+   #TRANS     1229 {}     -5000.00 20120104
+   #TRANS     1220 {}    230050.00 20120104
+   #TRANS     1229 {}   -103321.00 20120104
+   #TRANS     1220 {}     80000.00 20120104
+   #TRANS     1229 {}    -19000.00 20120104
+}
+ 
+#VER 1     2     20120104 "Hyra jan" 20120713
+{
+   #TRANS     1710 {}    -25000.00 20120104
+   #TRANS     5010 {}     25000.00 20120104
+}
+ 
+#VER 1     3     20120104 "Bankavgift plusgiro" 20120713
+{
+   #TRANS     1920 {}       -40.00 20120104
+   #TRANS     6570 {}        40.00 20120104
+}
+ 
+#VER 1     4     20120104 "Ombok Ñldre kundfakturor" 20120717
+{
+   #TRANS     1510 {}   -432056.00 20120104
+   #TRANS     1511 {}     56233.00 20120104
+   #TRANS     1511 {}     23000.00 20120104
+   #TRANS     1511 {}    125056.00 20120104
+   #TRANS     1511 {}     14089.00 20120104
+   #TRANS     1511 {}    189678.00 20120104
+   #TRANS     1511 {}     24000.00 20120104
+}
+ 
+#VER 1     5     20120104 "Ombokning leverantîrsskuld" 20120718
+{
+   #TRANS     2440 {}    240632.00 20120104
+   #TRANS     2441 {}   -120632.00 20120104
+   #TRANS     2441 {}    -45000.00 20120104
+   #TRANS     2441 {}     -1600.00 20120104
+   #TRANS     2441 {}     -1400.00 20120104
+   #TRANS     2441 {}    -72000.00 20120104
+}
+ 
+#VER 1     6     20120110 "Inkîp frukost" 20120720
+{
+   #TRANS     1940 {}      -250.00 20120110
+   #TRANS     7690 {}       200.00 20120110
+   #TRANS     2640 {}        50.00 20120110
+}
+ 
+#VER 1     7     20120117 "Bet skatteverket" 20120720
+{
+   #TRANS     1940 {}   -111461.00 20120117
+   #TRANS     2710 {}     29876.00 20120117
+   #TRANS     2731 {}     30888.00 20120117
+   #TRANS     2510 {}     13800.00 20120117
+   #TRANS     2650 {}     36897.00 20120117
+}
+ 
+#VER 1     8     20120123 "Lîn" 20120720
+{
+   #TRANS     1940 {}    -77700.00 20120123
+   #TRANS     7010 {1         AO }     24000.00 20120123
+   #TRANS     7010 {1         IB }     27000.00 20120123
+   #TRANS     7010 {1         LS }     25000.00 20120123
+   #TRANS     7220 {1         YK }     35000.00 20120123
+   #TRANS     2710 {}    -33300.00 20120123
+}
+ 
+#VER 1     9     20120126 "Planeringslunch" 20120720
+{
+   #TRANS     1940 {}      -883.00 20120126
+   #TRANS     7631 {}       720.00 20120126
+   #TRANS     7632 {}       120.00 20120126
+   #TRANS     2640 {}        43.20 20120126
+   #TRANS     3740 {}        -0.20 20120126
+}
+ 
+#VER 1     10    20120131 "Momsredovisning 1201" 20120720
+{
+   #TRANS     2610 {}     39965.62 20120131
+   #TRANS     2615 {}      6067.32 20120131
+   #TRANS     2640 {}    -26396.91 20120131
+   #TRANS     2645 {}     -6067.32 20120131
+   #TRANS     2650 {}    -13568.00 20120131
+   #TRANS     3740 {}        -0.71 20120131
+}
+ 
+#VER 1     11    20120201 "ôverfîring konto" 20120720
+{
+   #TRANS     1920 {}   -200000.00 20120201
+   #TRANS     1940 {}    200000.00 20120201
+}
+ 
+#VER 1     12    20120202 "TÜgbiljett" 20120720
+{
+   #TRANS     1940 {}      -583.00 20120202
+   #TRANS     5810 {}       550.00 20120202 "TÜgresa IB"
+   #TRANS     2640 {}        33.00 20120202
+}
+ 
+#VER 1     13    20120204 "Representation" 20120720
+{
+   #TRANS     1940 {}      -441.00 20120204
+   #TRANS     6071 {}       180.00 20120204 "AffÑrslunch YK, IV kommunal"
+   #TRANS     6072 {}       240.00 20120204
+   #TRANS     2640 {}        21.60 20120204
+   #TRANS     3740 {}        -0.60 20120204
+}
+ 
+#VER 1     14    20120204 "Medlemsavgift 2012" 20120720
+{
+   #TRANS     6560 {}       400.00 20120204
+   #TRANS     6561 {}       100.00 20120204 "Konsultorg."
+   #TRANS     2640 {}       100.00 20120204
+   #TRANS     1940 {}      -600.00 20120204
+}
+ 
+#VER 1     15    20120205 "FriskvÜrd" 20120720
+{
+   #TRANS     1940 {}     -1500.00 20120205
+   #TRANS     7691 {1         YK }      1410.00 20120205 "Gymkort"
+   #TRANS     2640 {}        90.00 20120205
+}
+ 
+#VER 1     16    20120205 "Utbetalningar" 20120720
+{
+   #TRANS     2440 {}     24269.28 20120207
+   #TRANS     1940 {}    -24269.28 20120207
+}
+ 
+#VER 1     17    20120210 "Mobiltillbehîr" 20120720
+{
+   #TRANS     1940 {}     -1560.00 20120210
+   #TRANS     5410 {}      1248.00 20120210
+   #TRANS     2640 {}       312.00 20120210
+}
+ 
+#VER 1     18    20120211 "Amortering" 20120720
+{
+   #TRANS     2890 {}     20000.00 20120211
+   #TRANS     8410 {}      1000.00 20120211
+   #TRANS     1940 {}    -21000.00 20120211
+}
+ 
+#VER 1     19    20120211 "Utbetalning lev" 20120720
+{
+   #TRANS     2441 {}    120632.00 20120211
+   #TRANS     2441 {}     45000.00 20120211
+   #TRANS     2441 {}      1600.00 20120211
+   #TRANS     2441 {}      1400.00 20120211
+   #TRANS     2441 {}     72000.00 20120211
+   #TRANS     1940 {}   -240632.00 20120211
+}
+ 
+#VER 1     20    20120211 "Kontorsmaterial" 20120720
+{
+   #TRANS     1940 {}      -250.00 20120211
+   #TRANS     6110 {}       200.00 20120211 "Ny etikettmaskin"
+   #TRANS     2640 {}        50.00 20120211
+}
+ 
+#VER 2     1     20120128 "Inbet kunder" 20120718
+{
+   #TRANS     1511 {}    -56233.00 20120128
+   #TRANS     1511 {}   -125056.00 20120128
+   #TRANS     1920 {}    181289.00 20120128
+}
+ 
+#VER 2     2     20120201 "Inbet kunder" 20120718
+{
+   #TRANS     1511 {}    -14089.00 20120201
+   #TRANS     1511 {}   -189678.00 20120201
+   #TRANS     1511 {}    -24000.00 20120201
+   #TRANS     1920 {}    227767.00 20120201
+}
+ 
+#VER 2     3     20120205 "Inbet Fotograf N Sjîgran" 20120719
+{
+   #TRANS     1510 {}     -5000.00 20120205
+   #TRANS     1920 {}      5000.00 20120205
+}
+ 
+#VER 2     4     20120206 "Delbetalning kund 1002" 20120719
+{
+   #TRANS     1510 {}     -1500.00 20120206
+   #TRANS     1920 {}      1500.00 20120206
+}
+ 
+#VER 2     5     20120208 "Inbet kunder" 20120720
+{
+   #TRANS     1510 {}     -1000.00 20120208
+   #TRANS     1510 {}    -53250.00 20120208
+   #TRANS     1920 {}     54250.00 20120208
+}
+ 
+#VER 2     6     20120201 "Inb Bjîrnsson" 20120720
+{
+   #TRANS     1511 {}    -23000.00 20120201
+   #TRANS     1920 {}     23000.00 20120201
+}
+ 
+#VER 4101  100   20120105 "Fotograf Nils Sjîgran" 20120713
+{
+   #TRANS     3020 {}     -4000.00 20120105
+   #TRANS     2610 {}     -1000.00 20120105
+   #TRANS     1510 {}      5000.00 20120105
+}
+ 
+#VER 4101  101   20120106 "Petterssons HB" 20120713
+{
+   #TRANS     3010 {}     -3000.00 20120106
+   #TRANS     3010 {}       -35.00 20120106
+   #TRANS     2610 {}      -758.75 20120106
+   #TRANS     3740 {}        -0.25 20120106
+   #TRANS     1510 {}      3794.00 20120106
+}
+ 
+#VER 4101  102   20120106 "Ivans Studio" 20120713
+{
+   #TRANS     3020 {}    -28000.00 20120106
+   #TRANS     2610 {}     -7000.00 20120106
+   #TRANS     1510 {}     35000.00 20120106
+}
+ 
+#VER 4101  103   20120107 "PÜlsson & Sîner" 20120713
+{
+   #TRANS     3010 {}      -800.00 20120107
+   #TRANS     2610 {}      -200.00 20120107
+   #TRANS     1510 {}      1000.00 20120107
+}
+ 
+#VER 4101  104   20120116 "Turbinhus Sthlm AB" 20120713
+{
+   #TRANS     3020 {}    -41600.00 20120116
+   #TRANS     3020 {}     -1000.00 20120116
+   #TRANS     2610 {}    -10650.00 20120116
+   #TRANS     1510 {}     53250.00 20120116
+}
+ 
+#VER 4101  105   20120118 "Dahlgrens i Kîping" 20120713
+{
+   #TRANS     3020 {}    -12000.00 20120118
+   #TRANS     2610 {}     -3000.00 20120118
+   #TRANS     1510 {}     15000.00 20120118
+}
+ 
+#VER 4101  106   20120126 "Anderssons kontorsservice" 20120713
+{
+   #TRANS     3020 {}    -64000.00 20120126
+   #TRANS     3010 {}     -5000.00 20120126
+   #TRANS     2610 {}    -17250.00 20120126
+   #TRANS     1510 {}     86250.00 20120126
+}
+ 
+#VER 4101  107   20120126 "Lisa Handelsbod" 20120713
+{
+   #TRANS     3010 {}      -427.50 20120126
+   #TRANS     2610 {}      -106.87 20120126
+   #TRANS     3740 {}         0.37 20120126
+   #TRANS     1510 {}       534.00 20120126
+}
+ 
+#VER 4101  108   20120203 "MalmîbyrÜn AB" 20120718
+{
+   #TRANS     3020 {}    -24000.00 20120203
+   #TRANS     2610 {}     -6000.00 20120203
+   #TRANS     1510 {}     30000.00 20120203
+}
+ 
+#VER 4101  109   20120203 "Ahlgrens i Sîder" 20120718
+{
+   #TRANS     3010 {}      -800.00 20120203
+   #TRANS     3990 {}       -35.00 20120203
+   #TRANS     3010 {}    -12000.00 20120203
+   #TRANS     2610 {}     -3200.00 20120203
+   #TRANS     1510 {}     16035.00 20120203
+}
+ 
+#VER 4101  110   20120210 "Wallengren International" 20120719
+{
+   #TRANS     3020 {}    -32400.00 20120210
+   #TRANS     3020 {}      -900.00 20120210
+   #TRANS     2610 {}     -8325.00 20120210
+   #TRANS     1510 {}     41625.00 20120210
+}
+ 
+#VER 4101  111   20120210 "Turbinhus Sthlm AB" 20120720
+{
+   #TRANS     3010 {}    -23000.00 20120210
+   #TRANS     3010 {}      -800.00 20120210
+   #TRANS     3990 {}       -35.00 20120210
+   #TRANS     2610 {}     -5950.00 20120210
+   #TRANS     1510 {}     29785.00 20120210
+}
+ 
+#VER 4101  112   20120210 "Stora Hotellet" 20120720
+{
+   #TRANS     3020 {}     -6000.00 20120210
+   #TRANS     3010 {}    -80000.00 20120210
+   #TRANS     2610 {}    -21500.00 20120210
+   #TRANS     1510 {}    107500.00 20120210
+}
+ 
+#VER 4101  113   20120210 "MalmîbyrÜn AB" 20120720
+{
+   #TRANS     3010 {}     -3500.00 20120210
+   #TRANS     3990 {}       -35.00 20120210
+   #TRANS     2610 {}      -875.00 20120210
+   #TRANS     1510 {}      4410.00 20120210
+}
+ 
+#VER 4101  114   20120216 "Wallengren International" 20120803
+{
+   #TRANS     3020 {}       900.00 20120216
+   #TRANS     2610 {}       225.00 20120216
+   #TRANS     1510 {}     -1125.00 20120216
+}
+ 
+#VER 4101  115   20120216 "Hans Beckman AB" 20120803
+{
+   #TRANS     3010 {}      -405.00 20120216
+   #TRANS     3010 {}    -27000.00 20120216
+   #TRANS     3990 {}       -31.50 20120216
+   #TRANS     2610 {}     -6851.25 20120216
+   #TRANS     3740 {}        -0.25 20120216
+   #TRANS     1510 {}     34288.00 20120216
+}
+ 
+#VER 4101  116   20120220 "Turbinhus Sthlm AB" 20120803
+{
+   #TRANS     3020 {}     -7500.00 20120220
+   #TRANS     2610 {}     -1875.00 20120220
+   #TRANS     1510 {}      9375.00 20120220
+}
+ 
+#VER 4101  117   20120220 "Ervalla Energo" 20120810
+{
+   #TRANS     3020 {}     -6000.00 20120220
+   #TRANS     2610 {}     -1500.00 20120220
+   #TRANS     1510 {}      7500.00 20120220
+}
+ 
+#VER 5101  1     20120110 "Bageriet AB" 20120712
+{
+   #TRANS     2440 {}      -225.00 20120110
+   #TRANS     2640 {}        24.11 20120110
+   #TRANS     7690 {}       200.89 20120110
+}
+ 
+#VER 5101  2     20120112 "Reklamkonsulterna AB" 20120712
+{
+   #TRANS     2440 {}     -2000.00 20120112
+   #TRANS     2640 {}       400.00 20120112
+   #TRANS     7610 {1         IB }      1600.00 20120112 "Kurs Sthlm kundvÑrde"
+}
+ 
+#VER 5101  3     20120116 "StÑdfirman skurhinken" 20120712
+{
+   #TRANS     2440 {}    -13100.00 20120116
+   #TRANS     2640 {}      2620.00 20120116
+   #TRANS     5060 {}     10480.00 20120116
+}
+ 
+#VER 5101  4     20120116 "Proffs Tryckeri AB" 20120713
+{
+   #TRANS     2440 {}    -35000.00 20120116
+   #TRANS     2640 {}      7000.00 20120116
+   #TRANS     4110 {}     28000.00 20120116
+}
+ 
+#VER 5101  5     20120120 "Elbolaget" 20120713
+{
+   #TRANS     2440 {}     -4026.00 20120120
+   #TRANS     2640 {}       805.20 20120120
+   #TRANS     5020 {}      3220.80 20120120
+}
+ 
+#VER 5101  6     20120120 "Telefonbolaget AB" 20120713
+{
+   #TRANS     2440 {}     -1052.00 20120120
+   #TRANS     2640 {}       210.40 20120120
+   #TRANS     6212 {1         YK }       201.00 20120120
+   #TRANS     6212 {1         AO }       321.00 20120120
+   #TRANS     6212 {1         IB }       319.60 20120120
+}
+ 
+#VER 5101  7     20120123 "Annonsbolaget" 20120713
+{
+   #TRANS     2440 {}    -40000.00 20120123
+   #TRANS     2640 {}      8000.00 20120123
+   #TRANS     5910 {}     10667.00 20120123
+   #TRANS     5910 {}     10667.00 20120201
+   #TRANS     5910 {}     10666.00 20120301
+   #TRANS     1790 {}    -10667.00 20120201
+   #TRANS     1790 {}     10667.00 20120123
+   #TRANS     1790 {}    -10666.00 20120301
+   #TRANS     1790 {}     10666.00 20120123
+}
+ 
+#VER 5101  8     20120123 "Decoration A/S" 20120713
+{
+   #TRANS     2440 {}    -24269.28 20120123
+   #TRANS     4156 {}     24269.28 20120123
+   #TRANS     2615 {}     -6067.32 20120123
+   #TRANS     2645 {}      6067.32 20120123
+}
+ 
+#VER 5101  9     20120125 "Inredning & Stil" 20120713
+{
+   #TRANS     2440 {}     -6220.00 20120125
+   #TRANS     2640 {}      1244.00 20120125
+   #TRANS     6110 {}      4976.00 20120125
+}
+ 
+#VER 5101  10    20120128 "Dataservice AB" 20120713
+{
+   #TRANS     2440 {}    -30000.00 20120128
+   #TRANS     2640 {}      6000.00 20120128
+   #TRANS     1220 {}     24000.00 20120128 "Kopiator IBs rum"
+}
+ 
+#VER 5101  11    20120203 "Inredning & Stil" 20120713
+{
+   #TRANS     2440 {}      2000.00 20120203
+   #TRANS     2640 {}      -400.00 20120203
+   #TRANS     6110 {}     -1600.00 20120203
+   #TRANS     2440 {}      2000.00 20120203
+   #TRANS     2440 {}     -2000.00 20120203
+}
+ 
+#VER 5101  12    20120204 "Laban fîrlag" 20120713
+{
+   #TRANS     2440 {}      -425.00 20120204
+   #TRANS     2640 {}        24.06 20120204
+   #TRANS     6970 {}       400.94 20120204 "bok till AO"
+}
+ 
+#VER 5101  13    20120206 "Mîbelvaruhuset" 20120713
+{
+   #TRANS     2440 {}     -5230.00 20120206
+   #TRANS     2640 {}      1046.00 20120206
+   #TRANS     5410 {}      4184.00 20120206
+}
+ 
+#VER 5101  14    20120207 "Bageriet AB" 20120713
+{
+   #TRANS     2440 {}      -352.00 20120207
+   #TRANS     2640 {}        37.71 20120207
+   #TRANS     7690 {}       314.29 20120207
+}
+ 
+#VER 5101  15    20120208 "Flygvaruhuset" 20120713
+{
+   #TRANS     2440 {}    -15000.00 20120208
+   #TRANS     2640 {}       849.06 20120208
+   #TRANS     5800 {}     14150.94 20120208 "Flyg TuRAO, IB"
+}
+ 
+#VER 5101  16    20120201 "Reklamfîrbundet org" 20120713
+{
+   #TRANS     2440 {}      -200.00 20120201
+   #TRANS     6992 {}       200.00 20120201 "Medlemsavgift Ürskostnad"
+}
+ 
+#VER 5101  17    20120215 "Inredning & Stil" 20120713
+{
+   #TRANS     2440 {}    -26000.00 20120215
+   #TRANS     2640 {}      5200.00 20120215
+   #TRANS     6110 {}     20800.00 20120215
+}
+ 
+#VER 5101  18    20120216 "Post & leverans" 20120713
+{
+   #TRANS     2440 {}      -450.00 20120216
+   #TRANS     2640 {}        90.00 20120216
+   #TRANS     6250 {}       360.00 20120216
+}
+ 
+#VER 5101  19    20120216 "Elbolaget" 20120713
+{
+   #TRANS     2440 {}     -4090.00 20120216
+   #TRANS     2640 {}       818.00 20120216
+   #TRANS     5020 {}      3272.00 20120216
+}
+ 
+#VER 5101  20    20120216 "Flygvaruhuset" 20120713
+{
+   #TRANS     2440 {}     15000.00 20120216
+   #TRANS     2640 {}      -849.06 20120216
+   #TRANS     5800 {}    -14150.94 20120216 "Flyg TuRAO, IB"
+   #TRANS     2440 {}     15000.00 20120216
+   #TRANS     2440 {}    -15000.00 20120216
+}
+ 
+#VER 5101  21    20120216 "Flygvaruhuset" 20120713
+{
+   #TRANS     2440 {}    -12000.00 20120216
+   #TRANS     2640 {}       679.25 20120216
+   #TRANS     5800 {}     11320.75 20120216 "Flyg AO & IB"
+}
+ 
+#VER 5101  22    20120220 "Proffs Tryckeri AB" 20120720
+{
+   #TRANS     2440 {}    -80561.00 20120220
+   #TRANS     2640 {}     16112.20 20120220
+   #TRANS     4110 {}     64448.80 20120220
+}
+ 
+#VER 5103  1     20120713 "Utbetalning med tjÑnsten LB" 20120713
+{
+   #TRANS     2440 {}       225.00 20120716
+   #TRANS     1940 {}      -225.00 20120716
+}
+ 
+#VER 5103  2     20120718 "Utbetalning med tjÑnsten LB" 20120718
+{
+   #TRANS     2440 {}      2000.00 20120719
+   #TRANS     2440 {}     13100.00 20120719
+   #TRANS     2440 {}     35000.00 20120719
+   #TRANS     1940 {}    -50100.00 20120719
+}
+ 
+#VER 5103  3     20120720 "Utbetalning med tjÑnsten LB" 20120720
+{
+   #TRANS     2440 {}      4026.00 20120723
+   #TRANS     2440 {}      1052.00 20120723
+   #TRANS     1940 {}     -5078.00 20120723
+}
+ 
+#VER 5103  4     20120814 "Utbetalning med tjÑnsten LB" 20120814
+{
+   #TRANS     2440 {}     40000.00 20120815
+   #TRANS     2440 {}       352.00 20120815
+   #TRANS     1940 {}    -40352.00 20120815
+}
+ 
+#VER 9998  1     20120131 "Avskrivning inventarier" 20120720
+{
+   #TRANS     7832 {}       416.67 20120131
+   #TRANS     1220 {}      -416.67 20120131
+}
+ 
+#VER 9998  2     20120131 "Avskrivning inventarier" 20120720
+{
+   #TRANS     7832 {}       583.33 20120131
+   #TRANS     1220 {}      -583.33 20120131
+}
+ 
+#VER 9998  3     20120131 "Avskrivning inventarier" 20120720
+{
+   #TRANS     7832 {}       333.33 20120131
+   #TRANS     1220 {}      -333.33 20120131
+}
+ 
+#VER 9998  4     20120131 "Avskrivning inventarier" 20120720
+{
+   #TRANS     7832 {}       500.00 20120131
+   #TRANS     1220 {}      -500.00 20120131
+}
+ 
+#VER 9998  5     20120131 "Avskrivning inventarier" 20120720
+{
+   #TRANS     7832 {}      3834.17 20120131
+   #TRANS     1220 {}     -3834.17 20120131
+}
+ 
+#VER 9998  6     20120131 "Avskrivning inventarier" 20120720
+{
+   #TRANS     7832 {}      1333.33 20120131
+   #TRANS     1220 {}     -1333.33 20120131
+}
+ 
+#VER 9998  7     20120131 "Avskrivning inventarier" 20120720
+{
+   #TRANS     7832 {}       400.00 20120131
+   #TRANS     1220 {}      -400.00 20120131
+}
+ 
+#VER 9998  8     20120131 "Sociala avgifter pÜ utb lîn" 20120720
+{
+   #TRANS     7511 {}     34876.20 20120131
+   #TRANS     2731 {}    -34876.20 20120131
+}
+ 
+#VER 9998  9     20120131 "Semesterlîneskuld" 20120720
+{
+   #TRANS     7090 {}     13320.00 20120131
+   #TRANS     2920 {}    -13320.00 20120131
+}
+ 
+#VER 9998  10    20120131 "Soc avg pÜ semesterlîn" 20120720
+{
+   #TRANS     7519 {}      4185.14 20120131
+   #TRANS     2941 {}     -4185.14 20120131
+}

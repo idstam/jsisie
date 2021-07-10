@@ -1,0 +1,776 @@
+#FLAGGA	0
+#KSUMMA
+#PROGRAM	"Visma Compact"	6.00
+#FORMAT	PC8
+#FTYP	"AB"
+#GEN	20110318	Anders_Bro
+#SIETYP	1
+#PROSA	""
+#FNR	TESTBOLAG
+#ORGNR	556252-9155
+#FNAMN	"ôvningsbolaget AB"
+#ADRESS	""	""	"200 10  MALMô"	"040-6931320"
+#KPTYP	EUBAS97
+#RAR	0	20100101	20101231
+#RAR	-1	20090101	20091231
+#KONTO	1010	"Balanserade utgifter"
+#SRU	1010	7201
+#KONTO	1011	"Bal utgifter forskning/utveckling"
+#SRU	1011	7201
+#KONTO	1012	"Balanserade utgifter programvaror"
+#SRU	1012	7201
+#KONTO	1018	"Ack nedskrivningar balanserade utgifter"
+#SRU	1018	7201
+#KONTO	1060	"HyresrÑtter"
+#SRU	1060	7201
+#KONTO	1068	"Ack nedskrivningar hyresrÑtter"
+#SRU	1068	7201
+#KONTO	1069	"Ack avskrivningar hyresrÑtter"
+#SRU	1069	7201
+#KONTO	1070	"Goodwill"
+#SRU	1070	7201
+#KONTO	1078	"Ack nedskrivningar goodwill"
+#SRU	1078	7201
+#KONTO	1079	"Ack avskrivningar goodwill"
+#SRU	1079	7201
+#KONTO	1110	"Byggnader"
+#SRU	1110	7214
+#KONTO	1119	"Ack avskrivningar byggnader"
+#SRU	1119	7214
+#KONTO	1130	"Mark"
+#SRU	1130	7214
+#KONTO	1150	"MarkanlÑggningar"
+#SRU	1150	7214
+#KONTO	1159	"Ack avskrivningar pÜ markanlÑggningar"
+#SRU	1159	7214
+#KONTO	1210	"Maskiner och andra tekniska anlÑggningar"
+#SRU	1210	7215
+#KONTO	1219	"Ack avskrivningar maskiner"
+#SRU	1219	7215
+#KONTO	1220	"Inventarier och verktyg"
+#SRU	1220	7215
+#KONTO	1229	"Ack avskrivningar inventarier/verktyg"
+#SRU	1229	7215
+#KONTO	1240	"Bilar och andra transportmedel"
+#SRU	1240	7215
+#KONTO	1249	"Ack avskr bilar/andra transportmedel"
+#SRU	1249	7215
+#KONTO	1250	"Datorer"
+#SRU	1250	7215
+#KONTO	1259	"Ack avskrivningar pÜ datorer"
+#SRU	1259	7215
+#KONTO	1291	"Konst och liknande tillgÜngar"
+#SRU	1291	7215
+#KONTO	1350	"Andelar och vÑrdepapper i andra fîretag"
+#SRU	1350	7233
+#KONTO	1380	"Andra lÜngfristiga fordringar"
+#SRU	1380	7235
+#KONTO	1389	"Ack nedskr vÑrdepapper/lÜngfr fordringar"
+#SRU	1389	7235
+#KONTO	1410	"Lager"
+#SRU	1410	7241
+#KONTO	1440	"Produkter i arbete"
+#SRU	1440	7242
+#KONTO	1470	"PÜgÜende arbeten"
+#SRU	1470	7245
+#KONTO	1479	"FîrÑndr lager/prod i arbete/pÜg arbeten"
+#SRU	1479	7245
+#KONTO	1510	"Kundfordringar"
+#SRU	1510	7251
+#KONTO	1515	"OsÑkra kundfordringar"
+#SRU	1515	7251
+#KONTO	1518	"Ej reskontrafîrda kundfordringar"
+#SRU	1518	7251
+#KONTO	1580	"Fordringar fîr kontokort och kuponger"
+#SRU	1580	7251
+#KONTO	1610	"Kortfristiga fordringar hos anstÑllda"
+#SRU	1610	7261
+#KONTO	1630	"Skattekonto"
+#SRU	1630	7261
+#KONTO	1640	"Skattefordringar"
+#SRU	1640	7261
+#KONTO	1650	"Momsfordran"
+#SRU	1650	7261
+#KONTO	1660	"Kortfristiga fordringar koncernfîretag"
+#SRU	1660	7252
+#KONTO	1661	"Kortfristiga fordringar hos moderfîretag"
+#SRU	1661	7252
+#KONTO	1662	"Kortfristiga fordringar dotterfîretag"
+#SRU	1662	7252
+#KONTO	1663	"Kortfr fordringar andra koncernfîretag"
+#SRU	1663	7252
+#KONTO	1670	"Kortfristiga fordringar intressefîretag"
+#SRU	1670	7252
+#KONTO	1680	"Andra kortfristiga fordringar"
+#SRU	1680	7261
+#KONTO	1690	"Fordringar, tecknat ej inbet aktiekapital"
+#SRU	1690	7261
+#KONTO	1710	"Fîrutbet kostnader/upplupna intÑkter"
+#SRU	1710	7263
+#KONTO	1790	"ôvr fîrutbet kostnader/upplupna intÑkter"
+#SRU	1790	7263
+#KONTO	1910	"Kassa"
+#SRU	1910	7281
+#KONTO	1920	"Plusgiro"
+#SRU	1920	7281
+#KONTO	1930	"CheckrÑkningskonto"
+#SRU	1930	7281
+#KONTO	1940	"Bank"
+#SRU	1940	7281
+#KONTO	2010	"Eget kapital, delÑgare 1"
+#SRU	2010	000
+#KONTO	2011	"Egna varuuttag"
+#SRU	2011	000
+#KONTO	2012	"Skattekonto"
+#SRU	2012	000
+#KONTO	2013	"ôvriga egna uttag"
+#SRU	2013	000
+#KONTO	2016	"FîrÑndring i fond fîr verkligt vÑrde"
+#SRU	2016	000
+#KONTO	2017	"èrets kapitaltillskott"
+#SRU	2017	000
+#KONTO	2018	"ôvriga egna insÑttningar"
+#SRU	2018	000
+#KONTO	2019	"èrets resultat, delÑgare 1"
+#SRU	2019	000
+#KONTO	2020	"Eget kapital, delÑgare 2-4"
+#SRU	2020	000
+#KONTO	2050	"AvsÑttning till expansionsfond"
+#SRU	2050	000
+#KONTO	2081	"Aktiekapital"
+#SRU	2081	7301
+#KONTO	2086	"Reservfond"
+#SRU	2086	7301
+#KONTO	2091	"Balanserad vinst eller fîrlust"
+#SRU	2091	7302
+#KONTO	2098	"Vinst eller fîrlust frÜn fîregÜende Ür"
+#SRU	2098	7302
+#KONTO	2099	"èrets resultat"
+#SRU	2099	7302
+#KONTO	2110	"Periodiseringsfond tax 2010"
+#SRU	2110	7321
+#KONTO	2111	"Periodiseringsfond tax 2011"
+#SRU	2111	7321
+#KONTO	2112	"Periodiseringsfond tax 2012"
+#SRU	2112	7321
+#KONTO	2113	"Periodiseringsfond tax 2013"
+#SRU	2113	7321
+#KONTO	2114	"Periodiseringsfond tax 2014"
+#SRU	2114	7321
+#KONTO	2115	"Periodiseringsfond tax 2015"
+#SRU	2115	7321
+#KONTO	2123	"Periodiseringsfond tax 2003"
+#SRU	2123	7321
+#KONTO	2124	"Periodiseringsfond tax 2004"
+#SRU	2124	7321
+#KONTO	2125	"Periodiseringsfond tax 2005"
+#SRU	2125	7321
+#KONTO	2126	"Periodiseringsfond tax 2006"
+#SRU	2126	7321
+#KONTO	2127	"Periodiseringsfond tax 2007"
+#SRU	2127	7321
+#KONTO	2128	"Periodiseringsfond tax 2008"
+#SRU	2128	7321
+#KONTO	2129	"Periodiseringsfond tax 2009"
+#SRU	2129	7321
+#KONTO	2150	"Ackumulerade îveravskrivningar"
+#SRU	2150	7322
+#KONTO	2199	"ôvriga obeskattade reserver"
+#SRU	2199	7323
+#KONTO	2330	"CheckrÑkningskredit"
+#SRU	2330	7351
+#KONTO	2350	"Andra lÜngfr skulder kreditinstitut"
+#SRU	2350	7352
+#KONTO	2391	"Avbetalningskontrakt, lÜngfristig del"
+#SRU	2391	7354
+#KONTO	2393	"LÜn nÑrstÜende personer, lÜngfr del"
+#SRU	2393	7354
+#KONTO	2399	"ôvriga lÜngfristiga skulder"
+#SRU	2399	7354
+#KONTO	2410	"Andra kortfr lÜneskulder till kreditinstitut"
+#SRU	2410	7361
+#KONTO	2420	"Fîrskott frÜn kunder(periodisering)"
+#SRU	2420	000
+#KONTO	2421	"Ej inlîsta presentkort"
+#SRU	2421	7362
+#KONTO	2429	"ôvriga fîrskott frÜn kunder"
+#SRU	2429	7362
+#KONTO	2431	"PÜgÜende arbeten, fakturering"
+#SRU	2431	7363
+#KONTO	2438	"PÜgÜende arbeten, nedlagda kostnader"
+#SRU	2438	7363
+#KONTO	2439	"BerÑknad fîrÑndring av pÜgÜende arbeten"
+#SRU	2439	7363
+#KONTO	2440	"Leverantîrsskulder"
+#SRU	2440	7365
+#KONTO	2448	"Ej reskontrafîrda leverantîrsskulder"
+#SRU	2448	7365
+#KONTO	2490	"ôvr kortfristiga skulder"
+#SRU	2490	7369
+#KONTO	2510	"Skatteskulder"
+#SRU	2510	7368
+#KONTO	2610	"UtgÜende moms 25%"
+#SRU	2610	7369
+#KONTO	2611	"UtgÜende moms 25%"
+#SRU	2611	7369
+#KONTO	2612	"UtgÜende moms pÜ egna uttag 25%"
+#SRU	2612	7369
+#KONTO	2613	"UtgÜende moms fîr uthyrning 25%"
+#SRU	2613	7369
+#KONTO	2614	"Ber utg moms tjÑnstefîrvÑrv utlandet 25%"
+#SRU	2614	7369
+#KONTO	2615	"Ber utg moms varufîrvÑrv EU-land 25%"
+#SRU	2615	7369
+#KONTO	2616	"Utg moms VMB 25%"
+#SRU	2616	7369
+#KONTO	2617	"Utg moms omv skattskyldighet i Sv 25%"
+#SRU	2617	7369
+#KONTO	2618	"Vilande utgÜende moms 25%"
+#SRU	2618	7369
+#KONTO	2619	"Utg moms EU-land"
+#SRU	2619	7369
+#KONTO	2620	"UtgÜende moms 12%"
+#SRU	2620	7369
+#KONTO	2621	"UtgÜende moms 12%"
+#SRU	2621	7369
+#KONTO	2622	"UtgÜende moms pÜ egna uttag 12%"
+#SRU	2622	7369
+#KONTO	2623	"UtgÜende moms fîr uthyrning 12%"
+#SRU	2623	7369
+#KONTO	2624	"Ber utg moms tjÑnstefîrvÑrv utlandet 12%"
+#SRU	2624	7369
+#KONTO	2625	"Ber utg moms varufîrvÑrv EU-land 12%"
+#SRU	2625	7369
+#KONTO	2626	"UtgÜende moms VMB 12%"
+#SRU	2626	7369
+#KONTO	2627	"Utg moms omv skattskyldighet i Sv 12%"
+#SRU	2627	7369
+#KONTO	2628	"Vilande utgÜende moms 12%"
+#SRU	2628	7369
+#KONTO	2630	"UtgÜende moms 6%"
+#SRU	2630	7369
+#KONTO	2631	"UtgÜende moms 6%"
+#SRU	2631	7369
+#KONTO	2632	"UtgÜende moms pÜ egna uttag 6%"
+#SRU	2632	7369
+#KONTO	2633	"UtgÜende moms fîr uthyrning 6%"
+#SRU	2633	7369
+#KONTO	2634	"Ber utg moms tjÑnstefîrvÑrv utlandet 6%"
+#SRU	2634	7369
+#KONTO	2635	"Ber utg moms varufîrvÑrv EU-land 6%"
+#SRU	2635	7369
+#KONTO	2636	"UtgÜende moms VMB 6%"
+#SRU	2636	7369
+#KONTO	2637	"Utg moms omv skattskyldighet i Sv 6%"
+#SRU	2637	7369
+#KONTO	2638	"Vilande utgÜende moms 6%"
+#SRU	2638	7369
+#KONTO	2640	"IngÜende moms"
+#SRU	2640	7369
+#KONTO	2641	"Debiterad ingÜende moms"
+#SRU	2641	7369
+#KONTO	2642	"Deb ing moms frivillig skattskyldighet"
+#SRU	2642	7369
+#KONTO	2645	"Ber ing moms pÜ fîrvÑrv frÜn utlandet"
+#SRU	2645	7369
+#KONTO	2646	"IngÜende moms pÜ uthyrning"
+#SRU	2646	7369
+#KONTO	2647	"Ing moms omv skattskyldighet i Sv"
+#SRU	2647	7369
+#KONTO	2648	"Vilande ingÜende moms"
+#SRU	2648	7369
+#KONTO	2649	"IngÜende moms, blandad verksamhet"
+#SRU	2649	7369
+#KONTO	2650	"Redovisningskonto fîr moms"
+#SRU	2650	7369
+#KONTO	2661	"Reklamskatt"
+#SRU	2661	7369
+#KONTO	2710	"Personalskatt"
+#SRU	2710	7369
+#KONTO	2730	"Lagstadgade sociala avgifter/lîneskatt"
+#SRU	2730	7369
+#KONTO	2750	"UtmÑtning i lîn m m"
+#SRU	2750	7369
+#KONTO	2760	"Semestermedel"
+#SRU	2760	7369
+#KONTO	2790	"ôvriga lîneavdrag"
+#SRU	2790	7369
+#KONTO	2840	"Kortfristiga lÜneskulder"
+#SRU	2840	7369
+#KONTO	2890	"ôvriga kortfristiga skulder"
+#SRU	2890	7369
+#KONTO	2920	"Upplupna semesterlîner"
+#SRU	2920	7370
+#KONTO	2940	"Upplupna lagstadgade sociala avgifter"
+#SRU	2940	7370
+#KONTO	2990	"ôvr upplupna kostn/fîrutbetalda intÑkter"
+#SRU	2990	7370
+#KONTO	3001	"FîrsÑljning varor, 25% moms"
+#SRU	3001	7410
+#KONTO	3002	"FîrsÑljning varor, 12% moms"
+#SRU	3002	7410
+#KONTO	3003	"FîrsÑljning varor, 6% moms"
+#SRU	3003	7410
+#KONTO	3004	"FîrsÑljning varor, momsfri"
+#SRU	3004	7410
+#KONTO	3005	"FîrsÑljning varor, utanfîr EU"
+#SRU	3005	7410
+#KONTO	3006	"FîrsÑljning varor EU-land momspliktig"
+#SRU	3006	7410
+#KONTO	3007	"FîrsÑljning varor, EU-land, mellanman"
+#SRU	3007	7410
+#KONTO	3008	"FîrsÑljning varor, EU-land"
+#SRU	3008	7410
+#KONTO	3010	"Periodiseringskonto"
+#SRU	3010	000
+#KONTO	3220	"FîrsÑljning VMB fîrenklad 25%"
+#SRU	3220	7410
+#KONTO	3231	"FîrsÑljning inom byggsektorn, omv skattsk"
+#SRU	3231	7410
+#KONTO	3232	"FîrsÑljning investeringsguld, omv skattsk"
+#SRU	3232	7410
+#KONTO	3233	"Utl fîretagares fîrsÑljning, omv skattsk"
+#SRU	3233	7410
+#KONTO	3259	"Momspliktiga uttag, 25%"
+#SRU	3259	7410
+#KONTO	3301	"FîrsÑljning tjÑnster, 25 % moms"
+#SRU	3301	7410
+#KONTO	3302	"FîrsÑljning tjÑnster, 12% moms"
+#SRU	3302	7410
+#KONTO	3303	"FîrsÑljning tjÑnster, 6% moms"
+#SRU	3303	7410
+#KONTO	3304	"FîrsÑljning tjÑnster, momsfri"
+#SRU	3304	7410
+#KONTO	3305	"ôvr fîrsÑljning tjÑnster utom landet"
+#SRU	3305	7410
+#KONTO	3306	"FîrsÑljning tjÑnster, EU-land momspliktig"
+#SRU	3306	7410
+#KONTO	3308	"FîrsÑljning tjÑnster, kîpare skattsk EG-land"
+#SRU	3308	7410
+#KONTO	3500	"Fakturerade kostnader"
+#SRU	3500	7410
+#KONTO	3520	"Fakturerade frakter Sve"
+#SRU	3520	7410
+#KONTO	3521	"Fakturerade frakter, EU-land"
+#SRU	3521	7410
+#KONTO	3522	"Fakturerade frakter, export"
+#SRU	3522	7410
+#KONTO	3540	"Faktureringsavgifter Sve"
+#SRU	3540	7410
+#KONTO	3541	"Faktureringsavgifter, EU-land"
+#SRU	3541	7410
+#KONTO	3542	"Faktureringsavgifter, export"
+#SRU	3542	7410
+#KONTO	3731	"LÑmnade kassarabatter"
+#SRU	3731	7410
+#KONTO	3740	"ôres- och kronutjÑmning"
+#SRU	3740	7410
+#KONTO	3751	"IntÑktsfîrda punktskatter (kreditkonto)"
+#SRU	3751	7410
+#KONTO	3752	"Skuldfîrda punktskatter (debetkonto)"
+#SRU	3752	7410
+#KONTO	3800	"Aktiverat arbete egen rÑkning"
+#SRU	3800	7412
+#KONTO	3910	"Hyres- och arrendeintÑkter"
+#SRU	3910	7413
+#KONTO	3950	"ètervunna, tidigare avskr kundfordringar"
+#SRU	3950	7413
+#KONTO	3960	"Valutakursvinster pÜ fordringar/skulder"
+#SRU	3960	7413
+#KONTO	3970	"Vinst avyttr im-/materiella anlÑggn"
+#SRU	3970	7413
+#KONTO	3980	"ErhÜllna bidrag"
+#SRU	3980	7413
+#KONTO	3990	"ôvriga ersÑttningar och intÑkter"
+#SRU	3990	7413
+#KONTO	4010	"Inkîp varor och material"
+#SRU	4010	000
+#KONTO	4415	"Inkîp varor, omvÑnd skattsk, 25%"
+#SRU	4415	000
+#KONTO	4416	"Inkîp varor, omvÑnd skattsk, 12%"
+#SRU	4416	000
+#KONTO	4417	"Inkîp varor, omvÑnd skattsk, 6%"
+#SRU	4417	000
+#KONTO	4420	"Inkîp tjÑnster, omvÑnd skattsk"
+#SRU	4420	000
+#KONTO	4425	"Inkîp tjÑnster, omvÑnd skattsk, 25%"
+#SRU	4425	000
+#KONTO	4426	"Inkîp tjÑnster, omvÑnd skattsk, 12%"
+#SRU	4426	000
+#KONTO	4427	"Inkîp tjÑnster, omvÑnd skattsk, 6%"
+#SRU	4427	000
+#KONTO	4511	"Import varor frÜn land utanfîr EU"
+#SRU	4511	000
+#KONTO	4512	"Import varor, trepartsfîrvÑrv, mellanman"
+#SRU	4512	000
+#KONTO	4515	"Import varor EU, 25%"
+#SRU	4515	000
+#KONTO	4516	"Import varor EU, 12%"
+#SRU	4516	000
+#KONTO	4517	"Import varor EU, 6%"
+#SRU	4517	000
+#KONTO	4518	"Import varor EU, momsfri"
+#SRU	4518	000
+#KONTO	4531	"Import tjÑnster utanfîr EU, 25%"
+#SRU	4531	000
+#KONTO	4532	"Import tjÑnster utanfîr EU, 12%"
+#SRU	4532	000
+#KONTO	4533	"Import tjÑnster utanfîr EU, 6%"
+#SRU	4533	000
+#KONTO	4535	"FîrvÑrv tjÑnster EU, 25%"
+#SRU	4535	000
+#KONTO	4536	"FîrvÑrv tjÑnster EU, 12%"
+#SRU	4536	000
+#KONTO	4537	"FîrvÑrv tjÑnster EU, 6%"
+#SRU	4537	000
+#KONTO	4538	"FîrvÑrv tjÑnster EU, momsfri"
+#SRU	4538	000
+#KONTO	4600	"Legoarbeten och underentreprenader"
+#SRU	4600	000
+#KONTO	4700	"Reduktion av inkîpspriser"
+#SRU	4700	000
+#KONTO	4731	"ErhÜllna kassarabatter"
+#SRU	4731	000
+#KONTO	4900	"FîrÑndring av lager"
+#SRU	4900	000
+#KONTO	4940	"FîrÑndring av produkter i arbete"
+#SRU	4940	000
+#KONTO	4970	"FîrÑndr pÜg arbeten, nedlagda kostnader"
+#SRU	4970	000
+#KONTO	4990	"FîrÑndring lager/pÜg arbeten (ofîrdelad)"
+#SRU	4990	000
+#KONTO	5000	"Lokalkostnader"
+#SRU	5000	7513
+#KONTO	5010	"Lokalhyra"
+#SRU	5010	7513
+#KONTO	5020	"El fîr belysning"
+#SRU	5020	7513
+#KONTO	5030	"VÑrme"
+#SRU	5030	7513
+#KONTO	5040	"Vatten och avlopp"
+#SRU	5040	7513
+#KONTO	5060	"StÑdning och renhÜllning"
+#SRU	5060	7513
+#KONTO	5070	"Reparation och underhÜll av lokaler"
+#SRU	5070	7513
+#KONTO	5090	"ôvriga lokalkostnader"
+#SRU	5090	7513
+#KONTO	5200	"Hyra anlÑggningstillgÜngar"
+#SRU	5200	7513
+#KONTO	5400	"Fîrbrukningsinventarier/-material"
+#SRU	5400	7513
+#KONTO	5500	"Reparation och underhÜll"
+#SRU	5500	7513
+#KONTO	5611	"Drivmedel fîr personbilar"
+#SRU	5611	7513
+#KONTO	5612	"FîrsÑkring och skatt fîr personbilar"
+#SRU	5612	7513
+#KONTO	5613	"Reparation och underhÜll av personbilar"
+#SRU	5613	7513
+#KONTO	5615	"Leasing av personbilar"
+#SRU	5615	7513
+#KONTO	5616	"TrÑngselskatt, avdragsgill"
+#SRU	5616	7513
+#KONTO	5619	"ôvriga personbilskostnader"
+#SRU	5619	7513
+#KONTO	5700	"Frakter och transporter"
+#SRU	5700	7513
+#KONTO	5800	"Resekostnader"
+#SRU	5800	7513
+#KONTO	5900	"Reklam och PR"
+#SRU	5900	7513
+#KONTO	6040	"Kontokortsavgifter"
+#SRU	6040	7513
+#KONTO	6071	"Representation, avdragsgill"
+#SRU	6071	7513
+#KONTO	6072	"Representation, ej avdragsgill"
+#SRU	6072	7513
+#KONTO	6090	"ôvriga fîrsÑljningskostnader"
+#SRU	6090	7513
+#KONTO	6100	"Kontorsmateriel/trycksaker"
+#SRU	6100	7513
+#KONTO	6200	"Tele och post"
+#SRU	6200	7513
+#KONTO	6310	"FîretagsfîrsÑkringar"
+#SRU	6310	7513
+#KONTO	6351	"Konstaterade fîrluster pÜ kundfordringar"
+#SRU	6351	7513
+#KONTO	6352	"Befarade fîrluster pÜ kundfordringar"
+#SRU	6352	7513
+#KONTO	6380	"Fîrluster îvriga kortfristiga fordringar"
+#SRU	6380	7513
+#KONTO	6420	"ErsÑttningar till revisor"
+#SRU	6420	7513
+#KONTO	6490	"ôvriga fîrvaltningskostnader"
+#SRU	6490	7513
+#KONTO	6530	"RedovisningstjÑnster"
+#SRU	6530	7513
+#KONTO	6590	"ôvriga externa tjÑnster"
+#SRU	6590	7513
+#KONTO	6970	"Tidningar, tidskrifter/facklitteratur"
+#SRU	6970	7513
+#KONTO	6981	"Fîreningsavgifter, avdragsgilla"
+#SRU	6981	7513
+#KONTO	6982	"Fîreningsavgifter, ej avdragsgilla"
+#SRU	6982	7513
+#KONTO	6991	"ôvr externa kostnader, avdragsgilla"
+#SRU	6991	7513
+#KONTO	6992	"ôvr externa kostnader, ej avdragsgilla"
+#SRU	6992	7513
+#KONTO	7010	"Lîner kollektivanstÑllda"
+#SRU	7010	7514
+#KONTO	7013	"Lîner kollektivanstÑllda under 26 Ür"
+#SRU	7013	7514
+#KONTO	7090	"FîrÑndring av semesterlîneskuld"
+#SRU	7090	7514
+#KONTO	7210	"Lîner tjÑnstemÑn/fîretagsledare"
+#SRU	7210	7514
+#KONTO	7290	"FîrÑndring av semesterlîneskuld"
+#SRU	7290	7514
+#KONTO	7321	"Skattefria traktamenten, Sverige"
+#SRU	7321	7514
+#KONTO	7322	"Skattepliktiga traktamenten, Sverige"
+#SRU	7322	7514
+#KONTO	7323	"Skattefria traktamenten, utlandet"
+#SRU	7323	7514
+#KONTO	7324	"Skattepliktiga traktamenten, utlandet"
+#SRU	7324	7514
+#KONTO	7331	"Skattefria bilersÑttningar"
+#SRU	7331	7514
+#KONTO	7332	"Skattepliktiga bilersÑttningar"
+#SRU	7332	7514
+#KONTO	7333	"ErsÑttning fîr trÑngselskatt, skattefri"
+#SRU	7333	7514
+#KONTO	7380	"Kostnader fîr fîrmÜner till anstÑllda"
+#SRU	7380	7514
+#KONTO	7390	"ôvriga kostnadsersÑttningar och fîrmÜner"
+#SRU	7390	7514
+#KONTO	7391	"Kostnad fîr trÑngselskattefîrmÜn"
+#SRU	7391	7514
+#KONTO	7410	"PensionsfîrsÑkringspremier"
+#SRU	7410	7514
+#KONTO	7490	"ôvriga pensionskostnader"
+#SRU	7490	7514
+#KONTO	7510	"Lagstadgade sociala avgifter"
+#SRU	7510	7514
+#KONTO	7530	"SÑrskild lîneskatt"
+#SRU	7530	7514
+#KONTO	7560	"Arbetsgivaravgifter under 26 Ür"
+#SRU	7560	7514
+#KONTO	7570	"Premier fîr arbetsmarknadsfîrsÑkringar"
+#SRU	7570	7514
+#KONTO	7580	"GruppfîrsÑkringspremier"
+#SRU	7580	7514
+#KONTO	7590	"ôvriga sociala och andra avgifter"
+#SRU	7590	7514
+#KONTO	7600	"ôvriga personalkostnader"
+#SRU	7600	7514
+#KONTO	7810	"Avskr immateriella anlÑggningstillgÜngar"
+#SRU	7810	7515
+#KONTO	7820	"Avskrivningar byggnader/markanlÑggningar"
+#SRU	7820	7515
+#KONTO	7830	"Avskrivningar pÜ maskiner/inventarier"
+#SRU	7830	7515
+#KONTO	7940	"Orealiserad positiv vÑrdefîrÑndr sÑkringsinstrument"
+#SRU	7940	7517
+#KONTO	7960	"Valutakursfîrluster fordringar/skulder"
+#SRU	7960	7517
+#KONTO	7970	"Fîrlust avyttring anlÑggningstillgÜngar"
+#SRU	7970	7517
+#KONTO	7990	"ôvriga rîrelsekostnader"
+#SRU	7990	7517
+#KONTO	8251	"RÑnteintÑkter frÜn anlÑggningstillgÜngar"
+#SRU	8251	000
+#KONTO	8290	"Orealiserad vÑrdefîr anlÑggningstillgÜngar"
+#SRU	8290	000
+#KONTO	8310	"RÑnteintÑkter omsÑttningstillgÜngar"
+#SRU	8310	7417
+#KONTO	8313	"RÑnteintÑkter kortfristiga fordringar"
+#SRU	8313	7417
+#KONTO	8320	"Orealiserad vÑrdefîr omsÑttningstillgÜngar"
+#SRU	8320	7417
+#KONTO	8340	"Utdelningar pÜ kortfristiga placeringar"
+#SRU	8340	7417
+#KONTO	8350	"Resultat fîrsÑljning kortfr placeringar"
+#SRU	8350	7417
+#KONTO	8370	"Nedskr kortfristiga placeringar"
+#SRU	8370	7521
+#KONTO	8380	"èterfîr nedskr kortfr placeringar"
+#SRU	8380	7521
+#KONTO	8400	"RÑntekostnader"
+#SRU	8400	7522
+#KONTO	8422	"DrîjsmÜlsrÑntor fîr leverantîrsskulder"
+#SRU	8422	7522
+#KONTO	8450	"Orealiserad vÑrdefîr skulder"
+#SRU	8450	7522
+#KONTO	8490	"ôvriga skuldrelaterade poster"
+#SRU	8490	7522
+#KONTO	8811	"AvsÑttning till periodiseringsfond"
+#SRU	8811	7525
+#KONTO	8819	"èterfîring frÜn periodiseringsfond"
+#SRU	8819	7420
+#KONTO	8899	"ôvriga bokslutsdispositioner"
+#SRU	8899	000
+#KONTO	8910	"Skatt pÜ Ürets beskattningsbara resultat"
+#SRU	8910	7528
+#KONTO	8999	"èrets resultat"
+#SRU	8999	7529
+#IB	-1	1210	64490.00
+#IB	0	1210	64490.00
+#UB	-1	1210	64490.00
+#UB	0	1210	64490.00
+#IB	-1	1219	-36490.00
+#IB	0	1219	-44890.00
+#UB	-1	1219	-44890.00
+#UB	0	1219	-44890.00
+#IB	-1	1410	173832.00
+#IB	0	1410	151567.00
+#UB	-1	1410	151567.00
+#UB	0	1410	182152.00
+#IB	-1	1510	66175.00
+#IB	0	1510	152038.00
+#UB	-1	1510	152038.00
+#UB	0	1510	109938.00
+#IB	-1	1710	1715.00
+#IB	0	1710	20816.00
+#UB	-1	1710	20816.00
+#UB	0	1710	9816.00
+#IB	-1	1910	1224.50
+#IB	0	1910	1524.00
+#UB	-1	1910	1524.00
+#UB	0	1910	4618.00
+#IB	-1	1920	12863.26
+#IB	0	1920	6113.26
+#UB	-1	1920	6113.26
+#UB	0	1920	5363.26
+#IB	-1	1930	277707.43
+#IB	0	1930	263238.84
+#UB	-1	1930	263238.84
+#UB	0	1930	202756.59
+#UB	0	1940	100000.00
+#IB	-1	2081	-100000.00
+#IB	0	2081	-100000.00
+#UB	-1	2081	-100000.00
+#UB	0	2081	-100000.00
+#IB	-1	2086	-20000.00
+#IB	0	2086	-20000.00
+#UB	-1	2086	-20000.00
+#UB	0	2086	-20000.00
+#IB	-1	2091	-27000.00
+#IB	0	2091	-106478.19
+#UB	-1	2091	-106478.19
+#UB	0	2091	-157591.10
+#IB	-1	2099	-79478.19
+#IB	0	2099	-50112.91
+#UB	-1	2099	-50112.91
+#UB	0	2099	1000.00
+#IB	-1	2128	-38000.00
+#IB	0	2128	-38000.00
+#UB	-1	2128	-38000.00
+#UB	0	2128	-38000.00
+#IB	0	2129	-25000.00
+#UB	-1	2129	-25000.00
+#UB	0	2129	-25000.00
+#IB	-1	2350	-154000.00
+#IB	0	2350	-136000.00
+#UB	-1	2350	-136000.00
+#UB	0	2350	-122500.00
+#IB	-1	2440	-8303.00
+#IB	0	2440	-22979.00
+#UB	-1	2440	-22979.00
+#UB	0	2440	-133214.25
+#IB	-1	2510	-21293.00
+#IB	0	2510	-9747.00
+#UB	-1	2510	-9747.00
+#UB	0	2510	1503.00
+#UB	0	2610	1077.00
+#UB	0	2615	-11750.00
+#IB	-1	2640	0.00
+#IB	0	2640	3000.00
+#UB	-1	2640	3000.00
+#UB	0	2640	2816.00
+#UB	0	2645	11750.00
+#IB	-1	2650	-57625.00
+#IB	0	2650	-52040.00
+#UB	-1	2650	-52040.00
+#UB	0	2650	-18657.00
+#IB	-1	2710	-19300.00
+#IB	0	2710	-20100.00
+#UB	-1	2710	-20100.00
+#IB	-1	2730	-16620.00
+#IB	0	2730	-16970.00
+#UB	-1	2730	-16970.00
+#IB	-1	2920	-9360.00
+#IB	0	2920	-9640.00
+#UB	-1	2920	-9640.00
+#UB	0	2920	-9640.00
+#IB	-1	2940	-3038.00
+#IB	0	2940	-3130.00
+#UB	-1	2940	-3130.00
+#UB	0	2940	-3130.00
+#IB	-1	2990	-7500.00
+#IB	0	2990	-7700.00
+#UB	-1	2990	-7700.00
+#UB	0	2990	52300.00
+#RES	-1	3001	-1491010.00
+#RES	0	3001	-1068599.00
+#RES	-1	3740	-6.86
+#RES	0	3740	-2.20
+#RES	0	3910	-120000.00
+#RES	0	3960	-700.00
+#RES	-1	4010	164033.00
+#RES	0	4010	75213.00
+#RES	0	4515	47000.00
+#RES	-1	4600	27280.00
+#RES	0	4600	31571.20
+#RES	0	4900	24.00
+#RES	-1	5010	92000.00
+#RES	0	5010	93600.00
+#RES	-1	5020	12442.40
+#RES	0	5020	13183.20
+#RES	-1	5060	9389.60
+#RES	0	5060	7180.80
+#RES	-1	5070	15400.00
+#RES	0	5070	29120.00
+#RES	0	5090	216.00
+#RES	-1	5400	16056.00
+#RES	0	5400	23715.20
+#RES	-1	5500	876.80
+#RES	-1	5611	14061.30
+#RES	0	5611	10396.00
+#RES	-1	5612	6563.00
+#RES	0	5612	6853.00
+#RES	-1	5613	606.70
+#RES	-1	5800	352.00
+#RES	-1	5900	5800.00
+#RES	-1	6071	1980.00
+#RES	-1	6072	4511.00
+#RES	-1	6100	7032.80
+#RES	0	6100	6029.60
+#RES	-1	6200	20809.60
+#RES	0	6200	15206.40
+#RES	-1	6310	2199.00
+#RES	-1	6420	8680.00
+#RES	0	6420	10144.00
+#RES	-1	6530	21960.00
+#RES	0	6530	29680.00
+#RES	-1	7010	405600.00
+#RES	0	7010	301330.00
+#RES	-1	7090	280.00
+#RES	-1	7210	336000.00
+#RES	0	7210	261000.00
+#RES	-1	7510	203732.00
+#RES	0	7510	153400.00
+#RES	-1	7600	578.16
+#RES	0	7600	2434.30
+#RES	-1	7830	8400.00
+#RES	0	7960	1000.00
+#RES	-1	8310	-122.41
+#RES	-1	8400	5826.00
+#RES	0	8400	3897.00
+#RES	-1	8490	1950.00
+#RES	0	8490	1900.00
+#RES	-1	8811	25000.00
+#RES	-1	8910	21627.00
+#RES	-1	8999	50112.91
+#KSUMMA	909685525
