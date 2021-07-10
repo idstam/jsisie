@@ -13,7 +13,7 @@ namespace jsiSIE
         private Stream _stream;
         
         private WriteOptions _options;
-        public string DateFormat = "yyyyMMdd";
+        
 
         public class WriteOptions
         {
@@ -23,6 +23,7 @@ namespace jsiSIE
 
             public bool WriteKSUMMA { get; set; } = false;
             public Encoding Encoding{ get; set; }
+            public string DateFormat = "yyyyMMdd";
         }
 
         public SieDocumentWriter(SieDocument sie, WriteOptions options = null)
@@ -363,11 +364,15 @@ namespace jsiSIE
         {
             if (date.HasValue)
             {
-                return date.Value.ToString(this.DateFormat);
+                return date.Value.ToString(_options.DateFormat);
             }
             else
             {
-                return "00000000";
+                if(_options.DateFormat == "yyyyMMdd"){
+                    return "00000000";
+                } else{
+                    return DateTime.MinValue.ToString(_options.DateFormat);
+                }
             }
         }
     }
