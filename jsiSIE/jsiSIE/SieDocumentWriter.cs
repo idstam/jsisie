@@ -145,7 +145,7 @@ namespace jsiSIE
                     var obj = getObjeklista(r.Objects);
                     var quantity = r.Quantity.HasValue ? SieAmount(r.Quantity.Value) : "";
                     createdBy = string.IsNullOrWhiteSpace(r.CreatedBy) ? "" : "\"" + r.CreatedBy + "\"";
-                    WriteLine("#TRANS " + r.Account.Number + " " + obj + " " + SieAmount(r.Amount) + " " + makeSieDate(r.RowDate) + " \"" + r.Text + "\" " + quantity + " " + createdBy);
+                    WriteLine(r.Token +  " " + r.Account.Number + " " + obj + " " + SieAmount(r.Amount) + " " + makeSieDate(r.RowDate) + " \"" + r.Text + "\" " + quantity + " " + createdBy);
                 }
 
                 WriteLine("}");
