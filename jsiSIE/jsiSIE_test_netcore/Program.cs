@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,7 +20,7 @@ namespace jsiSIE_test
                 return;
             }
 
-            switch(args[0])
+            switch (args[0])
             {
                 case "COMPARE":
                     Compare(args);
@@ -41,7 +42,7 @@ namespace jsiSIE_test
             docB.ReadDocument(fileB);
             var result = SieDocumentComparer.Compare(docA, docB);
 
-            foreach(var err in result)
+            foreach (var err in result)
             {
                 Console.WriteLine(err);
             }
@@ -52,10 +53,7 @@ namespace jsiSIE_test
 
         private static void BootstrapTest()
         {
-            string testSourceFolder = @"/home/johan/src/idstam/jsisie/sie_test_files/";
-            if (!Directory.Exists(testSourceFolder)) Directory.CreateDirectory(testSourceFolder);
-
-            //GetExampleFiles(testSourceFolder);
+            string testSourceFolder = findTestFilesFolder();
 
             foreach (var f in Directory.GetFiles(testSourceFolder))
             {
@@ -66,6 +64,12 @@ namespace jsiSIE_test
                 sie.ThrowErrors = false;
                 sie.IgnoreMissingOMFATTNING = true;
 
+                if (f.Contains("sie%204.SE"))
+                {
+                    sie.IgnoreRTRANS = true;
+                    sie.IgnoreBTRANS = true;
+                }
+                
                 sie.ReadDocument(f);
                 if (sie.ValidationExceptions.Count > 0)
                 {
@@ -86,7 +90,15 @@ namespace jsiSIE_test
                     writer.Write(testWriteFile);
 
                     var sieB = new SieDocument();
+                    sieB.ThrowErrors = false;
                     sieB.IgnoreMissingOMFATTNING = true;
+
+                    if (f.Contains("sie%204.SE"))
+                    {
+                        sieB.IgnoreRTRANS = true;
+                        sieB.IgnoreBTRANS = true;
+                    }
+
                     sieB.ReadDocument(testWriteFile);
                     var compErrors = SieDocumentComparer.Compare(sie, sieB);
                     foreach (var e in compErrors)
@@ -105,7 +117,13 @@ namespace jsiSIE_test
                     }
 
                     var sieB1 = new SieDocument();
+                    sieB1.ThrowErrors = false;
                     sieB1.IgnoreMissingOMFATTNING = true;
+                    if (f.Contains("sie%204.SE"))
+                    {
+                        sieB1.IgnoreRTRANS = true;
+                        sieB1.IgnoreBTRANS = true;
+                    }
                     sieB1.ReadDocument(testWriteFile1);
                     var compErrors1 = SieDocumentComparer.Compare(sie, sieB1);
                     foreach (var e in compErrors1)
@@ -121,155 +139,24 @@ namespace jsiSIE_test
             Console.ReadLine();
         }
 
-        private static void GetExampleFiles(string testSourceFolder)
+        private static string findTestFilesFolder()
         {
-            //Download all the existing SIE test files if you don't have them.
-            if (Directory.GetFiles(testSourceFolder).Count() == 0)
+            var p = Assembly.GetExecutingAssembly().Location;
+            while (true)
             {
-                var wc = new WebClient();
-                int i = 0;
-                foreach (var url in TestFilesOnline())
+                var r = Path.Join(p, "README.md");
+                if (File.Exists(r))
                 {
-                    var uri = new Uri(url);
-                    var fileName = Path.GetFileName(uri.LocalPath);
-                    fileName = Path.Combine(testSourceFolder, i.ToString() + "_" + fileName);
-                    //Add a counter to the filename to handle that files have the same name with different case.
-                    try
-                    {
-                        Console.Write("Getting: " + url);
-                        wc.DownloadFile(url, fileName);
-                        Console.WriteLine(" OK");
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine(" FAIL");
-                        File.WriteAllText(fileName + ".err", ex.ToString());
-                    }
-                    i++;
+                    return Path.Join(p, "sie_test_files");
                 }
+
+                var di = new DirectoryInfo(p);
+                if(di.Parent == null)
+                {
+                    throw new DirectoryNotFoundException("Couldn't find test file folder");
+                }
+                p = di.Parent.FullName;
             }
-            else
-            {
-                Console.WriteLine("There are already test files. No need to download.");
-            }
-        }
-        private static List<string> TestFilesOnline()
-        {
-            var ret = new List<string>();
-            //BL Administration
-            ret.Add("http://www.sie.se/wp-content/uploads/files/BL0001_typ1.SE");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/BL0001_typ2.SE");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/BL0001_typ3.SE");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/BL0001_typ4.SE");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/BL0001_typ4I.SI");
-
-            //Briljant
-            ret.Add("http://www.sie.se/wp-content/uploads/files/Test1.SE");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/Test2.SE");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/Test3.SE");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/Test4.SE");
-
-            //e-conomic
-            ret.Add("http://www.sie.se/wp-content/uploads/files/sie-gruppen-e-conomic.se");
-
-            //Edison Bokföring
-            ret.Add("http://www.sie.se/wp-content/uploads/files/typ1.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/typ2.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/typ4.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/typ4si.si");
-
-            //Edison Ekonomi Byrå
-            ret.Add("http://www.sie.se/wp-content/uploads/files/typ1.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/typ2.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/typ3.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/typ4.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/typ4si.si");
-
-            //Fortnox Bokföring
-            ret.Add("http://www.sie.se/wp-content/uploads/files/Sie1.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/Sie2.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/Sie3.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/Sie4.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/Sie4.si");
-
-            //Hogia Affärssystem
-            ret.Add("http://www.sie.se/wp-content/uploads/files/HAS1_1412.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/HAS2_1412.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/HAS3_1412.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/HAS4E_1412.Se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/HAS4i_1412.si");
-
-            //Hogia Small Office Bokföring
-            ret.Add("http://www.sie.se/wp-content/uploads/files/Sie%201+2.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/Sie%203%20+%204.se");
-
-            //Kontek Lön
-            ret.Add("http://www.sie.se/wp-content/uploads/files/LON%20L%C3%B6nek%C3%B6rning.SI");
-
-            //Mamut One Enterprise
-            ret.Add("http://www.sie.se/wp-content/uploads/files/MAMUT_SIE1_EXPORT.SE");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/MAMUT_SIE2_EXPORT.SE");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/MAMUT_SIE3_EXPORT.SE");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/MAMUT_SIE4_EXPORT.SE");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/MAMUT_SIE4_EXPORT.SE");
-
-            //Norstedts Bokslut
-            ret.Add("http://www.sie.se/wp-content/uploads/files/Norstedts%20Bokslut%20SIE%201.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/Bokslut%20Norstedts%20SIE%204E.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/Norstedts%20Bokslut%20SIE%204I.si");
-
-            //Norstedts Revision
-            ret.Add("http://www.sie.se/wp-content/uploads/files/Norstedts%20Revision%20SIE%201.SE");
-
-            //Pyramid Business Studio
-            ret.Add("http://www.sie.se/wp-content/uploads/files/sie1.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/sie2.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/sie3.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/sie4.se");
-
-            //REAL Fastighetssystemet
-            ret.Add("http://www.sie.se/wp-content/uploads/files/Exempelbolaget_SIE_110322_B_33.si");
-
-            //StepOne
-            ret.Add("http://www.sie.se/wp-content/uploads/files/BokSald.SE");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/PerSald.SE");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/ObjSald.SE");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/TRANSAK.SE");
-
-            //Visma Anläggningsregister
-            ret.Add("http://www.sie.se/wp-content/uploads/files/SIE4%20Visma%20Anl%C3%A4ggningsregister.si");
-
-            //Visma Avendo Bokföring
-            ret.Add("http://www.sie.se/wp-content/uploads/files/arsaldo_ovnbolag.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/periodsaldo_ovnbolag.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/objektsaldo_ovnbolag.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/transaktioner_ovnbolag.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/urval_ovnbolag.si");
-
-            //Visma Bokslut
-            ret.Add("http://www.sie.se/wp-content/uploads/files/BokslutSIE1.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/BokOrder.si");
-
-            //Visma Compact 1500
-            ret.Add("http://www.sie.se/wp-content/uploads/files/SIE1.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/SIE2.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/SIE3.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/SIE4.se");
-            ret.Add("http://www.sie.se/wp-content/uploads/files/SIE4.se");
-
-            //Visma eEkonomi
-            ret.Add("http://www.sie.se/wp-content/uploads/files/live2011.se");
-
-            //Visma Eget Aktiebolag
-            ret.Add("http://www.sie.se/wp-content/uploads/files/SIE-fil%20fr%C3%A5n%20Visma%20Eget%20Aktiebolag%202010.se");
-
-            //Visma Enskild Firma
-            ret.Add("http://www.sie.se/wp-content/uploads/files/SIE-fil%20fr%C3%A5n%20Visma%20Enskild%20Firma%202010.se");
-
-            //Visma Lön 100
-            ret.Add("http://www.sie.se/wp-content/uploads/files/L%C3%B6n.si");
-
-            return ret;
         }
     }
 }
