@@ -5,19 +5,20 @@ A .NET parser for SIE files that can read files of version 1 to 4 (including 4i)
 
 Follow [this link](https://sie.se/vadsie/) for swedish versions and [this link](https://sie.se/in-english/) for english versions of the SIE specifications.
 
-_Sadly the files used for testing the parser are not available from sie.se at the moment and I haven't got the permission to distribute the ones that were available when I wrote the tests._
-
 **Read a SIE file**
 
 To read a file create an instance of SieDocument and call ReadDocument.
 
-There are some bool properties in SieDocument that changes how the parsing works:
+There are some properties on SieDocument that changes how the parsing works:
 
 + IgnoreMissingOMFATTNING: If true the parser will not flag a missing #OMFATTN as an error.
 + IgnoreBTRANS: If true #BTRANS (removed voucher rows) will be ignored.
 + IgnoreRTRANS: If true #RTRANS (added voucher rows) will be ignored.
++ IgnoreMissingDate: If true some errors for missing dates will be ignored.
 + StreamValues: If true don't store values internally. The user has to use the Callback class to get the values. Usefull for large files.
 + ThrowErrors: If false then cache all Exceptions in SieDocument.ValidationExceptions
++ DateFormat: The standard says yyyyMMdd and parser will default to that, but you can change the format to whatever you want.
++ Encoding: The standard says codepage 437, but that is not supported by dotnet core. You can change it to whatever you want. It will default to codepage 437 when running in Dotnet Framework and 28591 (ISO-8859-1) when running dotnet core. Please note that #KSUMMA will not be caclutated if you choose a multibyte encoding.
 
 **Not all features are implemented yet:**
 
@@ -26,6 +27,7 @@ There are some bool properties in SieDocument that changes how the parsing works
 **Write a SIE file**
 
 To write a file create an instance of SieDocumentWriter and call WriteDocument
+The WriteOptions class contains properties to set DateFormat and Encoding.
 
 **Compare SIE files**
 
@@ -49,7 +51,10 @@ There's a Java version of this parser here: https://github.com/perNyfelt/SIEPars
 
 
 **Change log**
-
-+ 2017-12-22	Add #PROGRAM to the document comparer. Enable the test program to compare two files via command line.
++ 2021-07-10	Add all test files I got from the SIE organisation. And make the test program use them.
++ 2021-07-10	Fix bug that wrote #TRANS  instead of #BTRANS and #RTRANS
++ 2021-07-10	Add DateFormat, Encoding and IgnoreMIssingDate
 + 2020-07-05	Now supports writing KSUMMA
++ 2017-12-22	Add #PROGRAM to the document comparer. Enable the test program to compare two files via command line.
+
 
