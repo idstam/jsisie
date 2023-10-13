@@ -638,7 +638,7 @@ namespace jsiSIE
             var v = new SiePeriodValue()
             {
                 YearNr = di.GetInt(0),
-                Period = di.GetInt(1),
+                //Period = di.GetInt(1),
                 Account = KONTO[di.GetString(1)],
                 Amount = di.GetDecimal(3 + objOffset),
                 Quantity = di.GetDecimal(4 + objOffset),
