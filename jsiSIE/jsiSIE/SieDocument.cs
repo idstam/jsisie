@@ -641,7 +641,7 @@ namespace jsiSIE
                 Period = di.GetInt(1),
                 Account = KONTO[di.GetString(1)],
                 Amount = di.GetDecimal(3 + objOffset),
-                Quantity = di.GetDecimal(4) + objOffset,
+                Quantity = di.GetDecimal(4 + objOffset),
                 Objects = di.GetObjects(),
                 Token = di.ItemType
             };
