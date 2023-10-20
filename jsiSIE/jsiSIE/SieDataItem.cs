@@ -67,7 +67,7 @@ namespace jsiSIE
             bool skipNext = false;
             foreach (char c in data)
             {
-                if (skipNext)
+                if (skipNext && (c == '"'))
                 {
                     skipNext = false;
                     continue;

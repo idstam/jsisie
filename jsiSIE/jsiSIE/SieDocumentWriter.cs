@@ -116,6 +116,7 @@ namespace jsiSIE
                 WritePeriodSaldo("#PSALDO", _sie.PSALDO);
             }
             WritePeriodValue("#RES", _sie.RES);
+
             WriteVER();
             if (_options.WriteKSUMMA) WriteLine("#KSUMMA " + _sie.KSUMMA.ToString());
         }
