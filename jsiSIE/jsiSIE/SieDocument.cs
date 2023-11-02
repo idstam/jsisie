@@ -731,7 +731,7 @@ namespace jsiSIE
                 Amount = di.GetDecimal(1 + objOffset),
                 RowDate = di.GetDate(2 + objOffset).HasValue ? di.GetDate(2 + objOffset).Value : v.VoucherDate,
                 Text = di.GetString(3 + objOffset),
-                Quantity = di.GetIntNull(4 + objOffset),
+                Quantity = di.GetDecimalNull(4 + objOffset),
                 CreatedBy = di.GetString(5 + objOffset),
                 Token = di.ItemType
             };
