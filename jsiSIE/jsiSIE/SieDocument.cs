@@ -195,7 +195,7 @@ namespace jsiSIE
 
             using (var stream = new FileStream(_fileName, FileMode.Open))
             {
-                ReadStreamAux(stream);
+                readStreamAux(stream);
             }
         }
 
@@ -205,25 +205,25 @@ namespace jsiSIE
 
             using (var stream = new FileStream(_fileName, FileMode.Open))
             {
-                await ReadStreamAuxAsync(stream);
+                await readStreamAuxAsync(stream);
             }
         }
 
         public void ReadDocument(Stream stream)
         {
             _fileName = "(stream)";
-            ReadStreamAux(stream);
+            readStreamAux(stream);
         }
         
         public async Task ReadDocumentAsync(Stream stream)
         {
             _fileName = "(stream)";
-            await ReadStreamAuxAsync(stream);
+            await readStreamAuxAsync(stream);
         }
         
-        private void ReadStreamAux(Stream stream)
+        private void readStreamAux(Stream stream)
         {
-            Initialize();
+            initialize();
 
             using (var sr = new StreamReader(stream, this.Encoding))
             {
@@ -233,19 +233,19 @@ namespace jsiSIE
             validateDocument();
         }
         
-        private async Task ReadStreamAuxAsync(Stream stream)
+        private async Task readStreamAuxAsync(Stream stream)
         {
-            Initialize();
+            initialize();
 
             using (var sr = new StreamReader(stream, this.Encoding))
             {
-                if (await ParseLinesAsync(sr)) return;
+                if (await parseLinesAsync(sr)) return;
             }
 
             validateDocument();
         }
 
-        private void Initialize() {
+        private void initialize() {
               if (ThrowErrors) Callbacks.SieException += throwCallbackException;
   
               #region Initialize lists
@@ -267,7 +267,7 @@ namespace jsiSIE
               VER = new List<SieVoucher>();
               ValidationExceptions = new List<Exception>();
   
-              InitializeDimensions();
+              initializeDimensions();
               #endregion //Initialize listst
   
               CRC = new SieCRC32(this.Encoding);
@@ -286,7 +286,7 @@ namespace jsiSIE
             {
                 var line = sr.ReadLine();
 
-                if (ParseLine(line, ref curVoucher, ref firstLine)) return true;
+                if (parseLine(line, ref curVoucher, ref firstLine)) return true;
             } while (!sr.EndOfStream);
 
             return false;
@@ -296,20 +296,20 @@ namespace jsiSIE
         /// </summary>
         /// <param name="sr"></param>
         /// <returns>true if start of file is valid SIE-format</returns>
-        private async Task<bool> ParseLinesAsync(StreamReader sr) 
+        private async Task<bool> parseLinesAsync(StreamReader sr) 
         {
             bool firstLine = true;
             SieVoucher curVoucher = null;
             do {
                 var line = await sr.ReadLineAsync();
 
-                if (ParseLine(line, ref curVoucher, ref firstLine)) return true;
+                if (parseLine(line, ref curVoucher, ref firstLine)) return true;
             } while (!sr.EndOfStream);
 
             return false;
         }
 
-        private bool ParseLine(string line, ref SieVoucher curVoucher, ref bool firstLine) {
+        private bool parseLine(string line, ref SieVoucher curVoucher, ref bool firstLine) {
                 Callbacks.CallbackLine(line);
                 var di = new SieDataItem(line, this);
 
@@ -550,7 +550,7 @@ namespace jsiSIE
 
         }
 
-        private void InitializeDimensions()
+        private void initializeDimensions()
         {
             DIM.Add("1", new SieDimension() { Number = "1", Name = "Resultatenhet", IsDefault = true });
             DIM.Add("2", new SieDimension() { Number = "2", Name = "Kostnadsbärare", SuperDim = DIM["1"], IsDefault = true });
