@@ -199,47 +199,78 @@ namespace jsiSIE
             }
         }
 
+        public async Task ReadDocumentAsync(string fileName)
+        {
+            _fileName = fileName;
+
+            using (var stream = new FileStream(_fileName, FileMode.Open))
+            {
+                await ReadStreamAuxAsync(stream);
+            }
+        }
+
         public void ReadDocument(Stream stream)
         {
             _fileName = "(stream)";
             ReadStreamAux(stream);
         }
         
+        public async Task ReadDocumentAsync(Stream stream)
+        {
+            _fileName = "(stream)";
+            await ReadStreamAuxAsync(stream);
+        }
+        
         private void ReadStreamAux(Stream stream)
         {
-            
-            if (ThrowErrors) Callbacks.SieException += throwCallbackException;
+            Initialize();
 
-            #region Initialize lists
-            FNAMN = new SieCompany();
-
-            KONTO = new Dictionary<string, SieAccount>();
-            DIM = new Dictionary<string, SieDimension>();
-
-            OIB = new List<SiePeriodValue>();
-            OUB = new List<SiePeriodValue>();
-            PSALDO = new List<SiePeriodValue>();
-            PBUDGET = new List<SiePeriodValue>();
-            PROGRAM = new List<string>();
-            RAR = new Dictionary<int, SieBookingYear>();
-            IB = new List<SiePeriodValue>();
-            UB = new List<SiePeriodValue>();
-            RES = new List<SiePeriodValue>();
-
-            VER = new List<SieVoucher>();
-            ValidationExceptions = new List<Exception>();
-
-            InitializeDimensions();
-            #endregion //Initialize listst
-
-            CRC = new SieCRC32(this.Encoding);
-            
             using (var sr = new StreamReader(stream, this.Encoding))
             {
                 if (parseLines(sr)) return;
             }
 
             validateDocument();
+        }
+        
+        private async Task ReadStreamAuxAsync(Stream stream)
+        {
+            Initialize();
+
+            using (var sr = new StreamReader(stream, this.Encoding))
+            {
+                if (await ParseLinesAsync(sr)) return;
+            }
+
+            validateDocument();
+        }
+
+        private void Initialize() {
+              if (ThrowErrors) Callbacks.SieException += throwCallbackException;
+  
+              #region Initialize lists
+              FNAMN = new SieCompany();
+  
+              KONTO = new Dictionary<string, SieAccount>();
+              DIM = new Dictionary<string, SieDimension>();
+  
+              OIB = new List<SiePeriodValue>();
+              OUB = new List<SiePeriodValue>();
+              PSALDO = new List<SiePeriodValue>();
+              PBUDGET = new List<SiePeriodValue>();
+              PROGRAM = new List<string>();
+              RAR = new Dictionary<int, SieBookingYear>();
+              IB = new List<SiePeriodValue>();
+              UB = new List<SiePeriodValue>();
+              RES = new List<SiePeriodValue>();
+  
+              VER = new List<SieVoucher>();
+              ValidationExceptions = new List<Exception>();
+  
+              InitializeDimensions();
+              #endregion //Initialize listst
+  
+              CRC = new SieCRC32(this.Encoding);
         }
 
         /// <summary>
@@ -255,6 +286,30 @@ namespace jsiSIE
             {
                 var line = sr.ReadLine();
 
+                if (ParseLine(line, ref curVoucher, ref firstLine)) return true;
+            } while (!sr.EndOfStream);
+
+            return false;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sr"></param>
+        /// <returns>true if start of file is valid SIE-format</returns>
+        private async Task<bool> ParseLinesAsync(StreamReader sr) 
+        {
+            bool firstLine = true;
+            SieVoucher curVoucher = null;
+            do {
+                var line = await sr.ReadLineAsync();
+
+                if (ParseLine(line, ref curVoucher, ref firstLine)) return true;
+            } while (!sr.EndOfStream);
+
+            return false;
+        }
+
+        private bool ParseLine(string line, ref SieVoucher curVoucher, ref bool firstLine) {
                 Callbacks.CallbackLine(line);
                 var di = new SieDataItem(line, this);
 
@@ -452,7 +507,6 @@ namespace jsiSIE
                         Callbacks.CallbackException(new NotImplementedException(di.ItemType));
                         break;
                 }
-            } while (!sr.EndOfStream);
 
             return false;
         }
