@@ -20,7 +20,7 @@ namespace jsiSIE
         public bool IgnoreRTRANS = false;
         public bool IgnoreMissingDate = true;
         public bool AllowMissingDate { get => IgnoreMissingDate; set => IgnoreMissingDate = value; }
-        public bool AllowUnbalancedVoucher { get; private set; }
+        public bool AllowUnbalancedVoucher { get;  set; }
 
         public string DateFormat = "yyyyMMdd";
         public Encoding Encoding;
@@ -547,7 +547,9 @@ namespace jsiSIE
             }
             if (check != 0 && !this.AllowUnbalancedVoucher)
             {
-                Callbacks.CallbackException(new SieVoucherMissmatchException(v.Series + "." + v.Number + " Sum is not zero."));
+                var ex = new SieVoucherMissmatchException(v.Series + "." + v.Number + " Sum is not zero.");
+                ValidationExceptions.Add(ex);
+                Callbacks.CallbackException(ex);
             }
 
             Callbacks.CallbackVER(v);
