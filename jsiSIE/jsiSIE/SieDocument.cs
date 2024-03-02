@@ -19,8 +19,8 @@ namespace jsiSIE
         public bool IgnoreMissingOMFATTNING = false;
         public bool IgnoreRTRANS = false;
         public bool IgnoreMissingDate = true;
+        public bool AllowMissingDate { get => IgnoreMissingDate; set => IgnoreMissingDate = value; }
         public bool AllowUnbalancedVoucher { get; private set; }
-
 
         public string DateFormat = "yyyyMMdd";
         public Encoding Encoding;
