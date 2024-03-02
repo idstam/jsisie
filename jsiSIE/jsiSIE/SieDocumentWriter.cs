@@ -193,8 +193,12 @@ namespace jsiSIE
             {
                 var objekt = getObjeklista(v.Objects);
                 if ("#IB#UB#RES".Contains(name)) objekt = "";
-
-                WriteLine(name + " " + v.YearNr.ToString() + " " + v.Account.Number + " " + objekt + " " + SieAmount(v.Amount));
+                var quantity = "";
+                if (v.Quantity.HasValue)
+                {
+                    quantity = SieAmount(v.Quantity.Value);
+                }
+                WriteLine(name + " " + v.YearNr.ToString() + " " + v.Account.Number + " " + objekt + " " + SieAmount(v.Amount) + " " + quantity);
             }
         }
 

@@ -76,8 +76,8 @@ namespace jsiSIE
             {
                 _errors.Add("OMFATTN differs");
             }
-            if (_docA.GEN_NAMN != _docB.GEN_NAMN) _errors.Add("GEN_NAMN differs First, Second " + _docA.GEN_NAMN + " , " + _docB.GEN_NAMN);
-            if (_docA.KPTYP != _docB.KPTYP) _errors.Add("KPTYP differs First, Second " + _docA.KPTYP + " , " + _docB.KPTYP);
+            if (!strEqual(_docA.GEN_NAMN, _docB.GEN_NAMN)) _errors.Add("GEN_NAMN differs First, Second " + _docA.GEN_NAMN + " , " + _docB.GEN_NAMN);
+            if (!strEqual(_docA.KPTYP, _docB.KPTYP)) _errors.Add("KPTYP differs First, Second " + _docA.KPTYP + " , " + _docB.KPTYP);
             //if (_docA.KSUMMA != _docB.KSUMMA) _errors.Add("KSUMMA differs First, Second " + _docA.KSUMMA + " , " + _docB.KSUMMA);
             var a = _docA.PROSA ?? "";
             var b = _docB.PROSA ?? "";
@@ -147,17 +147,15 @@ namespace jsiSIE
 
         private bool compareObjects(List<SieObject> a, List<SieObject> b)
         {
-            if (a != null && b == null) return false;
-            if (b != null && a == null) return false;
-            if (a != null && b != null)
+            if(a==null) a = new List<SieObject>();
+            if(b==null) b = new List<SieObject>();
+
+            if (a.Count != b.Count) return false;
+            for (int i = 0; i < a.Count; i++)
             {
-                if (a.Count != b.Count) return false;
-                for (int i = 0; i < a.Count; i++)
-                {
-                    if (a[i].Dimension.Number != b[i].Dimension.Number) return false;
-                    if (a[i].Name != b[i].Name) return false;
-                    if (a[i].Number != b[i].Number) return false;
-                }
+                if (a[i].Dimension.Number != b[i].Dimension.Number) return false;
+                if (a[i].Name != b[i].Name) return false;
+                if (a[i].Number != b[i].Number) return false;
             }
             return true;
         }
@@ -167,17 +165,17 @@ namespace jsiSIE
 
             if (_docA.FNAMN != null && _docB.FNAMN != null)
             {
-                if (_docA.FNAMN.Code != _docB.FNAMN.Code) _errors.Add("FNAMN.Code differs First, Second " + _docA.FNAMN.Code + " , " + _docB.FNAMN.Code);
-                if (_docA.FNAMN.Contact != _docB.FNAMN.Contact) _errors.Add("ADRESS.Contact differs First, Second " + _docA.FNAMN.Contact + " , " + _docB.FNAMN.Contact);
-                if (_docA.FNAMN.Name != _docB.FNAMN.Name) _errors.Add("FNAMN.Name differs First, Second " + _docA.FNAMN.Name + " , " + _docB.FNAMN.Name);
+                if (!strEqual(_docA.FNAMN.Code, _docB.FNAMN.Code)) _errors.Add("FNAMN.Code differs First, Second " + _docA.FNAMN.Code + " , " + _docB.FNAMN.Code);
+                if (!strEqual(_docA.FNAMN.Contact, _docB.FNAMN.Contact)) _errors.Add("ADRESS.Contact differs First, Second " + _docA.FNAMN.Contact + " , " + _docB.FNAMN.Contact);
+                if (!strEqual(_docA.FNAMN.Name, _docB.FNAMN.Name)) _errors.Add("FNAMN.Name differs First, Second " + _docA.FNAMN.Name + " , " + _docB.FNAMN.Name);
                 a = _docA.FNAMN.OrgIdentifier ?? "";
                 b = _docB.FNAMN.OrgIdentifier ?? "";
                 if (a != b) _errors.Add("ORGNR.OrgIdentifier differs First, Second " + _docA.FNAMN.OrgIdentifier + " , " + _docB.FNAMN.OrgIdentifier);
-                if (_docA.FNAMN.OrgType != _docB.FNAMN.OrgType) _errors.Add("FTYP differs First, Second " + _docA.FNAMN.OrgType + " , " + _docB.FNAMN.OrgType);
-                if (_docA.FNAMN.Phone != _docB.FNAMN.Phone) _errors.Add("ADRESS.Phone differs First, Second " + _docA.FNAMN.Phone + " , " + _docB.FNAMN.Phone);
+                if (!strEqual(_docA.FNAMN.OrgType, _docB.FNAMN.OrgType)) _errors.Add("FTYP differs First, Second " + _docA.FNAMN.OrgType + " , " + _docB.FNAMN.OrgType);
+                if (!strEqual(_docA.FNAMN.Phone, _docB.FNAMN.Phone)) _errors.Add("ADRESS.Phone differs First, Second " + _docA.FNAMN.Phone + " , " + _docB.FNAMN.Phone);
                 if (_docA.FNAMN.SNI != _docB.FNAMN.SNI) _errors.Add("FNAMN.SNI differs First, Second " + _docA.FNAMN.SNI + " , " + _docB.FNAMN.SNI);
-                if (_docA.FNAMN.Street != _docB.FNAMN.Street) _errors.Add("ADRESS.Street differs First, Second " + _docA.FNAMN.Street + " , " + _docB.FNAMN.Street);
-                if (_docA.FNAMN.ZipCity != _docB.FNAMN.ZipCity) _errors.Add("ADRESS.ZipCity differs First, Second " + _docA.FNAMN.ZipCity + " , " + _docB.FNAMN.ZipCity);
+                if (!strEqual(_docA.FNAMN.Street, _docB.FNAMN.Street)) _errors.Add("ADRESS.Street differs First, Second " + _docA.FNAMN.Street + " , " + _docB.FNAMN.Street);
+                if (!strEqual(_docA.FNAMN.ZipCity, _docB.FNAMN.ZipCity)) _errors.Add("ADRESS.ZipCity differs First, Second " + _docA.FNAMN.ZipCity + " , " + _docB.FNAMN.ZipCity);
             }
             else
             {
@@ -192,9 +190,9 @@ namespace jsiSIE
                 if (docB.KONTO.ContainsKey(kA.Number))
                 {
                     var kB = docB.KONTO[kA.Number];
-                    if (kA.Name != kB.Name) _errors.Add("KONTO.Name differ  " + kA.Number);
-                    if (kA.Type != kB.Type) _errors.Add("KONTO.Type differ " + kA.Number);
-                    if (kA.Unit != kB.Unit) _errors.Add("KONTO.Unit differ " + kA.Number);
+                    if (!strEqual(kA.Name, kB.Name)) _errors.Add("KONTO.Name differ  " + kA.Number);
+                    if (!strEqual(kA.Type, kB.Type)) _errors.Add("KONTO.Type differ " + kA.Number);
+                    if (!strEqual(kA.Unit, kB.Unit)) _errors.Add("KONTO.Unit differ " + kA.Number);
                     if (kA.SRU.Count == kB.SRU.Count)
                     {
                         for (int i = 0; i < kA.SRU.Count; i++)
@@ -311,6 +309,10 @@ namespace jsiSIE
             }
 
             return true;
+        }
+        private bool strEqual(string a, string b)
+        {
+            return (a ?? "") == (b ?? "");
         }
     }
 }

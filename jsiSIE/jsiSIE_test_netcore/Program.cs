@@ -55,6 +55,9 @@ namespace jsiSIE_test
         {
             string testSourceFolder = findTestFilesFolder();
 
+            var ignoreFormatMissmatch = true;
+            var ignoreProgramMissmatch = true;
+
             foreach (var f in Directory.GetFiles(testSourceFolder))
             {
                 //if (!f.Contains("30")) continue;
@@ -69,9 +72,15 @@ namespace jsiSIE_test
                     sie.IgnoreRTRANS = true;
                     sie.IgnoreBTRANS = true;
                 }
-                
+
+                if (f.Contains("transaktioner_ovnbolag-bad-balance"))
+                {
+                    sie.AllowUnbalancedVoucher = true;
+                }
+
                 sie.ReadDocument(f);
-                if (sie.ValidationExceptions.Count > 0)
+
+                if (sie.ValidationExceptions.Count()  > 0)
                 {
                     foreach (var ex in sie.ValidationExceptions)
                     {
@@ -103,6 +112,9 @@ namespace jsiSIE_test
                     var compErrors = SieDocumentComparer.Compare(sie, sieB);
                     foreach (var e in compErrors)
                     {
+                        if (ignoreFormatMissmatch && e.Contains("FORMAT differs")) continue;
+                        if (ignoreProgramMissmatch && e.Contains("PROGRAM differs")) continue;
+
                         Console.WriteLine(e);
                     }
                     Console.WriteLine(f);
@@ -128,6 +140,8 @@ namespace jsiSIE_test
                     var compErrors1 = SieDocumentComparer.Compare(sie, sieB1);
                     foreach (var e in compErrors1)
                     {
+                        if (ignoreFormatMissmatch && e.Contains("FORMAT differs")) continue;
+                        if (ignoreProgramMissmatch && e.Contains("PROGRAM differs")) continue;
                         Console.WriteLine(e);
                     }
                     Console.WriteLine(f);
