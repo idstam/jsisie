@@ -52,6 +52,7 @@ There's a Java version of this parser here: https://github.com/perNyfelt/SIEPars
 
 
 **Change log**
++ 2023-03-02	Added AllowUnbalancedVoucher
 + 2021-07-10	Add all test files I got from the SIE organisation. And make the test program use them.
 + 2021-07-10	Fix bug that wrote #TRANS  instead of #BTRANS and #RTRANS
 + 2021-07-10	Add DateFormat, Encoding and IgnoreMIssingDate. Use ISO-8859-1 on dotnet core.
