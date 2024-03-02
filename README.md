@@ -11,6 +11,7 @@ To read a file create an instance of SieDocument and call ReadDocument.
 
 There are some properties on SieDocument that changes how the parsing works:
 
++ AllowUnbalancedVoucher: If true the parser will allow vouchers that do not sum to zero.
 + IgnoreMissingOMFATTNING: If true the parser will not flag a missing #OMFATTN as an error.
 + IgnoreBTRANS: If true #BTRANS (removed voucher rows) will be ignored.
 + IgnoreRTRANS: If true #RTRANS (added voucher rows) will be ignored.

@@ -19,6 +19,8 @@ namespace jsiSIE
         public bool IgnoreMissingOMFATTNING = false;
         public bool IgnoreRTRANS = false;
         public bool IgnoreMissingDate = true;
+        public bool AllowUnbalancedVoucher { get; private set; }
+
 
         public string DateFormat = "yyyyMMdd";
         public Encoding Encoding;
@@ -543,7 +545,10 @@ namespace jsiSIE
 
                 check += r.Amount;
             }
-            if (check != 0) Callbacks.CallbackException(new SieVoucherMissmatchException(v.Series + "." + v.Number + " Sum is not zero."));
+            if (check != 0 && !this.AllowUnbalancedVoucher)
+            {
+                Callbacks.CallbackException(new SieVoucherMissmatchException(v.Series + "." + v.Number + " Sum is not zero."));
+            }
 
             Callbacks.CallbackVER(v);
             if (!StreamValues) VER.Add(v);
@@ -867,6 +872,6 @@ namespace jsiSIE
         }
 
         public SieBookingYear rar { get; set; }
-
+        
     }
 }
