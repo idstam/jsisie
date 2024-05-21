@@ -19,7 +19,7 @@ There are some properties on SieDocument that changes how the parsing works:
 + StreamValues: If true don't store values internally. The user has to use the Callback class to get the values. Usefull for large files.
 + ThrowErrors: If false then cache all Exceptions in SieDocument.ValidationExceptions
 + DateFormat: The standard says yyyyMMdd and parser will default to that, but you can change the format to whatever you want.
-+ Encoding: The standard says codepage 437, but that is not supported by dotnet core. You can change it to whatever you want. It will default to codepage 437 when running in Dotnet Framework and 28591 (ISO-8859-1) when running dotnet core. Please note that #KSUMMA will not be caclutated if you choose a multibyte encoding.
++ Encoding: The standard says codepage 437, but you can change it to whatever you want. The default will fallback to 28591 (ISO-8859-1) if 437 is not available. Please note that #KSUMMA will not be caclutated if you choose a multibyte encoding.
 
 **Not all features are implemented yet:**
 
@@ -52,6 +52,7 @@ There's a Java version of this parser here: https://github.com/perNyfelt/SIEPars
 
 
 **Change log**
++ 2024-05-21	Added more codepages to enable 437
 + 2023-03-02	Added AllowUnbalancedVoucher
 + 2021-07-10	Add all test files I got from the SIE organisation. And make the test program use them.
 + 2021-07-10	Fix bug that wrote #TRANS  instead of #BTRANS and #RTRANS
