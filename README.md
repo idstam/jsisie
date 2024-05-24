@@ -5,6 +5,8 @@ A .NET parser for SIE files that can read files of version 1 to 4 (including 4i)
 
 Follow [this link](https://sie.se/vadsie/) for swedish versions and [this link](https://sie.se/in-english/) for english versions of the SIE specifications.
 
+If your company want to fund the developer please [create an invoice](https://invoice.jsisoft.se) for you finance department.
+
 **Read a SIE file**
 
 To read a file create an instance of SieDocument and call ReadDocument.
