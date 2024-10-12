@@ -232,6 +232,17 @@ namespace jsiSIE
                         if (!docA.DIM[dimKey].SuperDim.Number.Equals(docB.DIM[dimKey].SuperDim.Number)) _errors.Add("DIM " + dimKey + " SuperDim.Number differ " + nameA + "," + nameB + ":" + docA.DIM[dimKey].SuperDim.Number + " , " + docB.DIM[dimKey].SuperDim.Number);
                     }
                 }
+                else if (docB.UNDERDIM.ContainsKey(dimKey))
+                {
+                    if (!docA.UNDERDIM[dimKey].Name.Equals(docB.UNDERDIM[dimKey].Name)) _errors.Add("DIM " + dimKey + " Name differ " + nameA + "," + nameB + ":" + docA.UNDERDIM[dimKey].Name + " , " + docB.UNDERDIM[dimKey].Name);
+                    if (!docA.UNDERDIM[dimKey].Number.Equals(docB.UNDERDIM[dimKey].Number)) _errors.Add("DIM " + dimKey + " Number differ " + nameA + "," + nameB + ":" + docA.UNDERDIM[dimKey].Number + " , " + docB.UNDERDIM[dimKey].Number);
+                    if (docA.UNDERDIM[dimKey].SuperDim != null && docB.UNDERDIM[dimKey].SuperDim == null) _errors.Add("DIM " + dimKey + " SuberDim differ " + nameA + " has DIM ," + nameB + " is NULL, ");
+                    if (docA.UNDERDIM[dimKey].SuperDim != null && docB.UNDERDIM[dimKey].SuperDim != null)
+                    {
+                        if (!docA.UNDERDIM[dimKey].SuperDim.Name.Equals(docB.UNDERDIM[dimKey].SuperDim.Name)) _errors.Add("DIM " + dimKey + " SuperDim.Name differ " + nameA + "," + nameB + ":" + docA.UNDERDIM[dimKey].SuperDim.Name + " , " + docB.UNDERDIM[dimKey].SuperDim.Name);
+                        if (!docA.UNDERDIM[dimKey].SuperDim.Number.Equals(docB.UNDERDIM[dimKey].SuperDim.Number)) _errors.Add("DIM " + dimKey + " SuperDim.Number differ " + nameA + "," + nameB + ":" + docA.UNDERDIM[dimKey].SuperDim.Number + " , " + docB.UNDERDIM[dimKey].SuperDim.Number);
+                    }
+                }
                 else
                 {
                     _errors.Add(nameB + " DIM is missing " + dimKey);

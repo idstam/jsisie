@@ -22,10 +22,7 @@ There are some properties on SieDocument that changes how the parsing works:
 + ThrowErrors: If false then cache all Exceptions in SieDocument.ValidationExceptions
 + DateFormat: The standard says yyyyMMdd and parser will default to that, but you can change the format to whatever you want.
 + Encoding: The standard says codepage 437, but you can change it to whatever you want. The default will fallback to 28591 (ISO-8859-1) if 437 is not available. Please note that #KSUMMA will not be caclutated if you choose a multibyte encoding.
-
-**Not all features are implemented yet:**
-
-+ #UNDERDIM: There are no instances of this in the published example files.
++ AllowUnderDimensions: Enables reading #UNDERDIM, default is false to prevent breaking existing usage.
 
 **Write a SIE file**
 
