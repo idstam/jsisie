@@ -217,15 +217,8 @@ namespace jsiSIE
             {
                 dimNumber = dimData[i];
 
-                //Add temporary Dimension if the dimensions hasn't been loaded yet.
-                if (!item.Document.DIM.ContainsKey(dimNumber))
-                {
-                    item.Document.DIM.Add(dimNumber, new SieDimension() { Number = dimNumber, Name = "[TEMP]" });
-                }
-
-                var d = item.Document.DIM[dimNumber];
-
-
+                var d = GetDimension(item, dimNumber);
+                
                 objectNumber = dimData[i + 1];
 
                 //Add temporary object if the objects hasn't been loaded yet.
@@ -239,6 +232,28 @@ namespace jsiSIE
             
 
             return ret;
+        }
+
+        internal SieDimension GetDimension(SieDataItem item, string dimNumber)
+        {
+            if (item.Document.UNDERDIM.ContainsKey(dimNumber))
+            {
+                return item.Document.UNDERDIM[dimNumber];
+            }
+
+            if (item.Document.DIM.ContainsKey(dimNumber))
+            {
+                return item.Document.DIM[dimNumber];
+            }
+
+            if (item.Document.TEMPDIM.ContainsKey(dimNumber))
+            {
+                return item.Document.TEMPDIM[dimNumber];
+            }
+
+            //Add temporary Dimension if the dimensions hasn't been loaded yet.
+            item.Document.TEMPDIM.Add(dimNumber, new SieDimension() { Number = dimNumber, Name = "[TEMP]" });
+            return item.Document.TEMPDIM[dimNumber];         
         }
     }
 }

@@ -101,6 +101,7 @@ namespace jsiSIE
             WriteRAR();
 
             WriteDIM();
+            WriteUNDERDIM();
             WriteKONTO();
 
             WritePeriodValue("#IB", _sie.IB);
@@ -178,6 +179,19 @@ namespace jsiSIE
             foreach (var d in _sie.DIM.Values)
             {
                 WriteLine("#DIM " + d.Number + " \"" + d.Name + "\"");
+
+                foreach (var o in d.Objects.Values)
+                {
+                    WriteLine("#OBJEKT " + d.Number + " " + o.Number + " \"" + o.Name + "\"");
+                }
+            }
+        }
+        private void WriteUNDERDIM()
+        {
+            if (_sie.UNDERDIM == null) return;
+            foreach (var d in _sie.UNDERDIM.Values)
+            {
+                WriteLine("#UNDERDIM " + d.Number + " \"" + d.Name + "\" " + d.SuperDim.Number);
 
                 foreach (var o in d.Objects.Values)
                 {

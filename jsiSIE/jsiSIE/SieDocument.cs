@@ -22,6 +22,8 @@ namespace jsiSIE
         public bool AllowMissingDate { get => IgnoreMissingDate; set => IgnoreMissingDate = value; }
         public bool AllowUnbalancedVoucher { get;  set; }
 
+        public bool AllowUnderDimensions { get; set; }
+
         public string DateFormat = "yyyyMMdd";
         public Encoding Encoding;
 
@@ -50,6 +52,16 @@ namespace jsiSIE
         /// #DIM
         /// </summary>
         public Dictionary<string, SieDimension> DIM { get; set; }
+
+        /// <summary>
+        /// #UNDERDIM
+        /// </summary>
+        public Dictionary<string, SieDimension> UNDERDIM { get; set; }
+
+        /// <summary>
+        /// #DIM or #UNDERDIM, should be empty after reading file.
+        /// </summary>
+        internal Dictionary<string, SieDimension> TEMPDIM { get; set; }
 
         /// <summary>
         /// #FLAGGA
@@ -255,6 +267,8 @@ namespace jsiSIE
   
               KONTO = new Dictionary<string, SieAccount>();
               DIM = new Dictionary<string, SieDimension>();
+              UNDERDIM = new Dictionary<string, SieDimension>();
+              TEMPDIM = new Dictionary<string, SieDimension>();
   
               OIB = new List<SiePeriodValue>();
               OUB = new List<SiePeriodValue>();
@@ -348,6 +362,10 @@ namespace jsiSIE
 
                     case "#DIM":
                         parseDimension(di);
+                        break;
+
+                    case "#UNDERDIM":
+                        parseUnderDimension(di);
                         break;
 
                     case "#ENHET":
@@ -560,7 +578,10 @@ namespace jsiSIE
         private void initializeDimensions()
         {
             DIM.Add("1", new SieDimension() { Number = "1", Name = "Resultatenhet", IsDefault = true });
-            DIM.Add("2", new SieDimension() { Number = "2", Name = "Kostnadsbärare", SuperDim = DIM["1"], IsDefault = true });
+            if(AllowUnderDimensions)
+                UNDERDIM.Add("2", new SieDimension() { Number = "2", Name = "Kostnadsbärare", SuperDim = DIM["1"], IsDefault = true });
+            else
+                DIM.Add("2", new SieDimension() { Number = "2", Name = "Kostnadsbärare", SuperDim = DIM["1"], IsDefault = true });
             DIM.Add("3", new SieDimension() { Number = "3", Name = "Reserverat", IsDefault = true });
             DIM.Add("4", new SieDimension() { Number = "4", Name = "Reserverat", IsDefault = true });
             DIM.Add("5", new SieDimension() { Number = "5", Name = "Reserverat", IsDefault = true });
@@ -584,15 +605,44 @@ namespace jsiSIE
         {
             var d = di.GetString(0);
             var n = di.GetString(1);
+
+            if (TEMPDIM.ContainsKey(d))
+            {
+                DIM.Add(d, TEMPDIM[d]);
+                TEMPDIM.Remove(d);
+            }
+
             if (!DIM.ContainsKey(d))
             {
-                DIM.Add(d, new SieDimension() { Name = n, Number = d });
+                DIM.Add(d, new SieDimension() { Number = d });
             }
-            else
+
+            DIM[d].Name = n;
+            DIM[d].IsDefault = false;
+        }
+
+        private void parseUnderDimension(SieDataItem di)
+        {
+            if(!AllowUnderDimensions) return;
+
+            var d = di.GetString(0);
+            var n = di.GetString(1);
+            var p = di.GetString(2);
+
+            if(TEMPDIM.ContainsKey(d))
             {
-                DIM[d].Name = n;
-                DIM[d].IsDefault = false;
+                UNDERDIM.Add(d, TEMPDIM[d]);
+                TEMPDIM.Remove(d);
             }
+            
+            if (!UNDERDIM.ContainsKey(d))
+            {
+                UNDERDIM.Add(d, new SieDimension() { Number = d });
+            }
+
+            UNDERDIM[d].Name = n;
+            UNDERDIM[d].IsDefault = false;
+            UNDERDIM[d].SuperDim = DIM[p];            
         }
 
         private void parseENHET(SieDataItem di)
@@ -661,12 +711,7 @@ namespace jsiSIE
             var number = di.GetString(1);
             var name = di.GetString(2);
 
-            if (!DIM.ContainsKey(dimNumber))
-            {
-                DIM.Add(dimNumber, new SieDimension() { Number = dimNumber });
-            }
-
-            var dim = DIM[dimNumber];
+            var dim = di.GetDimension(di, dimNumber);
 
             var obj = new SieObject() { Dimension = dim, Number = number, Name = name };
 
@@ -870,6 +915,10 @@ namespace jsiSIE
                     (KSUMMA == 0),
                     new SieInvalidChecksumException(_fileName));
             }
+
+            // All TEMPDIMs should have been resolved when read is completed.
+            addValidationException(TEMPDIM.Any(),
+                new SieMissingMandatoryDateException("#DIM or #UNDERDIM is missing for one or more objects in " + _fileName));
 
         }
 

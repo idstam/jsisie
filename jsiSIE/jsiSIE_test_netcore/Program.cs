@@ -67,11 +67,7 @@ namespace jsiSIE_test
                 sie.ThrowErrors = false;
                 sie.IgnoreMissingOMFATTNING = true;
 
-                if (f.Contains("sie%204.SE"))
-                {
-                    sie.IgnoreRTRANS = true;
-                    sie.IgnoreBTRANS = true;
-                }
+                SetFileSpecificSettings(f, sie);
 
                 if (f.Contains("transaktioner_ovnbolag-bad-balance"))
                 {
@@ -102,11 +98,8 @@ namespace jsiSIE_test
                     sieB.ThrowErrors = false;
                     sieB.IgnoreMissingOMFATTNING = true;
 
-                    if (f.Contains("sie%204.SE"))
-                    {
-                        sieB.IgnoreRTRANS = true;
-                        sieB.IgnoreBTRANS = true;
-                    }
+
+                    SetFileSpecificSettings(f, sieB);
 
                     sieB.ReadDocument(testWriteFile);
                     var compErrors = SieDocumentComparer.Compare(sie, sieB);
@@ -131,11 +124,9 @@ namespace jsiSIE_test
                     var sieB1 = new SieDocument();
                     sieB1.ThrowErrors = false;
                     sieB1.IgnoreMissingOMFATTNING = true;
-                    if (f.Contains("sie%204.SE"))
-                    {
-                        sieB1.IgnoreRTRANS = true;
-                        sieB1.IgnoreBTRANS = true;
-                    }
+
+                    SetFileSpecificSettings(f, sieB1);
+
                     sieB1.ReadDocument(testWriteFile1);
                     var compErrors1 = SieDocumentComparer.Compare(sie, sieB1);
                     foreach (var e in compErrors1)
@@ -151,6 +142,20 @@ namespace jsiSIE_test
             Console.WriteLine();
             Console.WriteLine("Press ENTER to quit.");
             Console.ReadLine();
+        }
+
+        private static void SetFileSpecificSettings(string filename, SieDocument doc)
+        {
+            if (filename.Contains("sie%204.SE"))
+            {
+                doc.IgnoreRTRANS = true;
+                doc.IgnoreBTRANS = true;
+            }
+
+            if (filename.Contains("underdim.SE"))
+            {
+                doc.AllowUnderDimensions = true;
+            }
         }
 
         private static string findTestFilesFolder()
