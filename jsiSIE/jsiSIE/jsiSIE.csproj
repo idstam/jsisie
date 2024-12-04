@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.5.0</Version>
+    <Version>2.5.1</Version>
     <Authors>Johan Idstam</Authors>
     <Company></Company>
     <Description>A .NET parser for SIE files that can read files of version 1 to 4 (including 4i)</Description>
@@ -13,7 +13,7 @@
     <PackageProjectUrl>https://github.com/idstam/jsisie</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Copyright>Johan Idstam</Copyright>
-    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed a bug in Encoding helper</PackageReleaseNotes>
     <PackageId>jsisie</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>

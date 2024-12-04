@@ -51,6 +51,7 @@ There's a Java version of this parser here: https://github.com/perNyfelt/SIEPars
 
 
 **Change log**
++ 2024-12-04	Fixed bug in encoding helper
 + 2024-10-13	Added support for #UNDERDIM
 + 2024-05-21	Added more codepages to enable 437
 + 2023-03-02	Added AllowUnbalancedVoucher
