@@ -178,11 +178,11 @@ namespace jsiSIE
             if (_sie.DIM == null) return;
             foreach (var d in _sie.DIM.Values)
             {
-                WriteLine("#DIM " + d.Number + " \"" + d.Name + "\"");
+                WriteLine("#DIM " + d.Number + " \"" + SieText(d.Name) + "\"");
 
                 foreach (var o in d.Objects.Values)
                 {
-                    WriteLine("#OBJEKT " + d.Number + " \"" + o.Number + "\" \"" + o.Name + "\"");
+                    WriteLine("#OBJEKT " + d.Number + " \"" + o.Number + "\" \"" + SieText(o.Name) + "\"");
                 }
             }
         }
@@ -192,11 +192,11 @@ namespace jsiSIE
             if (_sie.UNDERDIM == null) return;
             foreach (var d in _sie.UNDERDIM.Values)
             {
-                WriteLine("#UNDERDIM " + d.Number + " \"" + d.Name + "\" " + d.SuperDim.Number);
+                WriteLine("#UNDERDIM " + d.Number + " \"" + SieText(d.Name) + "\" " + d.SuperDim.Number);
 
                 foreach (var o in d.Objects.Values)
                 {
-                    WriteLine("#OBJEKT " + d.Number + " \"" + o.Number + "\" \"" + o.Name + "\"");
+                    WriteLine("#OBJEKT " + d.Number + " \"" + o.Number + "\" \"" + SieText(o.Name) + "\"");
                 }
             }
         }
@@ -246,12 +246,46 @@ namespace jsiSIE
             return amount.ToString().Replace(',', '.');
         }
 
+        private string SieText(string input)
+        {
+            if (string.IsNullOrEmpty(input))
+            {
+                return string.Empty;
+            }
+            else
+            {
+                var result = new StringBuilder();
+
+                foreach (char c in input)
+                {
+                    // Kontrollera om tecknet är ett kontrolltecken eller ett dubbelt citattecken
+                    if ((c >= 0 && c <= 31) || c == 127)
+                    {
+                        // Hoppa över kontrolltecken
+                        continue;
+                    }
+                    else if (c == '"')
+                    {
+                        // Ersätt dubbla citattecken med \"
+                        result.Append("\\\"");
+                    }
+                    else
+                    {
+                        // Lägg till andra tecken
+                        result.Append(c);
+                    }
+                }
+
+                return result.ToString();
+            }
+        }
+
         private void WriteKONTO()
         {
             if (_sie.KONTO == null) return;
             foreach (var k in _sie.KONTO.Values)
             {
-                WriteLine("#KONTO " + k.Number + " \"" + k.Name + "\"");
+                WriteLine("#KONTO " + k.Number + " \"" + SieText(k.Name) + "\"");
                 if (!string.IsNullOrWhiteSpace(k.Unit))
                 {
                     WriteLine("#ENHET " + k.Number + " \"" + k.Unit + "\"");
