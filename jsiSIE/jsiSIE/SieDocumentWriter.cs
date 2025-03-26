@@ -221,7 +221,14 @@ namespace jsiSIE
             foreach (var v in list)
             {
                 var objekt = getObjeklista(v.Objects);
-                WriteLine(name + " " + v.YearNr.ToString() + " " + v.Period.ToString() + " " + v.Account.Number + " " + objekt + " " + SieAmount(v.Amount));
+
+                var quantity = "";
+                if (v.Quantity.HasValue)
+                {
+                    quantity = SieAmount(v.Quantity.Value);
+                }
+
+                WriteLine(name + " " + v.YearNr.ToString() + " " + v.Period.ToString() + " " + v.Account.Number + " " + objekt + " " + SieAmount(v.Amount) + " " + quantity);
             }
         }
 
