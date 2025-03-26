@@ -182,10 +182,11 @@ namespace jsiSIE
 
                 foreach (var o in d.Objects.Values)
                 {
-                    WriteLine("#OBJEKT " + d.Number + " " + o.Number + " \"" + o.Name + "\"");
+                    WriteLine("#OBJEKT " + d.Number + " \"" + o.Number + "\" \"" + o.Name + "\"");
                 }
             }
         }
+
         private void WriteUNDERDIM()
         {
             if (_sie.UNDERDIM == null) return;
@@ -195,7 +196,7 @@ namespace jsiSIE
 
                 foreach (var o in d.Objects.Values)
                 {
-                    WriteLine("#OBJEKT " + d.Number + " " + o.Number + " \"" + o.Name + "\"");
+                    WriteLine("#OBJEKT " + d.Number + " \"" + o.Number + "\" \"" + o.Name + "\"");
                 }
             }
         }
