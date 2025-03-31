@@ -139,7 +139,7 @@ namespace jsiSIE
                 var createdBy = string.IsNullOrWhiteSpace(v.CreatedBy) ? "" : "\"" + v.CreatedBy + "\"";
                 // Use an empty string rather than the default date of 000010101, when this optional field is not set
                 var createdDate = v.CreatedDate == DateTime.MinValue ? "" : makeSieDate(v.CreatedDate); 
-                WriteLine("#VER \"" + v.Series + "\" \"" + v.Number + "\" " + makeSieDate(v.VoucherDate) + " \"" + v.Text + "\" " + createdDate + " " + createdBy);
+                WriteLine("#VER \"" + v.Series + "\" \"" + v.Number + "\" " + makeSieDate(v.VoucherDate) + " \"" + SieText(v.Text) + "\" " + createdDate + " " + createdBy);
 
                 WriteLine("{");
 
@@ -148,7 +148,7 @@ namespace jsiSIE
                     var obj = getObjeklista(r.Objects);
                     var quantity = r.Quantity.HasValue ? SieAmount(r.Quantity.Value) : "";
                     createdBy = string.IsNullOrWhiteSpace(r.CreatedBy) ? "" : "\"" + r.CreatedBy + "\"";
-                    WriteLine(r.Token +  " " + r.Account.Number + " " + obj + " " + SieAmount(r.Amount) + " " + makeSieDate(r.RowDate) + " \"" + r.Text + "\" " + quantity + " " + createdBy);
+                    WriteLine(r.Token +  " " + r.Account.Number + " " + obj + " " + SieAmount(r.Amount) + " " + makeSieDate(r.RowDate) + " \"" + SieText(r.Text) + "\" " + quantity + " " + createdBy);
                 }
 
                 WriteLine("}");
@@ -248,36 +248,7 @@ namespace jsiSIE
 
         private string SieText(string input)
         {
-            if (string.IsNullOrEmpty(input))
-            {
-                return string.Empty;
-            }
-            else
-            {
-                var result = new StringBuilder();
-
-                foreach (char c in input)
-                {
-                    // Kontrollera om tecknet är ett kontrolltecken eller ett dubbelt citattecken
-                    if ((c >= 0 && c <= 31) || c == 127)
-                    {
-                        // Hoppa över kontrolltecken
-                        continue;
-                    }
-                    else if (c == '"')
-                    {
-                        // Ersätt dubbla citattecken med \"
-                        result.Append("\\\"");
-                    }
-                    else
-                    {
-                        // Lägg till andra tecken
-                        result.Append(c);
-                    }
-                }
-
-                return result.ToString();
-            }
+            return input?.Replace("\"", "\\\"");
         }
 
         private void WriteKONTO()
