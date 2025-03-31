@@ -139,7 +139,7 @@ namespace jsiSIE
                 var createdBy = string.IsNullOrWhiteSpace(v.CreatedBy) ? "" : "\"" + v.CreatedBy + "\"";
                 // Use an empty string rather than the default date of 000010101, when this optional field is not set
                 var createdDate = v.CreatedDate == DateTime.MinValue ? "" : makeSieDate(v.CreatedDate); 
-                WriteLine("#VER \"" + v.Series + "\" \"" + v.Number + "\" " + makeSieDate(v.VoucherDate) + " \"" + v.Text + "\" " + createdDate + " " + createdBy);
+                WriteLine("#VER \"" + v.Series + "\" \"" + v.Number + "\" " + makeSieDate(v.VoucherDate) + " \"" + SieText(v.Text) + "\" " + createdDate + " " + createdBy);
 
                 WriteLine("{");
 
@@ -148,7 +148,7 @@ namespace jsiSIE
                     var obj = getObjeklista(r.Objects);
                     var quantity = r.Quantity.HasValue ? SieAmount(r.Quantity.Value) : "";
                     createdBy = string.IsNullOrWhiteSpace(r.CreatedBy) ? "" : "\"" + r.CreatedBy + "\"";
-                    WriteLine(r.Token +  " " + r.Account.Number + " " + obj + " " + SieAmount(r.Amount) + " " + makeSieDate(r.RowDate) + " \"" + r.Text + "\" " + quantity + " " + createdBy);
+                    WriteLine(r.Token +  " " + r.Account.Number + " " + obj + " " + SieAmount(r.Amount) + " " + makeSieDate(r.RowDate) + " \"" + SieText(r.Text) + "\" " + quantity + " " + createdBy);
                 }
 
                 WriteLine("}");
@@ -178,11 +178,11 @@ namespace jsiSIE
             if (_sie.DIM == null) return;
             foreach (var d in _sie.DIM.Values)
             {
-                WriteLine("#DIM " + d.Number + " \"" + d.Name + "\"");
+                WriteLine("#DIM " + d.Number + " \"" + SieText(d.Name) + "\"");
 
                 foreach (var o in d.Objects.Values)
                 {
-                    WriteLine("#OBJEKT " + d.Number + " \"" + o.Number + "\" \"" + o.Name + "\"");
+                    WriteLine("#OBJEKT " + d.Number + " \"" + o.Number + "\" \"" + SieText(o.Name) + "\"");
                 }
             }
         }
@@ -192,11 +192,11 @@ namespace jsiSIE
             if (_sie.UNDERDIM == null) return;
             foreach (var d in _sie.UNDERDIM.Values)
             {
-                WriteLine("#UNDERDIM " + d.Number + " \"" + d.Name + "\" " + d.SuperDim.Number);
+                WriteLine("#UNDERDIM " + d.Number + " \"" + SieText(d.Name) + "\" " + d.SuperDim.Number);
 
                 foreach (var o in d.Objects.Values)
                 {
-                    WriteLine("#OBJEKT " + d.Number + " \"" + o.Number + "\" \"" + o.Name + "\"");
+                    WriteLine("#OBJEKT " + d.Number + " \"" + o.Number + "\" \"" + SieText(o.Name) + "\"");
                 }
             }
         }
@@ -246,12 +246,17 @@ namespace jsiSIE
             return amount.ToString().Replace(',', '.');
         }
 
+        private string SieText(string input)
+        {
+            return input?.Replace("\"", "\\\"");
+        }
+
         private void WriteKONTO()
         {
             if (_sie.KONTO == null) return;
             foreach (var k in _sie.KONTO.Values)
             {
-                WriteLine("#KONTO " + k.Number + " \"" + k.Name + "\"");
+                WriteLine("#KONTO " + k.Number + " \"" + SieText(k.Name) + "\"");
                 if (!string.IsNullOrWhiteSpace(k.Unit))
                 {
                     WriteLine("#ENHET " + k.Number + " \"" + k.Unit + "\"");
