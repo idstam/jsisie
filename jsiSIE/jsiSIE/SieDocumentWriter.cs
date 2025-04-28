@@ -60,6 +60,43 @@ namespace jsiSIE
             WriteCore();
         }
 
+        /// <summary>
+        /// Adds vouchers to an existing SIE 4 document
+        /// </summary>
+        /// <param name="stream"></param>
+        /// <param name="vouchersToAdd"></param>
+        /// <exception cref="System.ArgumentNullException"></exception>
+        /// <exception cref="SieInvalidFeatureException"></exception>
+        /// <remarks><para>This method is intended to be used for large volumes of vouchers in order to avoid 
+        /// having to build up the entire SIE document in memory before printing.</para>>
+        /// <para>Suggested workflow: First print the SIE document without vouchers. Then fill the document in batches (with this method) with a subset of vouchers.</para>
+        /// <para>Note that KSUMMA cannot be written in this scenario.</para></remarks>
+        public void AddVouchers(Stream stream, List<SieVoucher> vouchersToAdd)
+        {
+            if (stream == null) throw new System.ArgumentNullException(nameof(stream));
+
+            if (_options.WriteKSUMMA) throw new SieInvalidFeatureException("Writing KSUMMA is not supported when adding vouchers to an existing document.");
+
+            if (_sie.SIETYP < 4) throw new SieInvalidFeatureException("Adding vouchers is not supported for SIE 1-3.");
+
+            _stream = stream;
+
+            if (_sie.VER == null)
+            {
+                _sie.VER = new List<SieVoucher>();
+            }
+            else
+            {
+                _sie.VER.Clear();
+            }
+
+            _sie.VER.AddRange(vouchersToAdd);
+
+            WriteVER();
+
+            _sie.VER.Clear();
+        }
+
         private void SetDocumentKSUMMA()
         {
             using (_stream = new MemoryStream())
