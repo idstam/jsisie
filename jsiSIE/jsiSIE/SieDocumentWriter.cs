@@ -18,7 +18,7 @@ namespace jsiSIE
         public class WriteOptions
         {
             public WriteOptions(){
-                this.Encoding = EncodingHelper.GetDefault();;
+                this.Encoding = EncodingHelper.GetDefault();
             }
 
             public bool WriteKSUMMA { get; set; } = false;
@@ -30,7 +30,6 @@ namespace jsiSIE
         {
             _sie = sie;
             _options = options ?? new WriteOptions();
-
         }
 
 
@@ -40,7 +39,6 @@ namespace jsiSIE
             {
                 SetDocumentKSUMMA();
             }
-            
 
             if (File.Exists(file)) File.Delete(file);
             using (_stream =  File.OpenWrite(file))
@@ -136,9 +134,9 @@ namespace jsiSIE
             if (_sie.VER == null) return;
             foreach (var v in _sie.VER)
             {
-                var createdBy = string.IsNullOrWhiteSpace(v.CreatedBy) ? "" : "\"" + v.CreatedBy + "\"";
+                var createdBy = string.IsNullOrWhiteSpace(v.CreatedBy) ? string.Empty : "\"" + v.CreatedBy + "\"";
                 // Use an empty string rather than the default date of 000010101, when this optional field is not set
-                var createdDate = v.CreatedDate == DateTime.MinValue ? "" : makeSieDate(v.CreatedDate); 
+                var createdDate = v.CreatedDate == DateTime.MinValue ? string.Empty : makeSieDate(v.CreatedDate); 
                 WriteLine("#VER \"" + v.Series + "\" \"" + v.Number + "\" " + makeSieDate(v.VoucherDate) + " \"" + SieText(v.Text) + "\" " + createdDate + " " + createdBy);
 
                 WriteLine("{");
@@ -146,8 +144,8 @@ namespace jsiSIE
                 foreach (var r in v.Rows)
                 {
                     var obj = getObjeklista(r.Objects);
-                    var quantity = r.Quantity.HasValue ? SieAmount(r.Quantity.Value) : "";
-                    createdBy = string.IsNullOrWhiteSpace(r.CreatedBy) ? "" : "\"" + r.CreatedBy + "\"";
+                    var quantity = r.Quantity.HasValue ? SieAmount(r.Quantity.Value) : string.Empty;
+                    createdBy = string.IsNullOrWhiteSpace(r.CreatedBy) ? string.Empty : "\"" + r.CreatedBy + "\"";
                     WriteLine(r.Token +  " " + r.Account.Number + " " + obj + " " + SieAmount(r.Amount) + " " + makeSieDate(r.RowDate) + " \"" + SieText(r.Text) + "\" " + quantity + " " + createdBy);
                 }
 
@@ -157,7 +155,7 @@ namespace jsiSIE
 
         private string getObjeklista(List<SieObject> objects)
         {
-            if (_sie.SIETYP < 3) return "";
+            if (_sie.SIETYP < 3) return string.Empty;
 
             var ret = "{";
             if (objects != null)
@@ -207,8 +205,8 @@ namespace jsiSIE
             foreach (var v in list)
             {
                 var objekt = getObjeklista(v.Objects);
-                if ("#IB#UB#RES".Contains(name)) objekt = "";
-                var quantity = "";
+                if ("#IB#UB#RES".Contains(name)) objekt = string.Empty;
+                var quantity = string.Empty;
                 if (v.Quantity.HasValue)
                 {
                     quantity = SieAmount(v.Quantity.Value);
@@ -223,7 +221,7 @@ namespace jsiSIE
             {
                 var objekt = getObjeklista(v.Objects);
 
-                var quantity = "";
+                var quantity = string.Empty;
                 if (v.Quantity.HasValue)
                 {
                     quantity = SieAmount(v.Quantity.Value);
