@@ -395,11 +395,23 @@ namespace jsiSIE
         {
             get
             {
-                string program = "#PROGRAM \"jsiSIE\" ";
-                foreach (var s in _sie.PROGRAM)
+                var program = "#PROGRAM ";
+
+                if (_sie.PROGRAM.Any())
                 {
-                    program += makeField(s) + " ";
+                    for (int i = 0; i < _sie.PROGRAM.Count; i++)
+                    {
+                        if (i == 0)
+                            program += makeField(_sie.PROGRAM[i] += " via jsiSIE") + " ";
+                        else
+                            program += makeField(_sie.PROGRAM[i]) + " ";
+                    }
                 }
+                else
+                {
+                    program += "\"jsiSIE\""; // Default program name if none is specified
+                }
+
                 return program;
             }
         }
