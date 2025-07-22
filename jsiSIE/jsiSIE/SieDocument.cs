@@ -19,6 +19,13 @@ namespace jsiSIE
         public bool IgnoreMissingOMFATTNING = false;
         public bool IgnoreRTRANS = false;
         public bool IgnoreMissingDate = true;
+
+        /// <summary>
+        /// True - allow TEMPDIMs to exist after reading file except for SIETYP 3.
+        /// DIM declaration is only mandatory for type 3.
+        /// </summary>
+        public bool IgnoreMissingDIM = false;
+
         public bool AllowMissingDate { get => IgnoreMissingDate; set => IgnoreMissingDate = value; }
         public bool AllowUnbalancedVoucher { get;  set; }
 
@@ -916,10 +923,12 @@ namespace jsiSIE
                     new SieInvalidChecksumException(_fileName));
             }
 
-            // All TEMPDIMs should have been resolved when read is completed.
-            addValidationException(TEMPDIM.Any(),
-                new SieMissingMandatoryDateException("#DIM or #UNDERDIM is missing for one or more objects in " + _fileName));
-
+            if (!IgnoreMissingDIM || SIETYP == 3)
+            {
+                // All TEMPDIMs should have been resolved when read is completed.
+                addValidationException(TEMPDIM.Any(),
+                    new SieMissingMandatoryDateException("#DIM or #UNDERDIM is missing for one or more objects in " + _fileName));
+            }
         }
 
         public SieBookingYear rar { get; set; }
