@@ -28,6 +28,12 @@ namespace jsiSIE
         public Encoding Encoding;
 
         /// <summary>
+        /// This is the line number currently being parsed when reading a file.
+        /// It starts at 1 and is incremented for each line read.
+        /// </summary>
+        private int ParsingLineNumber;
+
+        /// <summary>
         /// If this is set to true in ReadFile no period values, balances or transactions will be saved in memory.
         /// Use this in combination with callbacks to stream through a file.
         /// </summary>
@@ -287,6 +293,8 @@ namespace jsiSIE
               #endregion //Initialize listst
   
               CRC = new SieCRC32(this.Encoding);
+
+              ParsingLineNumber = 0;
         }
 
         /// <summary>
@@ -325,9 +333,12 @@ namespace jsiSIE
             return false;
         }
 
-        private bool parseLine(string line, ref SieVoucher curVoucher, ref bool firstLine) {
-                Callbacks.CallbackLine(line);
-                var di = new SieDataItem(line, this);
+        private bool parseLine(string line, ref SieVoucher curVoucher, ref bool firstLine)
+        {
+            Callbacks.CallbackLine(line);
+            ParsingLineNumber++;
+
+            var di = new SieDataItem(line, this);
 
                 if (firstLine)
                 {
@@ -524,7 +535,7 @@ namespace jsiSIE
                         curVoucher = null;
                         break;
                     default:
-                        Callbacks.CallbackException(new NotImplementedException(di.ItemType));
+                        Callbacks.CallbackException(new NotImplementedException($"Error reading file at line {ParsingLineNumber}: {di.ItemType}"));
                         break;
                 }
 
