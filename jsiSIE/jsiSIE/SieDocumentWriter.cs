@@ -283,7 +283,7 @@ namespace jsiSIE
 
         private string SieText(string input)
         {
-            return input?.Replace("\"", "\\\"");
+            return input?.Replace("\"", "\\\"").Replace("\r", "");
         }
 
         private void WriteKONTO()
