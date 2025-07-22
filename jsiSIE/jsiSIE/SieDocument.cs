@@ -38,6 +38,31 @@ namespace jsiSIE
         /// </summary>
         internal SieCRC32 CRC;
 
+        [Flags]
+        public enum SieType
+        {
+            SIE1 = 1,
+            SIE2 = 2,
+            SIE3 = 4,
+            SIE4 = 8
+        }
+
+        private static readonly Dictionary<int, SieType> SieTypeMap = new Dictionary<int, SieType>()
+        {
+            { 1, SieType.SIE1 },
+            { 2, SieType.SIE2 },
+            { 3, SieType.SIE3 },
+            { 4, SieType.SIE4 }
+        };
+
+        /// <summary>
+        /// This is the SIE types that will be accepted when reading a file. Reading will stop if a file with a different SIE type is encountered.
+        /// As default all SIE types are accepted (SIE1 | SIE2 | SIE3 | SIE4).
+        /// For example, if you only want to accept SIE2 and SIE3 files, set AcceptSIETypes = SieType.SIE2 | SieType.SIE3.
+        /// (This is a alternative to method GetSieVersion which will return the SIE type of a file but is done in a separate read.)
+        /// </summary>
+        public SieType AcceptSIETypes { get; set; } = SieType.SIE1 | SieType.SIE2 | SieType.SIE3 | SieType.SIE4;
+
         /// <summary>
         /// This is the file currently being read.
         /// </summary>
@@ -485,6 +510,13 @@ namespace jsiSIE
 
                     case "#SIETYP":
                         SIETYP = di.GetInt(0);
+                        
+                        if (!AcceptSIETypes.HasFlag(SieTypeMap[SIETYP]))
+                        {
+                            Callbacks.CallbackException(new SieInvalidFileException($"File of SIE type {SIETYP} is not accepted in current implementation."));
+                            return true;
+                        }
+                        
                         break;
 
                     case "#SRU":
