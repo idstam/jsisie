@@ -400,10 +400,21 @@ namespace jsiSIE
                         break;
 
                     case "#BTRANS":
-                        if (!IgnoreBTRANS) parseTRANS(di, curVoucher);
+                        if (!IgnoreBTRANS)
+                        {
+                            if (curVoucher == null)
+                            {
+                                Callbacks.CallbackException(new SieInvalidFileException($"#BTRANS not linked to #VER found on line {ParsingLineNumber}"));
+                                return true;
+                            }
+                            else
+                            {
+                                parseTRANS(di, curVoucher);
+                            }
+                        }
                         break;
 
-                    case "#DIM":
+                case "#DIM":
                         parseDimension(di);
                         break;
 
@@ -523,10 +534,21 @@ namespace jsiSIE
                         break;
 
                     case "#RTRANS":
-                        if (!IgnoreBTRANS) parseTRANS(di, curVoucher);
+                        if (!IgnoreRTRANS)
+                        {
+                            if (curVoucher == null)
+                            {
+                                Callbacks.CallbackException(new SieInvalidFileException($"#RTRANS not linked to #VER found on line {ParsingLineNumber}"));
+                                return true;
+                            }
+                            else
+                            {
+                                parseTRANS(di, curVoucher);
+                            }
+                        }
                         break;
 
-                    case "#SIETYP":
+                case "#SIETYP":
                         SIETYP = di.GetInt(0);
                         
                         if (!AcceptSIETypes.HasFlag(SieTypeMap[SIETYP]))
@@ -550,9 +572,18 @@ namespace jsiSIE
                         break;
 
                     case "#TRANS":
-                        parseTRANS(di, curVoucher);
+                        if (curVoucher == null)
+                        {
+                            Callbacks.CallbackException(new SieInvalidFileException($"#TRANS not linked to #VER found on line {ParsingLineNumber}"));
+                            return true;
+                        }
+                        else
+                        {
+                            parseTRANS(di, curVoucher);
+                        }
                         break;
-                    case "#RES":
+
+                case "#RES":
                         parseRES(di);
                         break;
 
