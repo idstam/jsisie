@@ -26,6 +26,8 @@ namespace jsiSIE
         /// </summary>
         public bool IgnoreMissingDIM = false;
 
+        public bool IgnoreKSUMMA = false;
+
         public bool AllowMissingDate { get => IgnoreMissingDate; set => IgnoreMissingDate = value; }
         public bool AllowUnbalancedVoucher { get;  set; }
 
@@ -459,15 +461,17 @@ namespace jsiSIE
                         parseKONTO(di);
                         break;
                     case "#KSUMMA":
-                        if (CRC.Started)
+                        if (!IgnoreKSUMMA)
                         {
-                            parseKSUMMA(di);
+                            if (CRC.Started)
+                            {
+                                parseKSUMMA(di);
+                            }
+                            else
+                            {
+                                CRC.Start();
+                            }
                         }
-                        else
-                        {
-                            CRC.Start();
-                        }
-
                         break;
                     case "#KTYP":
                         parseKTYP(di);
