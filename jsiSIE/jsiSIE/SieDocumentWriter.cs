@@ -24,6 +24,11 @@ namespace jsiSIE
             public bool WriteKSUMMA { get; set; } = false;
             public Encoding Encoding{ get; set; }
             public string DateFormat = "yyyyMMdd";
+
+            /// <summary>
+            /// Writes an empty object list ({}) when type 2. Refers to #PSALDO and #PBUDGET.
+            /// </summary>
+            public bool WriteEmptyObjectListWhenSieType2 { get; set; } = false;
         }
 
         public SieDocumentWriter(SieDocument sie, WriteOptions options = null)
@@ -192,7 +197,13 @@ namespace jsiSIE
 
         private string getObjeklista(List<SieObject> objects)
         {
-            if (_sie.SIETYP < 3) return string.Empty;
+            if (_sie.SIETYP < 3)
+            {
+                if (_sie.SIETYP == 2 && _options.WriteEmptyObjectListWhenSieType2)
+                    return "{}";
+                else
+                    return string.Empty;
+            }
 
             var ret = "{";
             if (objects != null)
