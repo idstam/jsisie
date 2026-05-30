@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.5.1</Version>
+    <Version>2.8.0</Version>
     <Authors>Johan Idstam</Authors>
     <Company></Company>
     <Description>A .NET parser for SIE files that can read files of version 1 to 4 (including 4i)</Description>
@@ -13,7 +13,19 @@
     <PackageProjectUrl>https://github.com/idstam/jsisie</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Copyright>Johan Idstam</Copyright>
-    <PackageReleaseNotes>Fixed a bug in Encoding helper</PackageReleaseNotes>
+    <PackageReleaseNotes>Ability to write empty object list to #PSALDO and #PBUDGET for type 2.
+Option to ignore #KSUMMA
+Error handling for missing #VER for #TRAN, #BTRAN, #RTRAN.
+Reader: SIE type check when reading file or stream.
+Reader: ParsingLineNumber for easer debugging.
+Reader: DIM handling according to standard.
+Writer: Write PROGRAM according to standard.
+Writer: Remove Carriage Return in SieText.
+Writer: Ability to add vouchers to file in batches
+Writer: More memory-efficient string handling
+Handle illegal characters in account and object names
+Print object identities within quotes in objektlist
+Writer: Print Quantity to #PSALDO and #PBUDGET.</PackageReleaseNotes>
     <PackageId>jsisie</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>

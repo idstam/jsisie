@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30711.63
+# Visual Studio Version 18
+VisualStudioVersion = 18.6.11822.322 stable
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jsiSIE_test", "jsiSIE_test\jsiSIE_test.csproj", "{7B8A0AFF-0EB5-4329-8C6E-B1D6A33744A8}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{481C83FC-29D1-4A2C-91B6-135DD0F9B146}"
 	ProjectSection(SolutionItems) = preProject
 		..\LICENSE = ..\LICENSE
@@ -21,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7B8A0AFF-0EB5-4329-8C6E-B1D6A33744A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B8A0AFF-0EB5-4329-8C6E-B1D6A33744A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B8A0AFF-0EB5-4329-8C6E-B1D6A33744A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7B8A0AFF-0EB5-4329-8C6E-B1D6A33744A8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3493D7F7-655D-4C37-9DE1-14120E5FEDD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3493D7F7-655D-4C37-9DE1-14120E5FEDD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3493D7F7-655D-4C37-9DE1-14120E5FEDD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
